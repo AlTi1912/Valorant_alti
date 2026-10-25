@@ -5,6 +5,7 @@ Web estática (GitHub Pages) con una guía de Valorant que Alti (Inmortal) usa p
 - Publicada en https://alti1912.github.io/Valorant_alti/ desde la rama `claude/clever-cannon-bzc3h2`.
 - Páginas: `index.html`, `mapas.html`, `temas/*.html`. Estilos y JS compartidos en `assets/`. Datos de mapas en `assets/maps-data.js`.
 - Plan, decisiones y notas del profe: `docs/01-plan-del-curso.md`. Pendientes: `docs/02-pendientes.md`.
+- **Diseño:** seguir siempre `DESIGN.md` (tema claro hueso + bandas noche, titulares Inter 460, labels Oswald, rojo como único botón, cristal sobre imágenes, sin sombras).
 
 ## Al empezar una sesión
 
