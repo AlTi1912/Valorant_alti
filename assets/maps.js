@@ -2,6 +2,7 @@
 var VAPI_URL = window.VAPI_URL || "https://valorant-api.com/v1/maps";
 var VAPI_CACHE = "vapi-maps-v1";
 var API = null;
+var API_STATE = "loading"; // loading | ok | fail
 var TYPE_LABEL = { key: "Clave", atk: "Ataque", def: "Defensa", mech: "Mecánica" };
 
 function loadApiMaps() {
@@ -55,11 +56,13 @@ function el(tag, attrs, html) {
 // Portada: imágenes de las tarjetas de mapas
 function fillMapCards() {
   document.querySelectorAll("[data-map-card]").forEach(function (card) {
+    if (card.querySelector("img")) return;
     var m = apiMapFor(API, card.dataset.mapCard);
-    if (!m || card.querySelector("img")) return;
+    if (!m) { card.classList.add("sk-done"); return; }
     var img = el("img", { src: m.listViewIconTall || m.listViewIcon || m.splash, alt: "", loading: "lazy" });
     img.onerror = function () { img.remove(); };
     card.prepend(img);
+    if (window.skWatch) window.skWatch(card); else card.classList.add("sk-done");
   });
 }
 
@@ -102,15 +105,21 @@ function initMapsPage() {
     // Minimapa con marcadores
     var stage = document.getElementById("map-stage");
     stage.innerHTML = "";
+    stage.classList.remove("sk-done");
+    stage.classList.add("sk");
     if (api) {
       var img = el("img", { src: api.displayIcon, alt: "Minimapa de " + m.name });
       img.onerror = function () { stage.innerHTML = '<p class="stage-msg">No cargó el minimapa. Las zonas están igual en la lista.</p>'; };
       stage.appendChild(img);
+      if (window.skWatch) window.skWatch(stage);
       [["Attacker Side Spawn", "ATK", "spawn-atk"], ["Defender Side Spawn", "DEF", "spawn-def"]].forEach(function (s) {
         var p = calloutPos(api, [s[0]]);
         if (p) stage.appendChild(el("span", { class: "spawn " + s[2], style: "left:" + p.x * 100 + "%;top:" + p.y * 100 + "%" }, s[1]));
       });
+    } else if (API_STATE === "loading") {
+      stage.innerHTML = '<span class="sk-label" role="status">Cargando minimapa…</span>';
     } else {
+      stage.classList.add("sk-done");
       stage.innerHTML = '<p class="stage-msg">No pude cargar el minimapa (revisa tu conexión). Las zonas están igual en la lista.</p>';
     }
 
@@ -123,7 +132,7 @@ function initMapsPage() {
       item.innerHTML = '<summary><span class="dot">' + n + '</span><span class="zt">' + z.title + '</span><span class="chip">' + TYPE_LABEL[z.type] + '</span></summary><p>' + z.why + (pos || !api ? '' : ' <span class="muted">(sin marcador en el minimapa)</span>') + '</p>';
       list.appendChild(item);
       if (pos) {
-        var mk = el("button", { class: "marker t-" + z.type, "data-zone": n, "aria-label": n + ". " + z.title, style: "left:" + pos.x * 100 + "%;top:" + pos.y * 100 + "%" }, "<b>" + n + "</b><span>" + z.title + "</span>");
+        var mk = el("button", { type: "button", class: "marker t-" + z.type, "data-zone": n, "aria-label": n + ". " + z.title, style: "left:" + pos.x * 100 + "%;top:" + pos.y * 100 + "%" }, "<b>" + n + "</b><span>" + z.title + "</span>");
         mk.addEventListener("click", function () {
           item.open = true;
           highlight(n);
@@ -185,8 +194,14 @@ function initMapsPage() {
 }
 
 var mapsPage = document.getElementById("map-select") ? initMapsPage() : null;
+document.querySelectorAll("[data-map-card]").forEach(function (c) { c.classList.add("sk"); });
 loadApiMaps().then(function (data) {
   API = data;
+  API_STATE = "ok";
   fillMapCards();
   if (mapsPage && location.hash) mapsPage.route(true);
-}, function () {});
+}, function () {
+  API_STATE = "fail";
+  document.querySelectorAll("[data-map-card]").forEach(function (c) { c.classList.add("sk-done"); });
+  if (mapsPage && location.hash) mapsPage.route(true);
+});

@@ -1,59 +1,87 @@
 # Guía Alti — Sistema de diseño
 
-> Editorial moderno con alma de Valorant.
+> Oscuro, moderno y con el azul noche y el rojo de Valorant como protagonistas.
 
-**Tema:** claro, con bandas oscuras.
-**Base:** la referencia editorial de Superhuman (lienzo cálido, titulares livianos, bordes finos, cristal sobre imagen), pasada por la identidad de Valorant: el blanco hueso, el azul noche y el rojo de su web, sus imágenes de mapas y agentes, y etiquetas técnicas en mayúsculas.
+**Tema:** oscuro. **Colores principales:** azul noche `#0f1923` y rojo Valorant `#ff4655`.
+**Influencias:** la estructura editorial moderna (titulares livianos, mucho aire, bordes finos, tarjetas de cristal sobre imágenes, nada de sombras) aplicada a la identidad de Valorant: sus imágenes de mapas y agentes, el hueso `#ece8e1` como texto, y etiquetas técnicas en mayúsculas.
 
-Todo vive en `assets/style.css`, con tokens en `:root`. Esta guía manda: cualquier página o componente nuevo tiene que salir de aquí.
+Todo vive en `assets/style.css`. Esta guía manda: cualquier página o componente nuevo sale de aquí.
 
 ---
 
 ## 1. Principios
 
-1. **Calma editorial, punch gamer.** La mayor parte de la página es tranquila: lienzo hueso, texto noche, mucho aire. El color aparece solo como puntuación: un botón rojo, una etiqueta, un número.
-2. **La imagen hace el trabajo emocional.** Los heros llevan splash de mapas, retratos de agentes o capturas del juego, con un degradado noche encima. Encima de la imagen flotan tarjetas de cristal.
-3. **Profundidad por capas, no por sombras.** Sin drop shadows. Las tarjetas se separan del lienzo por el contraste blanco/hueso y un borde de 1px.
-4. **Titulares que susurran.** Peso 460 y tracking negativo. La fuerza la dan el tamaño y el espacio, no la negrita.
-5. **Lo técnico va en Oswald.** Etiquetas, números, índices y cabeceras de tabla: Oswald en mayúsculas con letter-spacing. Es el guiño a Valorant.
+1. **Azul y rojo mandan.** El azul noche es el lienzo; el rojo es la marca y la acción. El resto de colores son de estado y se usan poco.
+2. **La imagen hace el trabajo emocional.** Los heros llevan splash de mapas, retratos de agentes o capturas del juego, con un degradado noche encima. Encima de la imagen flotan tarjetas de cristal oscuro.
+3. **Profundidad por capas, no por sombras.** Las tarjetas se separan del lienzo por un tono más claro y un borde de 1px.
+4. **Titulares que susurran, etiquetas que suenan a juego.** Los titulares van en Inter 460. Las etiquetas, números e índices van en Oswald mayúsculas.
+5. **Pocas decisiones por pantalla (ley de Hick).** Una acción principal por bloque, opciones agrupadas y lo secundario escondido hasta que hace falta.
+6. **Accesible por defecto.** Contraste AA, foco visible, teclado completo y movimiento reducido.
 
 ---
 
-## 2. Color
+## 2. Tokens de color
 
-### Superficies
+Hay tres capas. Los componentes **solo** usan la capa semántica, nunca los primitivos.
 
-| Nombre | Valor | Token | Uso |
-|---|---|---|---|
-| Bone | `#ece8e1` | `--bg` | Lienzo de todas las páginas (el blanco hueso de Valorant). Nunca blanco puro de fondo. |
-| Bone hundido | `#e4dfd6` | `--bg-2` | Cajas internas que van "hacia dentro" (código). |
-| Paper | `#ffffff` | `--surface` | Tarjetas, paneles, tablas, inputs: lo que se levanta del lienzo. |
-| Paper sutil | `#f5f2ed` | `--surface-2` | Cabeceras de tabla, chips neutros, sección alternada, cajas de resultado. |
-| Hairline | `#dcd6cc` | `--line` | Bordes de 1px y divisores. |
-| Night | `#0f1923` | `--night` | Banda oscura, footer, escenas de juego (minimapa, diagramas, iconos de ejercicio). |
-| Night 2 | `#16222e` | `--night-2` | Tarjetas dentro de una banda oscura. |
+### 2.1 Primitivos (la paleta)
 
-### Texto
+| Token | Valor | Nota |
+|---|---|---|
+| `--navy-950` | `#0a1118` | El más oscuro: bandas, footer, escenas de juego |
+| `--navy-900` | `#0f1923` | **Azul noche Valorant**: lienzo |
+| `--navy-850` | `#132030` | Sección alternada, cristal |
+| `--navy-800` | `#16222e` | Tarjetas |
+| `--navy-700` | `#1d2b39` | Relleno sutil |
+| `--navy-600` | `#2a3a4a` | Bordes |
+| `--navy-500` | `#3a4c5e` | Bordes fuertes |
+| `--bone-50` | `#ece8e1` | **Hueso Valorant**: texto |
+| `--slate-400` | `#95a3b0` | Texto secundario |
+| `--red-400` | `#ff6b78` | Rojo para texto chico sobre tarjetas |
+| `--red-500` | `#ff4655` | **Rojo Valorant**: marca |
+| `--red-600` | `#d92f3e` | Relleno del botón principal |
+| `--red-700` | `#b9283a` | Hover del botón |
+| `--teal-400` | `#3fe0c5` | Aliado, OK, foco |
+| `--gold-400` | `#f0b232` | Ojo, ataque |
+| `--violet-400` | `#b18cff` | Mecánica de mapa |
 
-| Nombre | Valor | Token | Uso |
-|---|---|---|---|
-| Ink | `#0f1923` | `--text` | Texto principal y titulares. Nunca `#000`. |
-| Stone | `#5f6873` | `--muted` | Texto secundario y descripciones. |
-| Sobre oscuro | `#ece8e1` / 70% | `--on-dark`, `--on-dark-muted` | Texto en bandas oscuras y footer. |
+### 2.2 Semánticos (lo que usan los componentes)
 
-### Acentos (con moderación)
+| Token | Apunta a | Uso |
+|---|---|---|
+| `--bg` | navy-900 | Lienzo de la página |
+| `--bg-2` | navy-950 | Hundido: inputs, código |
+| `--surface` | navy-800 | Tarjetas, paneles, tablas |
+| `--surface-2` | navy-700 | Relleno sutil, cabeceras de tabla, skeletons |
+| `--line` / `--line-strong` | navy-600 / 500 | Bordes de 1px |
+| `--text` | bone-50 | Texto principal |
+| `--muted` | slate-400 | Texto secundario |
+| `--accent` | red-500 | Marca: eyebrows, índices, palabras destacadas, enlaces |
+| `--accent-text` | red-400 | Texto rojo chico dentro de tarjetas y chips |
+| `--accent-fill` / `-hover` | red-600 / 700 | **Único botón con relleno** |
+| `--ok` | teal-400 | Disponible, checklist, meta cumplida, tips |
+| `--warn` | gold-400 | Avisos de "ojo", categoría Ataque |
+| `--mech` | violet-400 | Categoría Mecánica |
+| `--focus` | teal-400 | Anillo de foco |
 
-| Nombre | Valor | Token | Uso |
-|---|---|---|---|
-| Rojo | `#d12f3f` | `--red` | **Único color de botón lleno.** También para eyebrows, índices, enlaces y palabras destacadas. |
-| Rojo Valorant | `#ff4655` | `--red-bright` | Solo sobre fondos oscuros (hero, bandas, logo en el footer). Sobre claro no cumple contraste. |
-| Teal | `#0b7c6c` | `--teal` | Estado OK: "Disponible", checklist, meta cumplida, avisos positivos. |
-| Teal claro | `#3fe0c5` | `--teal-bright` | Teal sobre fondos oscuros (diagramas, minimapa). |
-| Mint | `#d3f1ea` | `--mint` | Superficie de selección: tab activa. |
-| Oro | `#9a6a08` | `--gold` | Avisos de "ojo" y la categoría Ataque. |
-| Violeta | `#714cb6` | `--violet` | Solo la categoría Mecánica en mapas. |
+### 2.3 Alias (compatibilidad)
 
-Los rojos, teals y oros suaves de fondo (`--red-dim`, `--teal-dim`) se usan en chips y en estados seleccionados.
+`--red`, `--red-bright`, `--teal`, `--gold`, `--violet`, `--night`, `--night-2`, `--on-dark` siguen existiendo y apuntan a los semánticos de arriba. Para código nuevo, usar los semánticos.
+
+### 2.4 Contraste comprobado (WCAG AA)
+
+| Par | Ratio |
+|---|---|
+| texto / lienzo | 14.5 |
+| secundario / tarjeta | 6.3 |
+| rojo marca / lienzo | 5.3 |
+| rojo marca / tarjeta | 4.8 |
+| rojo texto / relleno sutil | 5.2 |
+| blanco / botón rojo | 4.7 |
+| teal / tarjeta | 9.7 |
+| número oscuro / marcador rojo | 5.3 |
+
+Regla: el rojo `--red-500` no se usa para texto chico sobre `--surface-2`; ahí va `--accent-text`.
 
 ---
 
@@ -61,118 +89,119 @@ Los rojos, teals y oros suaves de fondo (`--red-dim`, `--teal-dim`) se usan en c
 
 | Rol | Fuente | Peso | Tamaño | Interlineado | Tracking |
 |---|---|---|---|---|---|
-| Display (h1) | Inter | 460 | 40–64px (`clamp`) | 0.98 | −0.028em |
-| Título de sección (h2) | Inter | 460 | 30–48px | 1.02 | −0.024em |
-| Título de bloque en temas | Inter | 460 | 28–40px | 1.02 | −0.024em |
-| Subtítulo (h3) | Inter | 620 | 19px | 1.3 | −0.008em |
-| Etiqueta (h4) | Inter | 620 | 16px | 1.35 | 0 |
+| Display (h1) | Inter | 460 | 40–64px | 0.98 | −0.028em |
+| Sección (h2) | Inter | 460 | 30–48px | 1.02 | −0.024em |
+| Bloque de tema (h2) | Inter | 460 | 28–40px | 1.02 | −0.024em |
+| h3 | Inter | 620 | 19px | 1.3 | −0.008em |
+| h4 | Inter | 620 | 16px | 1.35 | 0 |
 | Cuerpo | Inter | 460 | 16px | 1.6 | 0 |
 | Lead | Inter | 460 | 17–20px | 1.5 | 0 |
-| Cita grande | Inter | 460 | 24–56px | 1–1.18 | −0.02/−0.03em |
-| Eyebrow / labels técnicos | Oswald | 500 | 12–13px, MAYÚSCULAS | 1 | 0.14–0.16em |
-| Números (stats, resultados, índices) | Oswald | 500 | 22–44px | 1 | 0 |
+| Eyebrow / labels | Oswald | 500 | 12–13px MAYÚS | 1 | 0.14–0.16em |
+| Números | Oswald | 500 | 22–44px | 1 | 0 |
 
-- Carga: `Inter:wght@400..700` (variable, permite 460, 560, 620) y `Oswald:wght@500;600` desde Google Fonts.
-- Los titulares van en mayúsculas y minúsculas (nada de `text-transform: uppercase` en h1–h3).
-- Negritas del cuerpo a 640, no a 700+.
+Las fuentes vienen de Google Fonts: `Inter:wght@400..700` (variable) y `Oswald:wght@500;600`. Los titulares van en mayúsculas y minúsculas.
 
 ---
 
-## 4. Forma y espacio
+## 4. Espacio y forma
 
-- **Base:** 4px. **Densidad:** cómoda.
-- **Ancho máximo:** 1200px (`--maxw`), con un margen lateral de 16px.
-- **Separación entre secciones:** 96px (`.section`). Entre bloques dentro de un tema: 56–64px.
-- **Padding de tarjetas:** 20–24px. Separación entre elementos: 8–16px.
-
-| Elemento | Radio |
-|---|---|
-| Tarjetas, paneles, tablas, imágenes, botones grandes | 16px (`--radius`) |
-| Inputs, opciones de diagrama, cajas internas | 10px (`--radius-sm`) |
-| Tabs, swatches, letras de site | 8px (`--radius-xs`) |
-| Chips, presets, nav, pasos, índices | 999px |
-
-- **Sombras:** ninguna. Para marcar un borde o un estado se usa `box-shadow: inset 0 0 0 1px` o un borde de 1px.
-- **Cortes en diagonal:** ya no se usan en paneles ni botones. La forma angular de Valorant queda solo en el logo.
+- **Escala** (`--space-*`): 4, 8, 12, 16, 24, 32, 48, 64, 96.
+- **Ancho máximo:** 1200px, con un margen lateral de 16px.
+- **Separación entre secciones:** 96px. Entre bloques de un tema: 56–64px.
+- **Radios:** 16px en tarjetas, botones e imágenes; 10px en inputs y opciones; 8px en tabs y swatches; 999px en chips, presets, nav e índices.
+- **Sombras:** ninguna. Los estados se marcan con un borde o con `inset 0 0 0 1px`.
 
 ---
 
-## 5. Componentes
+## 5. Jerarquía visual y ley de Hick
 
-**Header.** Sticky, 64px de alto, fondo hueso al 78% con `backdrop-filter: blur(12px)` y borde de 1px. Logo a la izquierda (Oswald). Links en Inter 500, 15px, en pastilla: el activo va en blanco con borde.
-
-**Hero (banda con imagen).** Ancho completo. Splash o captura de fondo, con un degradado noche de izquierda (94%) a derecha (35%) y otro de abajo hacia arriba. Texto blanco. Eyebrow en `--red-bright`. Chips y botón secundario en cristal (blanco al 12% con blur). Opcional: retrato de agente a la derecha (`.hero-art`) con máscara.
-
-**Tarjetas de cristal (`.glass`).** Firma del sistema. Blanco al 86% con `blur(14px)`, radio 16px, sin sombra, flotando sobre la imagen del hero. Contienen una etiqueta técnica en rojo (`.k`), un título y una línea gris. Se ocultan por debajo de 1000px.
-
-**Botón principal (`.btn-primary`).** Fondo `--red`, texto blanco, Inter 560, 16px, radio 16px, 48px de alto, flecha "→" al final. Es el único botón con color de relleno.
-
-**Botón secundario (`.btn-ghost`).** Blanco con borde de 1px. Sobre imagen pasa a cristal.
-
-**Chips.** Pastilla de 12px. Neutro (paper sutil + borde), `.red`, `.teal` (Disponible) y `.gold` (Borrador / aviso).
-
-**Panel (`.panel`).** Blanco, borde de 1px, radio 16px, padding 24px. Dentro de una banda oscura se vuelve Night 2.
-
-**Banda oscura (`.band`).** Sección a ancho completo en Night, con texto hueso. Se usa como mucho una o dos veces por página (en la portada: mapas; en mapas: "Así se juega en elo bajo"). Rompe el ritmo claro.
-
-**Tabs.** Contenedor blanco redondeado (12px, padding 4px). Tab activa con relleno Mint.
-
-**Tarjeta de tema (`.lesson`).** Blanca, radio 16px, número en Oswald. Disponible: número rojo y hover con borde rojo. Próximamente: transparente al 55%.
-
-**Escenas de juego.** Minimapa, diagramas SVG (pared/enemigo, vista desde arriba), iconos de ejercicio y fondos de arma van siempre sobre Night, como si fueran la pantalla del juego. Ahí se usan `--red-bright` y `--teal-bright`.
-
-**Marcadores del minimapa.** Círculo de 28px con número blanco y color por categoría: Clave `--red`, Ataque `#b07a0c`, Defensa `--teal`, Mecánica `--violet`.
-
-**Tablas.** Dentro de un contenedor blanco con radio 16px. Cabeceras en Oswald mayúsculas sobre paper sutil. Valores "No" en rojo y "Sí" en teal.
-
-**Avisos (`.note`).** Fondo tenue y borde del mismo tono, radio 16px. Oro para "ojo", teal (`.note.teal`) para tips.
-
-**Footer.** Night a ancho completo, padding de 64px, texto hueso al 70% y logo con el "ALTI" en `--red-bright`.
+- **Una acción principal por pantalla:** el botón rojo. Todo lo demás es secundario (botón con borde, cristal o enlace).
+- **Portada:** hero con una acción principal y una secundaria. El botón principal recuerda dónde quedaste ("Seguir: 1.4 Peeks y ángulos"), así no tienes que elegir. Las tarjetas de cristal son 2, una informativa y un solo enlace.
+- **Agrupar en vez de listar:** los temas van en tabs por nivel (8 por vista, no 24); los mapas, en un grid de 7 y después su ficha.
+- **Revelar de a poco:** pestañas en los ajustes, acordeones en las zonas y sites de mapas, la ficha rápida plegada en móvil y la respuesta del quiz solo al elegir.
+- **Orden de lectura en cada tema:** Lo primero (meta), contenido, práctica, errores, juntada, para esta semana, checklist. La ficha lateral resume lo esencial.
+- **Escala clara:** h1 > h2 > h3 por tamaño, peso y color. El texto secundario siempre en `--muted`.
 
 ---
 
-## 6. Imágenes
+## 6. Componentes
 
-- Fuentes: splash, minimapas, retratos de agentes, iconos de habilidades y de armas de valorant-api.com (se cargan en el navegador), más capturas del juego del profe en `assets/img/`.
-- Siempre con plan B: si una imagen no carga, se quita (`onerror`) y queda el degradado noche, o un SVG propio en el caso de las armas.
-- Capturas en `.webp`, a 1280px de ancho como máximo y calidad ~80.
-- Nada de ilustraciones de stock ni 3D.
+- **Header.** Sticky de 64px, azul noche al 82% con desenfoque de 12px y borde de 1px. Links en pastilla; el activo va con fondo de tarjeta.
+- **Hero.** Imagen a ancho completo con degradado noche (94% a la izquierda, 35% a la derecha). Texto hueso, eyebrow en rojo, chips y botón secundario en cristal.
+- **Tarjetas de cristal (`.glass`).** Azul noche al 72% con desenfoque de 14px, borde blanco al 12% y radio de 16px. Se ocultan por debajo de 1000px.
+- **Botón principal.** Relleno `--accent-fill`, texto blanco, Inter 560, 16px, radio 16px, 48px de alto y flecha "→" al final.
+- **Botón secundario.** Tarjeta con borde; sobre imagen pasa a cristal.
+- **Chips.** Neutro, `.red`, `.teal` (Disponible) y `.gold` (Borrador).
+- **Panel.** `--surface`, borde de 1px, radio 16px y padding de 24px.
+- **Banda (`.band`).** El azul más oscuro, con un brillo rojo radial arriba a la derecha. Una o dos por página.
+- **Tabs.** Contenedor de tarjeta; la tab activa va con fondo teal tenue. Se manejan con flechas.
+- **Escenas de juego** (minimapa, diagramas, iconos de ejercicio y fondos de arma). Siempre sobre `--night`.
+- **Marcadores del minimapa.** Círculo con número oscuro y color por categoría: rojo para clave, oro para ataque, teal para defensa y violeta para mecánica.
+- **Tablas.** Contenedor de tarjeta con cabeceras en Oswald mayúsculas.
+- **Avisos.** Oro para "ojo" y teal para tips, ambos con fondo tenue.
+- **Footer.** `--night` con borde superior.
 
 ---
 
-## 7. Sí y no
+## 7. Skeletons
+
+Mientras cargan imágenes o datos, se muestra un bloque en `--surface-2` con un brillo que pasa de izquierda a derecha. Cuando todo carga, aparece la imagen con un fundido.
+
+- **Clase:** `.sk` en el contenedor y `.sk-done` cuando terminó. `window.skWatch(el)` marca el final cuando cargan (o fallan) todas sus imágenes, con un tope de 8 segundos.
+- **Dónde se usan:**
+  - tarjetas de mapas (portada y página de mapas), mientras llega la API;
+  - minimapa, con el texto "Cargando minimapa…" (con `role="status"`);
+  - fondos de armas, iconos de habilidades y capturas.
+- **Si falla:** el skeleton se apaga y queda el degradado o el mensaje de error. Nunca queda brillando para siempre.
+- **Movimiento reducido:** con `prefers-reduced-motion` el brillo se queda quieto.
+
+---
+
+## 8. Accesibilidad (WCAG 2.2 AA)
+
+- **Contraste:** todos los pares de color pasan AA (tabla 2.4). Auditado con axe-core en todas las páginas, sin violaciones.
+- **Teclado:**
+  - enlace "Saltar al contenido" al principio de cada página;
+  - foco visible con un anillo teal de 2px (`:focus-visible`);
+  - tabs con flechas, Inicio y Fin;
+  - lightbox como diálogo: Esc cierra, el foco va al botón de cerrar y vuelve después a la imagen.
+- **Estructura:**
+  - `<main id="contenido">` en todas las páginas;
+  - nav con `aria-label`;
+  - botón de menú con `aria-expanded` y `aria-controls`;
+  - tabs con `role`, `aria-selected` y `aria-labelledby`.
+- **Lectores de pantalla:**
+  - los resultados de calculadoras, quiz y diagramas se anuncian con `aria-live="polite"`;
+  - los marcadores del minimapa tienen `aria-label`;
+  - los SVG decorativos llevan `aria-hidden`;
+  - las imágenes decorativas tienen `alt=""`.
+- **No solo color:** los estados llevan texto ("Disponible", "No", "Sí"), y los marcadores llevan número y leyenda.
+- **Movimiento:** con `prefers-reduced-motion` no hay animaciones de entrada, brillo ni loops.
+- **Táctil:** los objetivos interactivos miden al menos 24px (swatches 34px, botones 44–48px).
+
+---
+
+## 9. Imágenes
+
+- **Fuentes:** splash, minimapas, retratos, habilidades y armas de valorant-api.com (se cargan en el navegador), y las capturas del profe en `assets/img/` (`.webp`, máximo 1280px, calidad ~80).
+- **Siempre con plan B:** skeleton mientras carga; si falla, degradado, SVG propio (armas) o letra (habilidades).
+
+---
+
+## 10. Sí y no
 
 **Sí**
-- Lienzo hueso, tarjetas blancas, texto noche.
-- Titulares a 460 con tracking negativo.
-- Un solo botón rojo por bloque.
-- Imágenes del juego con degradado noche y cristal encima.
-- Etiquetas y números en Oswald mayúsculas.
-- Revisar escritorio y móvil (390px) sin scroll horizontal.
+- Azul noche de lienzo, tarjetas un tono más claro, texto hueso.
+- Rojo para la marca y para un solo botón por bloque.
+- Imágenes del juego con degradado y cristal encima.
+- Skeleton en todo lo que carga desde afuera.
+- Revisar escritorio y móvil (390px) y pasar axe antes de publicar.
 
 **No**
-- No usar fondo blanco puro en la página ni negro puro en el texto.
-- No poner titulares en negrita (700+) ni en mayúsculas.
+- No usar tema claro ni fondos blancos.
 - No usar sombras de elevación.
-- No inventar nuevos colores de botón: el relleno es solo rojo.
-- No usar `--red-bright` para texto sobre fondo claro (no cumple contraste).
-- No llenar la página de bandas oscuras: una o dos por página.
-- No centrar párrafos largos.
-
----
-
-## 8. Tokens (resumen)
-
-```css
-:root {
-  --bg: #ece8e1;  --bg-2: #e4dfd6;  --surface: #ffffff;  --surface-2: #f5f2ed;
-  --line: #dcd6cc;  --night: #0f1923;  --night-2: #16222e;
-  --text: #0f1923;  --muted: #5f6873;  --on-dark: #ece8e1;
-  --red: #d12f3f;  --red-bright: #ff4655;  --teal: #0b7c6c;  --teal-bright: #3fe0c5;
-  --mint: #d3f1ea;  --gold: #9a6a08;  --violet: #714cb6;
-  --radius: 16px;  --radius-sm: 10px;  --radius-xs: 8px;
-  --maxw: 1200px;  --header: 64px;
-  --font: "Inter", system-ui, sans-serif;
-  --font-tech: "Oswald", "Inter", sans-serif;
-}
-```
+- No usar otro color de botón lleno.
+- No usar rojo chico sobre `--surface-2` (usar `--accent-text`).
+- No poner titulares en negrita ni en mayúsculas.
+- No mostrar más de una acción principal por bloque.
+- No hacer animaciones que ignoren el movimiento reducido.

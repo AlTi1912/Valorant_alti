@@ -11,12 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body data-lesson="1.5" data-title="Utilidad básica">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
-      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
-      <nav class="nav">
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
         <a href="../#clase">Las juntadas</a>
         <a href="../#temario" aria-current="page">Qué veremos</a>
         <a href="../mapas.html">Mapas</a>
@@ -58,7 +59,7 @@
       </div>
     </aside>
 
-    <main>
+    <main id="contenido">
       <details class="aside-mobile">
         <summary>Regla rápida</summary>
         <div class="inner">
@@ -72,7 +73,7 @@
           </div>
           <div class="panel">
             <div class="aside-title">Tu progreso</div>
-            <div class="ring" data-progress="1-5"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+            <div class="ring" data-progress="1-5"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
           </div>
         </div>
       </details>
@@ -278,7 +279,7 @@
         </div>
         <div class="panel">
           <div class="aside-title">Tu progreso</div>
-          <div class="ring" data-progress="1-5"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          <div class="ring" data-progress="1-5"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
         </div>
       </div>
     </aside>

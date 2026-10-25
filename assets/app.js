@@ -17,16 +17,29 @@ if (toggle) {
   });
 }
 
-// Pestañas
-document.querySelectorAll("[data-tabs]").forEach(function (group) {
-  var tabs = group.querySelectorAll(".tab");
-  tabs.forEach(function (tab) {
-    tab.addEventListener("click", function () {
-      tabs.forEach(function (t) {
-        var on = t === tab;
-        t.setAttribute("aria-selected", on);
-        document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
-      });
+// Pestañas accesibles: flechas, Inicio/Fin y roving tabindex
+document.querySelectorAll("[data-tabs]").forEach(function (group, g) {
+  var tabs = Array.prototype.slice.call(group.querySelectorAll(".tab"));
+  var select = function (tab, focus) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute("aria-selected", on);
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+    });
+    if (focus) tab.focus();
+  };
+  tabs.forEach(function (tab, i) {
+    if (!tab.id) tab.id = "tab-" + g + "-" + i;
+    var panel = document.getElementById(tab.getAttribute("aria-controls"));
+    if (panel) { panel.setAttribute("aria-labelledby", tab.id); panel.tabIndex = 0; }
+    tab.tabIndex = tab.getAttribute("aria-selected") === "true" ? 0 : -1;
+    tab.addEventListener("click", function () { select(tab); });
+    tab.addEventListener("keydown", function (e) {
+      var n = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+      if (n === undefined) return;
+      e.preventDefault();
+      select(tabs[(n + tabs.length) % tabs.length], true);
     });
   });
 });
@@ -173,20 +186,38 @@ document.querySelectorAll("[data-copy]").forEach(function (b) {
   });
 });
 
-// Ver capturas en grande
+// Ver capturas en grande (diálogo accesible)
 var box = document.querySelector(".lightbox");
 if (box) {
   var big = box.querySelector("img");
+  var lastTrigger = null;
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-modal", "true");
+  box.setAttribute("aria-label", "Imagen ampliada");
+  box.tabIndex = -1;
+  var closeBtn = document.createElement("button");
+  closeBtn.className = "lightbox-close";
+  closeBtn.setAttribute("aria-label", "Cerrar");
+  closeBtn.textContent = "×";
+  box.appendChild(closeBtn);
+  var closeBox = function () { box.hidden = true; if (lastTrigger) lastTrigger.focus(); };
   document.querySelectorAll(".shot button").forEach(function (b) {
+    var img = b.querySelector("img");
+    if (img && img.alt) b.setAttribute("aria-label", "Ver en grande: " + img.alt);
     b.addEventListener("click", function () {
-      var img = b.querySelector("img");
+      lastTrigger = b;
       big.src = img.src;
       big.alt = img.alt;
       box.hidden = false;
+      closeBtn.focus();
     });
   });
-  box.addEventListener("click", function () { box.hidden = true; });
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape") box.hidden = true; });
+  box.addEventListener("click", function (e) { if (e.target !== big) closeBox(); });
+  document.addEventListener("keydown", function (e) {
+    if (box.hidden) return;
+    if (e.key === "Escape") closeBox();
+    if (e.key === "Tab") { e.preventDefault(); closeBtn.focus(); }
+  });
 }
 
 // Abrir o cerrar la mira según la situación
@@ -383,4 +414,44 @@ if (stop) {
   };
   stop.querySelectorAll("input").forEach(function (i) { i.addEventListener("change", stopCalc); });
   stopCalc();
+}
+
+// Skeletons: brillo mientras cargan las imágenes
+window.skWatch = function (el) {
+  el.classList.add("sk");
+  var imgs = el.querySelectorAll("img");
+  var left = imgs.length;
+  var done = function () { el.classList.add("sk-done"); };
+  if (!left) return;
+  var step = function () { if (--left <= 0) done(); };
+  imgs.forEach(function (img) {
+    if (img.complete) step();
+    else { img.addEventListener("load", step, { once: true }); img.addEventListener("error", step, { once: true }); }
+  });
+  setTimeout(done, 8000);
+};
+document.querySelectorAll(".shot button, .weapon .art, .drill-icon").forEach(function (el) {
+  if (el.querySelector("img")) window.skWatch(el);
+});
+
+// Resultados que cambian: avisar a lectores de pantalla
+["out-verdict", "pace-msg", "eco-msg", "drop-out", "stop-out", "pick-title", "call-out", "angle-out", "peek-out", "place-out", "quiz-score"].forEach(function (id) {
+  var el = document.getElementById(id);
+  if (el) el.setAttribute("aria-live", "polite");
+});
+
+// Seguir donde quedaste (menos decisiones en la portada)
+var lessonId = document.body.dataset.lesson;
+if (lessonId) {
+  try {
+    localStorage.setItem("ultimo-tema", JSON.stringify({ id: lessonId, title: document.body.dataset.title, file: location.pathname.split("/").pop() }));
+  } catch (e) {}
+}
+var cta = document.getElementById("cta-start");
+if (cta) {
+  var last = store("ultimo-tema");
+  if (last && last.file) {
+    cta.textContent = "Seguir: " + last.id + " " + last.title;
+    cta.href = "temas/" + last.file;
+  }
 }

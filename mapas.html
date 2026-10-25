@@ -12,11 +12,12 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="./"><img src="assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
-      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
-      <nav class="nav">
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
         <a href="./#clase">Las juntadas</a>
         <a href="./#temario">Qué veremos</a>
         <a href="mapas.html" aria-current="page">Mapas</a>
@@ -25,6 +26,7 @@
     </div>
   </header>
 
+  <main id="contenido">
   <!-- Paso 1: elegir mapa -->
   <div id="map-select">
     <section class="hero hero-mini">
@@ -190,6 +192,8 @@
       </div>
     </div>
   </div>
+
+  </main>
 
   <footer class="site-footer">
     <div class="wrap">

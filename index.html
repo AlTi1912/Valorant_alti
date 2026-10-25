@@ -12,11 +12,12 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="./"><img src="assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
-      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
-      <nav class="nav">
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
         <a href="#clase">Las juntadas</a>
         <a href="#temario">Qué veremos</a>
         <a href="mapas.html">Mapas</a>
@@ -25,6 +26,7 @@
     </div>
   </header>
 
+  <main id="contenido">
   <section class="hero" style="--hero-img: url('https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/splash.png')">
     <img class="hero-art" src="https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png" alt="" onerror="this.remove()">
     <div class="wrap">
@@ -32,7 +34,7 @@
       <h1>Aprende a jugar,<br><span class="hl">sin que te boosteen</span></h1>
       <p class="lead">Lo que aprendí llegando a Inmortal y en la academia, ordenado para que lo vayamos viendo juntos en Discord. Cada tema tiene su página: lo vemos en la juntada, lo practicamos en la custom y aquí lo repasas cuando quieras.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="temas/1-1-ajustes-y-calentamiento.html">Empezar: tema 1.1</a>
+        <a class="btn btn-primary" id="cta-start" href="temas/1-1-ajustes-y-calentamiento.html">Empezar: tema 1.1</a>
         <a class="btn btn-ghost" href="#temario">Qué veremos</a>
       </div>
       <div class="hero-stats">
@@ -43,8 +45,7 @@
       </div>
     </div>
     <div class="glass-stack">
-      <a class="glass" href="temas/1-1-ajustes-y-calentamiento.html"><div class="k">Empieza aquí</div><b>1.1 · Ajustes y calentamiento</b><span>Sens, mira, video y el Range.</span></a>
-      <a class="glass" href="#temario"><div class="k">Nivel 1</div><b>8 temas disponibles</b><span>De Bronce a Plata.</span></a>
+      <div class="glass"><div class="k">Nivel 1</div><b>8 de 8 temas listos</b><span>De Bronce a Plata.</span></div>
       <a class="glass" href="mapas.html"><div class="k">Mapas</div><b>Pool del Act 6</b><span>Lo importante de cada mapa.</span></a>
     </div>
   </section>
@@ -177,6 +178,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <footer class="site-footer">
     <div class="wrap">
