@@ -5,7 +5,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 ## Para cerrar el nivel 1 de forma coherente
 
 1. **Aprobar el nivel 1:** página o sección con la prueba final. Criterios en `docs/01-plan-del-curso.md` (DMs y TDMs con foco, evidencia, prueba en la custom). Definir los "X de Y" de cada prueba con el profe.
-2. **Revisar el tono de "Para esta semana" en todos los temas:** el profe dijo que "anotar en Discord" no suena natural (ya se corrigió en el 1.8). Revisar los "En tu canal" de 1.1–1.7: dejar los que son evidencia (capturas, tiempos) y reescribir los que son reflexión (1.6 y 1.7).
+2. ~~Revisar el tono de "Para esta semana"~~ Hecho: se quitó "subir a Discord" de la portada y de todos los temas; ahora es anotar con sinceridad, guardar una captura por semana o traerlo a la juntada. Al armar la página de aprobar el nivel 1, usar este mismo criterio (nada de "evidencia en Discord").
 3. **Coherencia entre temas:** que los checklists, la juntada y "para esta semana" sigan el mismo formato; que la portada describa bien cada tema; que los enlaces "anterior / siguiente" estén todos.
 4. **Contenido que manda el profe:**
    - Guía de humos buenos y malos (recuadro reservado en el 1.5).

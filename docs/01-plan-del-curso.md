@@ -89,7 +89,7 @@ Ficha de cada mapa del pool: callouts, zonas clave, un default de ataque, un set
 
 Criterio general: **cantidad + foco + prueba práctica**. Mandar 10 DMs solo demuestra que se jugaron; cada DM tiene que llevar un foco y el nivel se aprueba con una prueba en Custom delante del profe.
 
-**Evidencia:** captura del historial de partidas (pestaña Carrera) en un canal de Discord por alumno.
+**Evolución (en vez de subir evidencia a Discord, que no es natural):** después de cada sesión, anotar con sinceridad cómo fue; guardar una captura del historial por semana o por sesión para ver la evolución.
 
 ### Aprobar Nivel 1
 - [ ] 10 DMs con foco asignado (crosshair placement / counter-strafe), con captura.
