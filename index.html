@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guía Valorant Alti</title>
   <meta name="description" content="Guía de Valorant para aprender en grupo: fundamentos, game sense y juego en equipo, de Bronce a Premier.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
@@ -13,98 +14,178 @@
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="./">Guía <span>Alti</span></a>
-      <nav><a href="#temario">Temario</a><a href="#aprobar">Aprobar nivel</a></nav>
+      <a class="brand" href="./"><img src="assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="#clase">La clase</a>
+        <a href="#temario">Temario</a>
+        <a href="#mapas">Mapas</a>
+        <a href="#aprobar">Aprobar nivel</a>
+      </nav>
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <div class="tags"><span class="tag accent">Bronce → Premier</span><span class="tag">Clases en vivo por Discord</span></div>
-      <h1>Aprende Valorant jugando</h1>
-      <p class="lead">Una guía para mejorar de verdad, sin boost. Cada tema tiene su página: léela antes o después de la clase, y practícalo en la Custom con el grupo.</p>
-    </section>
-
-    <div class="callout">
-      <strong class="label">La idea de esta guía</strong>
-      <p>Si todavía no tienes buen aim, ganar ventajas con estrategia y utilidad es <strong>igual de importante</strong> que el aim. Los timings, la información y las rotaciones ganan rondas, y las rondas ganan partidas.</p>
+  <section class="hero" style="--hero-img: url('https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/splash.png')">
+    <img class="hero-art" src="https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png" alt="" onerror="this.remove()">
+    <div class="wrap">
+      <div class="eyebrow"><img src="assets/img/valorant.svg" alt="" width="18" height="18"> Guía de Valorant</div>
+      <h1>Aprende a jugar,<br><span class="hl">sin que te boosteen</span></h1>
+      <p class="lead">Una guía para mejorar de verdad, de Bronce a Premier. Cada tema tiene su página: la explicamos en clase, la practicamos en la Custom y la repasas aquí cuando quieras.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="temas/1-1-ajustes-y-calentamiento.html">Empezar: tema 1.1</a>
+        <a class="btn btn-ghost" href="#temario">Ver temario</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>3</b><span>Niveles</span></div>
+        <div class="stat"><b>24</b><span>Temas</span></div>
+        <div class="stat"><b>1–2</b><span>Clases por semana</span></div>
+        <div class="stat"><b>100%</b><span>Dentro del juego</span></div>
+      </div>
     </div>
+  </section>
 
-    <h2>Cómo es una clase</h2>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Parte</th><th>Tiempo</th><th>Qué hacemos</th></tr></thead>
-        <tbody>
-          <tr><td>Repaso</td><td>5 min</td><td>Dudas de los deberes de la semana</td></tr>
-          <tr><td>Explicación</td><td>10–15 min</td><td>Un concepto, ideas clave y el error más común</td></tr>
-          <tr><td>Práctica</td><td>30–40 min</td><td>Ejercicio en Custom, compartiendo pantalla</td></tr>
-          <tr><td>Preguntas</td><td>10–15 min</td><td>Todo lo que quieras preguntar</td></tr>
-          <tr><td>Deberes</td><td>2 min</td><td>Un foco concreto para tus DM, TDM y ranked</td></tr>
-        </tbody>
-      </table>
+  <section class="section">
+    <div class="wrap grid c2" style="align-items:center; gap:32px">
+      <div class="quote reveal">
+        <p>Si no estás bien de aim, ganar ventajas con estrategia y utilidad es <span class="hl">tan importante</span> como el aim.</p>
+        <small>La idea de esta guía. Los timings, la información y las rotaciones ganan rondas, y las rondas ganan partidas.</small>
+      </div>
+      <div class="reveal">
+        <div class="eyebrow">Para quién es</div>
+        <h3>Bronce, Plata y Oro que quieren mejorar</h3>
+        <p class="muted">Sin aim trainers ni programas externos: todo se aprende en el Range, DM, TDM, la Custom y ranked. La mayoría del grupo juega controller o Sage, así que los ejemplos empiezan por ahí.</p>
+        <div class="agents">
+          <span class="agent"><img src="https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png" alt="" onerror="this.remove()">Omen</span>
+          <span class="agent"><img src="https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png" alt="" onerror="this.remove()">Brimstone</span>
+          <span class="agent"><img src="https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png" alt="" onerror="this.remove()">Astra</span>
+          <span class="agent"><img src="https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png" alt="" onerror="this.remove()">Viper</span>
+          <span class="agent"><img src="https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png" alt="" onerror="this.remove()">Clove</span>
+          <span class="agent"><img src="https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png" alt="" onerror="this.remove()">Sage</span>
+        </div>
+      </div>
     </div>
-    <p class="muted" style="margin-top:10px">Lo largo no es la explicación: son tus preguntas y la práctica.</p>
+  </section>
 
-    <h2 id="temario">Temario</h2>
-
-    <div class="level">
-      <div class="level-head"><h3>Nivel 1 · Fundamentos</h3><span class="tag">Bronce → Plata</span></div>
-      <ul class="lessons">
-        <li><span class="n">1.1</span><a href="temas/1-1-ajustes-y-calentamiento.html">Ajustes y rutina de calentamiento</a></li>
-        <li><span class="n">1.2</span><span class="soon">Crosshair placement</span></li>
-        <li><span class="n">1.3</span><span class="soon">Movimiento y disparo</span></li>
-        <li><span class="n">1.4</span><span class="soon">Peeks y ángulos</span></li>
-        <li><span class="n">1.5</span><span class="soon">Utilidad básica: humos y Sage</span></li>
-        <li><span class="n">1.6</span><span class="soon">Comunicación</span></li>
-        <li><span class="n">1.7</span><span class="soon">Economía básica</span></li>
-        <li><span class="n">1.8</span><span class="soon">Mental: tilt y cuándo parar</span></li>
-      </ul>
+  <section class="section alt" id="clase">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div><div class="eyebrow">Formato</div><h2>Cómo es una clase</h2></div>
+        <p class="muted">En vivo por Discord, compartiendo pantalla. Lo largo no es la explicación: son tus preguntas y la práctica.</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="seg" style="--w:5"><div class="bar"></div><span class="t">5 MIN</span><h4>Repaso</h4><p>Dudas de los deberes</p></div>
+        <div class="seg talk" style="--w:12"><div class="bar"></div><span class="t">10–15 MIN</span><h4>Explicación</h4><p>Un concepto y el error más común</p></div>
+        <div class="seg main" style="--w:35"><div class="bar"></div><span class="t">30–40 MIN</span><h4>Práctica en Custom</h4><p>Ejercicio guiado, luego juego libre con el foco del día</p></div>
+        <div class="seg talk" style="--w:12"><div class="bar"></div><span class="t">10–15 MIN</span><h4>Preguntas</h4><p>Todo lo que quieras</p></div>
+        <div class="seg" style="--w:4"><div class="bar"></div><span class="t">2 MIN</span><h4>Deberes</h4><p>Un foco para la semana</p></div>
+      </div>
     </div>
+  </section>
 
-    <div class="level">
-      <div class="level-head"><h3>Nivel 2 · Jugar con cabeza</h3><span class="tag">Plata → Platino</span></div>
-      <ul class="lessons">
-        <li><span class="n">2.1</span><span class="soon">Trades y spacing</span></li>
-        <li><span class="n">2.2</span><span class="soon">Información, sonido y minimapa</span></li>
-        <li><span class="n">2.3</span><span class="soon">Leer al rival y timings</span></li>
-        <li><span class="n">2.4</span><span class="soon">Rotaciones en defensa</span></li>
-        <li><span class="n">2.5</span><span class="soon">Ataque: control de mapa y default</span></li>
-        <li><span class="n">2.6</span><span class="soon">Post-plant y retake</span></li>
-        <li><span class="n">2.7</span><span class="soon">Posicionamiento defensivo</span></li>
-        <li><span class="n">2.8</span><span class="soon">Revisar tus partidas</span></li>
-      </ul>
+  <section class="section" id="temario">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div><div class="eyebrow">Temario</div><h2>Tres niveles, de lo individual al equipo</h2></div>
+        <p class="muted">Primero mejoras tú. Con esa base, si armáis equipo de Premier, sabréis jugar juntos.</p>
+      </div>
+
+      <div data-tabs class="reveal">
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" aria-selected="true" aria-controls="lv1">Nivel 1 · Fundamentos</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="lv2">Nivel 2 · Jugar con cabeza</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="lv3">Nivel 3 · Base Premier</button>
+        </div>
+
+        <div class="tabpanel" id="lv1" role="tabpanel">
+          <p class="muted"><span class="chip">Bronce → Plata</span></p>
+          <div class="lesson-grid">
+            <a class="lesson" href="temas/1-1-ajustes-y-calentamiento.html"><span class="n">1.1</span><h4>Ajustes y calentamiento</h4><p>Sensibilidad, mira, gráficos y la rutina del Range.</p><span class="chip teal">Disponible</span></a>
+            <div class="lesson soon"><span class="n">1.2</span><h4>Crosshair placement</h4><p>La mira a la altura de la cabeza, siempre.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">1.3</span><h4>Movimiento y disparo</h4><p>Counter-strafe, tap, ráfaga y spray.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">1.4</span><h4>Peeks y ángulos</h4><p>Wide, jiggle, shoulder y slicing the pie.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">1.5</span><h4>Utilidad básica</h4><p>Humos y Sage. Nunca en zonas expuestas.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">1.6</span><h4>Comunicación</h4><p>Qué decir, cuándo callarse, comms de muerto.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">1.7</span><h4>Economía básica</h4><p>Buy, save, force y comprar juntos.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">1.8</span><h4>Mental</h4><p>Tilt, objetivos por partida y cuándo parar.</p><span class="chip">Próximamente</span></div>
+          </div>
+        </div>
+
+        <div class="tabpanel" id="lv2" role="tabpanel" hidden>
+          <p class="muted"><span class="chip">Plata → Platino</span></p>
+          <div class="lesson-grid">
+            <div class="lesson soon"><span class="n">2.1</span><h4>Trades y spacing</h4><p>Entrar juntos y cobrar cada muerte.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">2.2</span><h4>Información y sonido</h4><p>Minimapa, pasos y contar enemigos.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">2.3</span><h4>Leer al rival y timings</h4><p>Los timings ganan rondas y partidas.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">2.4</span><h4>Rotaciones en defensa</h4><p>Sin vender el site al segundo 10 ni regalar info.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">2.5</span><h4>Ataque</h4><p>Control de mapa, lurk y default simple.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">2.6</span><h4>Post-plant y retake</h4><p>Dónde jugar con la spike plantada.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">2.7</span><h4>Posicionamiento defensivo</h4><p>Off-angles y reposicionarse.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">2.8</span><h4>Revisar tus partidas</h4><p>Cómo ver un replay con un objetivo.</p><span class="chip">Próximamente</span></div>
+          </div>
+        </div>
+
+        <div class="tabpanel" id="lv3" role="tabpanel" hidden>
+          <p class="muted"><span class="chip">En equipo</span></p>
+          <div class="lesson-grid">
+            <div class="lesson soon"><span class="n">3.1</span><h4>Roles y composición</h4><p>Qué aporta cada rol al equipo.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">3.2</span><h4>Defaults y ejecuciones</h4><p>Un plan de ataque que todos entiendan.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">3.3</span><h4>Setups defensivos</h4><p>Setup base y variantes.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">3.4</span><h4>Retakes coordinados</h4><p>Utilidad y timings para volver a entrar.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">3.5</span><h4>Economía de equipo</h4><p>Anti-eco, anti-force y compras.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">3.6</span><h4>IGL y mid-round</h4><p>Llamar la ronda y adaptarse.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">3.7</span><h4>Preparar un partido</h4><p>Estudiar al rival de Premier.</p><span class="chip">Próximamente</span></div>
+            <div class="lesson soon"><span class="n">3.8</span><h4>Scrim y revisión</h4><p>Jugar, revisar y corregir.</p><span class="chip">Próximamente</span></div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="level">
-      <div class="level-head"><h3>Nivel 3 · Base Premier</h3><span class="tag">En equipo</span></div>
-      <ul class="lessons">
-        <li><span class="n">3.1</span><span class="soon">Roles y composición</span></li>
-        <li><span class="n">3.2</span><span class="soon">Defaults y ejecuciones</span></li>
-        <li><span class="n">3.3</span><span class="soon">Setups defensivos</span></li>
-        <li><span class="n">3.4</span><span class="soon">Retakes y post-plant coordinados</span></li>
-        <li><span class="n">3.5</span><span class="soon">Economía de equipo</span></li>
-        <li><span class="n">3.6</span><span class="soon">IGL y mid-round calls</span></li>
-        <li><span class="n">3.7</span><span class="soon">Preparar una partida de Premier</span></li>
-        <li><span class="n">3.8</span><span class="soon">Scrim y revisión</span></li>
-      </ul>
+  <section class="section alt" id="mapas">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div><div class="eyebrow">Mapas</div><h2>Lo que hay que saber de cada mapa</h2></div>
+        <p class="muted">Zonas importantes, qué información no perder en cada site, y cuándo y cómo retakear. El pool rota: haremos fichas de los mapas activos.</p>
+      </div>
+      <div class="map-grid reveal">
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Ascent</h4><span>Mid dominante · puertas</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Bind</h4><span>Teleports · sin mid</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Haven</h4><span>3 sites</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/d960549e-485c-e861-8d71-aa9d1aed12a2/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Split</h4><span>Cuerdas · mid vertical</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/e2ad5c54-4114-a870-9641-8ea21279579a/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Icebox</h4><span>Ziplines · verticalidad</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Breeze</h4><span>Abierto · líneas largas</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Fracture</h4><span>Ataque por dos lados</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Pearl</h4><span>Mid largo</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Lotus</h4><span>3 sites · puertas giratorias</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Sunset</h4><span>Mid dominante</span></div></div>
+        <div class="map"><img loading="lazy" src="https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/listviewicon.png" alt="" onerror="this.remove()"><div class="info"><h4>Abyss</h4><span>Sin paredes · caídas</span></div></div>
+      </div>
     </div>
+  </section>
 
-    <div class="level">
-      <div class="level-head"><h3>Mapas</h3><span class="tag">Transversal</span></div>
-      <ul class="lessons">
-        <li><span class="n">M</span><span class="soon">Qué saber de cada mapa: zonas clave, info que no perder por site, cuándo y cómo retakear</span></li>
-      </ul>
+  <section class="section" id="aprobar">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div><div class="eyebrow">Progreso</div><h2>Cómo se aprueba un nivel</h2></div>
+        <p class="muted">Jugar mucho no basta. Cada nivel se aprueba con tres cosas.</p>
+      </div>
+      <div class="grid c3 reveal">
+        <div class="panel"><div class="eyebrow">01 · Cantidad</div><h3>DM y TDM con foco</h3><p class="muted">Cada partida tiene un foco asignado. Sin foco, no cuenta.</p></div>
+        <div class="panel"><div class="eyebrow">02 · Evidencia</div><h3>Captura en Discord</h3><p class="muted">Tu historial de la pestaña Carrera, en tu canal personal.</p></div>
+        <div class="panel"><div class="eyebrow">03 · Prueba</div><h3>Ejercicio en la Custom</h3><p class="muted">Lo haces delante del profe. Si sale, nivel aprobado.</p></div>
+      </div>
     </div>
+  </section>
 
-    <h2 id="aprobar">Cómo se aprueba un nivel</h2>
-    <p>No basta con jugar mucho. Cada nivel se aprueba con tres cosas:</p>
-    <div class="cards cols-3">
-      <div class="card"><div class="num">CANTIDAD</div><p>DMs y TDMs, cada uno con un foco asignado.</p></div>
-      <div class="card"><div class="num">EVIDENCIA</div><p>Captura de tu historial (pestaña Carrera) en tu canal de Discord.</p></div>
-      <div class="card"><div class="num">PRUEBA</div><p>Un ejercicio en la Custom delante del profe.</p></div>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="./"><img src="assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo de Discord</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
     </div>
-  </main>
-
-  <footer><div class="wrap">Guía hecha por Alti para el grupo de Discord. Guía de fans, sin relación con Riot Games.</div></footer>
+  </footer>
+  <script src="assets/app.js"></script>
 </body>
 </html>

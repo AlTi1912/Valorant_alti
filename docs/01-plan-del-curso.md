@@ -133,3 +133,10 @@ Generalidades, sin mapas preferidos. Por cada mapa del pool:
 - Por site: qué información no se puede perder y desde dónde se consigue.
 - Retake: cuándo sí y cuándo no (y cuándo salvar), y por dónde entrar.
 - Qué lo hace especial (3 sites, teleports, cuerdas, puertas, zonas de caída, etc.).
+
+## Correcciones del profe al tema 1.1
+
+- Jett: dagas de la ulti + Q, para aim vertical.
+- Range: 100 o 50 bots, objetivo 0.8 bots/s (100 en ~2:05). Referencia del profe: 100 en ~115 s.
+- DM/TDM por arma: opcional, para quien quiera mejorar un arma concreta. No forma parte de la rutina diaria.
+- Ajustes del profe: 1600 DPI × 0.24 (384 eDPI), mira estática (no se abre ni se mueve), gráficos al mínimo, 1568×1080 estirada con MSAA 4x y anisotrópico 2x.

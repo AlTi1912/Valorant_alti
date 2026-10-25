@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ajustes y calentamiento</title>
-  <meta name="description" content="Tema 1.1: ajustes fijos y una rutina de calentamiento antes de ranked, solo con el juego.">
+  <meta name="description" content="Tema 1.1: ajustes fijos y una rutina de calentamiento en el Range antes de ranked.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
@@ -13,131 +14,361 @@
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="../">Guía <span>Alti</span></a>
-      <nav><a href="../#temario">Temario</a></nav>
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="../#clase">La clase</a>
+        <a href="../#temario" aria-current="page">Temario</a>
+        <a href="../#mapas">Mapas</a>
+        <a href="../#aprobar">Aprobar nivel</a>
+      </nav>
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <div class="tags"><span class="tag accent">Nivel 1 · Tema 1.1</span><span class="tag">Fundamentos</span><span class="tag">Clase de ~60 min</span></div>
-      <h1>Ajustes y rutina de calentamiento</h1>
+  <section class="hero hero-mini" style="--hero-img: url('https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/splash.png')">
+    <img class="hero-art" src="https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png" alt="" onerror="this.remove()">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Temario</a> / Nivel 1 · Fundamentos</div>
+      <div class="chips"><span class="chip red">Tema 1.1</span><span class="chip">Clase de ~60 min</span><span class="chip">Range</span></div>
+      <h1>Ajustes y rutina<br>de calentamiento</h1>
       <p class="lead">Antes de aprender a jugar mejor, tienes que poder jugar igual todos los días.</p>
-    </section>
-
-    <div class="callout">
-      <strong class="label">Objetivo</strong>
-      <p>Dejar fijos tus ajustes y tener una rutina de calentamiento que hagas siempre antes de ranked.</p>
     </div>
+  </section>
 
-    <h2>Por qué importa</h2>
-    <p>Si cambias la sensibilidad cada semana, tu mano nunca aprende la distancia. Si entras a ranked en frío, las primeras rondas las regalas. Calentar no te hace mejor en un día, pero hace que juegues a tu nivel desde la ronda 1.</p>
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Resumen</a></li>
+          <li><a href="#ajustes">Ajustes</a></li>
+          <li><a href="#rutina">Rutina del Range</a></li>
+          <li><a href="#armas">Entrenar un arma</a></li>
+          <li><a href="#errores">Errores comunes</a></li>
+          <li><a href="#clase">En la clase</a></li>
+          <li><a href="#deberes">Deberes</a></li>
+          <li><a href="#checklist">Checklist</a></li>
+        </ol>
+      </div>
+    </aside>
 
-    <h2>Conceptos clave</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="num">01</div>
-        <h3>Una sensibilidad, y no la toques</h3>
-        <p><strong>eDPI = DPI del mouse × sensibilidad del juego.</strong> La mayoría de jugadores competitivos está entre 200 y 400 eDPI (con 800 DPI, sens entre 0.25 y 0.5).</p>
-        <p>Pruébala en un DM: si te pasas del objetivo al girar, bájala; si no llegas, súbela. Cuando la tengas, <strong>no la cambies en al menos un mes</strong>.</p>
-      </div>
-      <div class="card">
-        <div class="num">02</div>
-        <h3>Una mira simple y visible</h3>
-        <p>La mira no te da aim, solo no tiene que molestarte. Pequeña, de un color que contraste con los mapas (cian, verde o amarillo) y con el <strong>error de movimiento y de disparo desactivados</strong>. Guarda el código de tu mira para no perderla.</p>
-      </div>
-      <div class="card">
-        <div class="num">03</div>
-        <h3>Ajustes para ver más</h3>
-        <p>Calidad gráfica baja para tener más FPS. Prueba otro color de resalte de enemigos (morado o amarillo) y quédate con el que veas mejor.</p>
-        <p>Configura el <strong>minimapa</strong> para que se vea el mapa entero, y acostúmbrate a mirarlo: ahí está la información que más se pierde en rangos bajos.</p>
-      </div>
-    </div>
-
-    <h2>La rutina</h2>
-    <ol class="steps">
-      <li>
-        <h3>The Range</h3>
-        <div class="time">15 min</div>
-        <ul>
-          <li><strong>Jett: Q + ulti.</strong> Calentar la precisión con los cuchillos.</li>
-          <li><strong>Bots en Difícil o Medio.</strong> Empieza en Medio y sube cuando lo domines.</li>
-          <li><strong>Eliminar 100 bots</strong> (50 si recién empiezas). Ritmo objetivo: <strong>1 bot por segundo</strong>.</li>
-        </ul>
-      </li>
-      <li>
-        <h3>DM o TDM: uno por arma</h3>
-        <div class="time">3 partidas</div>
-        <div class="table-wrap" style="margin-top:8px">
-          <table>
-            <thead><tr><th>Arma</th><th>En qué te fijas</th></tr></thead>
-            <tbody>
-              <tr><td>Sheriff</td><td>Primer disparo a la cabeza. Sin spamear.</td></tr>
-              <tr><td>Guardian</td><td>Pararte antes de disparar. Tiros a la cabeza.</td></tr>
-              <tr><td>Vandal / Phantom</td><td>Mira a la altura de la cabeza y ráfagas cortas.</td></tr>
-            </tbody>
-          </table>
+    <main>
+      <details class="aside-mobile">
+        <summary>Ficha rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <div class="aside-title">Ajustes del profe</div>
+            <dl class="kv">
+              <dt>DPI</dt><dd>1600</dd>
+              <dt>Sensibilidad</dt><dd>0.24</dd>
+              <dt>eDPI</dt><dd>384</dd>
+              <dt>Resolución</dt><dd>1568×1080</dd>
+              <dt>Gráficos</dt><dd>Mínimo</dd>
+              <dt>Mira</dt><dd>Estática</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="1-1"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/4</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
         </div>
-      </li>
-      <li>
-        <h3>Ranked</h3>
-        <div class="time">Ya caliente</div>
-        <p>Con un objetivo por partida (los iremos viendo en cada tema).</p>
-      </li>
-    </ol>
+      </details>
 
-    <div class="callout">
-      <strong class="label">¿Y Swiftplay?</strong>
-      <p>No sirve para calentar: es demasiado random y no entrenas nada concreto.</p>
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Resumen</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>Objetivo</h4><p>Dejar fijos tus ajustes y tener una rutina de calentamiento que hagas siempre antes de ranked.</p></div>
+          <div class="panel reveal"><h4>Por qué importa</h4><p>Si cambias la sensibilidad cada semana, tu mano nunca aprende la distancia. Si entras en frío, regalas las primeras rondas. Calentar hace que juegues a tu nivel desde la ronda 1.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="ajustes">
+        <h2><span class="idx">02</span>Ajustes</h2>
+        <p class="muted">Los configuramos juntos en clase. Luego, no se tocan.</p>
+
+        <div data-tabs class="reveal">
+          <div class="tabs" role="tablist">
+            <button class="tab" role="tab" aria-selected="true" aria-controls="t-sens">Sensibilidad</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="t-mira">Mira</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="t-graf">Gráficos</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="t-mini">Minimapa</button>
+          </div>
+
+          <div class="tabpanel" id="t-sens" role="tabpanel">
+            <p><strong>eDPI = DPI del mouse × sensibilidad del juego.</strong> Es el número que sirve para comparar sensibilidades. Prueba la tuya en un DM: si te pasas del objetivo al girar, bájala; si no llegas, súbela. Cuando la tengas, <strong>no la cambies en al menos un mes</strong>.</p>
+            <div class="calc">
+              <div class="panel">
+                <div class="field"><label for="calc-dpi">DPI del mouse</label><input id="calc-dpi" type="number" inputmode="numeric" value="1600" min="100" step="100"></div>
+                <div class="field"><label for="calc-sens">Sensibilidad en el juego</label><input id="calc-sens" type="number" inputmode="decimal" value="0.24" min="0.01" step="0.01"></div>
+                <p class="muted" style="font-size:14px">Viene con los valores del profe. Pon los tuyos.</p>
+              </div>
+              <div class="panel">
+                <div class="grid c2" style="gap:12px">
+                  <div><div class="aside-title">eDPI</div><div class="result" id="out-edpi">384</div></div>
+                  <div><div class="aside-title">Giro de 360°</div><div class="result"><span id="out-cm">34.0</span><small>cm</small></div></div>
+                </div>
+                <div class="meter zones"><span class="mark" id="edpi-mark"></span></div>
+                <div class="meter-labels"><span>0</span><span>200</span><span>400</span><span>800</span></div>
+                <p id="out-verdict" style="margin:12px 0 0">Dentro del rango habitual en competitivo.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tabpanel" id="t-mira" role="tabpanel" hidden>
+            <div class="xhair-wrap">
+              <div class="xhair-stage">
+                <svg id="xhair" viewBox="0 0 40 40" style="color:#00ffff" aria-label="Vista previa de una mira estática">
+                  <g fill="currentColor" stroke="#000" stroke-width=".6" paint-order="stroke">
+                    <rect x="19" y="10" width="2" height="6"/><rect x="19" y="24" width="2" height="6"/>
+                    <rect x="10" y="19" width="6" height="2"/><rect x="24" y="19" width="6" height="2"/>
+                  </g>
+                </svg>
+              </div>
+              <div>
+                <h3>Estática: no se abre ni se mueve</h3>
+                <p class="muted">La mira no te da aim, solo no tiene que molestarte. Si se abre al disparar o al moverte, te tapa al enemigo y te confunde.</p>
+                <div class="aside-title">Prueba colores</div>
+                <div class="swatches">
+                  <button class="sw" data-color="#00ffff" aria-pressed="true" style="background:#00ffff" aria-label="Cian"></button>
+                  <button class="sw" data-color="#00ff00" aria-pressed="false" style="background:#00ff00" aria-label="Verde"></button>
+                  <button class="sw" data-color="#ffff00" aria-pressed="false" style="background:#ffff00" aria-label="Amarillo"></button>
+                  <button class="sw" data-color="#ff00ff" aria-pressed="false" style="background:#ff00ff" aria-label="Rosa"></button>
+                  <button class="sw" data-color="#ffffff" aria-pressed="false" style="background:#ffffff" aria-label="Blanco"></button>
+                </div>
+                <div class="aside-title">Sobre qué fondo</div>
+                <div class="swatches">
+                  <button class="sw" data-stage="#c9b79c" aria-pressed="true" style="background:#c9b79c" aria-label="Pared clara"></button>
+                  <button class="sw" data-stage="#9fc3d9" aria-pressed="false" style="background:#9fc3d9" aria-label="Cielo"></button>
+                  <button class="sw" data-stage="#5d6b4a" aria-pressed="false" style="background:#5d6b4a" aria-label="Vegetación"></button>
+                  <button class="sw" data-stage="#262a30" aria-pressed="false" style="background:#262a30" aria-label="Sombra"></button>
+                </div>
+              </div>
+            </div>
+            <div class="table-wrap" style="margin-top:16px">
+              <table>
+                <thead><tr><th>Opción de la mira</th><th>Valor</th></tr></thead>
+                <tbody>
+                  <tr><td>Error de movimiento</td><td class="off">Desactivado</td></tr>
+                  <tr><td>Error de disparo</td><td class="off">Desactivado</td></tr>
+                  <tr><td>Líneas exteriores</td><td class="off">Desactivadas</td></tr>
+                  <tr><td>Contorno</td><td class="on">Activado (se ve en fondos claros)</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="note teal"><span>💾</span><div><b>Guarda el código.</b> Desde los ajustes de mira puedes exportar tu perfil como código. Pégalo en tu canal de Discord para no perderlo.</div></div>
+          </div>
+
+          <div class="tabpanel" id="t-graf" role="tabpanel" hidden>
+            <p><strong>Todo al mínimo:</strong> más FPS y menos cosas que distraigan en pantalla.</p>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Opción</th><th>Valor</th></tr></thead>
+                <tbody>
+                  <tr><td>Calidad de materiales, texturas, detalles e interfaz</td><td class="off">Baja</td></tr>
+                  <tr><td>Viñeta, VSync, bloom, distorsión, sombras</td><td class="off">Desactivado</td></tr>
+                  <tr><td>Antialiasing</td><td class="on">MSAA 4x *</td></tr>
+                  <tr><td>Filtrado anisotrópico</td><td class="on">2x *</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="note"><span>*</span><div><b>Con resolución estirada.</b> El profe juega en 1568×1080 estirada y sube el antialiasing y el filtrado para que la imagen no se vea pixelada. Si tu PC va justo de FPS, déjalos al mínimo.</div></div>
+          </div>
+
+          <div class="tabpanel" id="t-mini" role="tabpanel" hidden>
+            <p>El minimapa es la información que más se pierde en rangos bajos. Configúralo para que se vea <strong>el mapa entero</strong>, elige fijo o rotando y no lo cambies.</p>
+            <div class="grid c3">
+              <div class="panel"><h4>¿Dónde están mis compañeros?</h4><p class="muted">Si estás solo en un lado, juega para sobrevivir y dar información.</p></div>
+              <div class="panel"><h4>¿Dónde se vio al enemigo?</h4><p class="muted">El último avistamiento te dice por dónde pueden venir.</p></div>
+              <div class="panel"><h4>¿Qué zona no cubre nadie?</h4><p class="muted">Por ahí te van a flanquear.</p></div>
+            </div>
+            <p class="muted" style="margin-top:14px">Hábito: mira el minimapa cada vez que no estés en un duelo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="rutina">
+        <h2><span class="idx">03</span>Rutina del Range</h2>
+        <p class="muted">15 minutos antes de cada sesión de ranked.</p>
+
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon">
+              <img src="https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png" alt="Ulti de Jett" onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement('span'),{className:'big',textContent:'X'}))">
+              <img class="badge" src="https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png" alt="Q de Jett" onerror="this.remove()">
+            </div>
+            <div>
+              <div class="chips"><span class="chip red">Aim vertical</span><span class="chip">Jett · Q + ulti</span></div>
+              <h3>Dagas de Jett con la Q</h3>
+              <p class="muted">Sube con la Q y tira las dagas de la ulti a los bots desde el aire. No es muy común, pero ayuda mucho a la precisión, y si juegas Jett te sirve directo.</p>
+            </div>
+          </div>
+
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">⚙</span></div>
+            <div>
+              <div class="chips"><span class="chip">Medio</span><span class="chip red">Difícil</span></div>
+              <h3>Bots en Medio o Difícil</h3>
+              <p class="muted">Empieza en Medio y sube a Difícil cuando lo domines.</p>
+            </div>
+          </div>
+
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">100</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Objetivo: 0.8 bots/s</span></div>
+              <h3>Eliminar 100 bots (o 50)</h3>
+              <p class="muted">El ritmo importa, pero sin fallar a lo loco.</p>
+              <div class="pace">
+                <span class="chip teal">100 bots → 2:05</span>
+                <span class="chip teal">50 bots → 1:03</span>
+                <span class="chip gold">Profe: 100 en ~1:55</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel reveal" style="margin-top:16px">
+          <h3>Calcula tu ritmo</h3>
+          <div class="calc">
+            <div>
+              <div class="field"><label for="pace-bots">Bots</label><select id="pace-bots"><option value="100">100 bots</option><option value="50">50 bots</option></select></div>
+              <div class="field"><label for="pace-time">Tu tiempo (segundos)</label><input id="pace-time" type="number" inputmode="numeric" placeholder="Ej. 140" min="1"></div>
+              <p class="muted" style="font-size:14px">Para el objetivo necesitas <strong id="pace-goal-time">125 s</strong>.</p>
+            </div>
+            <div>
+              <div class="aside-title">Bots por segundo</div>
+              <div class="result" id="pace-out">–</div>
+              <div class="bars">
+                <div class="row"><span>Tú</span><div class="track"><div class="fill you" id="pace-you" style="width:0"></div></div><span class="num" id="pace-you-num">–</span></div>
+                <div class="row"><span>Objetivo</span><div class="track"><div class="fill goal" id="pace-goal"></div></div><span class="num">0.80</span></div>
+                <div class="row"><span>Profe</span><div class="track"><div class="fill" id="pace-coach"></div></div><span class="num">0.87</span></div>
+              </div>
+              <p id="pace-msg" style="margin:12px 0 0">Escribe cuánto tardaste.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow reveal">
+          <span class="step on">Range · 15 min</span><span class="arrow">→</span><span class="step on">Ranked</span>
+          <span class="step off">Swiftplay</span>
+        </div>
+        <div class="note"><span>⚠</span><div><b>Swiftplay no sirve para calentar.</b> Es demasiado random y no entrenas nada concreto.</div></div>
+      </section>
+
+      <section class="block" id="armas">
+        <h2><span class="idx">04</span>Entrenar un arma</h2>
+        <p class="muted">Opcional. No es parte de la rutina diaria: es para quien quiera mejorar un arma concreta y le dedique más tiempo. Un DM o TDM por arma, con un foco.</p>
+        <div class="grid c3">
+          <div class="weapon reveal">
+            <div class="art"><img src="https://media.valorant-api.com/weapons/e336c6b8-418d-9340-d77f-7a9e4cfe0702/displayicon.png" data-fallback="../assets/img/weapons/sheriff.svg" alt="Sheriff" onerror="this.onerror=null;this.src=this.dataset.fallback"></div>
+            <div class="chips"><span class="chip">Pistola</span></div>
+            <h3>Sheriff</h3>
+            <ul><li>Primer disparo a la cabeza.</li><li>Sin spamear: un tiro, recolocas, otro tiro.</li></ul>
+          </div>
+          <div class="weapon reveal">
+            <div class="art"><img src="https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/displayicon.png" data-fallback="../assets/img/weapons/guardian.svg" alt="Guardian" onerror="this.onerror=null;this.src=this.dataset.fallback"></div>
+            <div class="chips"><span class="chip">Rifle</span></div>
+            <h3>Guardian</h3>
+            <ul><li>Pararte antes de disparar.</li><li>Tiros sueltos a la cabeza.</li></ul>
+          </div>
+          <div class="weapon reveal">
+            <div class="art"><div class="pair">
+              <img src="https://media.valorant-api.com/weapons/9c82e19d-4575-0200-1a81-3eacf00cf872/displayicon.png" data-fallback="../assets/img/weapons/vandal.svg" alt="Vandal" onerror="this.onerror=null;this.src=this.dataset.fallback">
+              <img src="https://media.valorant-api.com/weapons/ee8e8d15-496b-07ac-e5f6-8fae5d4c7b1a/displayicon.png" data-fallback="../assets/img/weapons/phantom.svg" alt="Phantom" onerror="this.onerror=null;this.src=this.dataset.fallback">
+            </div></div>
+            <div class="chips"><span class="chip">Rifle</span></div>
+            <h3>Vandal / Phantom</h3>
+            <ul><li>Mira a la altura de la cabeza.</li><li>Ráfagas cortas, no spray largo.</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">05</span>Errores comunes</h2>
+        <div class="errors">
+          <div class="err reveal">Copiar la sensibilidad o la mira de un pro y cambiarla cada semana.</div>
+          <div class="err reveal">Entrar a ranked sin calentar, o "calentar" en Swiftplay.</div>
+          <div class="err reveal">Hacer el Range en automático, disparando sin objetivo.</div>
+          <div class="err reveal">Jugar el DM para quedar primero. El marcador no importa, importa el foco.</div>
+          <div class="err reveal">Una mira que se abre al moverte o al disparar.</div>
+          <div class="err reveal">Gráficos en alto con pocos FPS.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">06</span>En la clase</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Ajustes</h4><p>Cada uno comparte su pantalla de ajustes y los revisamos.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Range juntos</h4><p>Hacemos la rutina a la vez. Cada uno anota su tiempo.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Un arma</h4><p>Un DM cada uno con el foco de Vandal/Phantom.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Dudas y comentarios.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="deberes">
+        <h2><span class="idx">07</span>Deberes</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Cada día</div><p>Rutina del Range antes de cada sesión de ranked.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Primer y último día</div><p>Anota tu tiempo en los 100 (o 50) bots.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En Discord</div><p>Sube tus ajustes, el código de tu mira y tus tiempos a tu canal.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">08</span>Checklist</h2>
+        <p class="muted">El tema está aprendido cuando puedes marcar todo. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="1-1">
+          <li><label><input type="checkbox"><span>Tengo sensibilidad, mira y gráficos fijos, y anoté mi eDPI y el código de mi mira.</span></label></li>
+          <li><label><input type="checkbox"><span>Mi mira es estática: no se abre ni se mueve.</span></label></li>
+          <li><label><input type="checkbox"><span>Hice la rutina del Range antes de ranked durante 2 semanas.</span></label></li>
+          <li><label><input type="checkbox"><span>Mi ritmo en el Range mejoró respecto al primer día (objetivo: 0.8 bots/s).</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="../#temario"><small>Volver</small>Temario</a>
+        <span class="next"><small>Siguiente</small>1.2 Crosshair placement</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Ajustes del profe</div>
+          <dl class="kv">
+            <dt>Rango</dt><dd>Inmortal 1</dd>
+            <dt>DPI</dt><dd>1600</dd>
+            <dt>Sensibilidad</dt><dd>0.24</dd>
+            <dt>eDPI</dt><dd>384</dd>
+            <dt>Giro 360°</dt><dd>34 cm</dd>
+            <dt>Resolución</dt><dd>1568×1080</dd>
+            <dt>Gráficos</dt><dd>Mínimo</dd>
+            <dt>Antialiasing</dt><dd>MSAA 4x</dd>
+            <dt>Anisotrópico</dt><dd>2x</dd>
+            <dt>Mira</dt><dd>Estática</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Objetivo del Range</div>
+          <div class="result">0.8<small>bots/s</small></div>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="1-1"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/4</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo de Discord</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
     </div>
-
-    <h2>Errores comunes</h2>
-    <ul class="errors">
-      <li>Copiar la sensibilidad o la mira de un pro y cambiarla cada semana.</li>
-      <li>Entrar a ranked sin calentar, o "calentar" en Swiftplay.</li>
-      <li>Hacer el Range en automático, disparando sin objetivo.</li>
-      <li>Jugar el DM para quedar primero: correr y spamear. En DM el marcador no importa, importa el foco.</li>
-      <li>Sensibilidad muy alta: si giras 180° moviendo solo un poco la muñeca, probablemente está alta.</li>
-      <li>Gráficos en alto con pocos FPS.</li>
-    </ul>
-
-    <h2>En la clase</h2>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th>Tiempo</th><th>Qué hacemos</th></tr></thead>
-        <tbody>
-          <tr><td>10 min</td><td>Cada uno comparte su pantalla de ajustes: revisamos sens, mira, gráficos y minimapa.</td></tr>
-          <tr><td>20 min</td><td>Hacemos la rutina del Range a la vez. Cada uno anota su resultado (bots y tiempo).</td></tr>
-          <tr><td>15 min</td><td>Un DM cada uno con el foco de Vandal/Phantom y lo comentamos.</td></tr>
-          <tr><td>10 min</td><td>Preguntas.</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h2>Deberes</h2>
-    <ul>
-      <li>Haz la rutina antes de cada sesión de ranked hasta la próxima clase.</li>
-      <li>Anota tu resultado del Range el primer y el último día.</li>
-      <li>Sube la captura de tu historial de DM/TDM a tu canal de Discord.</li>
-    </ul>
-
-    <h2>Checklist</h2>
-    <p class="muted">Este tema está aprendido cuando puedes marcar todo. Se guarda en tu navegador.</p>
-    <ul class="checklist" data-checklist="1-1">
-      <li><label><input type="checkbox"><span>Tengo mi sensibilidad, mira y gráficos fijos, y anoté mi eDPI y el código de mi mira.</span></label></li>
-      <li><label><input type="checkbox"><span>Hice la rutina completa antes de ranked durante 2 semanas.</span></label></li>
-      <li><label><input type="checkbox"><span>Hice mis DM/TDM, uno por arma y con su foco, y subí las capturas.</span></label></li>
-      <li><label><input type="checkbox"><span>Mi resultado en el Range mejoró respecto al primer día.</span></label></li>
-    </ul>
-    <p class="progress" data-progress="1-1"></p>
-
-    <nav class="pager">
-      <a href="../#temario"><small>Volver</small>Temario</a>
-      <span class="next"><small>Siguiente</small>1.2 Crosshair placement</span>
-    </nav>
-  </main>
-
-  <footer><div class="wrap">Guía hecha por Alti para el grupo de Discord. Guía de fans, sin relación con Riot Games.</div></footer>
+  </footer>
   <script src="../assets/app.js"></script>
 </body>
 </html>
