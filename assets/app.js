@@ -342,3 +342,21 @@ if (priceCells.length && window.fetch) {
     fetch(url).then(function (r) { return r.json(); }).then(function (j) { setPrices(j.data || []); }).catch(function () {});
   });
 }
+
+// ¿Dropeo?
+var drop = document.querySelector("[data-drop]");
+if (drop) {
+  var dropCalc = function () {
+    var total = parseInt(document.getElementById("drop-total").value, 10) || 0;
+    var mine = parseInt(document.getElementById("drop-mine").value, 10) || 0;
+    var left = total - mine;
+    var out = document.getElementById("drop-out");
+    document.getElementById("drop-left").textContent = left < 0 ? "–" : left;
+    if (left < 0) { out.textContent = "No te alcanza ni para tu compra: pide drop."; out.style.borderLeftColor = "var(--red)"; }
+    else if (total > 7100) { out.textContent = "Tienes más de 7100: tienes que dropear a los que no llegan."; out.style.borderLeftColor = "var(--teal)"; }
+    else if (left < 3100) { out.textContent = "Te sobran menos de 3100: no dropees, quédate con tu plata."; out.style.borderLeftColor = "var(--red)"; }
+    else { out.textContent = "Puedes dropear si un compa no llega. La idea es que todos queden parejos."; out.style.borderLeftColor = "var(--gold)"; }
+  };
+  drop.querySelectorAll("input, select").forEach(function (i) { i.addEventListener("input", dropCalc); });
+  dropCalc();
+}

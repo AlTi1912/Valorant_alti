@@ -193,6 +193,6 @@ Pendiente: captura con un compa (dos ángulos / distancia a la pared) — hay un
 
 "Clases" → **juntadas**, "temario" → **qué veremos**, "tarea" → **para esta semana**. Los anchors internos (#clase, #temario, #tarea) se mantienen.
 
-## Tema 1.7 — Economía básica (borrador, `temas/1-7-economia-basica.html`)
+## Tema 1.7 — Economía básica (`temas/1-7-economia-basica.html`)
 
-Contenido general (sin opiniones del profe todavía): ingresos (800, +3000, 1900/2400/2900, +200 kill, +300 plante, máx. 9000), tipos de ronda, calculadora "¿llego a full buy la próxima?", comprar en equipo, pistola y ronda siguiente, precios (se actualizan desde valorant-api.com). Pendiente: reglas propias del profe (force tras pistola perdida, cuándo salvar, OP, drops).
+Contenido general (sin opiniones del profe todavía): ingresos (800, +3000, 1900/2400/2900, +200 kill, +300 plante, máx. 9000), tipos de ronda, calculadora "¿llego a full buy la próxima?", comprar en equipo, pistola y ronda siguiente, precios (se actualizan desde valorant-api.com). Reglas del profe ya integradas: full buy 3900 mínimo / 4200–4700 completa; pistola ganada → R2 Guardian/Bulldog + habilidades → R3 bonus para matar y quitar eco; pistola perdida → full eco (Neon: quizá Stingers); salvar en 2v5 o 1 vs 3+ con vida llena, quizá pelear 1v3 con ventaja; nunca salvar si todo el equipo puede comprar; escudo pesado en rangos bajos, ligero + Vandal en half buy, regen no; OP si el rival tiene 3+ escudos pesados, Outlaw si tiene mala eco; dropear con +7100, no dropear si sobran menos de 3100.

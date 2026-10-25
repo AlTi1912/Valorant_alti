@@ -43,8 +43,11 @@
           <li><a href="#plata">Cómo entra la plata</a></li>
           <li><a href="#rondas">Tipos de ronda</a></li>
           <li><a href="#calculadora">¿Llego a full?</a></li>
-          <li><a href="#equipo">Comprar en equipo</a></li>
           <li><a href="#pistola">Pistola y después</a></li>
+          <li><a href="#salvar">¿Salvo o peleo?</a></li>
+          <li><a href="#escudos">Escudos</a></li>
+          <li><a href="#op">OP u Outlaw</a></li>
+          <li><a href="#equipo">Drops y equipo</a></li>
           <li><a href="#precios">Precios</a></li>
           <li><a href="#errores">Errores</a></li>
           <li><a href="#clase">La juntada</a></li>
@@ -90,12 +93,21 @@
             <tbody>
               <tr><td>Empieza cada mitad</td><td>800</td></tr>
               <tr><td>Ganar la ronda</td><td class="on">+3000</td></tr>
-              <tr><td>Perder la ronda</td><td>+1900 · si pierdes 2 seguidas +2400 · 3 o más +2900</td></tr>
+              <tr><td>Primera derrota seguida</td><td>+1900</td></tr>
+              <tr><td>Segunda derrota seguida</td><td>+2400</td></tr>
+              <tr><td>Tercera derrota y siguientes</td><td>+2900</td></tr>
               <tr><td>Cada kill</td><td class="on">+200</td></tr>
               <tr><td>Plantar la spike</td><td class="on">+300 a cada atacante, aunque pierdan</td></tr>
               <tr><td>Máximo que puedes tener</td><td>9000</td></tr>
             </tbody>
           </table>
+        </div>
+        <div class="panel reveal" style="margin-top:16px">
+          <div class="eyebrow">Para calcular tu full buy</div>
+          <div class="grid c2" style="gap:16px">
+            <div><div class="result">3900</div><p class="muted" style="margin:8px 0 0">Mínimo: Vandal (2900) + escudo pesado (1000). Todavía faltan las habilidades que necesites.</p></div>
+            <div><div class="result">4200–4700</div><p class="muted" style="margin:8px 0 0">Para una compra realmente completa, según tu agente y las habilidades que te falten.</p></div>
+          </div>
         </div>
         <div class="note teal"><span>💡</span><div><b>Perder seguido no es tan grave para la plata.</b> Cada derrota seguida paga más, así que después de dos o tres rondas perdidas, el equipo vuelve a tener para comprar. Ganar una ronda reinicia ese contador.</div></div>
       </section>
@@ -104,11 +116,11 @@
         <h2><span class="idx">03</span>Tipos de ronda</h2>
         <div class="types">
           <div class="type reveal" style="--c:var(--gold)"><h4>Pistola</h4><p>Primera ronda de cada mitad, con 800.</p><p>Pistola o escudo ligero, y habilidades.</p></div>
-          <div class="type reveal" style="--c:var(--teal)"><h4>Full buy</h4><p>Rifle + escudo pesado (3900) y, si alcanza, utilidad (~4500).</p><p>La ronda para la que ahorras.</p></div>
+          <div class="type reveal" style="--c:var(--teal)"><h4>Full buy</h4><p>Mínimo 3900 (rifle + escudo pesado). Completa de verdad: 4200–4700.</p><p>La ronda para la que ahorras.</p></div>
           <div class="type reveal" style="--c:var(--muted)"><h4>Eco (ahorro)</h4><p>No compras casi nada para tener full buy la próxima.</p><p>Juega junto y busca kills para robar armas.</p></div>
-          <div class="type reveal" style="--c:var(--red)"><h4>Force (forzar)</h4><p>Gastas lo que tienes aunque no llegues a full.</p><p>Solo si el equipo entero fuerza y la ronda importa mucho.</p></div>
-          <div class="type reveal" style="--c:var(--gold)"><h4>Bonus</h4><p>Después de ganar la pistola.</p><p>Te quedas con las armas baratas que tengas y compras escudo.</p></div>
-          <div class="type reveal" style="--c:var(--teal)"><h4>Salvar el arma</h4><p>Ronda perdida y estás solo contra varios.</p><p>Escóndete y llévate el rifle a la próxima: te ahorras 2900.</p></div>
+          <div class="type reveal" style="--c:var(--red)"><h4>Force (forzar)</h4><p>Gastas lo que tienes aunque no llegues a full.</p><p>Solo si el equipo entero fuerza.</p></div>
+          <div class="type reveal" style="--c:var(--gold)"><h4>Bonus</h4><p>La tercera ronda después de ganar la pistola y la segunda.</p><p>No es para ganarla: es para matar a los máximos y dejar al rival sin economía.</p></div>
+          <div class="type reveal" style="--c:var(--teal)"><h4>Salvar el arma</h4><p>Ronda perdida y estás en desventaja clara.</p><p>Te escondes y te llevas el rifle a la próxima. Abajo están mis reglas.</p></div>
         </div>
       </section>
 
@@ -131,8 +143,9 @@
                   <option value="0">Nada (eco)</option>
                   <option value="1200">Escudo ligero + Sheriff (~1200)</option>
                   <option value="2000">Media compra: SMG o escopeta + escudo (~2000)</option>
-                  <option value="3900">Full buy: rifle + escudo pesado (3900)</option>
-                  <option value="4500">Full buy + utilidad (~4500)</option>
+                  <option value="3900">Full buy mínimo: rifle + escudo pesado (3900)</option>
+                  <option value="3500">Rifle + escudo ligero + algo de utilidad (~3500)</option>
+                  <option value="4500">Compra completa con habilidades (~4500)</option>
                 </select>
               </div>
             </div>
@@ -148,34 +161,105 @@
         </div>
       </section>
 
-      <section class="block" id="equipo">
-        <h2><span class="idx">05</span>Comprar en equipo</h2>
-        <div class="grid c2">
-          <div class="panel reveal"><h4>Todos iguales</h4><p class="muted">En la fase de compra, mira la plata de tus compas (aparece en la pantalla de compra) y pónganse de acuerdo antes de comprar.</p></div>
-          <div class="panel reveal"><h4>Dropea y pide drop</h4><p class="muted">Si te sobra plata, cómprale un arma al compa que no llega. Si no llegas, pide. Un drop puede convertir un force en una ronda de full buy para todos.</p></div>
-          <div class="panel reveal"><h4>No fuerces solo</h4><p class="muted">Si el equipo ahorra y tú compras rifle, el que pierde eres tú y la próxima nadie tiene compra completa.</p></div>
-          <div class="panel reveal"><h4>Salva cuando toca</h4><p class="muted">Si la ronda está perdida, un rifle salvado vale más que morir intentando un 1v4 imposible.</p></div>
-        </div>
-      </section>
-
       <section class="block" id="pistola">
-        <h2><span class="idx">06</span>La pistola y la ronda siguiente</h2>
+        <h2><span class="idx">05</span>La pistola y lo que viene después</h2>
         <div class="grid c2">
           <div class="panel reveal">
             <div class="eyebrow">Si ganan la pistola</div>
-            <h3>Ronda bonus</h3>
-            <p class="muted">Se quedan con las armas que sobrevivieron, compran escudo y algo barato. La idea es ganar también esta ronda para llegar a la tercera con mucha plata.</p>
+            <ol class="look">
+              <li><strong>Ronda 1:</strong> intentar ganar.</li>
+              <li><strong>Ronda 2:</strong> compra Guardian o Bulldog y habilidades. Con esas armas puedes ganar duelos contra las Vandal del rival en la ronda siguiente.</li>
+              <li><strong>Ronda 3 (bonus):</strong> intenta matar a la mayor cantidad posible. No es una ronda para ganar, sino para que el rival se quede sin economía.</li>
+            </ol>
           </div>
           <div class="panel reveal">
             <div class="eyebrow">Si pierden la pistola</div>
-            <h3>Eco o force, pero juntos</h3>
-            <p class="muted">Lo normal es ahorrar para tener full buy en la tercera. Algunos equipos prefieren una media compra para robarle la ronda bonus al rival. Lo importante es que todos hagan lo mismo.</p>
+            <h3>Yo suelo hacer full eco</h3>
+            <p class="muted">Depende de la compo y del mapa. Si hay una Neon, quizá forzar Stingers y cosas así, pero puede ser mala idea.</p>
           </div>
+        </div>
+      </section>
+
+      <section class="block" id="salvar">
+        <h2><span class="idx">06</span>¿Salvo o peleo?</h2>
+        <div class="dos-donts">
+          <div class="dd yes reveal">
+            <h4>Guardo el arma</h4>
+            <ul>
+              <li>En un 2v5.</li>
+              <li>En un 1 contra más de 3, todos con la vida llena.</li>
+            </ul>
+          </div>
+          <div class="dd no reveal" style="--c:var(--gold)">
+            <h4>Quizá la peleo</h4>
+            <ul>
+              <li>En un 1v3, si tengo toda la vida, uno de ellos está casi muerto, y tengo utilidad y tiempo.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="note teal"><span>💸</span><div><b>Nunca salvo si todo el equipo tiene para comprar la próxima.</b> Ahí prefiero pelear para quitarle armas al rival y dejarlo bajo de economía.</div></div>
+      </section>
+
+      <section class="block" id="escudos">
+        <h2><span class="idx">07</span>Qué escudo comprar</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Rangos bajos</div><h4>Siempre escudo pesado</h4><p class="muted">En rangos bajos disparan al pecho: el escudo pesado te salva muchísimos duelos.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Half buy o lobbies de taps</div><h4>Escudo ligero + Vandal</h4><p class="muted">Cuando hago media compra, o en partidas donde todos meten taps a la cabeza, uso escudo ligero, Vandal y habilidades.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Regenerativo</div><h4>No lo recomiendo</h4><p class="muted">No lo uso nunca. En rango alto no da ninguna ventaja. En rango bajo puede servir en duelos sueltos, pero mucha gente lo compra siempre y en realidad no le gana nada. Prefiero escudo ligero y arma.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="op">
+        <h2><span class="idx">08</span>¿OP u Outlaw?</h2>
+        <div class="grid c2">
+          <div class="panel reveal">
+            <div class="chips"><span class="chip">Operator</span></div>
+            <h3>Solo si el rival tiene muchos escudos pesados</h3>
+            <p class="muted">La compro cuando el otro equipo tiene más de 3 escudos grandes.</p>
+          </div>
+          <div class="panel reveal">
+            <div class="chips"><span class="chip teal">Outlaw</span></div>
+            <h3>Si el rival no tiene buena eco</h3>
+            <p class="muted">Me da un segundo tiro, y sé que los mato si llevan escudo ligero. Si fallo, no me deja vendido.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="equipo">
+        <h2><span class="idx">09</span>Drops y comprar en equipo</h2>
+        <p>Hay que intentar que todos tengan la misma plata, o parecida, y no muy dispareja. Lo mismo con las armas y el equipamiento.</p>
+        <div class="dos-donts" style="margin:16px 0">
+          <div class="dd yes reveal"><h4>Tienes que dropear</h4><ul><li>Si tienes más de 7100.</li></ul></div>
+          <div class="dd no reveal"><h4>No deberías dropear</h4><ul><li>Si, ya con tu equipamiento comprado, te sobran menos de 3100.</li></ul></div>
+        </div>
+        <div class="panel reveal" data-drop>
+          <h3>¿Dropeo?</h3>
+          <div class="calc">
+            <div>
+              <div class="field"><label for="drop-total">Tus créditos</label><input id="drop-total" type="number" inputmode="numeric" value="7400" min="0" max="9000" step="50"></div>
+              <div class="field"><label for="drop-mine">Lo que cuesta tu compra</label>
+                <select id="drop-mine">
+                  <option value="3900">Rifle + escudo pesado (3900)</option>
+                  <option value="4500" selected>Compra completa (~4500)</option>
+                  <option value="5700">Operator + escudo pesado (5700)</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <div class="aside-title">Te sobra</div>
+              <div class="result" id="drop-left">–</div>
+              <p class="place-out" id="drop-out" style="margin-top:14px"></p>
+            </div>
+          </div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><h4>Mira la plata de todos</h4><p class="muted">En la fase de compra aparece la plata de tus compas. Pónganse de acuerdo antes de comprar.</p></div>
+          <div class="panel reveal"><h4>No fuerces solo</h4><p class="muted">Si el equipo ahorra y tú compras rifle, la próxima nadie tiene compra completa.</p></div>
         </div>
       </section>
 
       <section class="block" id="precios">
-        <h2><span class="idx">07</span>Precios que tienes que saber</h2>
+        <h2><span class="idx">10</span>Precios que tienes que saber</h2>
         <p class="muted">Se actualizan solos con el parche actual cuando abres la página.</p>
         <div class="grid c2">
           <div class="table-wrap">
@@ -184,11 +268,13 @@
               <tbody>
                 <tr><td>Ghost</td><td data-price="Ghost">500</td></tr>
                 <tr><td>Sheriff</td><td data-price="Sheriff">800</td></tr>
+                <tr><td>Stinger</td><td data-price="Stinger">950</td></tr>
                 <tr><td>Marshal</td><td data-price="Marshal">950</td></tr>
                 <tr><td>Spectre</td><td data-price="Spectre">1600</td></tr>
                 <tr><td>Judge</td><td data-price="Judge">1850</td></tr>
                 <tr><td>Bulldog</td><td data-price="Bulldog">2050</td></tr>
                 <tr><td>Guardian</td><td data-price="Guardian">2250</td></tr>
+                <tr><td>Outlaw</td><td data-price="Outlaw">2400</td></tr>
                 <tr><td>Vandal</td><td data-price="Vandal">2900</td></tr>
                 <tr><td>Phantom</td><td data-price="Phantom">2900</td></tr>
                 <tr><td>Operator</td><td data-price="Operator">4700</td></tr>
@@ -209,19 +295,20 @@
       </section>
 
       <section class="block" id="errores">
-        <h2><span class="idx">08</span>Errores que veo siempre</h2>
+        <h2><span class="idx">11</span>Errores que veo siempre</h2>
         <div class="errors">
           <div class="err reveal">Comprar sin mirar la plata de los demás.</div>
           <div class="err reveal">Forzar todas las rondas y no tener nunca full buy.</div>
           <div class="err reveal">Tener 9000 y no dropearle a nadie.</div>
           <div class="err reveal">Morir con el rifle en una ronda perdida en vez de salvarlo.</div>
-          <div class="err reveal">Comprar rifle sin escudo.</div>
-          <div class="err reveal">Gastar todo en la ronda bonus y quedar sin nada para la tercera.</div>
+          <div class="err reveal">Comprar rifle sin escudo, o escudo regenerativo siempre "porque sí".</div>
+          <div class="err reveal">Comprar OP cuando el rival tiene escudos ligeros o está sin plata.</div>
+          <div class="err reveal">Salvar cuando todo el equipo tiene para comprar la próxima.</div>
         </div>
       </section>
 
       <section class="block" id="clase">
-        <h2><span class="idx">09</span>Cómo va a ser la juntada</h2>
+        <h2><span class="idx">12</span>Cómo va a ser la juntada</h2>
         <div class="timeline reveal">
           <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Cómo entra la plata y los tipos de ronda.</p></div>
           <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>¿Qué compramos?</h4><p>Situaciones con números: el grupo decide y lo comentamos.</p></div>
@@ -231,7 +318,7 @@
       </section>
 
       <section class="block" id="tarea">
-        <h2><span class="idx">10</span>Para esta semana</h2>
+        <h2><span class="idx">13</span>Para esta semana</h2>
         <div class="grid c3">
           <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Antes de comprar, mira la plata de tu equipo y pregunta: ¿compramos o ahorramos?</p></div>
           <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Si te sobra plata, dropea al menos una vez por partida.</p></div>
@@ -240,14 +327,14 @@
       </section>
 
       <section class="block" id="checklist">
-        <h2><span class="idx">11</span>¿Ya lo tienes?</h2>
+        <h2><span class="idx">14</span>¿Ya lo tienes?</h2>
         <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
         <ul class="checklist" data-checklist="1-7">
           <li><label><input type="checkbox"><span>Sé cuánto se gana al ganar, al perder y por cada kill.</span></label></li>
           <li><label><input type="checkbox"><span>Antes de comprar miro la plata de mi equipo.</span></label></li>
           <li><label><input type="checkbox"><span>Sé cuándo es eco, cuándo force y cuándo full buy.</span></label></li>
-          <li><label><input type="checkbox"><span>Dropeo cuando me sobra y pido drop cuando no llego.</span></label></li>
-          <li><label><input type="checkbox"><span>Salvo el arma cuando la ronda está perdida.</span></label></li>
+          <li><label><input type="checkbox"><span>Dropeo si tengo más de 7100, y no dropeo si me sobran menos de 3100.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé cuándo salvar el arma y cuándo pelearla.</span></label></li>
         </ul>
       </section>
 
@@ -262,12 +349,13 @@
         <div class="panel">
           <div class="aside-title">Regla rápida</div>
           <dl class="kv">
-            <dt>Full buy</dt><dd>3900+</dd>
+            <dt>Full buy mínimo</dt><dd>3900</dd>
+            <dt>Compra completa</dt><dd>4200–4700</dd>
             <dt>Ganar</dt><dd>+3000</dd>
             <dt>Perder</dt><dd>1900 / 2400 / 2900</dd>
             <dt>Kill</dt><dd>+200</dd>
             <dt>Plantar</dt><dd>+300 c/u</dd>
-            <dt>Máximo</dt><dd>9000</dd>
+            <dt>Dropea si tienes</dt><dd>+7100</dd>
           </dl>
         </div>
         <div class="panel">
