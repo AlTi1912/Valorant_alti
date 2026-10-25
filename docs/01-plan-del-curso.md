@@ -150,7 +150,7 @@ Escribe Alti en primera persona, a sus amigos: casual pero serio, español latin
 - Mira de Mixwell: `0;p;0;s;1;P;c;7;o;1;f;0;0t;1;0l;2;0v;2;0o;2;0a;1;0f;0;1b;0;A;c;5;o;1;d;1;0b;0;1b;0;S;s;0.7;o;1` (roja chica; al apuntar, punto cian).
 - También recomienda: la de donk (CS) y miras de punto. Contorno, color y tamaño son a gusto; lo obligatorio es sin error de movimiento ni de disparo.
 - Video: pantalla completa, 1568×1080, aspecto Completo, todo en Baja, MSAA 4x, anisotrópico 2x, calidad de luminosidad Sí, resto No.
-- Pendiente: capturas de sens, minimapa y filtro de contenido.
+- Sens: multiplicador 0.91 (apuntado y mira), resalte amarillo. Minimapa: Rotar, sin centrar, tamaño 0.9, zoom 0.8, conos sí, nombres siempre. Otros: cadáveres No, sangre Sí, trayectoria Sí, búfer mínimo.
 
 ## Página de mapas (`mapas.html`)
 

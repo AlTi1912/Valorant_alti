@@ -60,7 +60,9 @@
             <dl class="kv">
               <dt>DPI</dt><dd>1600</dd>
               <dt>Sens</dt><dd>0.24</dd>
+              <dt>Mult. al apuntar</dt><dd>0.91</dd>
               <dt>eDPI</dt><dd>384</dd>
+              <dt>Minimapa</dt><dd>Rotar · zoom 0.8</dd>
               <dt>Resolución</dt><dd>1568×1080</dd>
               <dt>Gráficos</dt><dd>Bajo</dd>
               <dt>Mira</dt><dd>Mixwell</dd>
@@ -68,7 +70,7 @@
           </div>
           <div class="panel">
             <div class="aside-title">Tu progreso</div>
-            <div class="ring" data-progress="1-1"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/4</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+            <div class="ring" data-progress="1-1"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
           </div>
         </div>
       </details>
@@ -91,6 +93,7 @@
             <button class="tab" role="tab" aria-selected="false" aria-controls="t-mira">Mira</button>
             <button class="tab" role="tab" aria-selected="false" aria-controls="t-video">Video</button>
             <button class="tab" role="tab" aria-selected="false" aria-controls="t-mini">Minimapa</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="t-otros">Otros</button>
           </div>
 
           <div class="tabpanel" id="t-sens" role="tabpanel">
@@ -110,6 +113,21 @@
                 <div class="meter-labels"><span>0</span><span>200</span><span>400</span><span>800</span></div>
                 <p id="out-verdict" style="margin:12px 0 0"></p>
               </div>
+            </div>
+            <div class="grid c2" style="margin-top:16px">
+              <div class="panel">
+                <div class="aside-title">Multiplicador al apuntar · yo: 0.91</div>
+                <p>Con 0.91 la sens al apuntar se siente casi igual que sin apuntar. Si lo dejas en 1, al apuntar la sens sube un poquito.</p>
+                <p class="muted">A mí eso no me sirve: solo apunto a larga distancia o con la OP, y ahí quiero hacer ajustes más chiquitos. Lo tengo igual para la mira y para el apuntado.</p>
+              </div>
+              <div class="panel">
+                <div class="aside-title">Color de resalte de enemigos · yo: amarillo</div>
+                <p>El que te guste. Yo uso amarillo (Deuteranopía) porque reacciono mejor a ese color.</p>
+                <p class="muted">Pruébalos en un DM y quédate con el que veas más rápido.</p>
+              </div>
+            </div>
+            <div class="shots">
+              <figure class="shot"><button><img src="../assets/img/ajustes/general-mouse-mapa.webp" alt="Mi configuración de mouse y mapa" loading="lazy"></button><figcaption>General · Mouse y mapa</figcaption></figure>
             </div>
           </div>
 
@@ -228,11 +246,55 @@
           </div>
 
           <div class="tabpanel" id="t-mini" role="tabpanel" hidden>
-            <p>El minimapa es lo que más se ignora en rangos bajos, y ahí está casi toda la info. Ponlo para que se vea el mapa entero y míralo cada vez que no estés peleando. Pregúntate tres cosas:</p>
+            <p>Este ajuste es importante. El minimapa tiene que mostrarte <strong>todo el mapa</strong>, para no perder info del otro lado.</p>
+            <div class="grid c2">
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>Opción</th><th>Yo</th></tr></thead>
+                  <tbody>
+                    <tr><td>Rotar</td><td class="on">Rotar</td></tr>
+                    <tr><td>Mantener centrado al jugador</td><td class="off">No</td></tr>
+                    <tr><td>Tamaño del minimapa</td><td>0.9</td></tr>
+                    <tr><td>Zoom del minimapa</td><td>0.8</td></tr>
+                    <tr><td>Conos de visión</td><td class="on">Sí, siempre</td></tr>
+                    <tr><td>Nombres de las regiones</td><td>Siempre</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div>
+                <div class="panel">
+                  <h4>¿Por qué así?</h4>
+                  <p class="muted">Rotar y sin centrar, para que el mapa gire contigo pero se vea entero. Con zoom 0.8 veo todo. Me gusta chiquito porque lo leo más rápido de un vistazo; juego en 27" y aun así lo prefiero pequeño.</p>
+                  <p class="muted">Depende de tu pantalla y de cómo te sientes frente al monitor. Lo que no se negocia: que se vea el mapa completo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="shots">
+              <figure class="shot"><button><img src="../assets/img/ajustes/general-mouse-mapa.webp" alt="Mi configuración de mouse y mapa" loading="lazy"></button><figcaption>General · Mapa</figcaption></figure>
+            </div>
+            <h3 style="margin-top:24px">Y míralo</h3>
+            <p class="muted">Cada vez que no estés peleando, pregúntate tres cosas:</p>
             <div class="grid c3">
               <div class="panel"><h4>¿Dónde están mis compas?</h4><p class="muted">Si estás solo en un lado, juega para sobrevivir y avisar.</p></div>
               <div class="panel"><h4>¿Dónde vimos al enemigo?</h4><p class="muted">Lo último que se vio te dice por dónde pueden venir.</p></div>
               <div class="panel"><h4>¿Qué zona no cubre nadie?</h4><p class="muted">Por ahí te van a flanquear.</p></div>
+            </div>
+          </div>
+
+          <div class="tabpanel" id="t-otros" role="tabpanel" hidden>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Opción</th><th>Yo</th><th>Por qué</th></tr></thead>
+                <tbody>
+                  <tr><td>Mostrar cadáveres</td><td class="off">No</td><td>A veces los cuerpos tapan enemigos o habilidades. El disco que queda en el piso ya te dice que ahí hay un cuerpo.</td></tr>
+                  <tr><td>Mostrar sangre</td><td class="on">Sí</td><td>A gusto. Te puede ayudar a ver si le pegaste a alguien detrás de una caja. Ojo: a veces sale sangre sin que hayas hecho daño (ping o error de disparo).</td></tr>
+                  <tr><td>Trayectoria de balas</td><td class="on">Sí</td><td>A gusto. Hay gente que la quita, pero no cambia mucho; casi siempre es algo mental.</td></tr>
+                  <tr><td>Búfer de red</td><td>Mínimo</td><td>Es como lo tengo yo.</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="shots">
+              <figure class="shot"><button><img src="../assets/img/ajustes/general-otros.webp" alt="Mi configuración de interfaz, filtro de contenido y red" loading="lazy"></button><figcaption>General · Interfaz, filtro y red</figcaption></figure>
             </div>
           </div>
         </div>
@@ -372,6 +434,7 @@
         <ul class="checklist" data-checklist="1-1">
           <li><label><input type="checkbox"><span>Tengo mi sens, mira y video fijos, y anoté mi eDPI y el código de mi mira.</span></label></li>
           <li><label><input type="checkbox"><span>Mi mira no se abre ni se mueve.</span></label></li>
+          <li><label><input type="checkbox"><span>Mi minimapa rota, no me centra y muestra el mapa entero.</span></label></li>
           <li><label><input type="checkbox"><span>Calenté en el Range antes de ranked durante 2 semanas.</span></label></li>
           <li><label><input type="checkbox"><span>Mi ritmo en el Range mejoró desde el primer día (meta: 0.8 bots por segundo).</span></label></li>
         </ul>
@@ -391,8 +454,11 @@
             <dt>Rango</dt><dd>Inmortal 1</dd>
             <dt>DPI</dt><dd>1600</dd>
             <dt>Sens</dt><dd>0.24</dd>
+            <dt>Mult. al apuntar</dt><dd>0.91</dd>
             <dt>eDPI</dt><dd>384</dd>
             <dt>Giro 360°</dt><dd>34 cm</dd>
+            <dt>Resalte</dt><dd>Amarillo</dd>
+            <dt>Minimapa</dt><dd>Rotar · zoom 0.8</dd>
             <dt>Resolución</dt><dd>1568×1080</dd>
             <dt>Aspecto</dt><dd>Completo</dd>
             <dt>Gráficos</dt><dd>Bajo</dd>
@@ -407,7 +473,7 @@
         </div>
         <div class="panel">
           <div class="aside-title">Tu progreso</div>
-          <div class="ring" data-progress="1-1"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/4</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          <div class="ring" data-progress="1-1"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
         </div>
       </div>
     </aside>
