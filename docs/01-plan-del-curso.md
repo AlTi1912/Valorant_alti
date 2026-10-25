@@ -213,4 +213,10 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 - Del profe: el error de Haven (retake en A, uno por CT y otro por Cielo); lado a lado, no detrás ni delante, cerca sin estorbar; cada uno mira un ángulo distinto; esperar a que el compa muera = sin trade y otro 50-50 perdido; 2v1: los dos por CT, el primero en largo (mueve la mira), el segundo en corto (mata o tradea); chances del rival 50% solo vs ~20–25% con trade; cuándo jugar un 50-50 (lurker en A, ventaja de armas/habilidades → retake; si no, pelear el main; en elo bajo ganar el duelo es ganar la ronda); no regalar rondas (vender el site, kill que hace rotar); entra primero el duelista (Neon carril, Jett dash, humos); en 2vX el humo muere último.
 - Agregado por mí: diagrama interactivo de 3 casos, ejercicios (retake 2v1 largo/corto cambiando cada 5 rondas, el error a propósito para comparar, 2v2 diciendo el ángulo), juntada, para esta semana, checklist.
 - Para más adelante: probabilidades y condiciones de victoria a fondo (cuando el profe esté cómodo).
-- Para la guía de humos: "¿Cuándo poner un humo en la spike? Un humo al enemigo, una boba, etc." ("boba" sin confirmar).
+- Para la guía de humos: "¿Cuándo poner un humo en la spike?" y el humo de búnker (dicho por voz como "avova"/"boba", confirmar el nombre): humo en el site para jugar fuerte, hacer tiempo a la rotación (y el "fload", sin confirmar), jugar a matar en el humo o detrás, jugar con el humo en todo sentido.
+
+## Tema 2.4 — Rotaciones en defensa (`temas/2-4-rotaciones.html`)
+
+- Del profe: rotar en silencio si no sabes dónde están los 5 (de `mapas.html`); no vender el site al segundo 10; correr solo si el rival rushea siempre, si callean mucha utilidad o si ves a la mayoría (utilidad o minimapa), siempre cuidando un posible lurker; el lurker es del centinela; rush a A con el cent en A: mid rota a A, B rota a mid y holdea por el lurker; plantaron/pasaron → B al retake; no plantaron → B vuelve a B sin entrar con cuchillo ni exponerse (timing del lurker, o muchos entrando y te descuentan).
+- Agregado por mí: diagrama de 3 momentos, quiz "¿Corro o camino?" (5 situaciones), ejercicios (rush a A 5v5 con lurker, info parcial), juntada, para esta semana, checklist.
+- 2.2 y 2.3 esperan contenido del profe; se saltó al 2.4 porque ya había material.
