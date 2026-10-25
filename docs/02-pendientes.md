@@ -17,7 +17,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Hecho: 2.1 a 2.5. Faltan 2.6 (post-plant, retake y flood), 2.7, 2.8.
+- Nivel 2 (8 temas). Hecho: 2.1 a 2.6. Faltan 2.7 posicionamiento defensivo y 2.8 revisar tu partida.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).
