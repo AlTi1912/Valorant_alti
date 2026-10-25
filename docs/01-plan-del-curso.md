@@ -140,3 +140,14 @@ Generalidades, sin mapas preferidos. Por cada mapa del pool:
 - Range: 100 o 50 bots, objetivo 0.8 bots/s (100 en ~2:05). Referencia del profe: 100 en ~115 s.
 - DM/TDM por arma: opcional, para quien quiera mejorar un arma concreta. No forma parte de la rutina diaria.
 - Ajustes del profe: 1600 DPI × 0.24 (384 eDPI), mira estática (no se abre ni se mueve), gráficos al mínimo, 1568×1080 estirada con MSAA 4x y anisotrópico 2x.
+
+## Estilo de los textos
+
+Escribe Alti en primera persona, a sus amigos: casual pero serio, español latino ("tú", "arman", "tarea", "compas"), frases cortas, nada de tono de manual.
+
+## Mira y video del profe (tema 1.1)
+
+- Mira de Mixwell: `0;p;0;s;1;P;c;7;o;1;f;0;0t;1;0l;2;0v;2;0o;2;0a;1;0f;0;1b;0;A;c;5;o;1;d;1;0b;0;1b;0;S;s;0.7;o;1` (roja chica; al apuntar, punto cian).
+- También recomienda: la de donk (CS) y miras de punto. Contorno, color y tamaño son a gusto; lo obligatorio es sin error de movimiento ni de disparo.
+- Video: pantalla completa, 1568×1080, aspecto Completo, todo en Baja, MSAA 4x, anisotrópico 2x, calidad de luminosidad Sí, resto No.
+- Pendiente: capturas de sens, minimapa y filtro de contenido.

@@ -97,9 +97,9 @@ if (sens) {
     document.getElementById("out-cm").textContent = cm ? cm.toFixed(1) : "–";
     // Escala de 0 a 800 eDPI
     document.getElementById("edpi-mark").style.left = Math.min(100, edpi / 8) + "%";
-    var verdict = edpi < 200 ? "Baja: giros lentos, mucha precisión." :
-      edpi <= 400 ? "Dentro del rango habitual en competitivo." :
-      "Alta: cuesta controlar los ajustes pequeños.";
+    var verdict = edpi < 200 ? "Baja: giras lento, pero apuntas fino." :
+      edpi <= 400 ? "Normal. Es el rango que usa casi todo el mundo en competitivo." :
+      "Alta: te va a costar hacer correcciones pequeñas.";
     document.getElementById("out-verdict").textContent = verdict;
   };
   dpi.addEventListener("input", calcSens);
@@ -120,10 +120,10 @@ if (paceTime) {
     document.getElementById("pace-you").style.width = Math.min(100, rate / MAX * 100) + "%";
     document.getElementById("pace-you-num").textContent = rate ? rate.toFixed(2) : "–";
     document.getElementById("pace-goal-time").textContent = Math.round(bots / GOAL) + " s";
-    var msg = !rate ? "Escribe cuánto tardaste." :
-      rate >= COACH ? "Ritmo de Inmortal. Sube la dificultad de los bots." :
-      rate >= GOAL ? "Objetivo cumplido. Ahora mantenlo con buena precisión." :
-      "Te faltan " + Math.ceil(t - bots / GOAL) + " s para llegar al objetivo.";
+    var msg = !rate ? "Pon cuánto te demoraste." :
+      rate >= COACH ? "Ritmo de Inmortal. Pásate a difícil." :
+      rate >= GOAL ? "Llegaste a la meta. Ahora mantenla sin fallar tanto." :
+      "Te faltan " + Math.ceil(t - bots / GOAL) + " s para llegar a la meta.";
     document.getElementById("pace-msg").textContent = msg;
   };
   document.getElementById("pace-goal").style.width = GOAL / MAX * 100 + "%";
@@ -142,10 +142,49 @@ if (xhair) {
       document.querySelectorAll("[data-color]").forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
     });
   });
+  document.querySelectorAll("[data-preset]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      xhair.querySelectorAll("g[id]").forEach(function (g) { g.style.display = g.id === b.dataset.preset ? "" : "none"; });
+      if (b.dataset.presetColor) xhair.style.color = b.dataset.presetColor;
+      document.querySelectorAll("[data-preset]").forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+    });
+  });
   document.querySelectorAll("[data-stage]").forEach(function (b) {
     b.addEventListener("click", function () {
       document.querySelector(".xhair-stage").style.setProperty("--stage", b.dataset.stage);
-      document.querySelectorAll("[data-stage]").forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+      document.querySelectorAll("[data-preset]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      xhair.querySelectorAll("g[id]").forEach(function (g) { g.style.display = g.id === b.dataset.preset ? "" : "none"; });
+      if (b.dataset.presetColor) xhair.style.color = b.dataset.presetColor;
+      document.querySelectorAll("[data-preset]").forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
     });
   });
+  document.querySelectorAll("[data-stage]").forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+    });
+  });
+}
+
+// Copiar código de mira
+document.querySelectorAll("[data-copy]").forEach(function (b) {
+  b.addEventListener("click", function () {
+    var text = document.getElementById(b.dataset.copy).textContent;
+    var done = function () { b.textContent = "Copiado"; setTimeout(function () { b.textContent = "Copiar"; }, 1500); };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
+  });
+});
+
+// Ver capturas en grande
+var box = document.querySelector(".lightbox");
+if (box) {
+  var big = box.querySelector("img");
+  document.querySelectorAll(".shot button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var img = b.querySelector("img");
+      big.src = img.src;
+      big.alt = img.alt;
+      box.hidden = false;
+    });
+  });
+  box.addEventListener("click", function () { box.hidden = true; });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") box.hidden = true; });
 }
