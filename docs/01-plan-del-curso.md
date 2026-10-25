@@ -188,3 +188,7 @@ Pendiente: captura con un compa (dos ángulos / distancia a la pared) — hay un
 - Sage en bronce: no muro en el segundo 1 (en bronce corren a un site: espera la info); slows: uno, esperar que se acabe, tirar el otro al timing sin exponerse.
 - Fichas por agente a futuro: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
 - Guía de humos buenos/malos: la manda el profe más adelante.
+
+## Nombres (menos de colegio)
+
+"Clases" → **entrenos**, "temario" → **la ruta**, "tarea" → **para esta semana**. Los anchors internos (#clase, #temario, #tarea) se mantienen.
