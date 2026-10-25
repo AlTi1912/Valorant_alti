@@ -531,3 +531,11 @@ td.on { color: var(--teal); font-weight: 700; }
 .dd.yes li::before { content: "✓"; position: absolute; left: 2px; color: var(--teal); font-weight: 700; }
 .dd.no li::before { content: "✕"; position: absolute; left: 2px; color: var(--red); font-weight: 700; }
 .situations { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+
+/* ¿Sigo jugando? */
+.toggles { display: grid; gap: 8px; }
+.toggle { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: var(--bg-2); border: 1px solid var(--line); cursor: pointer; }
+.toggle input { width: 20px; height: 20px; accent-color: var(--red); flex: none; }
+.verdict { padding: 18px; border-left: 4px solid var(--c, var(--teal)); background: var(--bg-2); }
+.verdict b { display: block; font-family: "Oswald", sans-serif; font-size: 30px; text-transform: uppercase; color: var(--c, var(--teal)); line-height: 1.1; margin-bottom: 6px; }
+.verdict p { margin: 0; color: var(--muted); }

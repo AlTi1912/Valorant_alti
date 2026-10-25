@@ -360,3 +360,27 @@ if (drop) {
   drop.querySelectorAll("input, select").forEach(function (i) { i.addEventListener("input", dropCalc); });
   dropCalc();
 }
+
+// ¿Sigo jugando?
+var stop = document.querySelector("[data-stop]");
+if (stop) {
+  var stopCalc = function () {
+    var on = function (k) { var el = stop.querySelector('[data-k="' + k + '"]'); return el && el.checked; };
+    var box = document.getElementById("stop-out");
+    var title, text, c;
+    if (on("auto") || on("ganas") || on("tilt") || on("derrotas")) {
+      title = "Para"; c = "var(--red)";
+      text = on("derrotas") ? "Ya llegaste a tu límite de derrotas. Mañana sigues, con la cabeza fresca." : "Así no vas a jugar bien. Cierra el juego, desconéctate y vuelve otro rato.";
+    } else if (on("aim")) {
+      title = "Primero un DM"; c = "var(--gold)";
+      text = "Antes de la siguiente partida, mándate un DM o un TDM. Si después el aim sigue sin salir, para.";
+    } else {
+      title = "Sigue"; c = "var(--teal)";
+      text = "Estás bien para seguir. Recuerda: la cabeza en la partida, una ronda a la vez.";
+    }
+    box.style.setProperty("--c", c);
+    box.innerHTML = "<b>" + title + "</b><p>" + text + "</p>";
+  };
+  stop.querySelectorAll("input").forEach(function (i) { i.addEventListener("change", stopCalc); });
+  stopCalc();
+}
