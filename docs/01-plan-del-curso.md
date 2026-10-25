@@ -162,3 +162,8 @@ Escribe Alti en primera persona, a sus amigos: casual pero serio, español latin
 ## Tema 1.2 — Crosshair placement (`temas/1-2-crosshair-placement.html`)
 
 Argumentos del profe: "en el suelo no hay monedas", referencias de altura en los mapas (capturas de Ascent), recoger armas con G sin bajar la mira, abrir/cerrar la mira según OP, Neon, pasos o rango del rival. Práctica del profe: girar 360° a la misma altura. Agregado: caminar el mapa sin disparar, aguantar un ángulo en parejas, DM con foco, escaleras/desniveles.
+
+## Tema 1.3 — Movimiento y disparo (`temas/1-3-movimiento-y-disparo.html`)
+
+Del profe: duelos solo con A-D (nunca W/S), no dejar de moverse, A-D-click con anular e índice, A+D juntos sirve pero es peor, no agacharse ("cuando el rival se agacha, ya perdió"), tap siempre; él sprayea al cuerpo si no hay tap. Phantom por defecto; Vandal en mapas largos (Abyss, Summit) o 1v1. Método del pilar en el Range. SOCD opcional.
+Agregado: animación del ritmo A-D, selector tap/ráfaga/spray por distancia y arma (daño de Phantom a distancia), DM sin W/S, 1v1 con Sheriff/Guardian.

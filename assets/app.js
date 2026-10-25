@@ -205,3 +205,30 @@ if (place) {
   modes.forEach(function (b) { b.addEventListener("click", function () { setMode(b); }); });
   setMode(modes[0]);
 }
+
+// ¿Tap, ráfaga o spray?
+var picker = document.querySelector("[data-picker]");
+if (picker) {
+  var state = { dist: "lejos", weapon: "phantom" };
+  var SHOT = {
+    cerca: ["Spray", "Si no sale el tap, spray rápido al cuerpo y tira la mira hacia abajo."],
+    media: ["Ráfaga", "2 o 3 balas, frenas, recolocas la mira y otra ráfaga."],
+    lejos: ["Tap", "Un tiro a la vez, a la cabeza, frenando entre tiro y tiro."]
+  };
+  var GUN = {
+    phantom: { cerca: "Aquí la Phantom brilla: su spray es más fácil de controlar.", media: "La Phantom va bien: ráfagas cortas y controladas.", lejos: "Ojo: de lejos la Phantom pierde daño y un tiro a la cabeza ya no mata a alguien con escudo completo. Tapea dos veces o lleva Vandal." },
+    vandal: { cerca: "La Vandal también sprayea, pero cuesta más. Si puedes, busca el tap igual.", media: "La Vandal mata de un tiro a la cabeza: prioriza el tap antes que la ráfaga.", lejos: "Para esto es la Vandal: un tiro a la cabeza mata a cualquier distancia." }
+  };
+  var render = function () {
+    document.getElementById("pick-title").textContent = SHOT[state.dist][0];
+    document.getElementById("pick-how").textContent = SHOT[state.dist][1];
+    document.getElementById("pick-gun").textContent = GUN[state.weapon][state.dist];
+    picker.querySelectorAll("[data-set]").forEach(function (b) {
+      b.setAttribute("aria-pressed", state[b.dataset.set] === b.dataset.value);
+    });
+  };
+  picker.querySelectorAll("[data-set]").forEach(function (b) {
+    b.addEventListener("click", function () { state[b.dataset.set] = b.dataset.value; render(); });
+  });
+  render();
+}

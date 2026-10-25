@@ -438,3 +438,22 @@ td.on { color: var(--teal); font-weight: 700; }
 .place-mode[aria-pressed="true"] { border-color: var(--red); background: var(--red-dim); }
 .place-out { margin: 0; padding: 14px 16px; background: var(--bg-2); border-left: 3px solid var(--red); }
 .big-quote { font-family: "Oswald", sans-serif; font-size: clamp(30px, 6vw, 52px); line-height: 1.05; text-transform: uppercase; margin: 0 0 16px; }
+
+/* Ritmo A-D */
+.rhythm { position: relative; height: 120px; background: var(--surface); border: 1px solid var(--line); overflow: hidden; }
+.rhythm .track { position: absolute; left: 12%; right: 12%; top: 60px; height: 2px; background: var(--line); }
+.rhythm .me { position: absolute; top: 46px; left: 12%; width: 30px; height: 30px; margin-left: -15px; border-radius: 50%; background: var(--teal); animation: ad 3.2s infinite; }
+.rhythm .tap { position: absolute; top: 14px; font: 700 13px "Oswald", sans-serif; letter-spacing: .08em; color: var(--red); padding: 2px 8px; border: 1px solid var(--red); opacity: 0; }
+.rhythm .tap.l { left: 12%; transform: translateX(-50%); animation: tapl 3.2s infinite; }
+.rhythm .tap.r { right: 12%; transform: translateX(50%); animation: tapr 3.2s infinite; }
+.rhythm .keys { position: absolute; bottom: 10px; left: 0; right: 0; display: flex; justify-content: space-between; padding: 0 12px; font-size: 13px; color: var(--muted); }
+@keyframes ad { 0% { left: 12%; animation-timing-function: ease-in-out; } 50% { left: 88%; animation-timing-function: ease-in-out; } 100% { left: 12%; } }
+@keyframes tapl { 0%, 100% { opacity: 1; } 8%, 92% { opacity: 0; } }
+@keyframes tapr { 42%, 58% { opacity: 0; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .rhythm .me, .rhythm .tap { animation: none; } .rhythm .tap { opacity: 1; } }
+
+/* Selector tap / ráfaga / spray */
+.picker { display: grid; gap: 16px; }
+@media (min-width: 760px) { .picker { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.pick-group { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 14px; }
+.pick-out h3 { color: var(--red); }
