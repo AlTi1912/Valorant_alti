@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Economía básica</title>
+  <meta name="description" content="Tema 1.7: cómo entra la plata, tipos de ronda, comprar en equipo y una calculadora para saber si llegas a full buy.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../#aprobar">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/movimiento/pilar-detras.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 1</div>
+      <div class="chips"><span class="chip red">Tema 1.7</span><span class="chip">Juntada de ~1 hora</span></div>
+      <h1>Economía<br>básica</h1>
+      <p class="lead">O compramos todos, o ahorramos todos. Una ronda mal comprada puede costarte las dos siguientes.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#plata">Cómo entra la plata</a></li>
+          <li><a href="#rondas">Tipos de ronda</a></li>
+          <li><a href="#calculadora">¿Llego a full?</a></li>
+          <li><a href="#equipo">Comprar en equipo</a></li>
+          <li><a href="#pistola">Pistola y después</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para la semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main>
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>Full buy</dt><dd>3900+</dd>
+              <dt>Ganar</dt><dd>+3000</dd>
+              <dt>Perder</dt><dd>1900 / 2400 / 2900</dd>
+              <dt>Kill</dt><dd>+200</dd>
+              <dt>Plantar</dt><dd>+300 c/u</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="1-7"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Que el equipo compre junto: o compramos todos, o ahorramos todos. Y saber cuándo conviene cada cosa.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Cuatro con rifle y uno con pistola es casi un 4v5. Y si cada uno compra cuando quiere, nunca coinciden las rondas buenas de todos.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="plata">
+        <h2><span class="idx">02</span>Cómo entra la plata</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Qué pasa</th><th>Créditos</th></tr></thead>
+            <tbody>
+              <tr><td>Empieza cada mitad</td><td>800</td></tr>
+              <tr><td>Ganar la ronda</td><td class="on">+3000</td></tr>
+              <tr><td>Perder la ronda</td><td>+1900 · si pierdes 2 seguidas +2400 · 3 o más +2900</td></tr>
+              <tr><td>Cada kill</td><td class="on">+200</td></tr>
+              <tr><td>Plantar la spike</td><td class="on">+300 a cada atacante, aunque pierdan</td></tr>
+              <tr><td>Máximo que puedes tener</td><td>9000</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="note teal"><span>💡</span><div><b>Perder seguido no es tan grave para la plata.</b> Cada derrota seguida paga más, así que después de dos o tres rondas perdidas, el equipo vuelve a tener para comprar. Ganar una ronda reinicia ese contador.</div></div>
+      </section>
+
+      <section class="block" id="rondas">
+        <h2><span class="idx">03</span>Tipos de ronda</h2>
+        <div class="types">
+          <div class="type reveal" style="--c:var(--gold)"><h4>Pistola</h4><p>Primera ronda de cada mitad, con 800.</p><p>Pistola o escudo ligero, y habilidades.</p></div>
+          <div class="type reveal" style="--c:var(--teal)"><h4>Full buy</h4><p>Rifle + escudo pesado (3900) y, si alcanza, utilidad (~4500).</p><p>La ronda para la que ahorras.</p></div>
+          <div class="type reveal" style="--c:var(--muted)"><h4>Eco (ahorro)</h4><p>No compras casi nada para tener full buy la próxima.</p><p>Juega junto y busca kills para robar armas.</p></div>
+          <div class="type reveal" style="--c:var(--red)"><h4>Force (forzar)</h4><p>Gastas lo que tienes aunque no llegues a full.</p><p>Solo si el equipo entero fuerza y la ronda importa mucho.</p></div>
+          <div class="type reveal" style="--c:var(--gold)"><h4>Bonus</h4><p>Después de ganar la pistola.</p><p>Te quedas con las armas baratas que tengas y compras escudo.</p></div>
+          <div class="type reveal" style="--c:var(--teal)"><h4>Salvar el arma</h4><p>Ronda perdida y estás solo contra varios.</p><p>Escóndete y llévate el rifle a la próxima: te ahorras 2900.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="calculadora">
+        <h2><span class="idx">04</span>¿Llego a full buy la próxima?</h2>
+        <p class="muted">Antes de comprar, piensa en la ronda siguiente. Pon tus números (sin contar kills ni plante):</p>
+        <div class="panel reveal" data-eco>
+          <div class="calc">
+            <div>
+              <div class="field"><label for="eco-credits">Tus créditos ahora</label><input id="eco-credits" type="number" inputmode="numeric" value="2600" min="0" max="9000" step="50"></div>
+              <div class="field"><label for="eco-streak">¿Cómo vienen?</label>
+                <select id="eco-streak">
+                  <option value="0">Ganamos la última (o es el inicio)</option>
+                  <option value="1" selected>Perdimos 1 seguida</option>
+                  <option value="2">Perdimos 2 o más seguidas</option>
+                </select>
+              </div>
+              <div class="field"><label for="eco-buy">¿Qué quieres comprar?</label>
+                <select id="eco-buy">
+                  <option value="0">Nada (eco)</option>
+                  <option value="1200">Escudo ligero + Sheriff (~1200)</option>
+                  <option value="2000">Media compra: SMG o escopeta + escudo (~2000)</option>
+                  <option value="3900">Full buy: rifle + escudo pesado (3900)</option>
+                  <option value="4500">Full buy + utilidad (~4500)</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <div class="grid c2" style="gap:12px">
+                <div><div class="aside-title">Te quedan</div><div class="result" id="eco-after">–</div></div>
+                <div><div class="aside-title">Si ganan</div><div class="result" id="eco-win">–</div></div>
+              </div>
+              <div style="margin-top:14px"><div class="aside-title">Si pierden, la próxima tienes</div><div class="result" id="eco-lose">–</div></div>
+              <p id="eco-msg" style="margin:14px 0 0"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="equipo">
+        <h2><span class="idx">05</span>Comprar en equipo</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><h4>Todos iguales</h4><p class="muted">En la fase de compra, mira la plata de tus compas (aparece en la pantalla de compra) y pónganse de acuerdo antes de comprar.</p></div>
+          <div class="panel reveal"><h4>Dropea y pide drop</h4><p class="muted">Si te sobra plata, cómprale un arma al compa que no llega. Si no llegas, pide. Un drop puede convertir un force en una ronda de full buy para todos.</p></div>
+          <div class="panel reveal"><h4>No fuerces solo</h4><p class="muted">Si el equipo ahorra y tú compras rifle, el que pierde eres tú y la próxima nadie tiene compra completa.</p></div>
+          <div class="panel reveal"><h4>Salva cuando toca</h4><p class="muted">Si la ronda está perdida, un rifle salvado vale más que morir intentando un 1v4 imposible.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="pistola">
+        <h2><span class="idx">06</span>La pistola y la ronda siguiente</h2>
+        <div class="grid c2">
+          <div class="panel reveal">
+            <div class="eyebrow">Si ganan la pistola</div>
+            <h3>Ronda bonus</h3>
+            <p class="muted">Se quedan con las armas que sobrevivieron, compran escudo y algo barato. La idea es ganar también esta ronda para llegar a la tercera con mucha plata.</p>
+          </div>
+          <div class="panel reveal">
+            <div class="eyebrow">Si pierden la pistola</div>
+            <h3>Eco o force, pero juntos</h3>
+            <p class="muted">Lo normal es ahorrar para tener full buy en la tercera. Algunos equipos prefieren una media compra para robarle la ronda bonus al rival. Lo importante es que todos hagan lo mismo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="precios">
+        <h2><span class="idx">07</span>Precios que tienes que saber</h2>
+        <p class="muted">Se actualizan solos con el parche actual cuando abres la página.</p>
+        <div class="grid c2">
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Arma</th><th>Créditos</th></tr></thead>
+              <tbody>
+                <tr><td>Ghost</td><td data-price="Ghost">500</td></tr>
+                <tr><td>Sheriff</td><td data-price="Sheriff">800</td></tr>
+                <tr><td>Marshal</td><td data-price="Marshal">950</td></tr>
+                <tr><td>Spectre</td><td data-price="Spectre">1600</td></tr>
+                <tr><td>Judge</td><td data-price="Judge">1850</td></tr>
+                <tr><td>Bulldog</td><td data-price="Bulldog">2050</td></tr>
+                <tr><td>Guardian</td><td data-price="Guardian">2250</td></tr>
+                <tr><td>Vandal</td><td data-price="Vandal">2900</td></tr>
+                <tr><td>Phantom</td><td data-price="Phantom">2900</td></tr>
+                <tr><td>Operator</td><td data-price="Operator">4700</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Escudo</th><th>Créditos</th></tr></thead>
+              <tbody>
+                <tr><td>Ligero (25)</td><td data-price="Light Shields">400</td></tr>
+                <tr><td>Regenerativo</td><td data-price="Regen Shield">650</td></tr>
+                <tr><td>Pesado (50)</td><td data-price="Heavy Shields">1000</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">08</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Comprar sin mirar la plata de los demás.</div>
+          <div class="err reveal">Forzar todas las rondas y no tener nunca full buy.</div>
+          <div class="err reveal">Tener 9000 y no dropearle a nadie.</div>
+          <div class="err reveal">Morir con el rifle en una ronda perdida en vez de salvarlo.</div>
+          <div class="err reveal">Comprar rifle sin escudo.</div>
+          <div class="err reveal">Gastar todo en la ronda bonus y quedar sin nada para la tercera.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">09</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Cómo entra la plata y los tipos de ronda.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>¿Qué compramos?</h4><p>Situaciones con números: el grupo decide y lo comentamos.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Custom</h4><p>Rondas con plata limitada, comprando en equipo.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">10</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Antes de comprar, mira la plata de tu equipo y pregunta: ¿compramos o ahorramos?</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Si te sobra plata, dropea al menos una vez por partida.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En tu canal</div><p>Una ronda donde la compra salió mal y qué harías distinto.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">11</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="1-7">
+          <li><label><input type="checkbox"><span>Sé cuánto se gana al ganar, al perder y por cada kill.</span></label></li>
+          <li><label><input type="checkbox"><span>Antes de comprar miro la plata de mi equipo.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé cuándo es eco, cuándo force y cuándo full buy.</span></label></li>
+          <li><label><input type="checkbox"><span>Dropeo cuando me sobra y pido drop cuando no llego.</span></label></li>
+          <li><label><input type="checkbox"><span>Salvo el arma cuando la ronda está perdida.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="1-6-comunicacion.html"><small>Anterior</small>1.6 Comunicación y mental</a>
+        <span class="next"><small>Siguiente</small>1.8 Mental</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Regla rápida</div>
+          <dl class="kv">
+            <dt>Full buy</dt><dd>3900+</dd>
+            <dt>Ganar</dt><dd>+3000</dd>
+            <dt>Perder</dt><dd>1900 / 2400 / 2900</dd>
+            <dt>Kill</dt><dd>+200</dd>
+            <dt>Plantar</dt><dd>+300 c/u</dd>
+            <dt>Máximo</dt><dd>9000</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Recuerda</div>
+          <p style="margin:0">O compramos <strong>todos</strong>, o ahorramos <strong>todos</strong>.</p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="1-7"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

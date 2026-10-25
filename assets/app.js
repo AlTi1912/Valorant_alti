@@ -300,3 +300,45 @@ if (callBox) {
   });
   renderCall();
 }
+
+// Calculadora de economía: ¿llego a full buy la próxima?
+var eco = document.querySelector("[data-eco]");
+if (eco) {
+  var FULL = 3900, MAX = 9000;
+  var lossPay = function (n) { return n <= 1 ? 1900 : n === 2 ? 2400 : 2900; };
+  var ecoCalc = function () {
+    var credits = parseInt(document.getElementById("eco-credits").value, 10) || 0;
+    var streak = parseInt(document.getElementById("eco-streak").value, 10);
+    var buy = parseInt(document.getElementById("eco-buy").value, 10);
+    var after = credits - buy;
+    var win = Math.min(MAX, after + 3000);
+    var lose = Math.min(MAX, after + lossPay(streak + 1));
+    var msg;
+    if (after < 0) msg = "No te alcanza para esa compra. Pide drop o compra menos.";
+    else if (buy >= FULL) msg = lose >= FULL ? "Full buy, y si pierden igual llegas a full la próxima." : "Full buy, pero si pierden no llegas a full la próxima. Coordínalo con el equipo.";
+    else if (buy === 0) msg = lose >= FULL ? "Ahorrando, la próxima llegas a full buy aunque pierdan." : "Ni ahorrando llegas a full la próxima. Habla con el equipo: media compra o drop.";
+    else msg = lose >= FULL ? "Puedes forzar y, aunque pierdan, llegas a full la próxima." : "Si fuerzas y pierden, la próxima tampoco llegas a full. Fuerza solo si fuerza todo el equipo.";
+    document.getElementById("eco-after").textContent = after < 0 ? "–" : after;
+    document.getElementById("eco-win").textContent = after < 0 ? "–" : win;
+    document.getElementById("eco-lose").textContent = after < 0 ? "–" : lose;
+    document.getElementById("eco-lose").style.color = after >= 0 && lose < FULL ? "var(--red)" : "var(--teal)";
+    document.getElementById("eco-msg").textContent = msg;
+  };
+  eco.querySelectorAll("input, select").forEach(function (i) { i.addEventListener("input", ecoCalc); });
+  ecoCalc();
+}
+
+// Precios del parche actual desde valorant-api.com (si no carga, quedan los de la página)
+var priceCells = document.querySelectorAll("[data-price]");
+if (priceCells.length && window.fetch) {
+  var setPrices = function (items) {
+    items.forEach(function (it) {
+      var cost = it.shopData && it.shopData.cost;
+      if (!cost) return;
+      document.querySelectorAll('[data-price="' + it.displayName + '"]').forEach(function (c) { c.textContent = cost; });
+    });
+  };
+  ["https://valorant-api.com/v1/weapons", "https://valorant-api.com/v1/gear"].forEach(function (url) {
+    fetch(url).then(function (r) { return r.json(); }).then(function (j) { setPrices(j.data || []); }).catch(function () {});
+  });
+}

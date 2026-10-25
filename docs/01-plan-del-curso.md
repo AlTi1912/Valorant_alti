@@ -192,3 +192,7 @@ Pendiente: captura con un compa (dos ángulos / distancia a la pared) — hay un
 ## Nombres (menos de colegio)
 
 "Clases" → **juntadas**, "temario" → **qué veremos**, "tarea" → **para esta semana**. Los anchors internos (#clase, #temario, #tarea) se mantienen.
+
+## Tema 1.7 — Economía básica (borrador, `temas/1-7-economia-basica.html`)
+
+Contenido general (sin opiniones del profe todavía): ingresos (800, +3000, 1900/2400/2900, +200 kill, +300 plante, máx. 9000), tipos de ronda, calculadora "¿llego a full buy la próxima?", comprar en equipo, pistola y ronda siguiente, precios (se actualizan desde valorant-api.com). Pendiente: reglas propias del profe (force tras pistola perdida, cuándo salvar, OP, drops).
