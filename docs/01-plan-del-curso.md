@@ -191,4 +191,4 @@ Pendiente: captura con un compa (dos ángulos / distancia a la pared) — hay un
 
 ## Nombres (menos de colegio)
 
-"Clases" → **entrenos**, "temario" → **la ruta**, "tarea" → **para esta semana**. Los anchors internos (#clase, #temario, #tarea) se mantienen.
+"Clases" → **juntadas**, "temario" → **qué veremos**, "tarea" → **para esta semana**. Los anchors internos (#clase, #temario, #tarea) se mantienen.
