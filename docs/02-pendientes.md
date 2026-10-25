@@ -20,7 +20,8 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Nivel 2 (8 temas). Hecho: 2.1 Trades y spacing y 2.4 Rotaciones. Faltan 2.2 información/sonido, 2.3 leer al rival, 2.5–2.8.
 - Profundizar probabilidades y condiciones de victoria (2.1).
 - Tracker más en detalle (pedido del profe).
-- Guía de humos: humo en la spike y humo de búnker (confirmar cómo se escribe el nombre y qué es "fload").
+- Guía de humos: humo en la spike y humo Avova (notas en el plan).
+- Flood: decidir si va en 2.4 o en 2.6.
 - Fichas de agentes del profe: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
 - Completar las fichas de mapas con lo que sepa el profe.
 - Opcional: pasar la publicación a una rama `main`.
