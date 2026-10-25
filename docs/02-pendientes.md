@@ -17,7 +17,9 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Hecho: 2.1 Trades y spacing y 2.4 Rotaciones. Faltan 2.2 información/sonido, 2.3 leer al rival, 2.5–2.8.
+- Nivel 2 (8 temas). Hecho: 2.1, 2.2 y 2.4. Faltan 2.3 leer al rival (ya hay notas de timings/pathing), 2.5–2.8.
+- Captura de la configuración de audio del profe (2.2).
+- Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).
 - Tracker más en detalle (pedido del profe).
 - Guía de humos: humo en la spike y humo Avova (notas en el plan).

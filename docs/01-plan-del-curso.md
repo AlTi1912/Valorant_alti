@@ -221,3 +221,11 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 - Del profe: rotar en silencio si no sabes dónde están los 5 (de `mapas.html`); no vender el site al segundo 10; correr solo si el rival rushea siempre, si callean mucha utilidad o si ves a la mayoría (utilidad o minimapa), siempre cuidando un posible lurker; el lurker es del centinela; rush a A con el cent en A: mid rota a A, B rota a mid y holdea por el lurker; plantaron/pasaron → B al retake; no plantaron → B vuelve a B sin entrar con cuchillo ni exponerse (timing del lurker, o muchos entrando y te descuentan).
 - Agregado por mí: diagrama de 3 momentos, quiz "¿Corro o camino?" (5 situaciones), ejercicios (rush a A 5v5 con lurker, info parcial), juntada, para esta semana, checklist.
 - 2.2 y 2.3 esperan contenido del profe; se saltó al 2.4 porque ya había material.
+
+## Tema 2.2 — Información y sonido (`temas/2-2-informacion-y-sonido.html`)
+
+- Del profe: audio básico, sin música ni sonidos que distraen, volumen al máximo, HRTF activado por comodidad (no es regla: depende de audífonos y PC; captura pendiente); cuenta enemigos viendo el mapa; peleando, no quedarse solo con el de la mira (el que pasó corriendo, la habilidad que vio); cada uno procesa la info diferente, no más lento ni más rápido; no tener info pierde rondas; ejemplo del Chamber adelantando en B sin nadie → mid para A o A; se aprende jugando ranked, viendo VCT y a gente que explica (Zafiro para el espectador, Mixwell para sí y su equipo).
+- Agregado por mí: qué te dice cada sonido (pasos, habilidades, ultis, spike, caídas, recargar/recoger), rojos marcados en el minimapa, quiz "¿Qué te dice?", ejercicios (sin mirar, contar en voz alta), juntada, para esta semana, checklist.
+- No se puso en la web lo del TDAH (es personal): preguntar al profe si quiere mencionarlo.
+- **Para el 2.3 (leer al rival):** pathing y spacing de cada personaje; timings (cuánto tarda en rotar por mid, por base, un lurker, los iniciadores); callear cuando algo parece fake o un doble tiempo; los duelistas son lo que más le cuesta, pero sabe cómo se mueven y juega de segundo duelista o Jett en elo bajo.
+- **Para el nivel 3:** guía de fakes (con habilidades; pocas se pueden fakear, muy situacional).

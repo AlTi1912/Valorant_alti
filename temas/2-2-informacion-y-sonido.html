@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Información y sonido</title>
+  <meta name="description" content="Tema 2.2: tu audio, qué te dice cada sonido, contar enemigos y leer el minimapa aunque nadie callee.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-lesson="2.2" data-title="Información y sonido">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/peeks/summit-inferior-mid.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 2</div>
+      <div class="chips"><span class="chip red">Tema 2.2</span><span class="chip">Juntada de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Información<br>y sonido</h1>
+      <p class="lead">No tener info pierde muchas rondas. Escucha, mira el mapa y cuenta enemigos, aunque nadie te callee nada.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#audio">Tu audio</a></li>
+          <li><a href="#sonidos">Qué te dice cada sonido</a></li>
+          <li><a href="#contar">Contar enemigos</a></li>
+          <li><a href="#nadie">Cuando no hay nadie</a></li>
+          <li><a href="#minimapa">El minimapa</a></li>
+          <li><a href="#quiz">¿Qué te dice?</a></li>
+          <li><a href="#aprender">Cómo se aprende</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para esta semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Mi audio</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>Volumen</dt><dd>Al máximo</dd>
+              <dt>Música</dt><dd>Apagada</dd>
+              <dt>HRTF</dt><dd>Activado</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="2-2"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Saber más o menos dónde están los 5 rivales, aunque no los veas y aunque nadie te lo diga.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Con info sabes cuándo rotar, cuándo pelear y cuándo esperar. Sin info juegas a ciegas y pierdes rondas que podías ganar.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="audio">
+        <h2><span class="idx">02</span>Tu audio</h2>
+        <p>Mi configuración es bastante básica. Lo único que quito es la música del juego y los sonidos que me distraen. El volumen lo tengo todo al máximo.</p>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Lo que uso</div><h3>HRTF activado</h3><p class="muted">Por comodidad: me gusta cómo suena el juego así. Entiendo mejor los pasos y de dónde vienen ciertas cosas.</p></div>
+          <div class="panel reveal"><div class="eyebrow">No es una regla</div><h3>Prueba el tuyo</h3><p class="muted">Depende de tus audífonos y de cómo escuchas tú el juego. Cada PC es diferente: prueba con y sin HRTF y quédate con el que te deje ubicar mejor los pasos.</p></div>
+        </div>
+        <div class="placeholder" style="margin-top:16px"><div><b>Captura pendiente</b>Mi configuración de audio en el juego.</div></div>
+      </section>
+
+      <section class="block" id="sonidos">
+        <h2><span class="idx">03</span>Qué te dice cada sonido</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Pasos</div><p class="muted">Si corre, lo escuchas. Si camina o va agachado, no. Muchos pasos juntos a un lado suele ser un rush.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Habilidades</div><p class="muted">Cada habilidad suena distinto al tirarla. Si la reconoces, sabes qué agente está ahí y qué está haciendo.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ultis</div><p class="muted">Cuando un rival tira la ulti, su agente dice una frase. Aprende a reconocerlas.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Spike</div><p class="muted">El plant y el defuse se escuchan. Si escuchas que empiezan a desactivar, sabes dónde está.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Saltos y caídas</div><p class="muted">Caer de una altura hace ruido, aunque venga caminando.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Recargar y recoger</div><p class="muted">También se escuchan de cerca. Te dicen que hay alguien detrás de esa pared.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="contar">
+        <h2><span class="idx">04</span>Contar enemigos</h2>
+        <div class="quote reveal">
+          <p>No te quedes solo con el enemigo que tuviste en la mira.</p>
+          <small>El que pasó corriendo y la habilidad que alcanzaste a ver también cuentan.</small>
+        </div>
+        <div class="grid c2" style="margin-top:18px">
+          <div class="panel reveal"><h4>Mirando el mapa</h4><p class="muted">Así cuento yo. Si ves 3 en A, faltan 2: ¿dónde pueden estar? Ve sumando lo que ves tú, lo que callean y lo que aparece en el minimapa.</p></div>
+          <div class="panel reveal"><h4>Incluso peleando</h4><p class="muted">En medio de un duelo, fíjate en todo lo que pasa alrededor. Una habilidad o alguien cruzando es un enemigo más que ya sabes dónde está.</p></div>
+        </div>
+        <div class="note teal"><span>🧠</span><div><b>Cada uno procesa la info diferente.</b> No más lento ni más rápido: diferente. Encuentra tu forma de ir sumando.</div></div>
+      </section>
+
+      <section class="block" id="nadie">
+        <h2><span class="idx">05</span>Cuando no hay nadie</h2>
+        <p>Que no haya info normalmente es un problema. Pero mira el mapa: a veces la info está en lo que hacen tus compas, aunque no te lo callee nadie.</p>
+        <div class="panel reveal" style="margin-top:16px">
+          <div class="eyebrow">Ejemplo</div>
+          <p>Tu Chamber está peekeando en B y va adelantando, y no hay nadie. No te lo callea, no hay enemigos ni habilidades, pero ya sabes algo: <strong>no hay nadie en B</strong>. Entonces es muy probable que vengan por mid para A, o directo a A.</p>
+        </div>
+      </section>
+
+      <section class="block" id="minimapa">
+        <h2><span class="idx">06</span>El minimapa</h2>
+        <p>Míralo cuando no estés haciendo nada importante, cuando no estés expuesto a un ángulo, cuando estés muerto y cuando un compa tire habilidades sin hablar. Lo vimos en <a href="../mapas.html">Mapas</a>.</p>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><h4>Rojos marcados</h4><p class="muted">Un enemigo que vio alguien de tu equipo aparece en el mapa. Cuéntalo aunque nadie lo diga.</p></div>
+          <div class="panel reveal"><h4>Habilidades de tus compas</h4><p class="muted">Una Clove poniendo humo en C, aunque nadie diga qué hay en C. Un Phoenix tirando fuego a la boca del site: está parando el rush.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">07</span>¿Qué te dice?</h2>
+        <p class="muted">Situaciones de defensa. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="a">
+            <p class="s">Tu Chamber va adelantando en B y no tiene contacto. Nadie callea nada.</p>
+            <div class="opts"><button class="preset" data-choice="a">Probablemente mid o A</button><button class="preset" data-choice="b">No sé nada</button></div>
+            <p class="why">Que no haya nadie en B también es info: es muy probable que vengan por mid para A, o a A.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">En el minimapa ves 3 rojos en A. Tu equipo quiere rotar todo a A.</p>
+            <div class="opts"><button class="preset" data-choice="a">Rotamos los 5</button><button class="preset" data-choice="b">Faltan 2, cuidado</button></div>
+            <p class="why">Faltan 2 que no sabes dónde están. Rota sin dejar abierto el resto del mapa.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Matas a una Jett en A. Mientras peleabas, viste pasar a otro corriendo y un humo cayó en la entrada.</p>
+            <div class="opts"><button class="preset" data-choice="a">Calleo la Jett</button><button class="preset" data-choice="b">Calleo todo lo que vi</button></div>
+            <p class="why">El que pasó y el humo también son info. Tu equipo puede contar enemigos con eso.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Escuchas muchos pasos corriendo juntos hacia B y varias habilidades.</p>
+            <div class="opts"><button class="preset" data-choice="a">Parece rush a B</button><button class="preset" data-choice="b">Es uno solo</button></div>
+            <p class="why">Muchos pasos y utilidad juntos suelen ser un rush. Callealo y ojo con un posible lurker.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="aprender">
+        <h2><span class="idx">08</span>Cómo se aprende esto</h2>
+        <p>Todo esto se aprende jugando ranked, viendo VCT y viendo a gente de alto nivel que explica por qué juega así. Eso ayuda mucho a entender por qué se hace cada cosa.</p>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Para el espectador</div><h3>Zafiro</h3><p class="muted">Explica por qué callea algo o por qué toma una decisión, pensando en quien lo ve.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Para su equipo</div><h3>Mixwell</h3><p class="muted">Lo explica más para él o para sus compañeros, pero igual se entiende, o lo puedes deducir aunque no lo diga.</p></div>
+        </div>
+        <p class="muted" style="margin-top:12px">Cuánto tarda cada rival en llegar a un site o rotar lo vemos en el 2.3.</p>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">09</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">🎧</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Sin mirar</h3>
+              <p class="muted">Uno defiende mirando a una pared. Los demás entran por algún lado haciendo ruido o tirando habilidades. El defensor dice por dónde vienen y cuántos son.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">1-5</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Contar en voz alta</h3>
+              <p class="muted">Durante la ronda, cada uno dice cuántos rivales tiene ubicados y dónde. Al final vemos quién se acercó más.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">10</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Jugar con música o sonidos que no te dejan escuchar los pasos.</div>
+          <div class="err reveal">Quedarse solo con el enemigo que tuviste en la mira.</div>
+          <div class="err reveal">No mirar el minimapa en toda la ronda.</div>
+          <div class="err reveal">Pensar que si nadie callea, no hay info.</div>
+          <div class="err reveal">Rotar todos a donde vieron 3 y olvidarse de los otros 2.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">11</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Audio, sonidos, contar enemigos y el minimapa.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Sin mirar</h4><p>¿Por dónde vienen y cuántos?</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Contar en voz alta</h4><p>Rondas contando rivales.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">12</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Ajustes</div><p>Quita la música y prueba con y sin HRTF en el Range o en un DM.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>En cada ronda, intenta saber cuántos rivales tienes ubicados antes de morir o de que termine.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Mira</div><p>Mira un video de Zafiro o Mixwell y fíjate por qué callean lo que callean.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">13</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="2-2">
+          <li><label><input type="checkbox"><span>Tengo mi audio sin música ni distracciones, y probé el HRTF.</span></label></li>
+          <li><label><input type="checkbox"><span>Reconozco los sonidos que me dan info: pasos, habilidades, spike.</span></label></li>
+          <li><label><input type="checkbox"><span>Cuento enemigos con todo lo que veo, no solo con el que tengo en la mira.</span></label></li>
+          <li><label><input type="checkbox"><span>Saco info de lo que hacen mis compas aunque no me callen nada.</span></label></li>
+          <li><label><input type="checkbox"><span>Miro el minimapa cuando no estoy expuesto.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="2-1-trades-y-spacing.html"><small>Anterior</small>2.1 Trades y spacing</a>
+        <span class="next"><small>Siguiente</small>2.3 Leer al rival</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Mi audio</div>
+          <dl class="kv">
+            <dt>Volumen</dt><dd>Al máximo</dd>
+            <dt>Música</dt><dd>Apagada</dd>
+            <dt>Distracciones</dt><dd>Fuera</dd>
+            <dt>HRTF</dt><dd>Activado</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Recuerda</div>
+          <p style="margin:0">Que no haya nadie <strong>también es info</strong>.</p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="2-2"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>
