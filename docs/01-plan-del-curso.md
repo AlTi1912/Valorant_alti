@@ -200,3 +200,10 @@ Contenido general (sin opiniones del profe todavía): ingresos (800, +3000, 1900
 ## Tema 1.8 — Mental y cuándo parar (`temas/1-8-mental.html`)
 
 Del profe: parar si está en automático, sin ganas o en tilt; límite 2–3 derrotas; aim mal → DM/TDM antes de la 2.ª o 3.ª; rutina: lavarse las manos (desconectar; "enfría la mano" es mito, solo la piel), limpiar el mouse (grasa, agarre). Agregado: "¿Sigo jugando?" interactivo, entre partidas (levantarse, ¿jugué pensando?), nota diaria en Discord. Nivel 1 completo.
+
+
+## Pasar al nivel 2 (`nivel-1.html`) y tracker (`tracker.html`)
+
+Del profe: lo básico es headshots limpios con cada arma, moverse bien, una puntuación óptima en el Range y jugar ranked entendiendo lo que haces (sin modo automático: habilidades y su momento, cómo pones la mira). Después de cada ranked: ver en los duelos qué tanto disparaste a la cabeza, y en tracker.gg cuánto aportas (KAST). Todas las kills dan +200 (no hay bonus por pistola o escopeta).
+Pruebas: Range 0.8 bots/s; un DM por arma con el HS% que sube respecto al primer día; ranked con las preguntas del tracker; 1v1 en la custom delante del profe (Sheriff/Guardian, A-D, sin agacharse).
+Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (orientativos para Hierro–Oro). Desde la 13.06 el juego usa Performance Score (0–500) en lugar de ACS.

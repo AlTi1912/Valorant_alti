@@ -455,3 +455,51 @@ if (cta) {
     cta.href = "temas/" + last.file;
   }
 }
+
+// Lee tu tracker: valores orientativos para Hierro–Oro
+var trk = document.querySelector("[data-tracker]");
+if (trk) {
+  var rate = function (v, cuts) { return v < cuts[0] ? 0 : v < cuts[1] ? 1 : v < cuts[2] ? 2 : 3; };
+  var LABEL = ["Bajo", "Normal", "Bien", "Muy bien"];
+  var TONE = ["var(--accent-text)", "var(--muted)", "var(--ok)", "var(--ok)"];
+  var TIPS = {
+    hs: ["Disparas al cuerpo o al piso. Repasa el tema 1.2.", "Vas bien, pero la mira todavía baja. Fíjate en la altura de la cabeza.", "Buena altura de mira.", "Altura de mira de rango alto."],
+    kast: ["En muchas rondas mueres sin aportar: entras solo o nadie te tradea.", "Aportas en la mayoría de rondas, pero hay margen.", "Aportas casi todas las rondas.", "Casi siempre haces algo útil."],
+    adr: ["Haces poco daño por ronda: quizá te escondes o mueres temprano.", "Daño normal.", "Buen daño por ronda.", "Mucho daño por ronda."],
+    kd: ["Mueres bastante más de lo que matas.", "Parejo.", "Matas más de lo que mueres.", "Matas mucho más de lo que mueres."]
+  };
+  var trkCalc = function () {
+    var v = {};
+    ["hs", "kast", "adr", "kd", "fb", "fd"].forEach(function (k) { v[k] = parseFloat(document.getElementById("trk-" + k).value) || 0; });
+    var r = { hs: rate(v.hs, [12, 20, 25]), kast: rate(v.kast, [60, 70, 75]), adr: rate(v.adr, [100, 130, 160]), kd: rate(v.kd, [0.8, 1.1, 1.4]) };
+    Object.keys(r).forEach(function (k) {
+      var row = document.getElementById("out-" + k);
+      row.querySelector("b").textContent = LABEL[r[k]];
+      row.querySelector("b").style.color = TONE[r[k]];
+      row.querySelector("span").textContent = TIPS[k][r[k]];
+    });
+    var notes = [];
+    if (v.kd >= 1.1 && v.kast < 65) notes.push("Tu K/D es bueno pero tu KAST bajo: tus kills no están ganando rondas. Revisa si son kills de salida o peleas lejos de tu equipo.");
+    if (v.fd > v.fb * 1.5 && v.fd >= 3) notes.push("Mueres primero mucho más de lo que matas primero. Si no eres duelista, no abras tú la ronda: juega con trade.");
+    if (v.hs >= 20 && v.adr < 110) notes.push("Buena puntería, pero poco daño: busca más duelos con ventaja, con utilidad y trade.");
+    if (!notes.length) notes.push("Nada raro. Sigue fijándote en el KAST: es lo que más dice si aportas a ganar rondas.");
+    document.getElementById("trk-notes").innerHTML = notes.map(function (n) { return "<li>" + n + "</li>"; }).join("");
+  };
+  trk.querySelectorAll("input").forEach(function (i) { i.addEventListener("input", trkCalc); });
+  trkCalc();
+}
+
+// Progreso del nivel: lee los checklists de cada tema
+document.querySelectorAll("[data-level-progress] [data-tema]").forEach(function (card) {
+  var saved = store("checklist:" + card.dataset.tema) || [];
+  var total = parseInt(card.dataset.total, 10) || 5;
+  var done = saved.filter(Boolean).length;
+  var fg = card.querySelector(".fg");
+  if (fg) {
+    var len = 2 * Math.PI * fg.r.baseVal.value;
+    fg.style.strokeDasharray = len;
+    fg.style.strokeDashoffset = len * (1 - done / total);
+  }
+  card.querySelector("b").textContent = done + "/" + total;
+  if (done >= total) card.classList.add("is-done");
+});

@@ -3,7 +3,7 @@
 Web estática (GitHub Pages) con una guía de Valorant que Alti (Inmortal) usa para enseñar a sus amigos (Hierro–Oro) en Discord.
 
 - Publicada en https://alti1912.github.io/Valorant_alti/ desde la rama `claude/clever-cannon-bzc3h2`.
-- Páginas: `index.html`, `mapas.html`, `temas/*.html`. Estilos y JS compartidos en `assets/`. Datos de mapas en `assets/maps-data.js`.
+- Páginas: `index.html`, `mapas.html`, `nivel-1.html` (prueba del nivel 1), `tracker.html`, `temas/*.html`. Estilos y JS compartidos en `assets/`. Datos de mapas en `assets/maps-data.js`.
 - Plan, decisiones y notas del profe: `docs/01-plan-del-curso.md`. Pendientes: `docs/02-pendientes.md`.
 - **Diseño:** seguir siempre `DESIGN.md` (tema oscuro azul noche + rojo Valorant, tokens primitivos → semánticos, titulares Inter 460, labels Oswald, un solo botón rojo, cristal sobre imágenes, skeletons, ley de Hick y WCAG 2.2 AA verificado con axe).
 
