@@ -232,3 +232,18 @@ if (picker) {
   });
   render();
 }
+
+// Tipos de peek: animación vista desde el rival
+var peek = document.querySelector("[data-peek]");
+if (peek) {
+  var stage = peek.querySelector(".peek-stage");
+  var peekBtns = peek.querySelectorAll(".place-mode");
+  var showPeek = function (b) {
+    stage.dataset.mode = b.dataset.mode;
+    document.getElementById("peek-out").textContent = b.dataset.text;
+    document.getElementById("peek-meta").innerHTML = b.dataset.meta;
+    peekBtns.forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+  };
+  peekBtns.forEach(function (b) { b.addEventListener("click", function () { showPeek(b); }); });
+  showPeek(peekBtns[0]);
+}

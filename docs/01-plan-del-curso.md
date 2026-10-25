@@ -167,3 +167,8 @@ Argumentos del profe: "en el suelo no hay monedas", referencias de altura en los
 
 Del profe: duelos solo con A-D (nunca W/S), no dejar de moverse, A-D-click con anular e índice, A+D juntos sirve pero es peor, no agacharse ("cuando el rival se agacha, ya perdió"), tap siempre; él sprayea al cuerpo si no hay tap. Phantom por defecto; Vandal en mapas largos (Abyss, Summit) o 1v1. Método del pilar en el Range. SOCD opcional.
 Agregado: animación del ritmo A-D, selector tap/ráfaga/spray por distancia y arma (daño de Phantom a distancia), DM sin W/S, 1v1 con Sheriff/Guardian.
+
+## Tema 1.4 — Peeks y ángulos (`temas/1-4-peeks-y-angulos.html`)
+
+Del profe: jump/jiggle pegado a la pared para info (en pantalla o en el minimapa); "siempre una habilidad antes que tu persona"; en corto para duelo sin info, en largo si sabe dónde está y va en desventaja; jiggle/shoulder contra OP; primeros segundos: escuchar → info del iniciador → jump peek; errores: salir dos veces igual, salir y agacharse a sprayear; peeker's advantage; off-angles en Summit (el de Sitio B arriesgado: Jett/Chamber/Reyna). Se explica en vivo; pruebas en clase.
+Pendiente: captura con un compa (dos ángulos / distancia a la pared) — hay un placeholder en la página.

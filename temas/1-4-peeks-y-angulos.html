@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peeks y ángulos</title>
+  <meta name="description" content="Tema 1.4: para qué te asomas, tipos de peek, peeker's advantage, off-angles y cómo sacar info.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="../#clase">Las clases</a>
+        <a href="../#temario" aria-current="page">Temario</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../#aprobar">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/peeks/summit-curva-mid.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Temario</a> / Nivel 1</div>
+      <div class="chips"><span class="chip red">Tema 1.4</span><span class="chip">Clase de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Peeks<br>y ángulos</h1>
+      <p class="lead">Antes de asomarte, pregúntate para qué. Y si una habilidad puede hacerlo por ti, que lo haga ella.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#habilidad">Habilidad primero</a></li>
+          <li><a href="#para-que">¿Info o duelo?</a></li>
+          <li><a href="#tipos">Tipos de peek</a></li>
+          <li><a href="#peekers">Peeker's advantage</a></li>
+          <li><a href="#angulos">Ángulos</a></li>
+          <li><a href="#offangles">Off-angles</a></li>
+          <li><a href="#inicio">Inicio de ronda</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La clase</a></li>
+          <li><a href="#tarea">Tarea</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main>
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>Info</dt><dd>Jump / jiggle</dd>
+              <dt>Contra OP</dt><dd>Jiggle / shoulder</dd>
+              <dt>Duelo sin info</dt><dd>En corto</dd>
+              <dt>Sé dónde está</dt><dd>En largo</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="1-4"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Saber para qué te asomas, info o duelo, y asomarte de la forma que toca.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>En rangos bajos casi todos se asoman igual siempre, sin saber para qué. Cada vez que sales de una esquina te expones: si no sacas nada a cambio, es una muerte gratis para el rival.</p></div>
+        </div>
+        <div class="note teal"><span>🎮</span><div><b>Esta parte la vemos en vivo.</b> Aquí van los conceptos básicos; las pruebas te las doy en la clase, porque se entiende mucho mejor viéndolo.</div></div>
+      </section>
+
+      <section class="block" id="habilidad">
+        <h2><span class="idx">02</span>Habilidad primero</h2>
+        <div class="quote reveal">
+          <p>Siempre una habilidad <span class="hl">antes que tu persona</span>.</p>
+          <small>Si una habilidad te sirve para sacar info, úsala. No te expongas.</small>
+        </div>
+        <p style="margin-top:18px">Un dron, una flash, un dardo o una cámara te dan la misma info que asomarte, pero sin arriesgar tu vida. Si tienes una y no la usas, estás regalando la ventaja.</p>
+      </section>
+
+      <section class="block" id="para-que">
+        <h2><span class="idx">03</span>¿Info o duelo?</h2>
+        <div class="grid c2">
+          <div class="panel reveal">
+            <div class="eyebrow">Peek de info</div>
+            <h3>Sales, ves y vuelves</h3>
+            <p class="muted">No buscas matar. Lo haces pegado a la pared para mostrar lo mínimo. La info te llega de dos formas: lo ves en tu pantalla o, si saliste muy corto, en el minimapa, donde aparecen cuántos enemigos son y su ubicación exacta.</p>
+          </div>
+          <div class="panel reveal">
+            <div class="eyebrow">Peek para el duelo</div>
+            <h3>Sales para matar</h3>
+            <p class="muted">Con la mira ya a la altura de la cabeza (tema 1.2) y moviéndote con A-D (tema 1.3). Si sales a pelear sin eso, ya empezaste perdiendo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="tipos">
+        <h2><span class="idx">04</span>Tipos de peek</h2>
+        <p class="muted">Así te ve el rival en cada caso. Toca uno:</p>
+        <div class="place" data-peek>
+          <div class="place-stage">
+            <svg class="peek-stage" viewBox="0 0 400 230" role="img" aria-label="Vista del rival: pared a la izquierda y tú asomándote">
+              <rect width="400" height="230" fill="#22303d"/>
+              <rect x="150" y="30" width="250" height="140" fill="#3a4856"/>
+              <rect y="170" width="400" height="60" fill="#18232e"/>
+              <g transform="translate(150 0)">
+                <g class="fig">
+                  <circle cx="0" cy="82" r="10" fill="#3fe0c5"/>
+                  <rect x="-11" y="94" width="22" height="46" rx="4" fill="#3fe0c5"/>
+                  <rect x="-10" y="140" width="8" height="30" fill="#3fe0c5"/>
+                  <rect x="2" y="140" width="8" height="30" fill="#3fe0c5"/>
+                </g>
+              </g>
+              <polygon points="0,0 150,0 150,230 0,230" fill="#c9b79c"/>
+              <line x1="150" y1="0" x2="150" y2="230" stroke="#a8977c" stroke-width="3"/>
+              <text x="390" y="215" fill="#95a3b0" font-size="11" font-family="Inter, sans-serif" text-anchor="end">vista del rival</text>
+            </svg>
+          </div>
+          <div>
+            <div class="place-modes">
+              <button class="place-mode" data-mode="jump" data-meta='<span class="chip teal">Info</span><span class="chip">Expones poco</span>' data-text="Saltas pegado a la pared y vuelves a cubrirte. Es el que más uso para sacar info: lo tengo masterizado y casi nunca me matan haciéndolo. No es para disparar." aria-pressed="true"><b>Jump peek</b><span>El que más uso para sacar info</span></button>
+              <button class="place-mode" data-mode="jiggle" data-meta='<span class="chip teal">Info</span><span class="chip">Expones poco</span>' data-text="Sales y vuelves rápido con A-D, pegado a la pared. Sirve para sacar info cuando no estás en el site de tu iniciador, y para sacarle el disparo a una OP." aria-pressed="false"><b>Jiggle peek</b><span>Info rápida · contra OP</span></button>
+              <button class="place-mode" data-mode="shoulder" data-meta='<span class="chip teal">Info</span><span class="chip">Casi nada expuesto</span>' data-text="Muestras solo el hombro. La idea es que una OP dispare y falle, o que el rival se delate disparando." aria-pressed="false"><b>Shoulder peek</b><span>Para que la OP dispare y falle</span></button>
+              <button class="place-mode" data-mode="tight" data-meta='<span class="chip red">Duelo</span><span class="chip">Sin info</span>' data-text="Te abres en corto, pegado a la pared, mostrando lo mínimo. Lo uso cuando busco un duelo sin info: me abro en corto e intento flickear." aria-pressed="false"><b>En corto (tight)</b><span>Duelo sin saber dónde está</span></button>
+              <button class="place-mode" data-mode="wide" data-meta='<span class="chip red">Duelo</span><span class="chip">Sabes dónde está</span>' data-text="Te abres en largo, rápido y separado de la pared. Lo uso cuando sé dónde está el enemigo y sé que estoy en desventaja: el que espera pegado a la pared no alcanza a seguirte." aria-pressed="false"><b>En largo (wide)</b><span>Sabes dónde está y vas en desventaja</span></button>
+            </div>
+            <p class="place-out" id="peek-out"></p>
+            <div class="peek-meta" id="peek-meta"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="peekers">
+        <h2><span class="idx">05</span>Peeker's advantage</h2>
+        <p>Esto es muy importante. <strong>El que se asoma ve primero.</strong> Cuando sales de una esquina, en tu pantalla ves al rival un instante antes de que él te vea en la suya. Pasa por el tiempo que tarda la info en viajar por internet hasta el servidor y de vuelta (el ping).</p>
+        <div class="panel reveal" style="margin:16px 0">
+          <div class="pa">
+            <div class="pa-row"><span>Tu pantalla</span><div class="pa-track"><span class="pa-mark you">Lo ves</span></div></div>
+            <div class="pa-row"><span>Pantalla del rival</span><div class="pa-track"><span class="pa-mark him">Te ve</span></div></div>
+          </div>
+          <p class="muted" style="margin:12px 0 0;font-size:14px">Esa diferencia es poquita, pero en un duelo es la que decide quién dispara primero.</p>
+        </div>
+        <div class="grid c3">
+          <div class="panel reveal"><h4>Si aguantas un ángulo</h4><p class="muted">No te quedes en el lugar obvio pegado a la pared esperando: ahí el que asoma te gana. Busca un off-angle o aléjate de la esquina.</p></div>
+          <div class="panel reveal"><h4>Si vas a asomar</h4><p class="muted">Aprovéchalo: sal con la mira lista. Pero no salgas dos veces por el mismo lugar, porque ahí el rival ya te está esperando.</p></div>
+          <div class="panel reveal"><h4>Con habilidades</h4><p class="muted">Una flash o una habilidad que lo obligue a moverse le quita la ventaja al que espera.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="angulos">
+        <h2><span class="idx">06</span>Ángulos</h2>
+        <div class="grid c2">
+          <div class="panel reveal">
+            <h4>Un ángulo a la vez</h4>
+            <p class="muted">Nunca te expongas a dos ángulos al mismo tiempo: no puedes mirar a los dos. Revisa una esquina por partes, ángulo por ángulo (a esto se le llama <em>slicing the pie</em>), en vez de salir y quedar expuesto a todo.</p>
+          </div>
+          <div class="panel reveal">
+            <h4>Distancia a la pared</h4>
+            <p class="muted">Cuanto más lejos estás de la esquina, más tiempo tienes para reaccionar cuando el rival sale. Pegado a la pared, aparece de golpe en tu pantalla.</p>
+          </div>
+        </div>
+        <div class="placeholder" style="margin-top:16px"><div><b>Captura pendiente</b>Una posición que te expone a dos ángulos y la misma esquina vista de cerca y de lejos. La haré con un compa.</div></div>
+      </section>
+
+      <section class="block" id="offangles">
+        <h2><span class="idx">07</span>Off-angles</h2>
+        <p class="muted">Un off-angle es una posición donde el rival no espera encontrarte. Como no te está apuntando, le quitas la ventaja de asomarse primero. Estos son algunos míos en Summit:</p>
+        <div class="shots big">
+          <figure class="shot"><button><img src="../assets/img/peeks/summit-jardin-a.webp" alt="Off-angle en Jardín A de Summit" loading="lazy"></button><figcaption>Summit · Jardín A</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/peeks/summit-curva-mid.webp" alt="Off-angle en Curva Mid de Summit" loading="lazy"></button><figcaption>Summit · Curva Mid</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/peeks/summit-inferior-mid.webp" alt="Off-angle en Inferior Mid de Summit" loading="lazy"></button><figcaption>Summit · Inferior Mid</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/peeks/summit-sitio-b.webp" alt="Off-angle en Sitio B de Summit" loading="lazy"></button><figcaption>Summit · Sitio B</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/peeks/summit-sitio-b-arriesgado.webp" alt="Off-angle arriesgado en Sitio B de Summit" loading="lazy"></button><figcaption>Summit · Sitio B (arriesgado)</figcaption></figure>
+        </div>
+        <div class="note"><span>⚠</span><div><b>El último es más arriesgado.</b> Es para Jett, Chamber o Reyna, porque estás prácticamente en medio de la nada y tienes dos ángulos posibles. En un clutch es bueno, pero si te están rusheando el site no sirve mucho: te tiran habilidades encima.</div></div>
+      </section>
+
+      <section class="block" id="inicio">
+        <h2><span class="idx">08</span>Lo que hago en los primeros segundos</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Escucho</h4><p>Pasos, habilidades, puertas. El sonido es info gratis.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Miro a mi iniciador</h4><p>¿Sacó info? Míralo en el minimapa y en lo que dice.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Si no hay info, jump peek</h4><p>Pegado a la pared, para ver sin exponerme.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>¿Hay OP?</h4><p>Jiggle o shoulder para sacarle el disparo.</p></div>
+        </div>
+        <div class="note teal"><span>💬</span><div><b>Y después de ver algo:</b> avísalo. La info que sacas y no dices no sirve para nada.</div></div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">09</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Salir dos veces por el mismo ángulo, a la misma distancia o altura.</div>
+          <div class="err reveal">Salir y agacharse de una para sprayear.</div>
+          <div class="err reveal">Asomarse sin saber para qué: ni info ni duelo.</div>
+          <div class="err reveal">Asomarse teniendo una habilidad que podía sacar esa info.</div>
+          <div class="err reveal">Quedar expuesto a dos ángulos a la vez.</div>
+          <div class="err reveal">Ver algo y no avisarlo.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">10</span>Cómo va a ser la clase</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Info o duelo, habilidad primero y peeker's advantage.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Demo en la custom</h4><p>Les muestro cada peek y cómo lo ve el rival.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Pruebas</h4><p>Jump peek, jiggle contra OP y off-angles, en parejas.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">11</span>Tarea</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Custom</div><p>Practica el jump peek pegado a la pared hasta que te salga sin pensar.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Antes de cada peek, dite: ¿info o duelo? Y si tienes habilidad de info, úsala primero.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En tu canal</div><p>Sube un off-angle tuyo en algún mapa de la pool.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">12</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="1-4">
+          <li><label><input type="checkbox"><span>Antes de asomarme sé si voy por info o por un duelo.</span></label></li>
+          <li><label><input type="checkbox"><span>Si tengo una habilidad para sacar info, la uso antes de asomarme.</span></label></li>
+          <li><label><input type="checkbox"><span>Hago jump peek y jiggle peek pegado a la pared sin que me maten.</span></label></li>
+          <li><label><input type="checkbox"><span>Entiendo el peeker's advantage y no salgo dos veces por el mismo lugar.</span></label></li>
+          <li><label><input type="checkbox"><span>Tengo al menos un off-angle propio en 2 mapas.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="1-3-movimiento-y-disparo.html"><small>Anterior</small>1.3 Movimiento y disparo</a>
+        <span class="next"><small>Siguiente</small>1.5 Utilidad básica</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Regla rápida</div>
+          <dl class="kv">
+            <dt>Sacar info</dt><dd>Jump / jiggle</dd>
+            <dt>Contra OP</dt><dd>Jiggle / shoulder</dd>
+            <dt>Duelo sin info</dt><dd>En corto</dd>
+            <dt>Sé dónde está</dt><dd>En largo</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Antes de asomarte</div>
+          <p style="margin:0">¿Tengo una habilidad que lo haga por mí? <strong>Úsala.</strong></p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="1-4"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="lightbox" hidden><img alt=""></div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>
