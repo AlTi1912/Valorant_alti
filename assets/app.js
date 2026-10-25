@@ -283,3 +283,20 @@ document.querySelectorAll("[data-quiz] .q").forEach(function (q) {
     });
   });
 });
+
+// Arma el call
+var callBox = document.querySelector("[data-call]");
+if (callBox) {
+  var parts = { agent: "Jett", place: "corta", extra: "con Vandal" };
+  var renderCall = function () {
+    var txt = parts.agent + ", " + parts.place + (parts.extra ? ", " + parts.extra : "") + ".";
+    document.getElementById("call-out").textContent = txt;
+    callBox.querySelectorAll("[data-part]").forEach(function (b) {
+      b.setAttribute("aria-pressed", parts[b.dataset.part] === b.dataset.value);
+    });
+  };
+  callBox.querySelectorAll("[data-part]").forEach(function (b) {
+    b.addEventListener("click", function () { parts[b.dataset.part] = b.dataset.value; renderCall(); });
+  });
+  renderCall();
+}

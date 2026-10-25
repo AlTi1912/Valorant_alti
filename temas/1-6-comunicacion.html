@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comunicación y mental</title>
+  <meta name="description" content="Tema 1.6: qué decir, qué hacer cuando mueres, la regla del clutch, no gritar, y que los nervios no te ganen.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="../#clase">Las clases</a>
+        <a href="../#temario" aria-current="page">Temario</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../#aprobar">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/peeks/summit-sitio-b.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Temario</a> / Nivel 1</div>
+      <div class="chips"><span class="chip red">Tema 1.6</span><span class="chip">Clase de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Comunicación<br>y mental</h1>
+      <p class="lead">En un mal día el aim no ayuda, pero la comunicación y la inteligencia nunca se van. Aprovecha eso.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#vivo">Mientras juegas</a></li>
+          <li><a href="#muerto">Cuando mueres</a></li>
+          <li><a href="#clutch">En un clutch</a></li>
+          <li><a href="#gritar">No grites</a></li>
+          <li><a href="#nervios">Los nervios</a></li>
+          <li><a href="#tilt">El tilt</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La clase</a></li>
+          <li><a href="#tarea">Tarea</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main>
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>Vivo</dt><dd>Agente + dónde</dd>
+              <dt>Muerto</dt><dd>Quién, dónde, qué más</dd>
+              <dt>Clutch</dt><dd>Solo info</dd>
+              <dt>Nunca</dt><dd>Gritar ni ordenar</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="1-6"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Decir lo que ves, corto y claro, y no perder el mental aunque la ronda se ponga fea.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>La comunicación es lo más importante, y mucho más en partidas de alto nivel. Por un buen call, una ronda o una partida puede cambiar completamente.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="vivo">
+        <h2><span class="idx">02</span>Mientras juegas</h2>
+        <p>Lo que yo digo siempre: <strong>el personaje que veo y su ubicación</strong>. Si hay tiempo, algo más: el arma, cuánta vida le quitaste o qué habilidad usó.</p>
+        <div class="panel reveal" data-call style="margin-top:16px">
+          <h3>Arma el call</h3>
+          <div class="aside-title" style="margin-top:12px">¿A quién ves?</div>
+          <div class="pick-group">
+            <button class="preset" data-part="agent" data-value="Jett">Jett</button>
+            <button class="preset" data-part="agent" data-value="KAY/O">KAY/O</button>
+            <button class="preset" data-part="agent" data-value="Omen">Omen</button>
+            <button class="preset" data-part="agent" data-value="Dos">Dos</button>
+          </div>
+          <div class="aside-title">¿Dónde?</div>
+          <div class="pick-group">
+            <button class="preset" data-part="place" data-value="corta">Corta</button>
+            <button class="preset" data-part="place" data-value="larga">Larga</button>
+            <button class="preset" data-part="place" data-value="mid">Mid</button>
+            <button class="preset" data-part="place" data-value="en el site">En el site</button>
+          </div>
+          <div class="aside-title">¿Algo más? (si hay tiempo)</div>
+          <div class="pick-group">
+            <button class="preset" data-part="extra" data-value="con Vandal">Con Vandal</button>
+            <button class="preset" data-part="extra" data-value="está -120">Le quité 120</button>
+            <button class="preset" data-part="extra" data-value="ya usó la flash">Usó la flash</button>
+            <button class="preset" data-part="extra" data-value="">Nada más</button>
+          </div>
+          <p class="call-out" id="call-out"></p>
+        </div>
+        <p class="muted" style="margin-top:12px">Primero quién y dónde. Lo demás, solo si no estás peleando. Un call largo en medio de un duelo no le sirve a nadie.</p>
+      </section>
+
+      <section class="block" id="muerto">
+        <h2><span class="idx">03</span>Cuando mueres</h2>
+        <p>Di <strong>quién te mató, por dónde y qué más viste</strong>. Muerto puedes ver el POV de todos: aprovecha para callear qué habilidades les quedan o cosas del mapa.</p>
+        <div class="panel reveal" style="margin-top:16px">
+          <div class="eyebrow">Ejemplo</div>
+          <p>Te mata una Jett que dashea. El mapa no marcó a ningún KAY/O, pero viste su flash, así que sabes que estaba ahí.</p>
+          <p class="call-out" style="border-left-color:var(--red)">"Pasó Jett, con Vandal, por corta. El KAY/O está larga."</p>
+          <p class="muted" style="margin:12px 0 0">Calleas a la Jett que te mató y también al KAY/O, aunque no lo hayas visto, porque su flash te dijo dónde estaba.</p>
+        </div>
+      </section>
+
+      <section class="block" id="clutch">
+        <h2><span class="idx">04</span>En un clutch</h2>
+        <div class="quote reveal">
+          <p>Al que está en clutch <span class="hl">nunca, nunca, nunca</span> se le dice qué hacer.</p>
+          <small>Cuando alguien me dice qué hacer en un clutch, lo muteo.</small>
+        </div>
+        <div class="dos-donts" style="margin-top:18px">
+          <div class="dd yes reveal">
+            <h4>Info del rival o de su situación: sí</h4>
+            <ul>
+              <li>"Solo le queda una flash."</li>
+              <li>"Estaba en A."</li>
+              <li>"El enemigo está -120."</li>
+              <li>"Tienes la ulti."</li>
+              <li>"Te quedan 3 balas."</li>
+            </ul>
+          </div>
+          <div class="dd no reveal">
+            <h4>Órdenes o calls largos: nunca</h4>
+            <ul>
+              <li>"Vete a A."</li>
+              <li>"Toma la spike y date la vuelta."</li>
+              <li>Calls largos o complicados que lo distraen.</li>
+              <li>Hablar todos a la vez.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="gritar">
+        <h2><span class="idx">05</span>No grites</h2>
+        <p>No grites ni levantes la voz. Así como tú estás tenso por una situación, si tus amigos están a punto de pelear les pasas esa tensión. Mejor callea lo que ves de la mejor manera.</p>
+        <div class="note teal"><span>🎧</span><div><b>No está mal gritar a veces:</b> puede ayudar a que tu equipo reaccione más rápido. Pero siempre será mejor que te ayuden entendiendo qué está pasando a tu alrededor, para que puedan adaptarse.</div></div>
+      </section>
+
+      <section class="block" id="nervios">
+        <h2><span class="idx">06</span>Que los nervios no te ganen</h2>
+        <div class="situations">
+          <span class="chip red">Un ace</span><span class="chip red">Un clutch</span><span class="chip red">Un 1v1</span><span class="chip red">Un rush</span><span class="chip red">Un smurf que te boludea</span>
+        </div>
+        <div class="quote reveal">
+          <p>No dejes que los nervios te ganen. <span class="hl">Tú puedes.</span></p>
+          <small>Pudiste con uno, pudiste con cuatro, pudiste llegar a esa situación.</small>
+        </div>
+        <div class="grid c2" style="margin-top:18px">
+          <div class="panel reveal">
+            <div class="eyebrow">Es normal</div>
+            <p>Los nervios son algo natural. A mí incluso, en un clutch, se me acelera un poco el corazón. Pero no me rindo: lo intento. Si no lo consigo, nt. Si lo consigo, me alegro: gané una ronda más.</p>
+          </div>
+          <div class="panel reveal">
+            <div class="eyebrow">Si te humillan</div>
+            <p>Cuando un smurf te boludea y te sientes humillado, puedes darle la vuelta: cambia la humillación a ti por la humillación al tonto que quiere hacerse el bueno contra ti.</p>
+          </div>
+        </div>
+        <div class="note"><span>💪</span><div><b>Si no la ganas, no te vengas abajo.</b> Lo importante es no perder el mental y no dejar de comunicar.</div></div>
+        <div class="note teal"><span>🫁</span><div><b>Un truco antes de un clutch:</b> una respiración lenta y piensa en una sola cosa: ¿dónde está el próximo enemigo?</div></div>
+      </section>
+
+      <section class="block" id="tilt">
+        <h2><span class="idx">07</span>El tilt</h2>
+        <p>Estás en tilt cuando la frustración te hace jugar peor. Lo difícil es darte cuenta a tiempo.</p>
+        <div class="grid c2">
+          <div class="dd no reveal">
+            <h4>Señales de que estás en tilt</h4>
+            <ul>
+              <li>Culpas a tus compas de todo.</li>
+              <li>Dejas de hablar, o solo hablas para quejarte.</li>
+              <li>Juegas apurado y fuerzas duelos que no tocan.</li>
+              <li>Piensas en la ronda pasada en vez de en esta.</li>
+            </ul>
+          </div>
+          <div class="dd yes reveal">
+            <h4>Qué hacer en la partida</h4>
+            <ul>
+              <li>Una ronda a la vez. La anterior ya pasó.</li>
+              <li>"nt" y a la siguiente, para ti y para tus compas.</li>
+              <li>Habla solo de info del juego.</li>
+              <li>Si el aim no sale, juega con la cabeza: info, utilidad, trades.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:14px">Qué hacer entre partidas y cuándo es mejor parar lo vemos en el tema 1.8.</p>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">08</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">🗣</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom · 5v5</span></div>
+              <h3>Rondas de solo info</h3>
+              <p class="muted">Rondas normales donde la regla es una sola: cada vez que ves a alguien, agente + dónde. El profe corta la ronda si alguien ve algo y no lo dice.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">💀</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>El call de muerto</h3>
+              <p class="muted">Cada vez que mueres: quién, por dónde y qué más viste. En menos de 3 segundos.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">1v2</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Clutch con público</h3>
+              <p class="muted">Uno juega un 1v2. Los muertos solo pueden dar info, nunca órdenes. Si alguien da una orden, la ronda se repite.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">09</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Decirle qué hacer al que está en clutch.</div>
+          <div class="err reveal">Gritar y pasarle los nervios a todo el equipo.</div>
+          <div class="err reveal">"Hay uno", sin decir quién ni dónde.</div>
+          <div class="err reveal">Calls largos en medio de un duelo.</div>
+          <div class="err reveal">Morir y quedarse callado, o quejarse en vez de dar info.</div>
+          <div class="err reveal">Dejar de hablar cuando el equipo va perdiendo.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">10</span>Cómo va a ser la clase</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Qué decir, el clutch y los nervios.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Rondas de solo info</h4><p>5v5 en la custom, con el call de muerto.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Clutch con público</h4><p>1v2, los muertos solo con info.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">11</span>Tarea</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Cada vez que veas a alguien: agente + dónde. Cada vez que mueras: quién, por dónde y qué más.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Clutch</div><p>Si un compa está en clutch, solo info. Cero órdenes.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En tu canal</div><p>Cuenta un momento en que los nervios te ganaron y qué harías distinto.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">12</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="1-6">
+          <li><label><input type="checkbox"><span>Callo agente + ubicación cada vez que veo a alguien.</span></label></li>
+          <li><label><input type="checkbox"><span>Cuando muero digo quién, por dónde y qué más vi.</span></label></li>
+          <li><label><input type="checkbox"><span>Al que está en clutch solo le doy info, nunca órdenes.</span></label></li>
+          <li><label><input type="checkbox"><span>No grito: callo lo que veo, tranquilo.</span></label></li>
+          <li><label><input type="checkbox"><span>Si pierdo una ronda, sigo comunicando y no me vengo abajo.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="1-5-utilidad-basica.html"><small>Anterior</small>1.5 Utilidad básica</a>
+        <span class="next"><small>Siguiente</small>1.7 Economía básica</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Regla rápida</div>
+          <dl class="kv">
+            <dt>Vivo</dt><dd>Agente + dónde</dd>
+            <dt>Muerto</dt><dd>Quién, dónde, qué más</dd>
+            <dt>Clutch</dt><dd>Solo info</dd>
+            <dt>Nunca</dt><dd>Gritar ni ordenar</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Recuerda</div>
+          <p style="margin:0">Pudiste con uno, pudiste con cuatro. <strong>Tú puedes.</strong></p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="1-6"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>
