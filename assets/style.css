@@ -493,3 +493,7 @@ td.on { color: var(--teal); font-weight: 700; }
 .step-card .n { font-family: "Oswald", sans-serif; font-size: 26px; color: var(--red); line-height: 1; }
 .step-card h4 { margin: 8px 0 4px; }
 .step-card p { margin: 0; font-size: 14px; color: var(--muted); }
+
+/* Vista desde arriba: ángulos */
+.angle-stage .m-far, .angle-stage .m-near, .angle-stage .m-pa { display: none; }
+.angle-stage[data-mode="far"] .m-far, .angle-stage[data-mode="near"] .m-near, .angle-stage[data-mode="pa"] .m-pa { display: inline; }

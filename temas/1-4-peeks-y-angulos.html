@@ -154,6 +154,51 @@
           </div>
           <p class="muted" style="margin:12px 0 0;font-size:14px">Esa diferencia es poquita, pero en un duelo es la que decide quién dispara primero.</p>
         </div>
+        <h3 style="margin-top:8px">Visto desde arriba</h3>
+        <p class="muted">B se asoma desde detrás de la pared. A espera. Toca cada caso:</p>
+        <div class="place" data-angle style="margin-bottom:16px">
+          <div class="place-stage">
+            <svg class="angle-stage" data-mode="pa" viewBox="0 0 400 260" role="img" aria-label="Vista desde arriba: pared, jugador que asoma y jugador que espera">
+              <rect width="400" height="260" fill="#18232e"/>
+              <rect x="40" y="130" width="160" height="40" fill="#3a4856"/>
+              <line x1="200" y1="170" x2="117" y2="228" stroke="#95a3b0" stroke-width="1" stroke-dasharray="4 4" opacity=".6"/>
+              <g class="m-far">
+                <polygon points="370,51 157,200 230,200" fill="rgba(63,224,197,.18)"/>
+                <line x1="370" y1="51" x2="157" y2="200" stroke="#3fe0c5" stroke-width="1.5"/>
+                <line x1="370" y1="51" x2="230" y2="200" stroke="#3fe0c5" stroke-width="1.5"/>
+              </g>
+              <g class="m-near">
+                <polygon points="260,128 157,200 230,200" fill="rgba(255,70,85,.18)"/>
+                <line x1="260" y1="128" x2="157" y2="200" stroke="#ff4655" stroke-width="1.5"/>
+                <line x1="260" y1="128" x2="230" y2="200" stroke="#ff4655" stroke-width="1.5"/>
+              </g>
+              <g class="m-pa">
+                <line x1="370" y1="51" x2="190" y2="200" stroke="#3fe0c5" stroke-width="1.5" stroke-dasharray="5 4"/>
+                <circle cx="148" cy="200" r="9" fill="none" stroke="#ff4655" stroke-width="2" stroke-dasharray="3 3"/>
+                <text x="148" y="226" fill="#ff4655" font-size="10" font-family="Inter, sans-serif" text-anchor="middle">B en la pantalla de A</text>
+              </g>
+              <path d="M120 214 H232" stroke="#95a3b0" stroke-width="1.5" marker-end="url(#arr)" class="m-far m-near"/>
+              <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#95a3b0"/></marker></defs>
+              <circle class="m-far m-near" cx="230" cy="200" r="9" fill="#3fe0c5"/>
+              <circle class="m-pa" cx="190" cy="200" r="9" fill="#3fe0c5"/>
+              <text class="m-far m-near" x="230" y="186" fill="#ece8e1" font-size="12" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">B</text>
+              <text class="m-pa" x="190" y="186" fill="#ece8e1" font-size="12" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">B</text>
+              <circle class="m-far m-pa" cx="370" cy="51" r="9" fill="#ff4655"/>
+              <text class="m-far m-pa" x="370" y="36" fill="#ece8e1" font-size="12" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">A</text>
+              <circle class="m-near" cx="260" cy="128" r="9" fill="#ff4655"/>
+              <text class="m-near" x="260" y="113" fill="#ece8e1" font-size="12" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">A</text>
+              <text x="120" y="152" fill="#95a3b0" font-size="11" font-family="Inter, sans-serif" text-anchor="middle">pared</text>
+            </svg>
+          </div>
+          <div>
+            <div class="place-modes">
+              <button class="place-mode" data-mode="pa" data-text="B ya salió y en su pantalla se ven los dos. Pero a la pantalla de A la info llega un poquito tarde (el ping): para A, B todavía está detrás de la pared. Por eso el que asoma dispara primero." aria-pressed="true"><b>Peeker's advantage</b><span>Lo que ve cada uno</span></button>
+              <button class="place-mode" data-mode="far" data-text="A espera lejos de la esquina. Cuando B asoma, se mueve poquito en la pantalla de A (unos 12°): queda cerca de su mira y le da tiempo a reaccionar. A tiene ventaja porque está más lejos del ángulo." aria-pressed="false"><b>A espera lejos</b><span>Ventaja para A</span></button>
+              <button class="place-mode" data-mode="near" data-text="A espera pegado a la esquina. El mismo movimiento de B cruza mucho más de su pantalla (unos 32°): B aparece de golpe y se le escapa de la mira. Aquí el peeker's advantage pesa todavía más." aria-pressed="false"><b>A espera cerca</b><span>Ventaja para B</span></button>
+            </div>
+            <p class="place-out" id="angle-out"></p>
+          </div>
+        </div>
         <div class="grid c3">
           <div class="panel reveal"><h4>Si aguantas un ángulo</h4><p class="muted">No te quedes en el lugar obvio pegado a la pared esperando: ahí el que asoma te gana. Busca un off-angle o aléjate de la esquina.</p></div>
           <div class="panel reveal"><h4>Si vas a asomar</h4><p class="muted">Aprovéchalo: sal con la mira lista. Pero no salgas dos veces por el mismo lugar, porque ahí el rival ya te está esperando.</p></div>
@@ -170,10 +215,10 @@
           </div>
           <div class="panel reveal">
             <h4>Distancia a la pared</h4>
-            <p class="muted">Cuanto más lejos estás de la esquina, más tiempo tienes para reaccionar cuando el rival sale. Pegado a la pared, aparece de golpe en tu pantalla.</p>
+            <p class="muted">Cuanto más lejos estás de la esquina, más tiempo tienes para reaccionar cuando el rival sale. Pegado a la pared, aparece de golpe en tu pantalla. Lo viste arriba en el dibujo.</p>
           </div>
         </div>
-        <div class="placeholder" style="margin-top:16px"><div><b>Captura pendiente</b>Una posición que te expone a dos ángulos y la misma esquina vista de cerca y de lejos. La haré con un compa.</div></div>
+        <div class="placeholder" style="margin-top:16px"><div><b>Captura pendiente</b>Una posición que te expone a dos ángulos a la vez, vista en el juego. La haré con un compa.</div></div>
       </section>
 
       <section class="block" id="offangles">

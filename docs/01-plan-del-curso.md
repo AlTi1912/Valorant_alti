@@ -172,3 +172,19 @@ Agregado: animación del ritmo A-D, selector tap/ráfaga/spray por distancia y a
 
 Del profe: jump/jiggle pegado a la pared para info (en pantalla o en el minimapa); "siempre una habilidad antes que tu persona"; en corto para duelo sin info, en largo si sabe dónde está y va en desventaja; jiggle/shoulder contra OP; primeros segundos: escuchar → info del iniciador → jump peek; errores: salir dos veces igual, salir y agacharse a sprayear; peeker's advantage; off-angles en Summit (el de Sitio B arriesgado: Jett/Chamber/Reyna). Se explica en vivo; pruebas en clase.
 Pendiente: captura con un compa (dos ángulos / distancia a la pared) — hay un placeholder en la página.
+
+## Ideas del profe para guardar (mapas y nivel 2–3)
+
+- **Control del mapa = tablero de ajedrez:** pierdes una zona, ganas otra; tener la mayor parte del mapa. Varias salidas para el retake (no solo CT), con trade y utilidad junta. Condiciones de victoria: lurker vivo, ulti guardada.
+- **Split B típico:** 3 mid + 2 main (o 4-1). Defensa: denegar mid y hacer tiempo, ganar main (duelo o lurk), retake desde dos lados.
+- **No ganar un site sin espacio:** en Summit se humea pegado a B para pasar y plantar y te quedas sin espacio; lo ideal es humear mid y boca de CT, ganar la caída y jugar cruzado (lo de VCT). En ranked sin utilidad es entendible, pero el espacio gana rondas: si pierdes algo, gánalo donde el rival quedó débil.
+- **Nada de habilidades en la mano:** tirar para zonear; no salir con la habilidad en la mano expuesto a 3 ángulos. Lanzar sin exponerse: flecha rebotada de Sova, flash de Gekko al cielo, granadas con jump peek o por encima de algo.
+- Ya está en `mapas.html` (sección "Control del mapa") y en la ficha de Summit. Ampliar en temas 2.5–2.7 y 3.x.
+
+## Tema 1.5 — pedido del profe
+
+- Generalidades de habilidades: para qué sirve cada tipo, cuándo usar y cuándo no, timings, cuáles importan más. Por rol.
+- 1v1: no usar habilidades salvo un spot que dé mucha ventaja, o una flash sin estar expuesto.
+- Sage en bronce: no muro en el segundo 1 (en bronce corren a un site: espera la info); slows: uno, esperar que se acabe, tirar el otro al timing sin exponerse.
+- Fichas por agente a futuro: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
+- Guía de humos buenos/malos: la manda el profe más adelante.

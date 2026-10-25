@@ -14,6 +14,7 @@ window.MAPS = [
       "Hay 3 paredes que caen cuando rompes su interruptor (tiene 125 de vida): una en A (entre A Art y A Garden), una en mid (entre Mid Window y Mid Bottom) y una en B (entre B Tower y el site).",
       "Cuando una pared baja, se queda así toda la ronda. No se vuelve a abrir.",
       "Si estás debajo cuando cae, te mueres.",
+      "Atacando B: si tiras los humos pegados al site para pasar y plantar, te quedas sin espacio. Lo ideal es humear mid y la boca de CT, ganar la caída (B Drop) y jugar cruzado desde varios puntos.",
       "Salió en la 13.00 (junio 2026). Lo vamos a ir aprendiendo juntos, así que esta ficha va a cambiar."
     ],
     zones: [

@@ -247,3 +247,17 @@ if (peek) {
   peekBtns.forEach(function (b) { b.addEventListener("click", function () { showPeek(b); }); });
   showPeek(peekBtns[0]);
 }
+
+// Vista desde arriba: peeker's advantage y distancia al ángulo
+var angle = document.querySelector("[data-angle]");
+if (angle) {
+  var aStage = angle.querySelector(".angle-stage");
+  var aBtns = angle.querySelectorAll(".place-mode");
+  var showAngle = function (b) {
+    aStage.dataset.mode = b.dataset.mode;
+    document.getElementById("angle-out").textContent = b.dataset.text;
+    aBtns.forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+  };
+  aBtns.forEach(function (b) { b.addEventListener("click", function () { showAngle(b); }); });
+  showAngle(aBtns[0]);
+}
