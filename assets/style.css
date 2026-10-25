@@ -667,3 +667,13 @@ td.on { color: var(--teal); font-weight: 600; }
 .tema-card .ring b { font-size: 17px; }
 .tema-card small { display: block; color: var(--muted); font-size: 13px; }
 .tema-card.is-done { border-color: rgba(63, 224, 197, .4); }
+
+/* Diagramas con modos (genérico) */
+.diagram-stage .m { display: none; }
+.diagram-stage[data-mode="sep"] .m-sep, .diagram-stage[data-mode="tras"] .m-tras, .diagram-stage[data-mode="bien"] .m-bien { display: inline; }
+.odds { display: grid; gap: 10px; }
+.odds .row { display: grid; grid-template-columns: 1fr 64px; gap: 4px 12px; align-items: center; font-size: 14px; }
+.odds .track { grid-column: 1 / -1; height: 12px; border-radius: 12px; background: var(--surface-2); overflow: hidden; }
+.odds .fill { height: 100%; border-radius: 12px; background: var(--accent); }
+.odds .fill.low { background: var(--ok); }
+.odds .num { text-align: right; font: 500 18px/1 var(--font-tech); }

@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trades y spacing</title>
+  <meta name="description" content="Tema 2.1: jugar lado a lado con tu compa, abrirse al trade (uno en largo, otro en corto) y darle al rival la menor chance de ganar.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-lesson="2.1" data-title="Trades y spacing">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/peeks/summit-sitio-b.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 2</div>
+      <div class="chips"><span class="chip red">Tema 2.1</span><span class="chip">Juntada de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Trades<br>y spacing</h1>
+      <p class="lead">Lado a lado con tu compa, cada uno mirando un ángulo distinto. Si uno cae, el otro lo cobra al toque.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#error">El error de Haven</a></li>
+          <li><a href="#lado">Lado a lado</a></li>
+          <li><a href="#abrirse">Abrirse al trade</a></li>
+          <li><a href="#chances">Las chances</a></li>
+          <li><a href="#cuando">¿Cuándo un 50-50?</a></li>
+          <li><a href="#quien">Quién entra primero</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para esta semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>Posición</dt><dd>Lado a lado</dd>
+              <dt>Ángulos</dt><dd>Uno cada uno</dd>
+              <dt>Salida</dt><dd>Largo + corto</dd>
+              <dt>Último en morir</dt><dd>El humo</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="2-1"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Jugar al lado de tu compa para que, si uno muere, el otro lo tradee al instante.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Un duelo solo es un 50-50. Con trade, para ganar la ronda el rival tiene que ganar dos duelos casi a la vez, y sus chances bajan muchísimo.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="error">
+        <h2><span class="idx">02</span>El error de Haven</h2>
+        <p>Plantaron en A. Un compa dice "voy por CT" y el otro "entonces yo voy por arriba". Parece buena idea porque son dos ángulos distintos, pero es un error grave en un 2v2 o un 2v3. Toca cada caso:</p>
+        <div class="place" data-diagram style="margin-top:16px">
+          <div class="place-stage">
+            <svg class="diagram-stage" data-mode="sep" viewBox="0 0 400 260" role="img" aria-label="Esquema de un retake en A de Haven con dos compañeros">
+              <defs><marker id="ta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#3fe0c5"/></marker></defs>
+              <rect width="400" height="260" fill="#0a1118"/>
+              <rect x="150" y="40" width="200" height="140" rx="6" fill="#16222e" stroke="#2a3a4a"/>
+              <text x="340" y="58" fill="#95a3b0" font-size="13" font-family="Inter, sans-serif" text-anchor="end">SITE A</text>
+              <rect x="0" y="58" width="150" height="34" fill="#16222e" stroke="#2a3a4a"/>
+              <text x="12" y="52" fill="#95a3b0" font-size="13" font-family="Inter, sans-serif">Cielo / arriba</text>
+              <rect x="270" y="180" width="70" height="80" fill="#16222e" stroke="#2a3a4a"/>
+              <text x="348" y="250" fill="#95a3b0" font-size="13" font-family="Inter, sans-serif">CT</text>
+              <path d="M262 104 l8 -8 l8 8 l-8 8 z" fill="#ff4655"/>
+              <circle cx="205" cy="92" r="12" fill="#ff4655"/><text x="205" y="96" fill="#0f1923" font-size="13" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">R</text>
+
+              <g class="m m-sep">
+                <circle cx="305" cy="222" r="12" fill="#3fe0c5"/><text x="305" y="226" fill="#0f1923" font-size="13" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">1</text>
+                <circle cx="70" cy="75" r="12" fill="#3fe0c5"/><text x="70" y="79" fill="#0f1923" font-size="13" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">2</text>
+                <path d="M305 208 L300 182" stroke="#3fe0c5" stroke-width="2.5" marker-end="url(#ta)"/>
+                <path d="M84 75 L146 75" stroke="#3fe0c5" stroke-width="2.5" marker-end="url(#ta)"/>
+                <text x="200" y="236" fill="#ff6b78" font-size="15" font-family="Inter, sans-serif" text-anchor="middle">nadie puede tradear a nadie</text>
+              </g>
+              <g class="m m-tras">
+                <circle cx="305" cy="200" r="12" fill="#3fe0c5"/><text x="305" y="204" fill="#0f1923" font-size="13" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">1</text>
+                <circle cx="305" cy="240" r="12" fill="#3fe0c5" opacity=".6"/><text x="305" y="244" fill="#0f1923" font-size="13" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">2</text>
+                <path d="M300 188 L240 120" stroke="#3fe0c5" stroke-width="2.5" marker-end="url(#ta)"/>
+                <text x="200" y="236" fill="#ff6b78" font-size="15" font-family="Inter, sans-serif" text-anchor="end">el 2 espera… y llega tarde</text>
+              </g>
+              <g class="m m-bien">
+                <circle cx="290" cy="215" r="12" fill="#3fe0c5"/><text x="290" y="219" fill="#0f1923" font-size="13" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">1</text>
+                <circle cx="318" cy="215" r="12" fill="#3fe0c5"/><text x="318" y="219" fill="#0f1923" font-size="13" font-weight="700" font-family="Inter, sans-serif" text-anchor="middle">2</text>
+                <path d="M284 202 L226 132" stroke="#3fe0c5" stroke-width="2.5" marker-end="url(#ta)"/>
+                <path d="M318 201 L310 170" stroke="#3fe0c5" stroke-width="2.5" marker-end="url(#ta)"/>
+                <text x="240" y="170" fill="#3fe0c5" font-size="13" font-family="Inter, sans-serif" text-anchor="end">largo</text>
+                <text x="330" y="168" fill="#3fe0c5" font-size="13" font-family="Inter, sans-serif">corto</text>
+                <text x="200" y="236" fill="#3fe0c5" font-size="15" font-family="Inter, sans-serif" text-anchor="end">juntos, se tradean</text>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <div class="place-modes">
+              <button class="place-mode" data-mode="sep" data-meta='<span class="chip red">Chance del rival: alta</span>' data-text="Si el 1 sale antes por CT y muere, te queda un 1v1 sin trade. Y si el rival está en corta aguantando Cielo, mata al 2 y después puede jugar al tiempo o cerrarse y no pelearle al de CT. Tampoco hay trade." aria-pressed="true"><b>Cada uno por su lado</b><span>Uno por CT, el otro por arriba</span></button>
+              <button class="place-mode" data-mode="tras" data-meta='<span class="chip red">Chance del rival: alta</span>' data-text="El 2 espera a que salga el 1, el 1 muere y recién ahí sale. Dos problemas: no hay trade, y si lo hay, juegas otro duelo que puedes perder contra alguien que ya sabe dónde estás." aria-pressed="false"><b>Uno detrás del otro</b><span>Esperar a que el compa salga</span></button>
+              <button class="place-mode" data-mode="bien" data-meta='<span class="chip teal">Chance del rival: ~20–25%</span>' data-text="Salen los dos por CT, lado a lado. El primero se abre en largo y le mueve la mira al rival; el segundo se abre en corto y lo mata. Si el rival alcanza a matar al de largo, el de corto lo tradea." aria-pressed="false"><b>Juntos: uno largo, otro corto</b><span>Así sí</span></button>
+            </div>
+            <p class="place-out" data-out></p>
+            <div class="peek-meta" data-meta-out></div>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:12px">En un 2v4 ya es complicado igual, pero la idea es la misma.</p>
+      </section>
+
+      <section class="block" id="lado">
+        <h2><span class="idx">03</span>Lado a lado</h2>
+        <div class="quote reveal">
+          <p>Siempre al lado del compa. <span class="hl">No detrás, no delante.</span></p>
+          <small>Lo más cerca posible, pero sin estorbarle el movimiento.</small>
+        </div>
+        <div class="grid c2" style="margin-top:18px">
+          <div class="panel reveal"><h4>Cada uno mira un ángulo distinto</h4><p class="muted">Nunca los dos el mismo. Así tienen más campo de visión: si salen dos enemigos a la vez por ángulos diferentes, pueden tradearse o, si sale bien, matar a los dos.</p></div>
+          <div class="panel reveal"><h4>No esperes a que salga él</h4><p class="muted">Si esperas a que tu compa salga y muera para recién salir tú, ya perdiste el trade. Salen juntos.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="abrirse">
+        <h2><span class="idx">04</span>Cómo abrirse al trade</h2>
+        <p>En un 2v1, salen los dos por el mismo lado:</p>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>El primero, en largo</h4><p>Se abre abierto y le mueve la mira al rival.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>El segundo, en corto</h4><p>Se abre pegado a la pared y lo mata mientras el rival sigue al primero.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Si cae el primero…</h4><p>El segundo lo tradea al instante, porque ya está saliendo.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>Resultado</h4><p>Las chances del rival bajan drásticamente.</p></div>
+        </div>
+        <p class="muted" style="margin-top:12px">Esto hay que interiorizarlo mucho. El largo y el corto son los peeks del <a href="1-4-peeks-y-angulos.html#tipos">tema 1.4</a>.</p>
+      </section>
+
+      <section class="block" id="chances">
+        <h2><span class="idx">05</span>Las chances</h2>
+        <p>La idea siempre es darle al rival el menor porcentaje de victoria y la mínima posibilidad de ganar la ronda.</p>
+        <div class="panel reveal" style="margin-top:16px">
+          <div class="odds">
+            <div class="row"><span>Tu compa sale solo y regala el duelo</span><span class="num">50%</span><div class="track"><div class="fill" style="width:50%"></div></div></div>
+            <div class="row"><span>Salen juntos y bien abiertos al trade</span><span class="num">~20–25%</span><div class="track"><div class="fill low" style="width:22%"></div></div></div>
+          </div>
+          <p class="muted" style="margin:14px 0 0;font-size:14px">Chance del rival de ganar el 2v1. Si salen juntos, tiene que ganar dos duelos casi a la vez, y además con la mira movida por el que se abrió en largo.</p>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Esto da para más.</b> Las probabilidades y las condiciones de victoria las vemos más a fondo en otro tema.</div></div>
+      </section>
+
+      <section class="block" id="cuando">
+        <h2><span class="idx">06</span>¿Cuándo sí jugar un 50-50?</h2>
+        <p>Es muy situacional, mucho de game sense. Por ejemplo: tu equipo rotó a B o a C y tú te quedaste en A, y sabes que el lurker está en A. Te toca jugar la ronda para no perder el espacio, o dejarlo para el retake.</p>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Puedes dejarlo al retake</div><p class="muted">Si tu equipo tiene ventaja de armas y de habilidades.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Te toca pelear</div><p class="muted">En muchos casos tienes que pelear el main o una zona, para que el rival no te gane el mapa.</p></div>
+        </div>
+        <div class="note"><span>⚠</span><div><b>En rangos bajos:</b> casi siempre es ir a ganar el duelo, porque ganar el duelo es ganar la ronda: el rival ya no tiene a dónde rotar. Lo que no puedes hacer es regalar rondas: vender el site, o regalar una kill importante que hace rotar al rival.</div></div>
+      </section>
+
+      <section class="block" id="quien">
+        <h2><span class="idx">07</span>Quién entra primero</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Entra primero</div><h3>El duelista</h3><p class="muted">Su trabajo es generar espacio: una Neon con el carril rápido, una Jett con el dash, o separando zonas con su humo y limpiando ángulos con esa ventaja.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En un 2 contra X</div><h3>El humo, el último en morir</h3><p class="muted">Los humos son una condición de victoria que puede cambiar la ronda, como un humo en la spike. Si quedan dos, intenta que el controller sea el último que muera.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">08</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">2v1</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Retake 2v1: largo y corto</h3>
+              <p class="muted">Uno aguanta el site con la spike plantada. La pareja entra junta por el mismo lado: uno en largo, otro en corto. Cambian de rol cada 5 rondas.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">✕</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>El error a propósito</h3>
+              <p class="muted">Repiten el mismo retake yendo cada uno por su lado. Comparen cuántas ganan de una forma y de la otra.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">2v2</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Ángulos distintos</h3>
+              <p class="muted">Dos defienden, dos atacan. Antes de salir, cada atacante dice qué ángulo mira. Si los dos miran el mismo, la ronda no cuenta.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">09</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Ir cada uno por su lado en un 2v2 o 2v3.</div>
+          <div class="err reveal">Esperar a que el compa salga y muera para recién salir.</div>
+          <div class="err reveal">Ir detrás o delante del compa, en vez de al lado.</div>
+          <div class="err reveal">Mirar los dos el mismo ángulo.</div>
+          <div class="err reveal">Pegarse tanto que le estorbas el movimiento.</div>
+          <div class="err reveal">Regalar una kill importante que hace rotar al rival.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">10</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>El error de Haven, lado a lado y largo + corto.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Retakes 2v1</h4><p>Largo y corto, cambiando de rol.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>2v2</h4><p>Ángulos distintos y trades.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">11</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>En cada retake, júntate con alguien antes de entrar. Nada de ir solo por el otro lado.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Cuando juegues con un compa, dile qué ángulo miras tú.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Piénsalo</div><p>Piensa en una ronda que perdieron por no tradearse y qué harías distinto.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">12</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="2-1">
+          <li><label><input type="checkbox"><span>Juego al lado de mi compa, no detrás ni delante.</span></label></li>
+          <li><label><input type="checkbox"><span>Con mi compa miramos ángulos distintos.</span></label></li>
+          <li><label><input type="checkbox"><span>En un 2vX no voy cada uno por su lado.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé abrirme al trade: uno en largo, otro en corto.</span></label></li>
+          <li><label><input type="checkbox"><span>Entiendo cuándo me toca pelear un 50-50 y cuándo dejarlo al retake.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="../nivel-1.html"><small>Anterior</small>Pasar al nivel 2</a>
+        <span class="next"><small>Siguiente</small>2.2 Información y sonido</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Regla rápida</div>
+          <dl class="kv">
+            <dt>Posición</dt><dd>Lado a lado</dd>
+            <dt>Ángulos</dt><dd>Uno cada uno</dd>
+            <dt>Salida</dt><dd>Largo + corto</dd>
+            <dt>Entra primero</dt><dd>El duelista</dd>
+            <dt>Último en morir</dt><dd>El humo</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Recuerda</div>
+          <p style="margin:0">Salir solo es un 50-50. Juntos, el rival baja a <strong>~20–25%</strong>.</p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="2-1"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

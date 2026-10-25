@@ -17,7 +17,10 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Ideas ya guardadas en el plan: control del mapa, split B, espacio, rotaciones, retakes.
+- Nivel 2 (8 temas). Hecho: 2.1 Trades y spacing. Siguen 2.2 información/minimapa y 2.4 rotaciones (falta: cuándo sí rotar corriendo), luego 2.3, 2.5–2.8.
+- Profundizar probabilidades y condiciones de victoria (2.1).
+- Tracker más en detalle (pedido del profe).
+- Guía de humos: humo en la spike; confirmar qué es "una boba".
 - Fichas de agentes del profe: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
 - Completar las fichas de mapas con lo que sepa el profe.
 - Opcional: pasar la publicación a una rama `main`.

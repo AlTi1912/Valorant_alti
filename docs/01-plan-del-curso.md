@@ -207,3 +207,10 @@ Del profe: parar si está en automático, sin ganas o en tilt; límite 2–3 der
 Del profe: lo básico es headshots limpios con cada arma, moverse bien, una puntuación óptima en el Range y jugar ranked entendiendo lo que haces (sin modo automático: habilidades y su momento, cómo pones la mira). Después de cada ranked: ver en los duelos qué tanto disparaste a la cabeza, y en tracker.gg cuánto aportas (KAST). Todas las kills dan +200 (no hay bonus por pistola o escopeta).
 Pruebas: Range 0.8 bots/s; un DM por arma con el HS% que sube respecto al primer día; ranked con las preguntas del tracker; 1v1 en la custom delante del profe (Sheriff/Guardian, A-D, sin agacharse).
 Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (orientativos para Hierro–Oro). Desde la 13.06 el juego usa Performance Score (0–500) en lugar de ACS.
+
+## Tema 2.1 — Trades y spacing (`temas/2-1-trades-y-spacing.html`)
+
+- Del profe: el error de Haven (retake en A, uno por CT y otro por Cielo); lado a lado, no detrás ni delante, cerca sin estorbar; cada uno mira un ángulo distinto; esperar a que el compa muera = sin trade y otro 50-50 perdido; 2v1: los dos por CT, el primero en largo (mueve la mira), el segundo en corto (mata o tradea); chances del rival 50% solo vs ~20–25% con trade; cuándo jugar un 50-50 (lurker en A, ventaja de armas/habilidades → retake; si no, pelear el main; en elo bajo ganar el duelo es ganar la ronda); no regalar rondas (vender el site, kill que hace rotar); entra primero el duelista (Neon carril, Jett dash, humos); en 2vX el humo muere último.
+- Agregado por mí: diagrama interactivo de 3 casos, ejercicios (retake 2v1 largo/corto cambiando cada 5 rondas, el error a propósito para comparar, 2v2 diciendo el ángulo), juntada, para esta semana, checklist.
+- Para más adelante: probabilidades y condiciones de victoria a fondo (cuando el profe esté cómodo).
+- Para la guía de humos: "¿Cuándo poner un humo en la spike? Un humo al enemigo, una boba, etc." ("boba" sin confirmar).

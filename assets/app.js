@@ -503,3 +503,20 @@ document.querySelectorAll("[data-level-progress] [data-tema]").forEach(function 
   card.querySelector("b").textContent = done + "/" + total;
   if (done >= total) card.classList.add("is-done");
 });
+
+// Diagramas con modos (genérico): botones .place-mode con data-mode y data-text
+document.querySelectorAll("[data-diagram]").forEach(function (box) {
+  var stage = box.querySelector(".diagram-stage");
+  var out = box.querySelector("[data-out]");
+  var meta = box.querySelector("[data-meta-out]");
+  var btns = box.querySelectorAll(".place-mode");
+  var show = function (b) {
+    stage.dataset.mode = b.dataset.mode;
+    if (out) out.textContent = b.dataset.text;
+    if (meta) meta.innerHTML = b.dataset.meta || "";
+    btns.forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+  };
+  if (out) out.setAttribute("aria-live", "polite");
+  btns.forEach(function (b) { b.addEventListener("click", function () { show(b); }); });
+  if (btns.length) show(btns[0]);
+});
