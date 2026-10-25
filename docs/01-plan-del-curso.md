@@ -8,7 +8,7 @@
 | Profe | Inmortal 1 (peak Inmortal 2), formado en academia Oxu |
 | Formato | Clases en vivo por Discord, compartiendo pantalla + Custom |
 | Frecuencia | 1–2 clases por semana, abiertas a quien quiera unirse |
-| Material | Una página web o PDF por tema |
+| Material | Web pública (GitHub Pages), una página por tema, imprimible a PDF |
 | Objetivo | Mejora individual → base para equipos de Premier |
 | Alcance | Genérico (mayoría controllers/Sage); por rol/agente en el futuro; variaciones por tipo de mapa sí |
 | Idioma | Español con terminología en inglés |
@@ -41,7 +41,7 @@ Regla: si la explicación pasa de 15 min, se parte en dos clases.
 
 | # | Tema | Práctica en Custom/juego |
 |---|------|--------------------------|
-| 1.1 | Setup y rutina de calentamiento (sens, mira, binds, Range) | Rutina de Range de 10 min |
+| 1.1 | Ajustes y rutina de calentamiento — **publicado** (`temas/1-1-ajustes-y-calentamiento.html`) | Rutina de Range de 15 min + DM/TDM por arma |
 | 1.2 | Crosshair placement | Recorrer el mapa pre-apuntando ángulos; un compañero aparece en ellos |
 | 1.3 | Movimiento y disparo (counter-strafe, tap/burst/spray) | Range + duelos 1v1 parado vs. en movimiento |
 | 1.4 | Peeks: wide, tight, jiggle, shoulder, slicing the pie | 1v1 atacante vs. defensor sosteniendo un ángulo |
@@ -112,3 +112,24 @@ Criterio general: **cantidad + foco + prueba práctica**. Mandar 10 DMs solo dem
 - [ ] 1 scrim jugada + revisión en grupo.
 
 Los valores "X de Y" se fijan tras probar los ejercicios con el grupo.
+
+## Notas del profe (cuaderno) → dónde van
+
+| Nota | Tema |
+|------|------|
+| Range 15 min: Jett Q + ulti, bots Difícil/Medio, eliminar 100 (50) bots a 1/s | 1.1 |
+| No calentar en Swiftplay, es muy random | 1.1 |
+| DM/TDM: uno con Sheriff, uno con Guardian, uno con Vandal/Phantom | 1.1 |
+| Mirar más el minimapa y qué info hay | 1.1 (ajuste) + 2.2 |
+| No usar habilidades en zonas expuestas / no recargar expuesto | 1.5 + 1.4 |
+| Aprender timings: ganan rondas y partidas | 2.3 |
+| Sin buen aim, estrategia y utilidad son igual de importantes | Portada (filosofía) |
+| Rotar sin vender el site al segundo 10 ni regalar info corriendo | 2.4 |
+
+## Módulo de mapas — alcance acordado
+
+Generalidades, sin mapas preferidos. Por cada mapa del pool:
+- Zonas importantes del mapa (mid, conectores, zonas que deciden rotaciones).
+- Por site: qué información no se puede perder y desde dónde se consigue.
+- Retake: cuándo sí y cuándo no (y cuándo salvar), y por dónde entrar.
+- Qué lo hace especial (3 sites, teleports, cuerdas, puertas, zonas de caída, etc.).
