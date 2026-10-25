@@ -261,3 +261,25 @@ if (angle) {
   aBtns.forEach(function (b) { b.addEventListener("click", function () { showAngle(b); }); });
   showAngle(aBtns[0]);
 }
+
+// Quiz: ¿la usas o la guardas?
+document.querySelectorAll("[data-quiz] .q").forEach(function (q) {
+  var btns = q.querySelectorAll("[data-choice]");
+  btns.forEach(function (b) {
+    b.addEventListener("click", function () {
+      var ok = b.dataset.choice === q.dataset.answer;
+      q.classList.add("done", ok ? "ok" : "bad");
+      btns.forEach(function (o) {
+        o.disabled = true;
+        if (o.dataset.choice === q.dataset.answer) o.classList.add("right");
+      });
+      var score = document.getElementById("quiz-score");
+      if (score) {
+        var all = document.querySelectorAll("[data-quiz] .q");
+        var done = document.querySelectorAll("[data-quiz] .q.done").length;
+        var good = document.querySelectorAll("[data-quiz] .q.ok").length;
+        score.textContent = good + " de " + done + " bien" + (done === all.length ? " · ¡terminaste!" : "");
+      }
+    });
+  });
+});

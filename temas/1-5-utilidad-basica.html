@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Utilidad básica</title>
+  <meta name="description" content="Tema 1.5: para qué sirve cada habilidad, cuándo usarla, cuándo guardarla y cómo tirarla sin exponerte.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="../#clase">Las clases</a>
+        <a href="../#temario" aria-current="page">Temario</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../#aprobar">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/peeks/summit-inferior-mid.webp')">
+    <img class="hero-art" src="https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png" alt="" onerror="this.remove()">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Temario</a> / Nivel 1</div>
+      <div class="chips"><span class="chip red">Tema 1.5</span><span class="chip">Clase de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Utilidad<br>básica</h1>
+      <p class="lead">Para qué sirve cada habilidad, cuándo usarla y cuándo guardarla. Y nunca con la habilidad en la mano expuesto.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#tipos">Para qué sirve cada una</a></li>
+          <li><a href="#roles">Por rol</a></li>
+          <li><a href="#cuando">Cuándo usarlas</a></li>
+          <li><a href="#cuando-no">Cuándo no</a></li>
+          <li><a href="#sin-exponer">Sin exponerte</a></li>
+          <li><a href="#sage">Sage en bronce</a></li>
+          <li><a href="#humos">Humos</a></li>
+          <li><a href="#quiz">¿La usas o la guardas?</a></li>
+          <li><a href="#agentes">Fichas de agentes</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La clase</a></li>
+          <li><a href="#tarea">Tarea</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main>
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>Segundo 1</dt><dd>Espera info</dd>
+              <dt>1v1</dt><dd>Casi nunca</dd>
+              <dt>En la mano</dt><dd>Nunca expuesto</dd>
+              <dt>Habilidad E</dt><dd>Úsala</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="1-5"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Saber para qué sirve cada habilidad, cuándo usarla y cuándo guardarla, y tirarla sin exponerte.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Una habilidad bien usada gana rondas aunque no tengas el mejor aim. Una tirada sin pensar es plata y ventaja regaladas.</p></div>
+        </div>
+        <p class="muted" style="margin-top:16px">Hay miles de formas de usar la utilidad, y mientras más juegas un personaje, más aprendes a usar sus habilidades. Aquí va lo general, lo que sirve para cualquier agente.</p>
+      </section>
+
+      <section class="block" id="tipos">
+        <h2><span class="idx">02</span>Para qué sirve cada una</h2>
+        <p class="muted">Casi todas las habilidades del juego caen en uno de estos tipos.</p>
+        <div class="types">
+          <div class="type reveal" style="--c:var(--teal)"><h4>Info</h4><p>Drones, flechas de reconocimiento, cámaras.</p><p><strong>Para:</strong> saber dónde están antes de asomarte.</p></div>
+          <div class="type reveal" style="--c:var(--gold)"><h4>Flash</h4><p>Ciega al que la mira.</p><p><strong>Para:</strong> asomarte o entrar con ventaja, justo antes del duelo.</p></div>
+          <div class="type reveal" style="--c:var(--gold)"><h4>Stun, concusión, slow</h4><p>Frenan o atontan.</p><p><strong>Para:</strong> parar un rush o sacar a alguien de su posición.</p></div>
+          <div class="type reveal" style="--c:#b18cff"><h4>Humo</h4><p>Corta la visión en una zona.</p><p><strong>Para:</strong> cruzar, entrar a un site, cortar rotaciones o retakear.</p></div>
+          <div class="type reveal" style="--c:#b18cff"><h4>Muro</h4><p>Bloquea paso o visión.</p><p><strong>Para:</strong> cortar un camino o separar al rival.</p></div>
+          <div class="type reveal" style="--c:var(--red)"><h4>Daño y zona</h4><p>Mollys, granadas, fuego.</p><p><strong>Para:</strong> sacar a alguien de un rincón o no dejar desactivar la spike.</p></div>
+          <div class="type reveal" style="--c:var(--red)"><h4>Movilidad</h4><p>Dashes, saltos, teleports.</p><p><strong>Para:</strong> entrar rápido, tomar una posición rara o escapar.</p></div>
+          <div class="type reveal" style="--c:var(--teal)"><h4>Cura y revivir</h4><p>Sage, Skye, Clove.</p><p><strong>Para:</strong> seguir peleando con vida o recuperar a un compa.</p></div>
+          <div class="type reveal" style="--c:var(--teal)"><h4>Trampas</h4><p>Cables, alarmas, torretas.</p><p><strong>Para:</strong> avisarte de un flanco o frenar al que entra.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="roles">
+        <h2><span class="idx">03</span>Por rol</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Duelistas</div><h3>Abren el espacio</h3><p class="muted">Entran primero y ganan terreno con su movilidad o sus flashes propias. Jett, Neon, Reyna, Raze, Phoenix…</p></div>
+          <div class="panel reveal"><div class="eyebrow">Iniciadores</div><h3>Sacan la info</h3><p class="muted">Dicen dónde está el rival y ayudan a entrar con flashes o stuns. Sova, Skye, Fade, Gekko, KAY/O…</p></div>
+          <div class="panel reveal"><div class="eyebrow">Controladores</div><h3>Cortan la visión</h3><p class="muted">Humos para entrar, cortar rotaciones, retakear y defender la spike. Omen, Clove, Brimstone, Viper, Astra…</p></div>
+          <div class="panel reveal"><div class="eyebrow">Centinelas</div><h3>Cuidan las zonas</h3><p class="muted">Aguantan un site, cuidan los flancos y frenan los rushes. Sage, Vyse, Deadlock, Chamber, Cypher, Killjoy…</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="cuando">
+        <h2><span class="idx">04</span>Cuándo usarlas</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Info</h4><p>Primero saber dónde están.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Humos</h4><p>Cortar la visión de donde te pueden disparar.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Flash</h4><p>Justo antes de entrar o asomarte.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>Entrada</h4><p>Juntos, con trade.</p></div>
+        </div>
+        <p class="muted" style="margin-top:10px">Ese es el orden al atacar un site. Si lo tiras todo desordenado o cada uno por su lado, no sirve.</p>
+        <div class="grid c3" style="margin-top:16px">
+          <div class="panel reveal"><h4>En defensa</h4><p class="muted">Espera la info antes de gastar. La utilidad para frenar un rush se usa cuando el rush viene, no antes.</p></div>
+          <div class="panel reveal"><h4>Guarda algo</h4><p class="muted">Para el retake o el post-plant. Si gastas todo en los primeros segundos, después no tienes con qué.</p></div>
+          <div class="panel reveal"><h4>La habilidad E</h4><p class="muted">Se recarga gratis cada ronda: úsala sin miedo. Las que pagas, guárdalas para momentos que importan.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="cuando-no">
+        <h2><span class="idx">05</span>Cuándo no usarlas</h2>
+        <div class="quote reveal">
+          <p>En un 1v1, <span class="hl">no</span> uses habilidades.</p>
+          <small>A menos que sea un spot que te dé mucha ventaja, o una flash y no estés expuesto.</small>
+        </div>
+        <div class="grid c2" style="margin-top:18px">
+          <div class="panel reveal"><h4>En el segundo 1</h4><p class="muted">Sin info, casi siempre es una habilidad gastada. Espera a saber por dónde vienen.</p></div>
+          <div class="panel reveal"><h4>Con la habilidad en la mano</h4><p class="muted">Tírala para zonear, pero nunca salgas con la habilidad en la mano expuesto a tres ángulos distintos. Si te aparecen, no puedes disparar.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="sin-exponer">
+        <h2><span class="idx">06</span>Tirarlas sin exponerte</h2>
+        <p class="muted">Casi todas se pueden tirar sin salir al ángulo. Algunos ejemplos:</p>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Sova</div><h4>Flecha rebotada</h4><p class="muted">La haces rebotar en una pared para que llegue al lugar sin que tengas que asomarte.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Gekko</div><h4>Flash al cielo</h4><p class="muted">La tiras hacia arriba, desde cubierto, en vez de salir a lanzarla de frente.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Granadas</div><h4>Con jump peek o por encima</h4><p class="muted">Lánzalas saltando o por encima de algo. No salgas directo al ángulo a tirarlas.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="sage">
+        <h2><span class="idx">07</span>Sage en bronce</h2>
+        <div class="grid c2">
+          <div class="panel reveal">
+            <div class="eyebrow">Muro</div>
+            <h3>No lo pongas en el segundo 1</h3>
+            <p class="muted">En bronce casi siempre corren directo al site que van. Así que espera: si vienen a tu site, ya tienes la info para poner el muro; si no vienen, no lo gastaste.</p>
+          </div>
+          <div class="panel reveal">
+            <div class="eyebrow">Slows</div>
+            <h3>Uno, espera, y el otro</h3>
+            <p class="muted">Tira el primero. Espera a que se vaya y tira el segundo al timing, sin exponerte. Si tiras los dos juntos, el rush pasa apenas se acaban.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="humos">
+        <h2><span class="idx">08</span>Humos</h2>
+        <div class="placeholder"><div><b>Guía de humos en camino</b>Humos bien puestos y mal puestos. La armo con capturas más adelante.</div></div>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">09</span>¿La usas o la guardas?</h2>
+        <p class="muted">Situaciones reales. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="guardar">
+            <p class="s">Defensa, segundo 1. Eres Sage en B y todavía nadie sabe nada. ¿Pones el muro?</p>
+            <div class="opts"><button class="preset" data-choice="usar">La uso</button><button class="preset" data-choice="guardar">La guardo</button></div>
+            <p class="why">Guárdalo. En bronce o corren a tu site o no vienen: espera esa info y no lo gastes en nada.</p>
+          </div>
+          <div class="q" data-answer="usar">
+            <p class="s">Escuchas el rush entrando a tu site y tienes los dos slows de Sage.</p>
+            <div class="opts"><button class="preset" data-choice="usar">Uso uno</button><button class="preset" data-choice="guardar">Los guardo</button></div>
+            <p class="why">Usa uno. Cuando se acabe, tira el segundo al timing, sin exponerte. Así el rush queda frenado el doble de tiempo.</p>
+          </div>
+          <div class="q" data-answer="guardar">
+            <p class="s">Clutch 1v1, no sabes dónde está y tienes una molly.</p>
+            <div class="opts"><button class="preset" data-choice="usar">La uso</button><button class="preset" data-choice="guardar">La guardo</button></div>
+            <p class="why">Guárdala. En un 1v1 solo vale la pena si es un spot que te da mucha ventaja. Tirarla a ciegas solo le dice dónde estás.</p>
+          </div>
+          <div class="q" data-answer="usar">
+            <p class="s">1v1, sabes dónde está y tienes una flash. Estás cubierto detrás de una pared.</p>
+            <div class="opts"><button class="preset" data-choice="usar">La uso</button><button class="preset" data-choice="guardar">La guardo</button></div>
+            <p class="why">Úsala. Es la excepción: una flash sin estar expuesto te da el duelo.</p>
+          </div>
+          <div class="q" data-answer="guardar">
+            <p class="s">Quieres tirar una granada a un ángulo, pero para lanzarla tienes que salir con ella en la mano frente a tres ángulos.</p>
+            <div class="opts"><button class="preset" data-choice="usar">La tiro así</button><button class="preset" data-choice="guardar">Busco otra forma</button></div>
+            <p class="why">Así no. Tírala con un jump peek o por encima de algo. Con la habilidad en la mano y expuesto, si te aparecen no puedes disparar.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="agentes">
+        <h2><span class="idx">10</span>Fichas de agentes</h2>
+        <p class="muted">Más adelante, consejos de los personajes que juego. Si juegas alguno, ya sabes a quién preguntarle.</p>
+        <div class="chips">
+          <span class="chip">Sova</span><span class="chip">Vyse</span><span class="chip">Deadlock</span><span class="chip">Chamber</span><span class="chip">Jett</span><span class="chip">Neon</span><span class="chip">Omen</span><span class="chip">Clove</span><span class="chip">Próximamente</span>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">11</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Tirar toda la utilidad en el segundo 1, sin info.</div>
+          <div class="err reveal">Usar habilidades en un 1v1 que solo te delatan.</div>
+          <div class="err reveal">Salir con la habilidad en la mano y morir sin poder disparar.</div>
+          <div class="err reveal">Tirar los dos slows (o dos de cualquier cosa) a la vez.</div>
+          <div class="err reveal">Cada uno tira su utilidad por su lado, sin coordinar la entrada.</div>
+          <div class="err reveal">No usar la habilidad E, que es gratis cada ronda.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">12</span>Cómo va a ser la clase</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Tipos, cuándo sí y cuándo no.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Sin exponerse</h4><p>Cada uno con su agente: tirar habilidades desde cubierto.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Rush contra Sage</h4><p>Unos rushean, otros defienden con slows y muro al timing.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">13</span>Tarea</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Custom</div><p>Con tu agente, encuentra 2 formas de tirar sus habilidades sin salir al ángulo.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Nada de utilidad en el segundo 1 sin info. Y ninguna habilidad en un 1v1 que no te dé ventaja.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En tu canal</div><p>Sube un clip o captura de una habilidad tuya tirada desde cubierto.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">14</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="1-5">
+          <li><label><input type="checkbox"><span>Sé para qué sirve cada habilidad de mi agente.</span></label></li>
+          <li><label><input type="checkbox"><span>No gasto utilidad en el segundo 1 sin info.</span></label></li>
+          <li><label><input type="checkbox"><span>En un 1v1 solo uso habilidades si me dan mucha ventaja.</span></label></li>
+          <li><label><input type="checkbox"><span>Tiro mis habilidades sin salir al ángulo con ellas en la mano.</span></label></li>
+          <li><label><input type="checkbox"><span>Respondí bien todo el "¿La usas o la guardas?".</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="1-4-peeks-y-angulos.html"><small>Anterior</small>1.4 Peeks y ángulos</a>
+        <span class="next"><small>Siguiente</small>1.6 Comunicación</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Regla rápida</div>
+          <dl class="kv">
+            <dt>Segundo 1</dt><dd>Espera info</dd>
+            <dt>1v1</dt><dd>Casi nunca</dd>
+            <dt>En la mano</dt><dd>Nunca expuesto</dd>
+            <dt>Habilidad E</dt><dd>Úsala</dd>
+            <dt>Al atacar</dt><dd>Info → humo → flash</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Sage</div>
+          <p style="margin:0">Muro con info, no en el segundo 1. Slows: <strong>uno, espera, y el otro</strong>.</p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="1-5"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

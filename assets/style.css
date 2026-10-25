@@ -497,3 +497,23 @@ td.on { color: var(--teal); font-weight: 700; }
 /* Vista desde arriba: ángulos */
 .angle-stage .m-far, .angle-stage .m-near, .angle-stage .m-pa { display: none; }
 .angle-stage[data-mode="far"] .m-far, .angle-stage[data-mode="near"] .m-near, .angle-stage[data-mode="pa"] .m-pa { display: inline; }
+
+/* Quiz: ¿la usas o la guardas? */
+.quiz { display: grid; gap: 12px; }
+.q { padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); }
+.q p.s { margin: 0 0 12px; font-weight: 600; }
+.q .opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.q .why { display: none; margin: 12px 0 0; padding: 12px 14px; background: var(--bg-2); border-left: 3px solid var(--teal); color: var(--muted); }
+.q.done .why { display: block; }
+.q.ok { border-color: var(--teal); }
+.q.bad { border-color: var(--red); }
+.q.bad .why { border-left-color: var(--red); }
+.q .preset[disabled] { opacity: .5; cursor: default; }
+.q .preset.right { border-color: var(--teal); color: var(--teal); opacity: 1; }
+.types { display: grid; gap: 10px; }
+@media (min-width: 640px) { .types { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .types { grid-template-columns: repeat(3, 1fr); } }
+.type { padding: 14px 16px; background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--c, var(--red)); }
+.type h4 { margin-bottom: 6px; }
+.type p { margin: 0; font-size: 14px; color: var(--muted); }
+.type p + p { margin-top: 6px; }
