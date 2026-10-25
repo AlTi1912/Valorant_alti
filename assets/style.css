@@ -420,3 +420,21 @@ td.on { color: var(--teal); font-weight: 700; }
 .swap { animation: swap .35s ease; }
 @keyframes swap { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .swap, .marker.active b { animation: none; } }
+
+/* Galería grande */
+.shots.big { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.shots.big .shot img { height: 190px; object-position: center; }
+
+/* Abrir o cerrar la mira */
+.place { display: grid; gap: 16px; }
+@media (min-width: 760px) { .place { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: start; } }
+.place-stage { border: 1px solid var(--line); background: var(--surface); }
+.place-stage svg { display: block; width: 100%; height: auto; }
+.place-stage .xh, .place-stage .foe { transition: transform .45s cubic-bezier(.3, .7, .2, 1); }
+.place-modes { display: grid; gap: 8px; margin-bottom: 14px; }
+.place-mode { text-align: left; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); cursor: pointer; }
+.place-mode b { display: block; font-size: 15px; }
+.place-mode span { font-size: 13px; color: var(--muted); }
+.place-mode[aria-pressed="true"] { border-color: var(--red); background: var(--red-dim); }
+.place-out { margin: 0; padding: 14px 16px; background: var(--bg-2); border-left: 3px solid var(--red); }
+.big-quote { font-family: "Oswald", sans-serif; font-size: clamp(30px, 6vw, 52px); line-height: 1.05; text-transform: uppercase; margin: 0 0 16px; }

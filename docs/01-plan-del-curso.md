@@ -158,3 +158,7 @@ Escribe Alti en primera persona, a sus amigos: casual pero serio, español latin
 - Flujo: selección de mapa → ficha del mapa (`mapas.html#summit`) → rotar con la barra, anterior/siguiente o flechas del teclado.
 - Minimapa, splash y posición de cada callout salen de valorant-api.com en el navegador del alumno. Si una zona no encuentra su callout, aparece en la lista sin marcador.
 - Reglas generales de elo bajo (rotar en silencio, mirar el mapa) arriba de la selección.
+
+## Tema 1.2 — Crosshair placement (`temas/1-2-crosshair-placement.html`)
+
+Argumentos del profe: "en el suelo no hay monedas", referencias de altura en los mapas (capturas de Ascent), recoger armas con G sin bajar la mira, abrir/cerrar la mira según OP, Neon, pasos o rango del rival. Práctica del profe: girar 360° a la misma altura. Agregado: caminar el mapa sin disparar, aguantar un ángulo en parejas, DM con foco, escaleras/desniveles.

@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crosshair placement</title>
+  <meta name="description" content="Tema 1.2: la mira siempre a la altura de la cabeza y donde va a salir el enemigo.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+      <nav class="nav">
+        <a href="../#clase">Las clases</a>
+        <a href="../#temario" aria-current="page">Temario</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../#aprobar">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/crosshair/ascent-vestibulo-a.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Temario</a> / Nivel 1</div>
+      <div class="chips"><span class="chip red">Tema 1.2</span><span class="chip">Clase de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Crosshair<br>placement</h1>
+      <p class="lead">En el suelo no hay monedas. La mira va a la altura de la cabeza, y en el lugar por donde va a salir el enemigo.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#idea">La idea</a></li>
+          <li><a href="#referencias">Referencias</a></li>
+          <li><a href="#piso">No bajes la mira</a></li>
+          <li><a href="#abrir">Abrir o cerrar</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La clase</a></li>
+          <li><a href="#tarea">Tarea</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main>
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>OP</dt><dd>Cerrar</dd>
+              <dt>Corriendo / Neon</dt><dd>Abrir</dd>
+              <dt>No oyes pasos</dt><dd>Intermedio</dd>
+              <dt>Rangos bajos</dt><dd>Cerrar</dd>
+              <dt>Rangos altos</dt><dd>Depende</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="1-2"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Que tu mira esté siempre a la altura de la cabeza, y en el lugar por donde crees que va a salir el enemigo.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Si la mira ya está donde aparece la cabeza, no tienes que apuntar: solo disparar. El que tiene que mover la mira para matarte llega tarde. Así se ganan duelos aunque el otro tenga mejor aim.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="idea">
+        <h2><span class="idx">02</span>La idea</h2>
+        <div class="quote reveal">
+          <p class="big-quote">En el suelo<br>no hay <span class="hl">monedas</span></p>
+          <small>El personaje no se va a caer. No hace falta apuntar al piso.</small>
+        </div>
+        <p style="margin-top:20px">Casi todos en rangos bajos caminan mirando el suelo o el pecho del enemigo. Cuando aparece alguien, tienen que subir la mira, y ese medio segundo es el que pierden el duelo.</p>
+        <p>Y ojo: un buen crosshair placement no es solo "no mirar al suelo". También es poner la mira <strong>donde crees que va a salir el rival</strong>, según la situación y contra quién juegas. Eso lo vemos más abajo.</p>
+      </section>
+
+      <section class="block" id="referencias">
+        <h2><span class="idx">03</span>Referencias en el mapa</h2>
+        <p class="muted">Los mapas están llenos de referencias para saber a qué altura va la cabeza: cajas, líneas guía, franjas de pilares, bordes de muros. La línea de cada captura marca esa altura. Toca una para verla en grande.</p>
+        <div class="shots big">
+          <figure class="shot"><button><img src="../assets/img/crosshair/ascent-mid-superior.webp" alt="Referencia de altura en Mid Superior de Ascent" loading="lazy"></button><figcaption>Ascent · Mid Superior</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/crosshair/ascent-vestibulo-a.webp" alt="Referencia de altura en Vestíbulo A de Ascent" loading="lazy"></button><figcaption>Ascent · Vestíbulo A: la franja del pilar</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/crosshair/ascent-principal-a.webp" alt="Referencia de altura en Principal A de Ascent" loading="lazy"></button><figcaption>Ascent · Principal A</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/crosshair/ascent-arbol-a.webp" alt="Referencia de altura en Árbol A de Ascent" loading="lazy"></button><figcaption>Ascent · Árbol A</figcaption></figure>
+          <figure class="shot"><button><img src="../assets/img/crosshair/ascent-vestibulo-b.webp" alt="Referencia de altura en Vestíbulo B de Ascent" loading="lazy"></button><figcaption>Ascent · Vestíbulo B</figcaption></figure>
+        </div>
+        <div class="note teal"><span>↕</span><div><b>Escaleras y desniveles.</b> Si el enemigo está más arriba o más abajo que tú, la altura de la cabeza cambia. Cuando subas o bajes una escalera, ajusta la mira con el terreno.</div></div>
+      </section>
+
+      <section class="block" id="piso">
+        <h2><span class="idx">04</span>No bajes la mira</h2>
+        <p class="muted">En Valorant casi nunca hace falta mirar al suelo. El caso más típico: recoger un arma.</p>
+        <div class="grid c2">
+          <div class="panel reveal">
+            <div class="eyebrow">Lo que hace todo el mundo</div>
+            <h3>Mirar el arma y apretar F</h3>
+            <p class="muted">Bajas la mira hasta el piso, y si justo te asoman, estás apuntando a los pies.</p>
+          </div>
+          <div class="panel reveal">
+            <div class="eyebrow">Lo que tienes que hacer</div>
+            <h3>Pararte encima y apretar G</h3>
+            <p class="muted">Te paras encima del arma y tiras la tuya con la G: recoges la del piso sin mover la mira de la altura de la cabeza.</p>
+          </div>
+        </div>
+        <div class="note"><span>⚠</span><div><b>En un clutch o en una situación tensa: ¡no bajes la mira!</b> Puedes cambiar de arma sin dejar de apuntar a la cabeza.</div></div>
+      </section>
+
+      <section class="block" id="abrir">
+        <h2><span class="idx">05</span>Abrir o cerrar la mira</h2>
+        <p class="muted">"Cerrar" es pegar la mira al borde de la pared. "Abrir" es separarla, hacia donde va a terminar el enemigo cuando lo veas. Depende de cómo crees que va a salir. Toca cada caso:</p>
+        <div class="place" data-place>
+          <div class="place-stage">
+            <svg viewBox="0 0 400 230" role="img" aria-label="Pared a la izquierda, enemigo saliendo y posición de la mira">
+              <rect width="400" height="230" fill="#22303d"/>
+              <rect x="150" y="30" width="250" height="140" fill="#3a4856"/>
+              <rect y="170" width="400" height="60" fill="#18232e"/>
+              <line x1="150" y1="82" x2="400" y2="82" stroke="#3fe0c5" stroke-width="1.5" stroke-dasharray="6 5"/>
+              <text x="394" y="74" fill="#3fe0c5" font-size="11" font-family="Inter, sans-serif" text-anchor="end">altura de cabeza</text>
+              <g transform="translate(150 0)">
+                <g class="foe">
+                  <circle cx="0" cy="82" r="10" fill="#ff4655"/>
+                  <rect x="-11" y="94" width="22" height="46" rx="4" fill="#ff4655"/>
+                  <rect x="-10" y="140" width="8" height="30" fill="#ff4655"/>
+                  <rect x="2" y="140" width="8" height="30" fill="#ff4655"/>
+                </g>
+              </g>
+              <polygon points="0,0 150,0 150,230 0,230" fill="#c9b79c"/>
+              <line x1="150" y1="0" x2="150" y2="230" stroke="#a8977c" stroke-width="3"/>
+              <g transform="translate(150 82)">
+                <g class="xh" fill="#ffff00" stroke="#000" stroke-width="1" paint-order="stroke">
+                  <rect x="-1.5" y="-12" width="3" height="7"/><rect x="-1.5" y="5" width="3" height="7"/>
+                  <rect x="-12" y="-1.5" width="7" height="3"/><rect x="5" y="-1.5" width="7" height="3"/>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <div class="place-modes">
+              <button class="place-mode" data-x="14" data-foe="4" data-text="Cierra la mira: pégala al borde. Una OP normalmente pickea lento, así que le ves el brazo o la pierna antes y puedes prefirearla. En rangos bajos casi todos se abren shifteando: también conviene cerrar." aria-pressed="true"><b>Cerrar</b><span>Contra una OP · rangos bajos que se abren shifteando</span></button>
+              <button class="place-mode" data-x="42" data-foe="38" data-text="Sabes que hay alguien por pickear, pero no escuchas sus pasos: seguro está shifteando o abriéndose de a poco. Pon la mira en un intermedio, ni muy cerrada ni muy abierta." aria-pressed="false"><b>Intermedio</b><span>Sabes que hay alguien, pero no oyes pasos</span></button>
+              <button class="place-mode" data-x="88" data-foe="96" data-text="Escuchas que viene corriendo, o es una Neon: abre la mira. Va a aparecer más lejos del borde de lo que crees, y si la tienes pegada, te pasa de largo." aria-pressed="false"><b>Abrir</b><span>Lo escuchas corriendo · Neon</span></button>
+            </div>
+            <p class="place-out" id="place-out"></p>
+          </div>
+        </div>
+        <div class="note"><span>★</span><div><b>Contra rangos altos es más situacional.</b> Se abren muy rápido, pero en ángulos cortos, o en largo. Ahí no hay una regla fija: lee al rival.</div></div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">06</span>Cómo practicarlo</h2>
+        <p class="muted">Todo en el juego, sin programas.</p>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">360</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom o Range</span><span class="chip">2 min</span></div>
+              <h3>Girar 360° a la misma altura</h3>
+              <p class="muted">Gira despacio una vuelta completa sin que la mira suba ni baje. Usa las referencias del mapa para comprobarlo. Luego más rápido.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">👣</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span><span class="chip">5 min</span></div>
+              <h3>Caminar el mapa sin disparar</h3>
+              <p class="muted">Recorre el camino de ataque a un site como si fuera una ronda. En cada esquina, la mira tiene que estar ya en la cabeza de donde saldría alguien. Un compa te mira en espectador y te avisa cuando bajas la mira.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">1v1</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom · en parejas</span><span class="chip">10 min</span></div>
+              <h3>Aguantar un ángulo</h3>
+              <p class="muted">Uno aguanta un ángulo y el otro sale cuando quiera: a veces corriendo, a veces shifteando. El que aguanta tiene que decidir si abre o cierra la mira según lo que escucha. 10 rondas y cambian.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">DM</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Deathmatch</span></div>
+              <h3>DM con un solo foco</h3>
+              <p class="muted">El primer minuto, no dispares: solo camina con la mira a la altura de la cabeza. Después juega normal, pero fíjate en cuántas muertes hiciste sin tener que subir o bajar la mira.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">07</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Caminar mirando el piso o el pecho.</div>
+          <div class="err reveal">Bajar la mira para recoger un arma, en vez de usar la G.</div>
+          <div class="err reveal">Apuntar a la pared en vez de al borde por donde sale el enemigo.</div>
+          <div class="err reveal">Tener siempre la mira igual: contra una OP, una Neon o alguien que viene corriendo no se apunta igual.</div>
+          <div class="err reveal">Olvidarse de ajustar la altura al subir o bajar escaleras.</div>
+          <div class="err reveal">Mover la mira en todas direcciones mientras caminas, sin un objetivo.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">08</span>Cómo va a ser la clase</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Las monedas, las referencias y abrir o cerrar la mira.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>360 y caminata</h4><p>Todos en la custom, girando y recorriendo el mapa.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Aguantar un ángulo</h4><p>En parejas, rotando quién sale y quién aguanta.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">09</span>Tarea</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">DM</div><p>3 DMs: el primer minuto de cada uno sin disparar, solo caminando con la mira en la cabeza.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Una sola meta por partida: no mirar al piso. Ni para recoger armas.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En tu canal</div><p>Sube una captura de una referencia de altura que encuentres tú en otro mapa.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">10</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="1-2">
+          <li><label><input type="checkbox"><span>Camino por el mapa con la mira a la altura de la cabeza sin pensarlo.</span></label></li>
+          <li><label><input type="checkbox"><span>Giro 360° sin que la mira suba ni baje.</span></label></li>
+          <li><label><input type="checkbox"><span>Recojo armas con la G, sin bajar la mira.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé cuándo abrir y cuándo cerrar la mira, y lo hago en el ejercicio del ángulo.</span></label></li>
+          <li><label><input type="checkbox"><span>Encontré mis propias referencias de altura en al menos 2 mapas.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="1-1-ajustes-y-calentamiento.html"><small>Anterior</small>1.1 Ajustes y calentamiento</a>
+        <span class="next"><small>Siguiente</small>1.3 Movimiento y disparo</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Regla rápida</div>
+          <dl class="kv">
+            <dt>Contra OP</dt><dd>Cerrar</dd>
+            <dt>Corriendo / Neon</dt><dd>Abrir</dd>
+            <dt>No oyes pasos</dt><dd>Intermedio</dd>
+            <dt>Rangos bajos</dt><dd>Cerrar</dd>
+            <dt>Rangos altos</dt><dd>Depende</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Recoger un arma</div>
+          <p style="margin:0">Encima del arma + <strong>G</strong>. Nunca mires al piso.</p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="1-2"><svg viewBox="0 0 56 56"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="lightbox" hidden><img alt=""></div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

@@ -188,3 +188,20 @@ if (box) {
   box.addEventListener("click", function () { box.hidden = true; });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") box.hidden = true; });
 }
+
+// Abrir o cerrar la mira según la situación
+var place = document.querySelector("[data-place]");
+if (place) {
+  var xh = place.querySelector(".xh");
+  var foe = place.querySelector(".foe");
+  var out = document.getElementById("place-out");
+  var modes = document.querySelectorAll(".place-mode");
+  var setMode = function (b) {
+    xh.style.transform = "translateX(" + b.dataset.x + "px)";
+    foe.style.transform = "translateX(" + b.dataset.foe + "px)";
+    out.textContent = b.dataset.text;
+    modes.forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+  };
+  modes.forEach(function (b) { b.addEventListener("click", function () { setMode(b); }); });
+  setMode(modes[0]);
+}
