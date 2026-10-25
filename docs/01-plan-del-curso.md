@@ -151,3 +151,10 @@ Escribe Alti en primera persona, a sus amigos: casual pero serio, español latin
 - También recomienda: la de donk (CS) y miras de punto. Contorno, color y tamaño son a gusto; lo obligatorio es sin error de movimiento ni de disparo.
 - Video: pantalla completa, 1568×1080, aspecto Completo, todo en Baja, MSAA 4x, anisotrópico 2x, calidad de luminosidad Sí, resto No.
 - Pendiente: capturas de sens, minimapa y filtro de contenido.
+
+## Página de mapas (`mapas.html`)
+
+- Pool Act 6 (13.08): Summit, Corrode, Bind, Haven, Lotus, Sunset, Abyss. Contenido en `assets/maps-data.js`.
+- Flujo: selección de mapa → ficha del mapa (`mapas.html#summit`) → rotar con la barra, anterior/siguiente o flechas del teclado.
+- Minimapa, splash y posición de cada callout salen de valorant-api.com en el navegador del alumno. Si una zona no encuentra su callout, aparece en la lista sin marcador.
+- Reglas generales de elo bajo (rotar en silencio, mirar el mapa) arriba de la selección.
