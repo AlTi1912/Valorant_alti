@@ -214,7 +214,7 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 - Agregado por mí: diagrama interactivo de 3 casos, ejercicios (retake 2v1 largo/corto cambiando cada 5 rondas, el error a propósito para comparar, 2v2 diciendo el ángulo), juntada, para esta semana, checklist.
 - Para más adelante: probabilidades y condiciones de victoria a fondo (cuando el profe esté cómodo).
 - Para la guía de humos: "¿Cuándo poner un humo en la spike?" y el **humo Avova** (humo búnker, lo puso de moda el pro Avova): humos que dividen el site para que la defensa sea más fácil o más fuerte en el site. Sirve para jugar fuerte, hacer tiempo a la rotación y al flood, jugar a matar en el humo o detrás, jugar con el humo en todo sentido.
-- **Flood / flodear** (va en 2.4 o 2.6): desplegarse al site siempre que haya alguien peleando ahí, cuando salir varios a ayudar da ventaja. Situacional: si sabes que hay 2 al otro lado del mapa y solo 3 entrando, flodeas o haces un retake rápido para un 3v3 con la defensa a favor (tienen que pasar humos, puedes jugar cruzado o holdear ángulos favorables).
+- **Flood / flodear** (va en el 2.6, decidido por el profe): desplegarse al site siempre que haya alguien peleando ahí, cuando salir varios a ayudar da ventaja. Situacional: si sabes que hay 2 al otro lado del mapa y solo 3 entrando, flodeas o haces un retake rápido para un 3v3 con la defensa a favor (tienen que pasar humos, puedes jugar cruzado o holdear ángulos favorables).
 
 ## Tema 2.4 — Rotaciones en defensa (`temas/2-4-rotaciones.html`)
 
@@ -229,3 +229,8 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 - No se puso en la web lo del TDAH (es personal): preguntar al profe si quiere mencionarlo.
 - **Para el 2.3 (leer al rival):** pathing y spacing de cada personaje; timings (cuánto tarda en rotar por mid, por base, un lurker, los iniciadores); callear cuando algo parece fake o un doble tiempo; los duelistas son lo que más le cuesta, pero sabe cómo se mueven y juega de segundo duelista o Jett en elo bajo.
 - **Para el nivel 3:** guía de fakes (con habilidades; pocas se pueden fakear, muy situacional).
+
+## Tema 2.3 — Leer al rival (`temas/2-3-leer-al-rival.html`)
+
+- Del profe: siempre tabular para ver qué ulti rival está cerca y qué economía tienen; con chaleco chico sirve Outlaw en vez de Operator (140 al cuerpo), Phantom (140 a la cabeza a media distancia) o Guardian (dos al pecho, 130, contra 125); patrones según mapa y rival, leer y adaptarse, ir un paso por delante; pathing/spacing y timings (de la sesión del 2.2); los timings son parte de jugar, no sabría explicarlos con números.
+- Agregado por mí: tabla de daño vs chaleco (Outlaw 140 cuerpo, Guardian 2×65, Phantom 156/140/124 a la cabeza según distancia, Vandal 160, Operator 150 cuerpo; datos verificados en la web), quiz "¿Lo matas?", ejercicios (tabular cada ronda, pausar rondas de VCT/Zafiro, probar armas contra chaleco chico en custom), juntada, para esta semana, checklist.

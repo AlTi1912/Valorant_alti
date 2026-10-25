@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leer al rival</title>
+  <meta name="description" content="Tema 2.3: tabular para ver ultis y economía rival, elegir arma según su chaleco, patrones, pathing y timings.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-lesson="2.3" data-title="Leer al rival">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/peeks/summit-jardin-a.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 2</div>
+      <div class="chips"><span class="chip red">Tema 2.3</span><span class="chip">Juntada de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Leer<br>al rival</h1>
+      <p class="lead">Tabula, mira qué compraron y qué ultis tienen cerca, y adáptate. La idea es ir siempre un paso por delante.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#tab">Tabula siempre</a></li>
+          <li><a href="#arma">Arma según su chaleco</a></li>
+          <li><a href="#patrones">Patrones</a></li>
+          <li><a href="#pathing">Pathing y timings</a></li>
+          <li><a href="#quiz">¿Lo matas?</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para esta semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel">
+            <dl class="kv">
+              <dt>Cada ronda</dt><dd>Tabula</dd>
+              <dt>Chaleco chico</dt><dd>125 de vida</dd>
+              <dt>Chaleco grande</dt><dd>150 de vida</dd>
+              <dt>Patrones</dt><dd>Lee y adáptate</dd>
+            </dl>
+          </div>
+          <div class="panel">
+            <div class="aside-title">Tu progreso</div>
+            <div class="ring" data-progress="2-3"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+          </div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Saber qué tiene el rival y qué suele hacer, para jugar un paso por delante.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Si sabes su economía, eliges mejor tu arma. Si lees sus patrones, llegas antes a donde van a ir.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tab">
+        <h2><span class="idx">02</span>Tabula siempre</h2>
+        <div class="quote reveal">
+          <p>Siempre tabular.</p>
+          <small>Para ver qué ulti del rival está cerca y qué economía tienen.</small>
+        </div>
+        <div class="grid c2" style="margin-top:18px">
+          <div class="panel reveal"><div class="eyebrow">Ultis</div><h3>¿Quién la tiene cerca?</h3><p class="muted">Si a un rival le falta poco para la ulti, cuenta con que la puede usar esta ronda o la siguiente.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Economía</div><h3>¿Qué compraron?</h3><p class="muted">Armas y chalecos. Con eso eliges tu arma: muchas veces no hace falta la más cara.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="arma">
+        <h2><span class="idx">03</span>Tu arma según su chaleco</h2>
+        <p>Sin chaleco tienen 100 de vida. Con chaleco chico, 125. Con chaleco grande, 150. Si tienen chaleco chico, te sirve una Outlaw en vez de una Operator, o una Phantom o una Guardian.</p>
+        <div class="table-wrap" style="margin-top:16px" tabindex="0" role="region" aria-label="Qué disparo mata según el chaleco">
+          <table class="kill-table">
+            <caption class="muted">¿Muere de ese disparo? Según el chaleco que tenga.</caption>
+            <thead><tr><th>Disparo</th><th>Daño</th><th>Sin chaleco</th><th>Chico</th><th>Grande</th></tr></thead>
+            <tbody>
+                <tr><td>Outlaw al cuerpo</td><td>140</td><td class="on">Sí</td><td class="on">Sí</td><td class="off">No</td></tr>
+                <tr><td>Guardian, 2 al pecho</td><td>130</td><td class="on">Sí</td><td class="on">Sí</td><td class="off">No</td></tr>
+                <tr><td>Phantom a la cabeza, 15–30 m</td><td>140</td><td class="on">Sí</td><td class="on">Sí</td><td class="off">No</td></tr>
+                <tr><td>Phantom a la cabeza, más de 30 m</td><td>124</td><td class="on">Sí</td><td class="off">No</td><td class="off">No</td></tr>
+                <tr><td>Phantom a la cabeza, menos de 15 m</td><td>156</td><td class="on">Sí</td><td class="on">Sí</td><td class="on">Sí</td></tr>
+                <tr><td>Vandal a la cabeza</td><td>160</td><td class="on">Sí</td><td class="on">Sí</td><td class="on">Sí</td></tr>
+                <tr><td>Operator al cuerpo</td><td>150</td><td class="on">Sí</td><td class="on">Sí</td><td class="on">Sí</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="grid c3" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Outlaw</div><p class="muted">Un tiro al cuerpo hace 140: con chaleco chico lo matas. No necesitas gastar en una Operator.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Phantom</div><p class="muted">A media distancia la cabeza hace 140: con chaleco chico lo matas de un tiro.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Guardian</div><p class="muted">Dos al pecho hacen 130. Con chaleco chico (125), los matas.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="patrones">
+        <h2><span class="idx">04</span>Patrones</h2>
+        <p>Dependen de cada mapa y de cada rival. A veces suelen hacer lo mismo, pero cada mapa y cada partida es diferente.</p>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><h4>Lee a los rivales</h4><p class="muted">Fíjate qué repiten: el site al que van, por dónde lurkean, cuándo rushean. Lo vimos en el <a href="2-4-rotaciones.html#correr">2.4</a>: si rushean siempre, rota antes.</p></div>
+          <div class="panel reveal"><h4>Adáptate</h4><p class="muted">No es una regla fija. Si cambian, cambias tú. La idea es ir un paso por delante.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="pathing">
+        <h2><span class="idx">05</span>Pathing y timings</h2>
+        <p>Cada personaje tiene su pathing (por dónde suele moverse) y su spacing. Cuando veo a un rival, según dónde está, sé más o menos cuánto le tomaría llegar al site o rotar.</p>
+        <div class="grid c3" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Rotaciones</div><p class="muted">Cuánto tarda alguien en rotar por mid o por base.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Lurkers</div><p class="muted">Cuándo puede aparecer el lurker por detrás.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Iniciadores y duelistas</div><p class="muted">Cuándo llega su utilidad y cómo es probable que se muevan.</p></div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Los timings son parte de jugar.</b> No se aprenden de memoria con números: se aprenden jugando ranked, viendo VCT y a gente como Zafiro o Mixwell. Con eso empiezas a callear cuando algo parece un fake o un doble tiempo.</div></div>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">06</span>¿Lo matas?</h2>
+        <p class="muted">Tabulaste y viste qué chaleco tiene. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="si">
+            <p class="s">Tiene chaleco chico. Le das un tiro al cuerpo con la Outlaw.</p>
+            <div class="opts"><button class="preset" data-choice="si">Muere</button><button class="preset" data-choice="no">No muere</button></div>
+            <p class="why">140 contra 125: muere. Por eso la Outlaw te sirve en vez de la Operator.</p>
+          </div>
+          <div class="q" data-answer="no">
+            <p class="s">Tiene chaleco grande, a unos 20 metros. Le das a la cabeza con la Phantom.</p>
+            <div class="opts"><button class="preset" data-choice="si">Muere</button><button class="preset" data-choice="no">No muere</button></div>
+            <p class="why">A esa distancia la Phantom hace 140 a la cabeza y él tiene 150. Queda vivo con muy poco.</p>
+          </div>
+          <div class="q" data-answer="si">
+            <p class="s">Tiene chaleco chico. Le das dos al pecho con la Guardian.</p>
+            <div class="opts"><button class="preset" data-choice="si">Muere</button><button class="preset" data-choice="no">No muere</button></div>
+            <p class="why">130 contra 125: muere.</p>
+          </div>
+          <div class="q" data-answer="no">
+            <p class="s">Tiene chaleco chico, a más de 30 metros. Le das a la cabeza con la Phantom.</p>
+            <div class="opts"><button class="preset" data-choice="si">Muere</button><button class="preset" data-choice="no">No muere</button></div>
+            <p class="why">De lejos la Phantom baja a 124 y él tiene 125. Por eso en mapas largos se usa más la Vandal.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Tabulas: casi todos tienen chaleco chico y armas baratas. Tienes plata justa para una Operator.</p>
+            <div class="opts"><button class="preset" data-choice="a">Me compro la Operator</button><button class="preset" data-choice="b">Outlaw y ahorro</button></div>
+            <p class="why">Con chaleco chico, la Outlaw los mata de un tiro al cuerpo y te queda plata para la siguiente.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">07</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">TAB</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Ranked</span></div>
+              <h3>Tabula cada ronda</h3>
+              <p class="muted">Al empezar cada ronda, mira las ultis y los chalecos del rival. Dilo en voz alta o en el chat de equipo.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">▶</span></div>
+            <div>
+              <div class="chips"><span class="chip red">En la juntada</span></div>
+              <h3>Un paso por delante</h3>
+              <p class="muted">Vemos rondas de VCT o de Zafiro y pausamos antes de que ejecuten: ¿a dónde van?, ¿por dónde viene el lurker?</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">125</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Chaleco chico</h3>
+              <p class="muted">Un compa compra chaleco chico y se queda quieto. Prueba Outlaw al cuerpo, Guardian dos al pecho y Phantom a distintas distancias.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">08</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">No tabular en toda la partida.</div>
+          <div class="err reveal">Comprar Operator cuando una Outlaw hacía lo mismo.</div>
+          <div class="err reveal">Olvidarse de que a un rival le falta poco para la ulti.</div>
+          <div class="err reveal">Jugar igual todas las rondas aunque el rival ya cambió.</div>
+          <div class="err reveal">Creer que porque hicieron algo una vez, lo van a repetir siempre.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">09</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Tabular, chalecos y patrones.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Chaleco chico</h4><p>Probar las armas en custom.</p></div>
+          <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>Un paso por delante</h4><p>Rondas pausadas: ¿a dónde van?</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">10</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Tabula al empezar cada ronda: ultis y chalecos del rival.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Si tienen chaleco chico, prueba la Outlaw o la Guardian en vez de lo más caro.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Piénsalo</div><p>Al terminar, piensa qué repitió el rival y si te adaptaste a tiempo.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">11</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="2-3">
+          <li><label><input type="checkbox"><span>Tabulo cada ronda para ver ultis y economía del rival.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé cuánta vida dan el chaleco chico y el grande.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé cuándo me sirve una Outlaw, una Phantom o una Guardian en vez de lo más caro.</span></label></li>
+          <li><label><input type="checkbox"><span>Me fijo en lo que repite el rival y me adapto si cambia.</span></label></li>
+          <li><label><input type="checkbox"><span>Veo partidas de alto nivel fijándome en por qué hacen lo que hacen.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="2-2-informacion-y-sonido.html"><small>Anterior</small>2.2 Información y sonido</a>
+        <a class="next" href="2-4-rotaciones.html"><small>Siguiente</small>2.4 Rotaciones en defensa</a>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel">
+          <div class="aside-title">Regla rápida</div>
+          <dl class="kv">
+            <dt>Cada ronda</dt><dd>Tabula</dd>
+            <dt>Sin chaleco</dt><dd>100</dd>
+            <dt>Chaleco chico</dt><dd>125</dd>
+            <dt>Chaleco grande</dt><dd>150</dd>
+          </dl>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Recuerda</div>
+          <p style="margin:0">Con chaleco chico, una <strong>Outlaw</strong> hace el trabajo de una Operator.</p>
+        </div>
+        <div class="panel">
+          <div class="aside-title">Tu progreso</div>
+          <div class="ring" data-progress="2-3"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

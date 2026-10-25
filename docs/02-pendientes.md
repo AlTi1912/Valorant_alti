@@ -17,13 +17,13 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Hecho: 2.1, 2.2 y 2.4. Faltan 2.3 leer al rival (ya hay notas de timings/pathing), 2.5–2.8.
+- Nivel 2 (8 temas). Hecho: 2.1, 2.2, 2.3 y 2.4. Faltan 2.5–2.8.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).
 - Tracker más en detalle (pedido del profe).
 - Guía de humos: humo en la spike y humo Avova (notas en el plan).
-- Flood: decidir si va en 2.4 o en 2.6.
+- Flood: va en el 2.6 (notas en el plan).
 - Fichas de agentes del profe: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
 - Completar las fichas de mapas con lo que sepa el profe.
 - Opcional: pasar la publicación a una rama `main`.
