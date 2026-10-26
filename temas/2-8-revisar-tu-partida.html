@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Revisar tu partida</title>
+  <meta name="description" content="Tema 2.8: usar la replay del juego para revisar tu mira, tu movimiento, el mapa y tus decisiones, con una plantilla para cada muerte.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-lesson="2.8" data-title="Revisar tu partida">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/crosshair/ascent-vestibulo-b.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 2</div>
+      <div class="chips"><span class="chip red">Tema 2.8</span><span class="chip">Juntada de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Revisar<br>tu partida</h1>
+      <p class="lead">La replay te muestra lo que no ves jugando: dónde estaba tu mira, cómo te moviste y qué podías decidir mejor.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#abrir">Abrir la replay</a></li>
+          <li><a href="#perspectiva">Tu perspectiva</a></li>
+          <li><a href="#mira">Tu mira</a></li>
+          <li><a href="#movimiento">Tu movimiento</a></li>
+          <li><a href="#mapa">El mapa</a></li>
+          <li><a href="#decisiones">Las decisiones</a></li>
+          <li><a href="#plantilla">Plantilla</a></li>
+          <li><a href="#quiz">¿Qué está mal?</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para esta semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel"><dl class="kv"><dt>Desde</dt><dd>Tus ojos</dd><dt>Mira</dt><dd>¿Dónde estaba?</dd><dt>Mapa</dt><dd>¿Había info?</dd><dt>Revisa</dt><dd>5 muertes</dd></dl></div>
+          <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="2-8"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Verte desde afuera: dónde estaba tu mira, cómo te moviste y qué decisiones podías tomar mejor.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>En la partida no te das cuenta. En la replay ves lo que hiciste mal y por qué, y lo corriges para la siguiente.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="abrir">
+        <h2><span class="idx">02</span>Cómo abrir la replay</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Carrera</h4><p>En el cliente, entra a la pestaña Carrera después de la partida.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Elige la partida</h4><p>Competitiva, Premier o la que hayas jugado, y descarga la replay.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Tu punto de vista</h4><p>Puedes ver cualquier ronda desde cualquier jugador, pausar y ponerla más lenta.</p></div>
+        </div>
+        <div class="note"><span>⏳</span><div><b>Revísala pronto.</b> Por lo que se sabe, las replays duran mientras siga el mismo parche. Las customs no tienen replay.</div></div>
+      </section>
+
+      <section class="block" id="perspectiva">
+        <h2><span class="idx">03</span>Siempre desde tu perspectiva</h2>
+        <p>Mira la partida desde tus ojos: qué estás haciendo y dónde está tu mira. Y en el minimapa, mira lo que pasó del otro lado del mapa mientras tanto.</p>
+      </section>
+
+      <section class="block" id="mira">
+        <h2><span class="idx">04</span>Tu mira</h2>
+        <p>Lo primero: qué tan bien o mal apuntas, tu crosshair placement (<a href="1-2-crosshair-placement.html">1.2</a>). ¿La mira ya estaba donde aparece la cabeza, o la tuviste que corregir?</p>
+        <div class="place" data-diagram style="margin-top:16px">
+          <div class="place-stage">
+            <svg class="diagram-stage" data-mode="pegada" viewBox="0 0 400 260" role="img" aria-label="Esquema de la mira respecto a una esquina: muy pegada, muy alejada o bien puesta">
+              <rect width="400" height="260" fill="#0a1118"/>
+              <rect x="0" y="0" width="150" height="260" fill="#16222e" stroke="#2a3a4a"/>
+              <text x="75" y="240" fill="#95a3b0" font-size="13" font-family="Inter, sans-serif" text-anchor="middle">pared</text>
+              <rect x="150" y="200" width="250" height="60" fill="#111a24"/>
+              <circle cx="166" cy="110" r="12" fill="#ff4655" opacity=".9"/>
+              <rect x="156" y="124" width="20" height="56" rx="6" fill="#ff4655" opacity=".9"/>
+              <text x="166" y="96" fill="#ff6b78" font-size="13" font-family="Inter, sans-serif" text-anchor="middle">aparece aquí</text>
+              <g class="m m-pegada">
+                <path d="M150 104 v12 M144 110 h12" stroke="#3fe0c5" stroke-width="3"/>
+                <text x="270" y="60" fill="#ff6b78" font-size="14" font-family="Inter, sans-serif" text-anchor="middle">pegada: aparece de golpe</text>
+              </g>
+              <g class="m m-lejos">
+                <path d="M330 104 v12 M324 110 h12" stroke="#3fe0c5" stroke-width="3"/>
+                <path d="M318 110 L186 110" stroke="#3fe0c5" stroke-width="2" stroke-dasharray="5 4"/>
+                <text x="270" y="60" fill="#ff6b78" font-size="14" font-family="Inter, sans-serif" text-anchor="middle">alejada: flick largo</text>
+              </g>
+              <g class="m m-bien">
+                <path d="M190 104 v12 M184 110 h12" stroke="#3fe0c5" stroke-width="3"/>
+                <text x="270" y="60" fill="#3fe0c5" font-size="14" font-family="Inter, sans-serif" text-anchor="middle">bien: solo click</text>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <div class="place-modes">
+              <button class="place-mode" data-mode="pegada" data-meta='<span class="chip red">Reacción lenta</span>' data-text="Muy cerca de la pared: el rival aparece de golpe y tienes que microajustar. En lo que corriges, él ya disparó." aria-pressed="true"><b>Muy pegada</b><span>Encima de la pared</span></button>
+              <button class="place-mode" data-mode="lejos" data-meta='<span class="chip red">Reacción lenta</span>' data-text="Muy alejada: tienes que flickear hasta donde apareció. Ese recorrido es tiempo que el otro usa para matarte." aria-pressed="false"><b>Muy alejada</b><span>Lejos de donde aparece</span></button>
+              <button class="place-mode" data-mode="bien" data-meta='<span class="chip teal">Bien</span>' data-text="Un poco separada de la pared y a la altura de la cabeza: cuando aparece, ya está en tu mira. Solo tienes que disparar." aria-pressed="false"><b>Bien puesta</b><span>Donde aparece la cabeza</span></button>
+            </div>
+            <p class="place-out" data-out></p>
+            <div class="peek-meta" data-meta-out></div>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:12px">En los dos casos malos el tiempo de reacción es peor: tienes que flickear o microajustar y el otro te mata antes.</p>
+      </section>
+
+      <section class="block" id="movimiento">
+        <h2><span class="idx">05</span>Tu movimiento</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><h4>¿Te agachaste al disparar?</h4><p class="muted">Mira tus duelos. Si te agachas, la cabeza queda quieta y abajo, justo donde apunta el rival (<a href="1-3-movimiento-y-disparo.html#agachar">1.3</a>).</p></div>
+          <div class="panel reveal"><h4>¿Te moviste bien?</h4><p class="muted">¿Disparaste quieto, con A-D? ¿O corriendo y con W?</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="mapa">
+        <h2><span class="idx">06</span>El mapa</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><h4>¿Había info?</h4><p class="muted">Pausa y mira el minimapa. ¿Ya se había visto a todos y tú te quedaste shifteando en el otro site?</p></div>
+          <div class="panel reveal"><h4>¿Qué pasó del otro lado?</h4><p class="muted">Mientras tú estabas en lo tuyo, ¿qué estaba pasando? Ahí ves si debías rotar, esperar o ayudar.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="decisiones">
+        <h2><span class="idx">07</span>Las decisiones</h2>
+        <p>Qué decisiones podías tomar mejor, y por qué. No solo "me mataron": ¿por qué estaba ahí?, ¿por qué asomé?, ¿por qué no esperé el trade?</p>
+        <div class="note teal"><span>📌</span><div><b>Lo que hiciste mal en general</b> importa más que una ronda suelta. Si en cinco muertes te agachaste en cuatro, eso es lo que hay que corregir.</div></div>
+      </section>
+
+      <section class="block" id="plantilla">
+        <h2><span class="idx">08</span>Plantilla para cada muerte</h2>
+        <p class="muted">No veas la partida entera. Elige tus muertes de 5 rondas (perdidas mejor) y hazte estas preguntas:</p>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal">
+            <ul class="look">
+              <li>¿Dónde estaba mi mira? ¿Pegada, alejada o bien?</li>
+              <li>¿Me agaché o me moví mal al disparar?</li>
+              <li>¿Me veían desde más de un ángulo?</li>
+            </ul>
+          </div>
+          <div class="panel reveal">
+            <ul class="look">
+              <li>¿Qué info había en el minimapa?</li>
+              <li>¿Tenía un compa para el trade?</li>
+              <li>¿Qué podía hacer mejor, y por qué?</li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:12px">Al final, anota una cosa buena que hiciste y una que necesitas mejorar. Y mira tus números en el <a href="../tracker.html">tracker</a>.</p>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">09</span>¿Qué está mal?</h2>
+        <p class="muted">Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="a">
+            <p class="s">En la replay ves que el rival apareció y tu mira estaba en el centro del pasillo, lejos de la esquina.</p>
+            <div class="opts"><button class="preset" data-choice="a">Mira muy alejada</button><button class="preset" data-choice="b">Todo bien</button></div>
+            <p class="why">Tuviste que flickear todo ese recorrido. Pon la mira cerca de donde aparece la cabeza.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Perdiste un duelo y en la replay te ves agachándote apenas empezaste a disparar.</p>
+            <div class="opts"><button class="preset" data-choice="a">Mala suerte</button><button class="preset" data-choice="b">Me agaché</button></div>
+            <p class="why">Agacharte deja tu cabeza quieta y abajo. Dispara con A-D, sin agacharte.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Te quedaste shifteando en B. En el minimapa se ve que tu equipo ya había visto a los 5 en A.</p>
+            <div class="opts"><button class="preset" data-choice="a">Hice bien en esperar</button><button class="preset" data-choice="b">Debía rotar</button></div>
+            <p class="why">Ya había info: los 5 estaban en A. Esperar en B no aportaba nada.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Vas a revisar tu partida. Tienes 15 minutos.</p>
+            <div class="opts"><button class="preset" data-choice="a">Elijo 5 muertes</button><button class="preset" data-choice="b">Veo todo desde el principio</button></div>
+            <p class="why">Con 5 muertes revisadas a fondo aprendes más que viendo la partida entera sin foco.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">10</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">▶</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Solo</span></div>
+              <h3>Revisa una ranked</h3>
+              <p class="muted">Elige 5 muertes y usa la plantilla. Anota lo que se repite.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">👥</span></div>
+            <div>
+              <div class="chips"><span class="chip red">En la juntada</span></div>
+              <h3>Revisamos juntos</h3>
+              <p class="muted">Cada uno trae una ronda de su replay y la vemos entre todos: mira, movimiento, mapa y decisión.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">11</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Ver solo las rondas donde te fue bien.</div>
+          <div class="err reveal">Ver la partida entera sin saber qué buscas.</div>
+          <div class="err reveal">Culpar al equipo sin mirar tu propia mira.</div>
+          <div class="err reveal">No mirar el minimapa en la replay.</div>
+          <div class="err reveal">Revisar y no anotar nada.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">12</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Cómo abrir la replay y qué mirar.</p></div>
+          <div class="seg main" style="--w:30"><div class="bar"></div><span class="t">30 MIN</span><h4>Revisamos juntos</h4><p>Una ronda de cada uno.</p></div>
+          <div class="seg talk" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Lo que se repite</h4><p>Qué corrige cada uno.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">13</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Replay</div><p>Revisa 5 muertes de una ranked con la plantilla.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Anota</div><p>Una cosa buena y una a mejorar.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Trae</div><p>Una ronda para verla juntos en la juntada.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">14</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="2-8">
+          <li><label><input type="checkbox"><span>Sé abrir la replay de mi partida.</span></label></li>
+          <li><label><input type="checkbox"><span>Reviso mi mira: si estaba pegada, alejada o bien.</span></label></li>
+          <li><label><input type="checkbox"><span>Reviso si me agaché o me moví mal al disparar.</span></label></li>
+          <li><label><input type="checkbox"><span>Miro el minimapa para ver qué info había y qué pasó del otro lado.</span></label></li>
+          <li><label><input type="checkbox"><span>Anoto qué decisión podía tomar mejor y por qué.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="2-7-posicionamiento-defensivo.html"><small>Anterior</small>2.7 Posicionamiento defensivo</a>
+        <span class="next"><small>Siguiente</small>Nivel 3 · Próximamente</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel"><div class="aside-title">Regla rápida</div><dl class="kv"><dt>Desde</dt><dd>Tus ojos</dd><dt>Mira</dt><dd>¿Dónde estaba?</dd><dt>Mapa</dt><dd>¿Había info?</dd><dt>Revisa</dt><dd>5 muertes</dd></dl></div>
+        <div class="panel"><div class="aside-title">Recuerda</div><p style="margin:0">No veas toda la partida: <strong>5 muertes</strong> a fondo.</p></div>
+        <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="2-8"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

@@ -245,3 +245,13 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 
 - Del profe: con todo el site, plantar donde más ángulos vean los atacantes; si puede quedar alguien, plantar seguro, pero antes intentar limpiar; post-plant al tiempo y cruzados, ganar mientras no la defusen; retake todos juntos, no de a uno ni cada uno por su lado; errores: utilidad mal o a destiempo, entrar uno por uno, no jugar juntos al trade. Más el flood y el humo Avova (notas anteriores) y el humo en la spike como condición de victoria.
 - Agregado por mí: diagrama juntos vs cruzados, tiempos de la spike (plantar 4 s, explota a los 45 s, defuse 7 s, mitad 3.5 s guardada), guardar utilidad para el defuse, no salir si ya no alcanzan a defusar, "¿Retake o salvar?" (contar jugadores, tiempo y utilidad), quiz "¿Qué haces?", ejercicios (retakes 3v3/2v2, juntos vs cruzados), errores extra (todos encima de la spike, salir a pelear con el tiempo a favor, defusar sin limpiar).
+
+## Tema 2.7 — Posicionamiento defensivo (`temas/2-7-posicionamiento-defensivo.html`)
+
+- El profe pidió rellenarlo con info valiosa: casi todo es agregado. Reutiliza lo suyo: peeker's advantage y distancia a la esquina (1.4), off-angles de Summit y los arriesgados para Jett/Chamber/Reyna (1.4), no salir dos veces igual (1.4), cruzados/trade (2.1), patrones (2.3), no vender el site (2.4), flood y humo Avova (2.6), 50-50 y retake con ventaja (2.1).
+- Agregado: posición con un ángulo, salida y compa; escopeta de cerca; off-angle funciona una vez; diagrama mismo lado vs cruzados; reposicionarse tras disparar/ser visto; variar entre rondas (agresivo, normal, atrás); si vienen 5: info, retrasar, vivir; stack solo con buena lectura; quiz, ejercicios (esquina vs lejos 1v1, defender 2v3).
+
+## Tema 2.8 — Revisar tu partida (`temas/2-8-revisar-tu-partida.html`)
+
+- Del profe: usar la replay; ver qué tan bien o mal apuntan (CHP); mira muy cerca de la pared o muy alejada → reacción lenta, flick o microajuste y te matan antes; movimiento y agacharse al disparar; qué decisiones podían tomar mejor y por qué; qué hicieron mal en general; el mapa: si ya se había visto a todos y se quedó shifteando en el otro site, si había info; siempre desde su perspectiva (lo que hace, su mira) y ver el otro lado del mapa en el minimapa.
+- Agregado: cómo abrir la replay (pestaña Carrera → descargar; parche 11.06, sin customs, duran mientras siga el parche — según guías), diagrama de la mira (pegada / alejada / bien), plantilla de 6 preguntas por muerte, revisar 5 muertes y no la partida entera, quiz, ejercicios, juntada.

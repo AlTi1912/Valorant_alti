@@ -17,7 +17,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Hecho: 2.1 a 2.6. Faltan 2.7 posicionamiento defensivo y 2.8 revisar tu partida.
+- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8). Falta: página "Pasar al nivel 3" (checklist del nivel 2) y el nivel 3.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).
