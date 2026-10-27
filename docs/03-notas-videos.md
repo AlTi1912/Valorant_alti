@@ -420,3 +420,69 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:17] Arma tu tridente con amigos ("buscate uno que juegue Reyna y otro Jett"). → 3.1
 - [00:18–00:19] Siempre pensando que el rival se va a abrir ("está por salir") para no dormirse en el píxel. Cambiar el ritmo: después de tres rondas por mid, un rush a B. → 1.2 / 2.3
 - [00:22–00:24] "La primera vez que haces un café no te queda rico; después de un año sí": constancia. "Nunca es culpa de los demás: mírense para dentro." → 1.8
+
+### ¿Cómo ATACAR en LOTUS? (con Phantom, coach) · https://youtu.be/EMC8qBsriBk
+- [00:00] En ataque: un lado agresivo (el "tridente": duelista, iniciador, flex) y dos pasivos en las puntas (centinela y controlador). → 3.1 / 2.5
+- [00:01–00:02] Default C: tres humos posibles (corta distancia contra Chamber/Jett con Operator; atrás; el "humo furia" en la punta para segunda parte de la ronda). La idea es ganar la zona; las kills son el segundo objetivo. → mapas (Lotus) / 2.5
+- [00:03–00:06] "Tier list" de ultis: en cada comp hay una más valiosa (ej. Breach > Omen para entrar); se farmean orbes para ciclarla. Elegir la ulti según cómo juega el rival. → 2.5 / 3.x
+- [00:06] Cuando uno agarra el orbe, el otro en un ángulo distinto para el trade. → 2.1
+- [00:07–00:08] ⭐ Tras ganar la zona, tres opciones: **frisar** (esperar la reacción y castigarla, cuando vas en ventaja), **redominar otra zona** (si perdiste el trade) o **pasar al site** (cuando ya mataste dos o más). Coincide con el 2.5 del profe ("esperar el pick, descontar y entrar con más equidad"). → 2.5
+- [00:10–00:12] ⭐ Por qué no entrar sin bajas: gastaste la utilidad no recargable en el inicio; "es mucho más sencillo esperar el error rival que forzar el tuyo". Excepción: si sabes que están cuatro en otro site. → 2.5
+- [00:13–00:20] ⭐ Tres maneras de pasar: **contacto** (primero abres mira, después utilidad; contra rivales que juegan atrás), **explo** (la utilidad cae mientras abres; para sorprender, agarrarlos con utilidad en mano; arriesgado y no repetible), **exec** (cae la utilidad y después abres; para jugar lento y redominios). → 3.x (ejecuciones) / 2.5
+- [00:21–00:22] Adaptar la utilidad ronda a ronda (si el Chamber se mueve, flash en vez de stun). "Cometer el mismo error y seguir jugando igual" no va. → 2.8
+- [00:22–00:24] Frisar = esperar la reacción (rotan, te pushean, te redominan) para juntar info; "es un ajedrez por turnos". → 2.5
+- [00:26–00:27] Para un buen midround hace falta comunicación clara; un call vago lleva a malas decisiones. "Si haces todo bien pasas de 50/50 a 75/25." → 1.6 / 3.x
+- [00:28–00:32] ⭐ La diferencia entre niveles es procesar el mapa y reaccionar rápido, no la mira (FNS: mecánica floja, cabeza enorme). "No es lo mismo el duelista que solo toca W, E y avanza, que el que entiende cuándo duelear, avanzar o frisar." → 3.1 (`#cabeza`)
+- [00:33–00:34] Recomienda los Pro Tips de Mixwell como contenido para mejorar. → recursos
+- [00:35–00:40] ⭐ Mentalidad: estar seguro de lo que haces; la duda viene de no entender. Equivocarse está bien, el problema es repetirlo ("al tercer error ya les decía"). Autocrítica; no culpar a los demás. → 1.8 / 2.8
+- [00:40–00:43] Default A por pasos: "path entry" (cada uno entra por un lado), limpiar los dos ángulos peligrosos (el que te tapea y se va). → mapas (Lotus)
+- [00:43–00:45] Default B con el perro de Fade en diagonal; romper la utilidad del centinela ("siempre va a haber algo": torreta, trip, cable). Trade en mano siempre. → 2.5 / mapas
+- [00:45–00:48] Ejecución A árbol: perro de Fade, si detecta → flash; si no, avanzar; paranoia a backsite, stun. El Omen debe practicar su humo (no dejar gaps). El iniciador planta; plant seguro donde se puede chequear de adentro y de afuera. → mapas / 2.6
+- [00:48–00:50] Al dominar A, el humo cercano aísla el duelo; el de atrás le da libertad al rival. Romper la puerta da info: si vas a ejecutar de una, no la rompas. → mapas (Lotus)
+- [00:51–00:52] Ojo: C conecta con B (redominios). Si ves tres en A, juega B por el split: 4v1 efectivo. → 2.4
+- [00:53] Lotus "se trabaja más de lo que se prepara": default, esperar info, jugar con eso. → mapas
+
+### ¿Cómo DEFENDER en LOTUS? · https://youtu.be/1l1CpKzR710
+- [00:02] Elige una comp (Breach, Killjoy, Raze, Fade, Omen) que "premia el juego en equipo y no depende de que una Jett mate 40". → 3.1
+- [00:03–00:05] Tres sites con muchas entradas; A y C main son clave para la info. Rotar de A a C son ~15 s: en este mapa la rotación se castiga mucho. → mapas (Lotus) / 2.4
+- [00:05–00:08] ⭐ **Rotación escalonada**: si el de B va a A porque ejecutan A, el de C pasa a B (dejando una cámara/trap para la info de C). Nunca cuatro en un site y uno solo lejos sin cubrir el hueco. → 2.4
+- [00:12–00:13] Mejor mandar 3 a un site y que el otro juegue retake que repartir "uno y uno". → 2.7
+- [00:14] Killjoy deja la torreta/utilidad en B siempre para la info. → fichas (Killjoy)
+- [00:16–00:24] ⭐ **Default ≠ dominio**: defaultear es sacar info con utilidad que se recarga (stun, spot) y no pelear; dominar es gastar la no recargable (paranoia, TP) para ganar la zona. "Gastar la paranoia es sinónimo de que vas a dominar súper fuerte." → 2.5 / 2.7
+- [00:19–00:21] El Omen se queda de ancla (cierre de mapa) con paranoia y humo para ganar tiempo; los demás rotan escalonado. Toda la utilidad que gastan en redominar es utilidad que no tienen para entrar. → 2.7
+- [00:25–00:26] No dejes que entren fácil: los retakes en Lotus tienen mucho margen de error. → 2.6
+- [00:26–00:27] Una comp con tres ultis de área suple la falta de info en retakes. → 3.1
+- [00:28–00:29] La rotación escalonada sirve en juego lento; si estás 3–4 en A y van C, la opción es comer espalda o rotar todos por CT con ultis. → 2.4
+- [00:29–00:30] Si te comen la espalda y no pusheas, "sos malo": los atacantes tienen que liberar presión. → 2.6
+- [00:32] La puerta da info (y también puede ser info falsa). No te desesperes con la información. → mapas / 2.2
+- [00:34–00:44] ⭐ **No existe el lurk de defensa**: lurkear es usar la distracción de tu equipo para aprovechar un hueco, solo en ataque. En defensa el 1v1 favorece al atacante (se reagrupa); si te mueres dejas un hueco. Lo que sí se hace es "cerrar mapa" (ancla que da info) o ir en grupo (el tridente) a matar al centinela que quedó solo. → 2.4 (lurker) / 2.7. ⚠ Revisar el 2.4: decimos "lurker = centinela"; ahí se habla del lurker atacante, así que no choca, pero conviene aclarar que en defensa no se lurkea.
+- [00:42–00:44] Jugar agresivo depende del rol: una Jett o un Chamber pueden jugar un pick adelantado; una Astra o una Skye no, porque tienen que tirar utilidad. → 3.1
+- [00:46–00:48] Al liberar presión se va en grupo (tres juntos a un lugar), no uno por uno: aíslas duelos y juegas al trade. → 2.1 / 2.6
+
+### ¿Cómo jugar Haven? · https://youtu.be/7rX1SZfYZsw
+- [00:00–00:02] Usa Killjoy porque es más "family friendly" para rangos bajos. ⚠ "Chamber con Jett en un mapa de tres sites no tiene sentido; jugando Chamber en todos los mapas no vas a mejorar nunca" (otra vez anti-Chamber; el profe usa Chamber en el 2.5 de Haven). → 3.1 / fichas
+- [00:01–00:02] Astra puede hacer todo lo del Omen: adaptar la utilidad. → 3.1
+- [00:02–00:04] Dos iniciadores en Haven porque pide mucha info. "Jett, Iso, Reyna, Omen y Cypher sin iniciador: no existe." Breach > KAY/O en Haven porque se juega lento, con dominio. → 3.1
+- [00:04–00:05] ⭐ Identifica al **tridente** rival (duelista + spotter + flash): donde están esos tres, ahí está la jugada. → 2.2 / 2.3
+- [00:06–00:07] Cinco lugares para chocar (C, garage, mid, corta, larga): el atacante no tiene que correr, tiene que usar la ventaja de que el defensor no cubre todo. → 2.5
+- [00:08–00:11] ⭐ Killjoy en C sola ve toda la zona y puede retroceder a retake; donde no hay info temprana, el primer contacto llega tarde. Por eso info en C con una persona y dominio en A con el tridente. → 2.7 / mapas (Haven)
+- [00:12] Pedir humo para dominar A solo si el atacante juega lento y con Operator. "Jueguen con el mínimo margen de error posible." → 2.7
+- [00:13] Recomienda la web **Valorant Lineup Tool** para flechas de Sova. → recursos / fichas
+- [00:14–00:15] ⭐ Ancla adelantada (Jett en corta): ver al rival antes de que llegue a la boca te da tiempo para rotar; si defiendes desde atrás, la utilidad te come. → 2.7 (distancia)
+- [00:15–00:17] Si te humean larga para negar al Sova, el Sova no pushea el humo: no es su trabajo matar. El Breach juega cerca de la Jett para darle repeek. → 3.1
+- [00:17–00:19] ⭐ Si juegas fuerte un lado, no pelees el otro; el ancla del otro lado no se puede morir. El Omen en C "salta en la cajita" para sacar info; quedarse clavando siendo smoker es troll (sin smoker se pierde media ronda). → 2.7 / 3.1
+- [00:20–00:23] Romper utilidad del centinela rival en "tiempos muertos"; se rompe en conjunto. Fake dominio con humo para negar info, y cazar al lurker que viene a romper tu torreta. → 2.5 / 2.7
+- [00:24] Si dominas A y van rápido C, el de C no pelea solo: se va. "No puedes dominar A y defender C a la vez." → 2.7
+- [00:25–00:26] ⭐ Rotación escalonada (otra vez): si no hay nadie en A (1-3-1 rival), el Sova se libera y rota, el Breach pasa al otro lado y la Killjoy entra; tres en C defendiendo con utilidad. → 2.4
+- [00:27–00:29] ⭐ Mal humo: humear la entrada del site cuando estás dentro les da a los rivales un humo para entrar tres a la vez. "Si humeas donde mira tu Operator, le arruinas el trabajo a tu entry." → fichas (controlador) / guía de humos
+- [00:30–00:31] Líneas de defensa: boca del site (primera), un humo para la segunda, y atrás (tercera). **Pathing**: el que tradea no sigue al duelista por el mismo lado, pero va junto: "mientras más juntos, más posibilidades". → 2.1 / 2.7
+- [00:32–00:34] "Puedes hacer rutinas de aim y subir a Inmortal, pero no vas a saber jugar": disparar no basta. → 3.1 (`#cabeza`)
+- [00:34–00:35] ⭐ "Tu trabajo como defensor no es matar a cinco: es que no explote la bomba. Como atacante, plantarla y que explote." → 2.6 / 2.7
+- [00:35–00:36] Ver a la Killjoy no significa que vienen todos; mira dónde está el tridente. El lado con menos gente juega pasivo. → 2.2 / 2.3
+- [00:37–00:39] "Call reactiva": bajar mid solo cuando sabes que hay gente en A (si no hay nadie en A ni C, están en mid: no bajes). → 2.4 / 2.7
+- [00:39–00:40] Cambiar dónde cae la flecha del Sova delata la jugada: cada acción tiene consecuencia. → 2.3
+- [00:41] Killjoy jugando "A-D" (asomarse y volver) para sacar info sin riesgo. → 2.7
+- [00:41–00:43] Pistol defensa sugerida: dominio de A corta (stun Breach, Jett, flecha, humo) y tres-dos con garage. → mapas (Haven) / 1.7
+- [00:43–00:46] Ataque: dominio de larga o corta; flash antes de abrir mid "hace mucho la diferencia". → mapas
+- [00:46–00:49] ⭐ **Generar rotación**: presión en garage (dron + humo) → el defensor rota escalonado → quedan solos en A → juntarse los cinco en A con flash para matar al Operator. "Cada cosa que haces genera algo en el rival." → 2.5 (coincide con el profe: hacer ruido para que roten)
+- [00:52] Con doble duelista se juega más agresivo: más ejecuciones, menos dominio lento. → 3.1
