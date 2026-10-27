@@ -27,4 +27,4 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Fichas de agentes del profe: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
 - Completar las fichas de mapas con lo que sepa el profe.
 - Opcional: pasar la publicación a una rama `main`.
-- Notas de videos (Mixwell, NaNoW, Horcus, Safiro) listas en `docs/03-notas-videos.md`, con resumen por tema arriba. ⚠ decididos por el profe. Integrado sin atribuir (criterio del profe: "añádelo directamente") en 1.8, 2.6, 3.1, 2.4, 2.5 y 2.7. Faltan: 1.7, 1.2–1.4, 2.2–2.3, 2.8.
+- Notas de videos (Mixwell, NaNoW, Horcus, Safiro) listas en `docs/03-notas-videos.md`, con resumen por tema arriba. ⚠ decididos por el profe. Integrado sin atribuir (criterio del profe: "añádelo directamente") en 1.2, 1.3, 1.4, 1.7, 1.8, 2.4, 2.5, 2.6, 2.7 y 3.1. Faltan: 2.2, 2.3 y 2.8.
