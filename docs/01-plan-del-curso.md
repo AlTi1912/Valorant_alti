@@ -301,3 +301,9 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 
 "Lo bueno del tracker sería ver un buen KAST acompañado de un buen porcentaje de victorias. Un ejemplo de mal tracker es un % negativo o en rojo de victorias de rondas y un ACS elevado junto a un KAST pobre (-63%). Este último ejemplo muestra que solo vas a matar: matas mucho pero esas kills no generan impacto, no ganan rondas. El KAST siempre que sea verde (tier A) o tier S (azul) es positivo: quiere decir que aportas mucho en las rondas, y eso normalmente va acompañado de un % round win positivo."
 Aplicado en `tracker.html`: tarjetas "% Rondas" y "ACS / PS", panel "Así lo leo yo" y el lector con % de rondas y ACS.
+
+## Tracker: día 1 vs un mes, y consistencia (profe)
+
+- Comparar el tracker del primer día de entrenamiento con el de un mes después de aplicar lo aprendido. Lo ideal: KAST y HS% suben de manera uniforme, y eso se ve en la consistencia.
+- "La consistencia en el juego es muy difícil. Una partida podemos hacer 30K y la siguiente no pasar de una cifra. Es normal, el juego tiene muchas variables que no aportan a tener mucha consistencia, pero nuestras decisiones, cómo elegimos nuestros duelos y hacer una rutina ligera de aim antes de cada compe SÍ nos ayudan a ser más consistentes y tener malas partidas menos veces."
+- Aplicado en `tracker.html#comparar` (comparador que se guarda en el navegador, más % de rondas y ADR, agregados por Claude) y `#consistencia`. El paso 3 de `nivel-1.html` enlaza al comparador.

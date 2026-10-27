@@ -150,6 +150,44 @@
       </div>
     </section>
 
+    <section class="section alt" id="comparar">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Día 1 vs un mes después</div><h2>Compara tu tracker</h2></div>
+          <p class="muted">Vamos a comparar tu tracker del primer día de entrenamiento con el de un mes después de aplicar lo aprendido. Lo ideal es que el KAST y el HS% suban de manera uniforme, y eso se tiene que ver en tu consistencia.</p>
+        </div>
+        <div class="panel reveal" data-compare>
+          <p class="muted" style="margin-top:0">Saca los números de tus últimas partidas en tracker.gg (el resumen general, no una sola partida). Se guarda en tu navegador, pero anótalo también por si se borra.</p>
+          <div class="grid c2" style="gap:0 12px">
+            <div class="field"><label for="cmp-d1">Fecha del día 1</label><input id="cmp-d1" type="date"></div>
+            <div class="field"><label for="cmp-d2">Fecha un mes después</label><input id="cmp-d2" type="date"></div>
+          </div>
+          <div class="cmp-table" role="group" aria-label="Tus números">
+            <div class="cmp-head"><span></span><span>Día 1</span><span>Un mes después</span><span>Cambio</span></div>
+            <div class="cmp-row" data-k="kast"><em>KAST %</em><input type="number" inputmode="decimal" min="0" max="100" aria-label="KAST del día 1"><input type="number" inputmode="decimal" min="0" max="100" aria-label="KAST un mes después"><b></b></div>
+            <div class="cmp-row" data-k="hs"><em>HS%</em><input type="number" inputmode="decimal" min="0" max="100" aria-label="HS% del día 1"><input type="number" inputmode="decimal" min="0" max="100" aria-label="HS% un mes después"><b></b></div>
+            <div class="cmp-row" data-k="rw"><em>% Rondas</em><input type="number" inputmode="decimal" min="0" max="100" aria-label="% de rondas ganadas del día 1"><input type="number" inputmode="decimal" min="0" max="100" aria-label="% de rondas ganadas un mes después"><b></b></div>
+            <div class="cmp-row" data-k="adr"><em>ADR</em><input type="number" inputmode="decimal" min="0" aria-label="ADR del día 1"><input type="number" inputmode="decimal" min="0" aria-label="ADR un mes después"><b></b></div>
+          </div>
+          <p id="cmp-note" class="cmp-note" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="consistencia">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Consistencia</div><h2>Menos partidas malas</h2></div>
+          <p class="muted">La consistencia en el juego es muy difícil. Una partida podemos hacer 30 kills y la siguiente no pasar de una cifra. Es normal: el juego tiene muchas variables que no te dejan ser tan consistente. Pero hay cosas que sí dependen de ti y que sí ayudan a ser más consistente y a tener malas partidas menos veces.</p>
+        </div>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">01</div><h3>Tus decisiones</h3><p class="muted">Cuándo salir, cuándo rotar, cuándo guardar. Una buena decisión vale lo mismo en una partida buena que en una mala.</p></div>
+          <div class="panel reveal"><div class="eyebrow">02</div><h3>Cómo eliges tus duelos</h3><p class="muted">Pelear con ventaja, con utilidad y con trade, de a uno. Así ganas duelos aunque no estés en tu mejor día de mira.</p></div>
+          <div class="panel reveal"><div class="eyebrow">03</div><h3>Una rutina ligera antes de cada compe</h3><p class="muted">No hace falta una hora: un calentamiento corto, como el del <a href="temas/1-1-ajustes-y-calentamiento.html#rutina">tema 1.1</a>, para que la mira no arranque fría.</p></div>
+        </div>
+      </div>
+    </section>
+
     <section class="section band">
       <div class="wrap">
         <div class="section-head">

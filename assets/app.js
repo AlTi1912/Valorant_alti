@@ -524,3 +524,35 @@ document.querySelectorAll("[data-diagram]").forEach(function (box) {
   btns.forEach(function (b) { b.addEventListener("click", function () { show(b); }); });
   if (btns.length) show(btns[0]);
 });
+
+// Comparar tracker: día 1 vs un mes después (se guarda en el navegador)
+var cmp = document.querySelector("[data-compare]");
+if (cmp) {
+  var saved = store("tracker-comparar") || {};
+  var fields = cmp.querySelectorAll("input");
+  fields.forEach(function (f, i) { if (saved[i] !== undefined) f.value = saved[i]; });
+  var cmpCalc = function () {
+    var data = {};
+    fields.forEach(function (f, i) { data[i] = f.value; });
+    store("tracker-comparar", data);
+    var up = 0, down = 0, done = 0;
+    cmp.querySelectorAll(".cmp-row").forEach(function (row) {
+      var ins = row.querySelectorAll("input"), out = row.querySelector("b");
+      var a = parseFloat(ins[0].value), b = parseFloat(ins[1].value);
+      if (isNaN(a) || isNaN(b)) { out.textContent = "—"; out.style.color = "var(--muted)"; return; }
+      var d = Math.round((b - a) * 10) / 10;
+      done++;
+      if (d > 0) up++; else if (d < 0) down++;
+      out.textContent = (d > 0 ? "+" : "") + d + (row.dataset.k === "adr" ? "" : " pts");
+      out.style.color = d > 0 ? "var(--ok)" : d < 0 ? "var(--accent-text)" : "var(--muted)";
+    });
+    var kast = cmp.querySelector('[data-k="kast"] b').textContent, hs = cmp.querySelector('[data-k="hs"] b').textContent;
+    var note = document.getElementById("cmp-note");
+    if (!done) note.textContent = "Llena el día 1 hoy. En un mes vuelves y llenas la otra columna.";
+    else if (kast.charAt(0) === "+" && hs.charAt(0) === "+") note.textContent = "Subieron tu KAST y tu HS%: lo que estás aplicando se nota. Ahora fíjate que también tengas menos partidas malas.";
+    else if (down) note.textContent = "Algo bajó. Revisa en qué partidas: ¿decisiones, duelos sin ventaja o jugaste sin calentar? Tráelo a la juntada.";
+    else note.textContent = "Sin cambios todavía. Sigue con la rutina y vuelve a compararlo.";
+  };
+  fields.forEach(function (f) { f.addEventListener("input", cmpCalc); });
+  cmpCalc();
+}
