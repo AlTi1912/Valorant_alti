@@ -267,7 +267,7 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 
 ## Nivel 3 — criterio del profe
 
-- "No les daré compos de VCT ni similar, solamente les enseñaré a pegar mejor y tener bases." El nivel 3 va con bases para ranked, no estrategia pro. Revisar si los temas 3.2–3.8 (pensados para Premier) siguen teniendo sentido.
+- Decisión: el temario del nivel 3 queda tal cual (Premier, con bases de VCT pero nada estricto). A los compas les gustan Clove, Sage, Brimstone, Reyna y agentes que no entran en comps "buenas" de VCT: decirles qué comps conviene buscar y qué habilidades hacen falta, sin imponer. Objetivo a corto plazo: tomar decisiones, disparar, elegir bien cuándo jugar y qué jugar; no llegar a VCT.
 
 ## Tema 3.1 — Roles y composición (`temas/3-1-roles-y-composicion.html`)
 
