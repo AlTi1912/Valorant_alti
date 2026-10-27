@@ -12,12 +12,12 @@ Lista viva. Se revisa al inicio de cada sesión.
    - Captura con un compa: exponerse a dos ángulos (recuadro reservado en el 1.4).
    - Pies de foto precisos para las referencias de altura del 1.2 (qué marca la línea en cada captura).
    - Opcional: capturas del 1.2 en mapas de la pool actual (las actuales son de Ascent).
-5. +200 por kill: confirmado por el profe (todas las kills dan lo mismo). Queda: que la calculadora de drops cubra el caso 7000–7100.
+5. ~~+200 por kill y caso de drops~~ Hecho: casilla "Soy el que más plata tiene" (3100–7000 → compra al que menos tiene).
 6. ~~Revisar la web publicada~~ Confirmado por el profe: imágenes, logos y SVG cargan bien.
 
 ## Después
 
-- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmar: retake 2v2 "6 de 10" y el "¿Retake o salvar?" del 2.6. Nivel 3: hecho 3.1; el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
+- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3: hecho 3.1; el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).

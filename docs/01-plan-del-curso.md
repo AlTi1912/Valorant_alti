@@ -276,3 +276,13 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 - No encontré contenido escrito de nanowfps ni safiro01; de Mixwell solo "comunícate con tu equipo" en solo queue. Horcus: Radiant, contenido en español, sin guía puntual de comps.
 - 3.1 ampliado con el profe: a los que juegan Clove, Reyna o Iso, enseñarles a disparar y cuándo buscar duelos; full W "no es la manera de jugar bien ni de aprender" (se suavizó el tono en la web: sin insultos); que aprendan a decidir: cuándo salir de un humo, cuándo pushear, cuándo sacar una habilidad, cómo moverse si ves a dos o más; usar las habilidades rápido (se complican o lo hacen lento: se meten a un humo o los matan de lado).
 - Agregado por mí en esa parte: "juega lo que te gusta, pero mira qué falta" (humos, info/flash, frenar/flanco, alguien que entre), el desarrollo de cada decisión, los 3 pasos de habilidad rápida (decide antes, desde cubierto, vuelve al arma), teclas cómodas, drill en el Range, 2 preguntas de quiz y errores.
+
+## Correcciones del profe (ronda nivel 2–3)
+
+- Drops: si tienes entre 3100 y 7000 pero eres el que más plata tiene, compra al compa que menos tiene (calculadora del 1.7 con casilla "Soy el que más plata tiene").
+- Pasar al nivel 3: retake 2v2 ganando al menos 6 de 10; y post-plant/retake 2 contra el profe, ganando al menos 5 de 10.
+- "¿Retake o salvar?" del 2.6: confirmado.
+- 2.5: después del pick no es solo esperar y rotar (muy de elo bajo): también esperar a que pickeen, descontar y entrar con más equidad en los números; hay muchas más cosas a tener en cuenta.
+- 3.1: ejercicio de habilidades rápido = la cadena de Chamber en el Range (Sheriff → Q → X → Q → Sheriff, una kill con cada una) y después con su agente más jugado.
+- 3.1: el tono contra los que juegan full W va directo, como lo dijo el profe ("como estúpido", "eso se lo dejamos a los estúpidos que quieren smurfear y hacerse los buenos").
+- El profe todavía no tiene capturas, guía de humos ni fichas de agentes.

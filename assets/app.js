@@ -385,10 +385,11 @@ if (drop) {
     document.getElementById("drop-left").textContent = left < 0 ? "–" : left;
     if (left < 0) { out.textContent = "No te alcanza ni para tu compra: pide drop."; out.style.borderLeftColor = "var(--red)"; }
     else if (total > 7100) { out.textContent = "Tienes más de 7100: tienes que dropear a los que no llegan."; out.style.borderLeftColor = "var(--teal)"; }
+    else if (total > 3100 && document.getElementById("drop-rich").checked) { out.textContent = "Eres el que más plata tiene: cómprale al compa que menos tiene."; out.style.borderLeftColor = "var(--teal)"; }
     else if (left < 3100) { out.textContent = "Te sobran menos de 3100: no dropees, quédate con tu plata."; out.style.borderLeftColor = "var(--red)"; }
     else { out.textContent = "Puedes dropear si un compa no llega. La idea es que todos queden parejos."; out.style.borderLeftColor = "var(--gold)"; }
   };
-  drop.querySelectorAll("input, select").forEach(function (i) { i.addEventListener("input", dropCalc); });
+  drop.querySelectorAll("input, select").forEach(function (i) { i.addEventListener("input", dropCalc); i.addEventListener("change", dropCalc); });
   dropCalc();
 }
 
