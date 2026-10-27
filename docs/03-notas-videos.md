@@ -486,3 +486,80 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:43–00:46] Ataque: dominio de larga o corta; flash antes de abrir mid "hace mucho la diferencia". → mapas
 - [00:46–00:49] ⭐ **Generar rotación**: presión en garage (dron + humo) → el defensor rota escalonado → quedan solos en A → juntarse los cinco en A con flash para matar al Operator. "Cada cosa que haces genera algo en el rival." → 2.5 (coincide con el profe: hacer ruido para que roten)
 - [00:52] Con doble duelista se juega más agresivo: más ejecuciones, menos dominio lento. → 3.1
+
+## Horcus
+
+> Sus coachings son en vivo y con mucho show (insultos de broma, retos). Poca teoría por minuto: anoto solo lo que enseña. Los shorts (20–90 s) no los proceso.
+
+### Coacheando a ViiZzzm (Chamber, Breeze) · https://youtu.be/npuhuSCJX_A
+- [00:03–00:04] Si no te alcanza para Operator, chaleco alto, balas y utilidad; no te quedes sin economía por comprar mal. → 1.7
+- [00:04] Operator: doble zoom en distancias muy largas para poder microajustar. → fichas (Chamber)
+- [00:05] ⭐ "Si te abres a un ángulo, ya tienes que estar apuntando ahí. No puedes asomar sin apuntar." → 1.2 / 1.4
+- [00:06–00:07] ⭐ Peek con salto: saltar y seguir moviéndote hacia adelante está mal; lo bien hecho es abrirse con **micro-strafes A-D continuos**, para que al ver el primer píxel del codo la mira ya esté puesta. Contra un Operator, salto abierto cerca para que falle. → 1.3 (movimiento) / 1.4
+- [00:08] Ser lento también mata: había timing para pasar y lo perdió. → 2.3 (timings)
+- [00:13] "¿De qué te sirve llevarte a dos después de baitear a todo tu equipo sin hacer nada en la ronda?" → 2.1
+- [00:16] Chamber: tap y TP atrás; si fallas, te vas con tus compañeros. → fichas (Chamber)
+
+### Pensaron que LATAM era fácil (Pereira y Fran Luque) · https://youtu.be/JkaXuG4cTj8
+- [00:00] "La misión no es ganar, es que mejore tu game sense." → 1.8
+- [00:03] Factor sorpresa: en vez de flashear y peekear, échate para atrás, agáchate y espera; apunta al cuerpo con Judge. → 2.7
+- [00:05] "No es para que hagas lo que te dé la gana": si tienes TP, asegura en vez de forzar el duelo. → fichas (Chamber)
+- [00:05–00:06] Último en pie: "quítales las armas solo, no vayas por ellos, que vengan a ti". Saltar shifteando en rampas para que no se oigan los pasos. → 2.6 / 2.2
+- [00:11] **Trigger discipline**: no le dispares a la Clove (te delatas); espera y ve por la espalda para llevarte dos. → 2.7
+- [00:27–00:28] ⭐ "¿Por qué corren por las kills? Me importa nada el MVP: le doy la razón al que mejor juega, no al que más mata." Pushear con shift o strafeando A-D (no se oye), no corriendo ni con dash. → 3.1 (`#cabeza`) / 2.2
+
+### Los 7 errores que todos tienen en rangos bajos (lobby de rangos bajos) · https://youtu.be/jaym_IxpMP0
+- [00:01–00:02] Jugar juntas, comunicar y peekear juntas; "esto no es cómo empieza, sino cómo acaba". → 2.1
+- [00:03–00:04] ⭐ Muro de Sage al inicio de ronda = error de rango bajo. Solo se usa al inicio para tomar un spot ventajoso/one-way o cortar una zona para rotar rápido / jugada agresiva. Ahorrarlo cuando no hace falta. → fichas (Sage)
+- [00:04] Post-plant: si la spike está plantada para main y mid, posiciónate por delante de la spike para ver quién va a defusar. Apuntar al cuerpo cuando toca, "no estás dibujando". → 2.6
+- [00:06] ⭐ Error común: jugar demasiado lento como defensor cuando ya plantaron; en cuanto plantan, piensa rápido cómo defusar, "un poquito más de W sin tanto shift". (No choca con el profe: es para el retake con tiempo encima.) → 2.6
+- [00:07] ⭐ Al disparar, si fallas, A-dispara-D-dispara; nunca quedarte completamente quieto reposicionando la mira. → 1.3
+- [00:07–00:08] No mires lo que ya está limpio; para info, A-D sin exponerte. → 1.4 / 2.2
+- [00:09–00:10] ⭐ Mira el mapa: ahí ves qué está limpio, dónde están ellos y tus compañeras. → 2.2
+- [00:11–00:12] Estar abierto en un humo sin hacer nada es muy malo. Hold juntas o ninguna. → 2.7
+- [00:12] ⭐ Tener una tecla distinta para equipar la spike y para plantar (si no, se buguea). → 1.1 (config)
+- [00:14] Trampa de Chamber: en la zona más lejana donde no vas a jugar, o pegada a ti si juegas juntas. → fichas (Chamber)
+- [00:16–00:17] Usa los timings: "no le da tiempo" a llegar si no lo escuchaste correr; con eso sabes por dónde puede venir. → 2.3
+- [00:18–00:19] Hay que hablar de los errores: "si siempre dices lo bueno, no aprendes nada". El problema no fue ir por mid, fue no tener control de mapa y peekear separadas en vez de dos o tres al mismo tiempo. → 2.1 / 2.8
+- [00:20–00:21] ⭐ Flash de Reyna alta en entradas sin info. En el post-plant se abrieron una a una y nadie miró la espalda. Los calls son info ("uno túnel, uno en la espalda"), no quejas: Discord limpio. → 1.6 / 2.6
+- [00:22] Post-plant: al contacto de una, asoman todas. → 2.6
+- [00:24–00:29] Micro-jugadas: jugada compuesta de varias acciones entre varios jugadores (antiflash, bajar mirando a la derecha, support detrás del duelista, Chamber holdeando ventana). → 3.x
+- [00:29] Si el Chamber tiene Operator, no le asomes con Guardian en mid: juega según las armas que pueden tener. → 2.3
+- [00:30] Esperar un segundo más para peekear con el compañero que está cerca: más fácil entre dos. → 2.1
+- [00:32–00:33] ⭐ Retake: agruparse todas (menos el que tiene ulti de Phoenix), stun + flash simultáneos + ulti; "refrear" al Phoenix. → 2.6
+- [00:40] En 3v5 tienes que limpiar a uno gratis antes de entrar (stun + peek rápido). → 2.6
+- [00:43] Ganar el site completo, incluido backsite; "si no se dicen las cosas que están mal, no se mejora". → 2.5
+- [00:45] ⭐ "Es más importante el equipo vivo que una ulti": no farmees el orbe mientras tus compañeros pelean el site. → 2.5
+- [00:47] Si ganaste link de A y tienes ulti de área, juega fuera del site y ultea cuando toquen la spike. → 2.6
+
+### ¿De Bronce a Radiant? (coaching a Marcusgreenm, Hierro/Bronce) · https://youtu.be/4ROQwK_7R5I
+- [00:00] Esconderse y flashear cuando el rival está cerca ("flash en mano"). → 1.5
+- [00:01] Molly: "como una granada en paintball: asomas la esquina, la tiras y te escondes". → fichas
+- [00:04] "Tiempo al equipo": si no saben dónde estás, no fuerces; espera a que lleguen. → 2.1
+- [00:07] Flash de Gekko: mientras más alta la tiras, más espacio cubre (si va recta, cualquier obstáculo la tapa). → fichas (Gekko)
+- [00:08] Diagnóstico de rango bajo: sensibilidad rara, no posiciona bien el crosshair. → 1.2
+- [00:13] ⭐ Operator: no te muevas al disparar; dispara cuando la mira esté quieta. → 1.3
+- [00:18–00:19] ⭐ Tenía sensibilidad 5 (altísima): "normal que estés en Hierro/Bronce". Bajarla y acostumbrarse; ejercicio de tracking siguiendo la cabeza de un bot. "Es una carrera de fondo, no de velocidad." (Coincide con el 1.1 del profe sobre sensibilidad.) → 1.1 / 1.2
+
+### Contraté a una Hierro 1 como coach · https://youtu.be/raNXUJf-xlk
+- Video de humor, casi sin contenido. Lo único útil: [00:12–00:13] con la spike plantada, paciencia; morir por "ganas de farmear kills" es error de ego player. → 2.6
+
+### El colapso total de mi equipo en Premier (Horcus mira a su equipo "La Jubilona") · https://youtu.be/Y_Ps258La1I
+- [00:04–00:05] Doble Operator solo sirve si el segundo juega agresivo. → 1.7
+- [00:05–00:06] ⭐ Peekear con shift es muy riesgoso (te comes la bala antes de reaccionar); mejor A-D-A-D, incluso jiggle/crouch. → 1.3 / 1.4
+- [00:06] Tras ganar el duelo, lo inteligente era jugar el 2v1 juntos, no seguir solo. → 2.1
+- [00:07–00:08] ⭐ "No se está jugando ningún plan": murieron uno en A solo y dos en mid separados. No rotar por mid contra un Chamber. → 2.4 / 3.x (Premier)
+- [00:09] Fangle detrás de la caja que no chequean, con disciplina, para cuando entran. → 2.7
+- [00:10] Limpiar con A-D, no solo abriéndose con shift. → 1.4
+- [00:11–00:12] ⭐ Jugada riesgosa: buscar solo afuera del site cuando tu compañero viene. "Más inteligente y conservador esperar a tu compañero y hacer el 2v1." → 2.1 / 2.6
+- [00:12] Asomar "a pelo" a un ángulo holdeado está mal: jump-spot o utilidad antes. → 1.4
+- [00:13] El control de mapa se soluciona, por ejemplo, con un Operator holdeando agresivo. → 2.7
+- [00:19] Cuando matan al que te frenaba: cancelar todo, segundo humo rápido, flash donde no está el rival y colarse. → 2.5
+- [00:21] Saber el daño: "si cruza con 100 de vida muere: la Outlaw quita 140". → 2.3
+- [00:23–00:24] ⭐ Con comp de **doble duelista no puedes jugar lento** (no tienes utilidad): entrar los cinco juntos rápido, con el escudo de Iso adelante. (Coincide con NaNoW.) → 3.1
+- [00:25–00:27] ⭐ Resumen del coach: peekean sin sincronizar (mucho delay entre uno y otro → no hay refrags), mal spacing, no aprovechan el escudo de Iso, indecisión ("jueguen más libres"), en defensa dejan zonas sin cubrir y nadie ancla agresivo. → 2.1 / 3.x (Premier)
+- [00:30] La importancia de farmear orbes para ultis. → 2.5
+- [00:31–00:33] El tilt destruye: "cero setup, cero info". Saltar sin ruido: shift antes de saltar a una superficie más alta. → 1.8 / 2.2
+- [00:34–00:35] Comunicar lo que haces ("no se adivina"). Como Chamber, él guía las micros del inicio de ronda y holdea dos zonas solo. → 1.6 / fichas (Chamber)
+- [00:38] "Si lo dijeras con más tacto ('estoy contigo, mírame') sería más óptimo para el equipo." → 1.6
+- [00:49–00:50] Siguen jugando "individualidades, uno a uno". No abrir los cinco pops a la vez a tu contacto (smokes de Clove). → 2.1
