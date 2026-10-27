@@ -640,3 +640,64 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:15] Humos de atacante que dejan al defensor jugar adentro = humos de defensor. → guía de humos
 - [00:16] No sabía que el fuego de Phoenix cura: usar más las habilidades. → fichas (Phoenix)
 - [00:19–00:20] ⭐ Resumen: le faltó iniciativa. Aprender picks con flash; flashes cortas; en rangos bajos "la gente corre para adelante como loca": cuando la escuchas venir, flash y peek → los matas ciegos. Ulti para el retake: dejar el site y volver juntos. → 3.1 / fichas (Phoenix)
+
+### Analicé un Jett Bronce (Breeze, Frankfurt) · https://youtu.be/DAAvjryanYI
+- [00:00–00:01] ⭐ "En Bronce las composiciones no son relevantes: nadie juega bien su rol; las partidas se ganan de otras maneras." (Útil para el 3.1: la comp importa más a partir de Oro/Platino.) → 3.1
+- [00:01–00:02] Que un Bronce pida dónde quiere el humo y comunique lo que va a hacer ya es buenísimo. → 1.6
+- [00:03–00:04] ⭐ Crosshair: arriba, a la altura de la cabeza, abriendo los ángulos donde te pueden peekear; despegarse de la pared. Chequear los espacios con el arma (o utilidad) antes de entrar. → 1.2 / 1.4
+- [00:04] Pide el lobo/la utilidad del iniciador: "mejor que rompan el lobo a que te maten a ti sacando la info". → 1.6
+- [00:05–00:06] ⭐ Planta solo cuando estés seguro (site ganado o compañero cubriéndote). Nunca plantes con alguien disparándote; prioriza ganar el site. → 2.6
+- [00:06] Eco: ir los cinco juntos a un site está bien; evita duelos largos (mid, garage) donde un Marshal te mata. → 1.7
+- [00:07] No chequear donde nadie puede llegar por timing (lo escucharías). Mecánica de Jett: humo, dash, sin quedarse quieto. → 2.3 / fichas (Jett)
+- [00:08] Jett en el humo: mirar a ambos lados para sacar info para el equipo. → fichas (Jett)
+- [00:09–00:10] ⭐ Cuando tus compañeros hacen ruido y llaman la atención, ábrete apuntando a donde escuchas: lo matas de espalda. Se quedó 4–5 s "en automático" mirando a un compañero. → 2.2
+- [00:10] ⭐ Si estás aprendiendo, apunta un poco más arriba de la cabeza antes que más abajo: corregir hacia abajo es más fácil. → 1.2
+- [00:10–00:12] ⭐ **Ángulos**: pegado a la caja, el rival te ve antes que tú a él; alejarte de la cobertura abre el ángulo a tu favor. → 1.4 / 2.7
+- [00:12–00:13] Crosshair placement: ir subiendo y bajando la mira según los desniveles del mapa. → 1.2
+- [00:15–00:18] ⭐ No mires lo que tus compañeros ya están mirando: usa el mapa, busca el hueco (el lado sin cubrir) o acompaña al compañero. Tampoco ir todos a CT a buscar kills tras plantar. → 2.2 / 2.6
+- [00:18] En un split, el duelista va con la mayoría para ganarles el espacio. → 2.5
+- [00:18–00:19] ⭐ Mal hábito: recargar después de 7 balas y perder el timing; con 20 balas te alcanza. → 1.3
+- [00:21–00:22] ⭐ **Orden de entrada**: primero el duelista, segundo el iniciador (o el flex), tercero el smoker y último el centinela; una Clove con ulti puede ir primera. "Tú vas adelante: es lo que te toca como duelista." (Coincide con el `#orden` del 2.5 del profe.) → 2.5
+- [00:22] Disparar apuntando (ADS) dispara más lento; romper la pared sin mira. → 1.3
+- [00:24] Si te vas a arriesgar con Jett, activa el dash antes de peekear para poder escapar. → fichas (Jett)
+- [00:25] ⭐ Pide cura a la Sage si estás bajo. "Si cuatro compañeros compran, tú compras (aunque sea Bandit/Sheriff con chaleco grande); si no, la siguiente ronda ellos no tienen y tú sí." (Coincide con el 1.7.) → 1.7 / 1.6
+- [00:27–00:28] Con Jett, ser amigo del Marshal/Outlaw/Operator; tomar riesgos y sacar info temprana, no jugar escondido todas las rondas. Operator: peekea al lado de una cobertura, dispara y escóndete. → fichas (Jett)
+- [00:30–00:32] ⭐ Resumen: crosshair placement, prestar atención (no en automático), no mirar lo que ya cubren, no peekear con shift, recargar menos, disparar sin ADS (practicar en DM) y **usar el radar**: "si usas el radar y mejoras el crosshair, en dos semanas estás en Platino". → 1.2 / 2.2
+
+### Analicé un Chamber Platino (Ascent) · https://youtu.be/7b67dC1IRmc
+- [00:01] En Ascent prefiere Killjoy/Cypher; Sova es el iniciador más útil. Comp sin iniciador = ataque complicado. → mapas / 3.1
+- [00:02] Pistol de Chamber: 6 balas + trampa (la trampa en el lugar donde no juegas). Aprovechar el TP para hacer el pick y volver. → fichas (Chamber)
+- [00:02–00:03] Bueno: "calm aim", pone la mira en la cabeza y después dispara. Mala: la del equipo que lo baitea. → 1.2
+- [00:03–00:04] El centinela que controla la rotación es el que debe pedir rotar / volver. Un mal call de rotar te deja sándwich. → 2.4
+- [00:05] Si te buscan, quédate cerrado, deja que pase y cáele de espaldas mientras tus compañeros hacen tiempo. → 2.7
+- [00:06–00:07] ⭐ Dos estilos de disparo: explosivo (flick mientras disparas, muy difícil) y **calm aim** (apuntar, corregir y después disparar). Para la mayoría, lo segundo. → 1.2
+- [00:08] Perdieron una ronda por no jugar al tiempo. → 2.6
+- [00:08–00:11] ⭐ En ataque, el centinela lurkea y juega bajas aisladas para mantener el espacio (mid o B) por si hay que rotar; "de nada sirve que vayas con los cinco". (Coincide con el profe: lurker = centinela.) → 2.4
+- [00:11–00:12] Instapick: está bien si ganas con ese agente; si pierdes más de lo que ganas, autocrítica. → 3.1
+- [00:12–00:13] Cuando tu duelista mata en un timing, entra ya a ayudarlo y asegura el site. → 2.5
+- [00:14–00:15] ⭐ Moverse: abrir los ángulos de a uno (el de menor riesgo primero), lejos de las paredes; no quedarte expuesto a cuatro ángulos. → 1.4
+- [00:17] ⭐ Si ves al centinela rival con el resto en A, es el momento de apretar la W y cerrar espaldas: probablemente están los cinco. → 2.4
+- [00:17–00:18] ⭐ Con dos lugares fuertes y uno débil, el débil no pelea (si mueres ahí, queda libre). → 2.7
+- [00:18–00:19] En desventaja numérica hay que tomar riesgos para igualar (abrirte con un compañero), no humear y esperar. → 2.7 (`#agresivo`)
+- [00:20–00:21] Peek y cerrarte cerca de una cobertura; si te flashean, no te quedes en un lugar sin salida. → 1.4
+- [00:22] Con la ulti de Chamber, pon el TP antes de que arranque la ronda (hace ruido). Pide que rompan el perro de Fade. → fichas (Chamber)
+- [00:24] Resumen: buen aim y crosshair, pero flojo game sense y movimiento. Practicar moverse y disparar, abrir ángulos, y usar la trampa para que no te maten de espaldas. → 1.3 / 2.2
+
+### Analicé una Clove Platino (Pearl) · https://youtu.be/8BxAMRQLZMQ
+- [00:02–00:03] El controlador juega donde puede humear ambos sites (en Pearl, puertas dobles). No darle info al perro. ⭐ **Compra siempre los dos humos, aunque sea eco**: por 150 te pueden ganar una ronda. → fichas (controlador) / 1.7
+- [00:03–00:04] Mató uno y no se enganchó a seguir buscando kills: volvió. Cuidado con los timings en que te pueden pasar. → 2.3
+- [00:04–00:05] En ecos, mejor un humo que los frene. Ángulo: peekear desde donde tienes todo el ángulo ganado, no desde donde te pueden matar de tres lados. → guía de humos / 1.4
+- [00:05–00:07] ⭐ **Humos sin "panza"**: un humo con panza le da al rival espacio para meterse, prefirear y tirarse a los lados sin que lo veas; sin panza, sale "intrigado" y lo ves salir. Solo se tira con panza a propósito (ej. eco con escopeta, para meterte tú). → guía de humos
+- [00:07–00:08] Comunicar para peekear juntos ("Jett, abrámonos juntos"). Tras ganar el duelo, humo y dominar rápido. → 2.1
+- [00:08–00:09] Humo "de defensor" tirado en ataque = le dices al rival que no vas a pasar. → guía de humos
+- [00:10] Si te vas a abrir con varios mirando, ábrete fino para aislar un duelo. → 1.4
+- [00:12] Tener el humo preparado (click derecho) para tirarlo apenas suena el tiro del Operator. → fichas (Clove)
+- [00:13–00:14] No dispares a ciegas al humo/flash: rompe la utilidad (flash de Reyna) y no arriesgues morir ciego. → 1.5
+- [00:14–00:15] Contra comps sin entry fuerte (Iso/Reyna, Skye sin duelista de espacio), si te paras bien con cover, no te ganan espacio rápido. → 2.7
+- [00:17–00:18] Humeó al segundo 8 del rush: muy temprano. Los humos se tiran cuando ya van a entrar. → 2.5 / guía de humos
+- [00:18–00:20] ⭐ Cómo atacar Pearl: se puede ir todos a un site; lo común es un centinela dominando mid con cuidado, dominar una punta y splitear. Lurker juega a su timing. Humos por plan: split B (primero uno, luego cielo/CT), split A, ejecución A (link + flores). → mapas (Pearl) / 2.5
+- [00:20–00:21] En Radiant prefiere flex de doble duelista o doble iniciador según el mapa. En rangos bajos, Sage molesta porque la gente pasa sobre los muros. Opinión: "veo un Phoenix y me pongo triste" (⚠ contradice su propio video del Phoenix Plata: es gusto personal). → 3.1
+- [00:21] ⭐ Nunca te abras ciego: espera el segundo a que se te pase la flash. → 1.5
+- [00:23] Perdieron un 3v2 por no plantar con el compañero cubriendo. → 2.6
+- [00:24–00:26] ⭐ Dispara en ráfagas de 2–4 balas (hasta 5), no sprays largos; no te agaches ni te muevas mientras disparas (desesperado). Controladores: jugar un poco más atrás de los centinelas y no ser siempre el primero en abrir. → 1.3 / fichas (controlador)
+- [00:27] Smoker: pregunta dónde quieren el humo; si no te contestan, ponlo igual donde tenga sentido. → 1.6 / guía de humos
