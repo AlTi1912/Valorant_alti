@@ -821,3 +821,21 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 ### Reyna Ascendente (Abyss) · https://youtu.be/sWhj1HKKCmc
 - [00:22–00:24] ⭐ **Mental y tilt**: no es sano morir y lo primero que haces es culpar a un compañero. "Es un juego que saca lo peor de ti." Si estás tilteado después de una derrota: café, vaso de agua, un DM, un video, o descansar 15 min–2 h o ir a dormir; no te metas a otra partida enojado porque la pagan tus compañeros. → 1.8
 - [00:24–00:25] Las habilidades tienen que tener un motivo; jugar con el dúo ("el dúo no está para hacerte de psicólogo"). Menos baiteo como duelista. → 1.5 / 2.1
+
+### Horcus: coachings en vivo (resumen de 8 videos)
+> Pocos conceptos por minuto; junto lo que enseña. Videos: Fueron a dominar LATAM (https://youtu.be/GH0BHe3QeGY), La chica con más potencial (https://youtu.be/NJfcMkH6Zxk), La gótica de LATAM se descontroló (https://youtu.be/rE2_scdAh-g), Le enseñé todo a la gótica (https://youtu.be/pJoOiC8jK9Y), Me tilteo con Pereira y Fran Luque (https://youtu.be/aeiwoRLroDw), Entrené al nuevo top 1 Radiant (https://youtu.be/2QLx615B2-s), Coacheando a los rangos más altos (https://youtu.be/7sEtq5rSJ90), 5 chicas vs 5 chicos (https://youtu.be/t7lia-T4yIY).
+- Peekear juntos "como un equipo", micro-jugadas entre dos (uno abre mirando un lado, el otro el otro); "baja por la izquierda mirando a la derecha" (GH0BHe3QeGY [00:06–00:08], [00:22]). → 2.1
+- Peekear con timing, sin que el rival sepa que vas a asomar (GH0BHe3QeGY [00:23]). → 2.3
+- Rompe el perro/dron para negar la info (GH0BHe3QeGY [00:34]). → 1.5
+- Si queda uno solo y la ronda está fácil: "no planten, que pillo el orbe" (NJfcMkH6Zxk [00:25]). Mirar más el mapa (NJfcMkH6Zxk [00:30]). → 2.5 / 2.2
+- Ráfagas y bajar un poco la mira; foco en la precisión, no en el cuerpo (rE2_scdAh-g [00:17], [00:24]). → 1.3
+- No cierres tanto la mira (apuntar pegado al píxel no te da tiempo a reaccionar); no te agaches tanto desde una altura (pJoOiC8jK9Y [00:09–00:10], [00:20]). → 1.2 / 2.7
+- Centinela con el equipo: o vas a otro lado con la trampa en tu espalda o dejas la trampa y te vas con ellos, pero no los baitees. Duelista abre los sites. Si baiteas, "llévate a tres" (aeiwoRLroDw [00:06–00:07], [00:24], [00:43]). → 2.1 / 2.5
+- Ser dinámico: no siempre los mismos TPs, habilidades ni posiciones; nunca jugar el píxel típico de Chamber (aeiwoRLroDw [00:38], [00:45]). → 2.7
+- ⚠ Horcus: "el game sense es muy importante, pero es más importante aún el aim" (2QLx615B2-s [00:02]). Choca con NaNoW, Safiro y el criterio del profe (decisiones + disparo; "correr hacia adelante no es jugar bien"). Si se cita, poner las dos posturas. → 3.1 (`#cabeza`)
+- ⭐ Al terminar cada ronda, piensa qué funcionó, qué no y qué podrías hacer mejor (2QLx615B2-s [00:06]). "Aceptar y corregir los errores te separa del ego player" ([00:21]). → 2.8 / 1.8
+- Tras el primer kill, vete; no sigas asomando buscando otro (2QLx615B2-s [00:11]). Holdear donde no te vendas a todas las zonas ([00:16]). Jugar con la info del sonido ([00:19]). Ultear con conciencia de qué te cubre y de dónde te pueden venir ([00:28]). → 2.7
+- ⚠ "La mayoría que no sube no entrena el aim: solo juega, y eso es un error; necesitas una rutina" (7sEtq5rSJ90 [00:01]). Va con sus videos de rutina; revisar con el profe. → 1.2
+- No apuntes a través de las paredes: apunta a por dónde puede asomar (7sEtq5rSJ90 [00:07], [00:10]). Tras matar, cambia de posición ([00:24]). Prevé dónde está agachado el Operator y asoma con la mira en su cabeza; holdea a la cintura por si se agacha ([00:32–00:33]). Peek lejos de la esquina, no pegado ([00:40]). Si te abres por info, no con shift ([00:50]). → 1.2 / 1.4
+- Controlar la ansiedad/hiperactividad: saber cuándo calmarse (shift, sin ruido, quieto) (7sEtq5rSJ90 [00:17–00:18]). → 1.8
+- Si un compañero pushea, tu humo tiene que ir rápido; con poco tiempo, reaccionar y plantar ya (t7lia-T4yIY [00:03], [00:29]). Esperar a tus compañeras y jugar juntas ([00:07]). → 2.5 / 2.1
