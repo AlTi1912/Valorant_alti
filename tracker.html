@@ -69,15 +69,16 @@
       <div class="wrap">
         <div class="section-head">
           <div><div class="eyebrow">Los números</div><h2>Qué significa cada uno</h2></div>
-          <p class="muted">Los valores de "bueno" son orientativos para Hierro–Oro. Lo más útil es compararte contigo mismo semana a semana.</p>
+          <p class="muted">En tracker.gg cada número trae un color: verde (tier A) o azul (tier S) es bueno; rojo, malo. Lo más útil es compararte contigo mismo semana a semana.</p>
         </div>
         <div class="stat-grid">
-          <div class="stat-card reveal"><div class="abbr">KAST</div><h3>El que más importa</h3><p>Kill, Assist, Survive, Trade: el % de rondas en las que hiciste algo útil. Mataste, asististe, sobreviviste o te tradearon. Es el que mejor dice si aportas a ganar.</p><div class="good">Bueno: 70% o más</div></div>
+          <div class="stat-card reveal"><div class="abbr">KAST</div><h3>El que más importa</h3><p>Kill, Assist, Survive, Trade: el % de rondas en las que hiciste algo útil. Mataste, asististe, sobreviviste o te tradearon. Es el que mejor dice si aportas a ganar.</p><div class="good">Bueno: en verde o azul. Pobre: menos de 63%</div></div>
+          <div class="stat-card reveal"><div class="abbr">% Rondas</div><h3>Rondas ganadas</h3><p>De las rondas que jugaste, cuántas ganó tu equipo. Va de la mano del KAST: si aportas en las rondas, tu equipo gana más rondas.</p><div class="good">Bueno: por encima de 50%. En rojo es mala señal</div></div>
           <div class="stat-card reveal"><div class="abbr">HS%</div><h3>Altura de tu mira</h3><p>De tus balas que pegaron, cuántas fueron a la cabeza. Si es bajo, tu crosshair placement está apuntando al cuerpo o al piso.</p><div class="good">Bueno: 20% o más</div></div>
           <div class="stat-card reveal"><div class="abbr">ADR</div><h3>Daño por ronda</h3><p>Cuánto daño haces en promedio cada ronda, con balas y habilidades. Aunque no mates, el daño ayuda a tus compas a rematar.</p><div class="good">Bueno: 130 o más</div></div>
           <div class="stat-card reveal"><div class="abbr">K/D</div><h3>Kills contra muertes</h3><p>Solo, engaña: puedes tener buen K/D y perder rondas. Míralo siempre junto al KAST.</p><div class="good">Bueno: 1.0 o más, con buen KAST</div></div>
           <div class="stat-card reveal"><div class="abbr">FB / FD</div><h3>Primera kill y primera muerte</h3><p>Quién mata o muere primero en la ronda. Si mueres primero seguido, regalas un 4v5. Los duelistas buscan la primera kill; los demás, no morir primero.</p><div class="good">Bueno: más FB que FD (o pocas FD si no eres duelista)</div></div>
-          <div class="stat-card reveal"><div class="abbr">PS</div><h3>Performance Score</h3><p>Desde la 13.06 el juego cambió el ACS por el Performance Score (0–500): ordena la tabla y elige al MVP. No cambia tu RR: el RR sale de ganar. En tracker.gg todavía puede aparecer como ACS.</p></div>
+          <div class="stat-card reveal" style="grid-column:1/-1"><div class="abbr">ACS / PS</div><h3>Puntaje de combate</h3><p>Premia kills y daño. Desde la 13.06 el juego lo cambió por el Performance Score (0–500), pero tracker.gg lo sigue mostrando como ACS. No cambia tu RR: el RR sale de ganar. Un ACS alto solo vale si viene con buen KAST.</p></div>
         </div>
       </div>
     </section>
@@ -109,6 +110,10 @@
             </ul>
           </div>
         </div>
+        <div class="grid c2" style="margin-top:20px">
+          <div class="panel reveal"><div class="eyebrow">Así lo leo yo</div><h3>Buen tracker</h3><p>Un buen KAST acompañado de un buen porcentaje de victorias de rondas. Si tu KAST está en verde (tier A) o azul (tier S), aportas mucho en las rondas, y eso normalmente va con un % de rondas ganadas positivo.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Así lo leo yo</div><h3>Mal tracker</h3><p>% de rondas ganadas en rojo, ACS elevado y KAST pobre (menos de 63%). Eso muestra que solo vas a matar: matas mucho, pero esas kills no generan impacto, no ganan rondas.</p></div>
+        </div>
       </div>
     </section>
 
@@ -127,6 +132,8 @@
               <div class="field"><label for="trk-kd">K/D</label><input id="trk-kd" type="number" inputmode="decimal" value="1.0" min="0" step="0.1"></div>
               <div class="field"><label for="trk-fb">Primeras kills (FB)</label><input id="trk-fb" type="number" inputmode="numeric" value="2" min="0"></div>
               <div class="field"><label for="trk-fd">Primeras muertes (FD)</label><input id="trk-fd" type="number" inputmode="numeric" value="4" min="0"></div>
+              <div class="field"><label for="trk-rw">% de rondas ganadas</label><input id="trk-rw" type="number" inputmode="decimal" value="48" min="0" max="100"></div>
+              <div class="field"><label for="trk-acs">ACS</label><input id="trk-acs" type="number" inputmode="numeric" value="210" min="0"></div>
             </div>
             <div>
               <div class="trk-out">
@@ -134,6 +141,7 @@
                 <div class="trk-row" id="out-kast"><em>KAST</em><b></b><span></span></div>
                 <div class="trk-row" id="out-adr"><em>ADR</em><b></b><span></span></div>
                 <div class="trk-row" id="out-kd"><em>K/D</em><b></b><span></span></div>
+                <div class="trk-row" id="out-rw"><em>% Rondas</em><b></b><span></span></div>
               </div>
               <ul class="look" id="trk-notes" aria-live="polite" style="margin-top:14px"></ul>
             </div>

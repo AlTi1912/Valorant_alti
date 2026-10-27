@@ -457,7 +457,7 @@ if (cta) {
   }
 }
 
-// Lee tu tracker: valores orientativos para Hierro–Oro
+// Lee tu tracker: criterio del profe (KAST + % de rondas ganadas; ACS alto con KAST pobre = solo matar)
 var trk = document.querySelector("[data-tracker]");
 if (trk) {
   var rate = function (v, cuts) { return v < cuts[0] ? 0 : v < cuts[1] ? 1 : v < cuts[2] ? 2 : 3; };
@@ -467,12 +467,13 @@ if (trk) {
     hs: ["Disparas al cuerpo o al piso. Repasa el tema 1.2.", "Vas bien, pero la mira todavía baja. Fíjate en la altura de la cabeza.", "Buena altura de mira.", "Altura de mira de rango alto."],
     kast: ["En muchas rondas mueres sin aportar: entras solo o nadie te tradea.", "Aportas en la mayoría de rondas, pero hay margen.", "Aportas casi todas las rondas.", "Casi siempre haces algo útil."],
     adr: ["Haces poco daño por ronda: quizá te escondes o mueres temprano.", "Daño normal.", "Buen daño por ronda.", "Mucho daño por ronda."],
-    kd: ["Mueres bastante más de lo que matas.", "Parejo.", "Matas más de lo que mueres.", "Matas mucho más de lo que mueres."]
+    kd: ["Mueres bastante más de lo que matas.", "Parejo.", "Matas más de lo que mueres.", "Matas mucho más de lo que mueres."],
+    rw: ["Tu equipo pierde más rondas de las que gana: en tracker.gg sale en rojo.", "Parejo, cerca del 50%.", "Ganan más rondas de las que pierden.", "Ganan muchas más rondas de las que pierden."]
   };
   var trkCalc = function () {
     var v = {};
-    ["hs", "kast", "adr", "kd", "fb", "fd"].forEach(function (k) { v[k] = parseFloat(document.getElementById("trk-" + k).value) || 0; });
-    var r = { hs: rate(v.hs, [12, 20, 25]), kast: rate(v.kast, [60, 70, 75]), adr: rate(v.adr, [100, 130, 160]), kd: rate(v.kd, [0.8, 1.1, 1.4]) };
+    ["hs", "kast", "adr", "kd", "fb", "fd", "rw", "acs"].forEach(function (k) { v[k] = parseFloat(document.getElementById("trk-" + k).value) || 0; });
+    var r = { hs: rate(v.hs, [12, 20, 25]), kast: rate(v.kast, [63, 70, 76]), adr: rate(v.adr, [100, 130, 160]), kd: rate(v.kd, [0.8, 1.1, 1.4]), rw: rate(v.rw, [47, 50, 55]) };
     Object.keys(r).forEach(function (k) {
       var row = document.getElementById("out-" + k);
       row.querySelector("b").textContent = LABEL[r[k]];
@@ -480,10 +481,12 @@ if (trk) {
       row.querySelector("span").textContent = TIPS[k][r[k]];
     });
     var notes = [];
-    if (v.kd >= 1.1 && v.kast < 65) notes.push("Tu K/D es bueno pero tu KAST bajo: tus kills no están ganando rondas. Revisa si son kills de salida o peleas lejos de tu equipo.");
+    if (v.acs >= 230 && v.kast < 63 && v.rw < 50) notes.push("ACS alto, KAST pobre y rondas en rojo: solo vas a matar. Matas mucho, pero esas kills no ganan rondas.");
+    else if (v.kd >= 1.1 && v.kast < 65) notes.push("Tu K/D es bueno pero tu KAST bajo: tus kills no están ganando rondas. Revisa si son kills de salida o peleas lejos de tu equipo.");
     if (v.fd > v.fb * 1.5 && v.fd >= 3) notes.push("Mueres primero mucho más de lo que matas primero. Si no eres duelista, no abras tú la ronda: juega con trade.");
     if (v.hs >= 20 && v.adr < 110) notes.push("Buena puntería, pero poco daño: busca más duelos con ventaja, con utilidad y trade.");
-    if (!notes.length) notes.push("Nada raro. Sigue fijándote en el KAST: es lo que más dice si aportas a ganar rondas.");
+    if (v.kast >= 70 && v.rw >= 50) notes.push("Buen KAST con rondas ganadas por encima del 50%: así se ve un buen tracker. Aportas y eso gana rondas.");
+    if (!notes.length) notes.push("Nada raro. Sigue fijándote en el KAST junto al % de rondas ganadas: es lo que más dice si aportas a ganar.");
     document.getElementById("trk-notes").innerHTML = notes.map(function (n) { return "<li>" + n + "</li>"; }).join("");
   };
   trk.querySelectorAll("input").forEach(function (i) { i.addEventListener("input", trkCalc); });
