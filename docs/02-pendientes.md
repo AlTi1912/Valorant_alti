@@ -17,7 +17,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3: hechos 3.1 y 3.2 (3.2 armado con las notas de videos, falta que el profe lo corrija); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
+- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3: hechos 3.1, 3.2 y 3.3 (3.2 y 3.3 armados con las notas de videos, falta que el profe los corrija); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).

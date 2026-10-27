@@ -696,7 +696,8 @@ td.on { color: var(--teal); font-weight: 600; }
 .diagram-stage[data-mode="rush"] .m-rush, .diagram-stage[data-mode="plant"] .m-plant, .diagram-stage[data-mode="noplant"] .m-noplant,
 .diagram-stage[data-mode="juntos"] .m-juntos, .diagram-stage[data-mode="cruz"] .m-cruz,
 .diagram-stage[data-mode="lado"] .m-lado, .diagram-stage[data-mode="pegada"] .m-pegada, .diagram-stage[data-mode="lejos"] .m-lejos,
-.diagram-stage[data-mode="panza"] .m-panza, .diagram-stage[data-mode="recto"] .m-recto { display: inline; }
+.diagram-stage[data-mode="panza"] .m-panza, .diagram-stage[data-mode="recto"] .m-recto,
+.diagram-stage[data-mode="d212"] .m-d212, .diagram-stage[data-mode="d311"] .m-d311, .diagram-stage[data-mode="dstack"] .m-dstack { display: inline; }
 .odds { display: grid; gap: 10px; }
 .odds .row { display: grid; grid-template-columns: 1fr 64px; gap: 4px 12px; align-items: center; font-size: 14px; }
 .odds .track { grid-column: 1 / -1; height: 12px; border-radius: 12px; background: var(--surface-2); overflow: hidden; }
