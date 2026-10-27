@@ -307,3 +307,10 @@ Aplicado en `tracker.html`: tarjetas "% Rondas" y "ACS / PS", panel "Así lo leo
 - Comparar el tracker del primer día de entrenamiento con el de un mes después de aplicar lo aprendido. Lo ideal: KAST y HS% suben de manera uniforme, y eso se ve en la consistencia.
 - "La consistencia en el juego es muy difícil. Una partida podemos hacer 30K y la siguiente no pasar de una cifra. Es normal, el juego tiene muchas variables que no aportan a tener mucha consistencia, pero nuestras decisiones, cómo elegimos nuestros duelos y hacer una rutina ligera de aim antes de cada compe SÍ nos ayudan a ser más consistentes y tener malas partidas menos veces."
 - Aplicado en `tracker.html#comparar` (comparador que se guarda en el navegador, más % de rondas y ADR, agregados por Claude) y `#consistencia`. El paso 3 de `nivel-1.html` enlaza al comparador.
+
+## Correcciones del profe (integración de videos, ronda 2)
+
+- Tracker: HS% bueno es más de 25%; ADR bueno, más de 135.
+- Stack: por debajo de Ascendente, mejor dúo o trío. El 5-stack en rangos bajos aumenta mucho la probabilidad de que haya un smurf del otro lado (y la partida no es pareja); con dúo/trío evitas 3–4 compas con los que no te puedes comunicar.
+- "En defensa no se lurkea" es incorrecto: se puede cerrar mapa, esperar a ver si el centinela muere para lurkear y ganar timings, pero hay que saber hacerlo para no regalar el mapa (aplicado en `2-4#cerrar`).
+- Lo integrado en 1.8, 2.6 y 3.1 está aprobado.

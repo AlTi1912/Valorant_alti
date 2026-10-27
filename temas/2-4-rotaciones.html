@@ -44,6 +44,8 @@
           <li><a href="#silencio">En silencio</a></li>
           <li><a href="#correr">Cuándo sí correr</a></li>
           <li><a href="#lurker">El lurker</a></li>
+          <li><a href="#escalonada">Rotación escalonada</a></li>
+          <li><a href="#cerrar">Cerrar mapa y lurkear</a></li>
           <li><a href="#rush">Rush a A</a></li>
           <li><a href="#volver">Volver sin regalarte</a></li>
           <li><a href="#quiz">¿Corro o camino?</a></li>
@@ -104,6 +106,10 @@
           <div class="step-card reveal"><span class="n">3</span><h4>Ves a la mayoría</h4><p>Por su utilidad o marcados en el minimapa: gran parte del equipo rival está ahí.</p></div>
         </div>
         <div class="note"><span>⚠</span><div><b>Siempre cuidando un posible lurker.</b> Que vengan muchos a un site no quiere decir que vengan los 5.</div></div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><h4>Rota mirando el minimapa</h4><p class="muted">Mientras rotas, mira el mapa, no la pared: ves quién pasó, por dónde y si te están dejando un hueco. Es un detalle de rango alto.</p></div>
+          <div class="panel reveal"><h4>Si ves al centinela con los demás</h4><p class="muted">Si su centinela aparece junto al resto entrando a un site, lo más probable es que vengan los 5. Ahí sí: aprieta y cierra espaldas.</p></div>
+        </div>
       </section>
 
       <section class="block" id="lurker">
@@ -114,8 +120,30 @@
         </div>
       </section>
 
+      <section class="block" id="escalonada">
+        <h2><span class="idx">05</span>Rotación escalonada</h2>
+        <p>No rotan todos al mismo lugar a la vez: cada uno se corre un lugar, como escalones. Así ningún sitio queda vacío.</p>
+        <div class="steps-row" style="margin-top:16px">
+          <div class="step-card reveal"><span class="n">1</span><h4>Ejecutan A</h4><p>El de B, o el más cercano, rota a A.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>El siguiente se corre</h4><p>El de C (o mid) pasa a cubrir B, dejando una trampa o cámara para la info de C.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Nadie queda solo lejos</h4><p>Todo el equipo se inclina hacia donde va el juego, sin dejar huecos.</p></div>
+        </div>
+        <div class="note"><span>⚠</span><div><b>Nunca cuatro en un site y uno solo en la otra punta sin nadie cubriendo el hueco.</b> En mapas de rotación larga (Lotus, Haven) eso se castiga muchísimo: llegas cuando ya plantaron.</div></div>
+      </section>
+
+      <section class="block" id="cerrar">
+        <h2><span class="idx">06</span>Cerrar mapa y lurkear en defensa</h2>
+        <p>En defensa también se puede lurkear, pero hay que saber hacerlo para no regalar el mapa.</p>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Cerrar mapa</div><p class="muted">Dejar a alguien de ancla en una zona dándote la info. Con esa zona cerrada, el resto juega tranquilo sin que le coman la espalda.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Esperar el momento</div><p class="muted">Espera a ver si su centinela muere. Sin él, tienes vía libre para lurkear y ganar timings por detrás.</p></div>
+          <div class="panel reveal"><div class="eyebrow">De a varios</div><p class="muted">Si sabes que casi todos están atacando el otro site y su centinela quedó solo, van dos o tres juntos a matarlo, y rotan por su base.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Lo que no</div><p class="muted">Irte solo a buscar la espalda sin info. Si te mueres, dejas un hueco: ellos se reagrupan y tu equipo queda en desventaja.</p></div>
+        </div>
+      </section>
+
       <section class="block" id="rush">
-        <h2><span class="idx">05</span>Rush a A con el cent en A</h2>
+        <h2><span class="idx">07</span>Rush a A con el cent en A</h2>
         <p>Así rotamos. Toca cada momento de la ronda:</p>
         <div class="place" data-diagram style="margin-top:16px">
           <div class="place-stage">
@@ -169,7 +197,7 @@
       </section>
 
       <section class="block" id="volver">
-        <h2><span class="idx">06</span>Volver sin regalarte</h2>
+        <h2><span class="idx">08</span>Volver sin regalarte</h2>
         <p>Cuando vuelves a tu site, no entres con cuchillo ni te expongas. Puede pasar esto:</p>
         <div class="grid c2" style="margin-top:16px">
           <div class="panel reveal"><div class="eyebrow">El timing del lurker</div><p class="muted">El lurker pudo entrar justo cuando rotaste a mid. Ahora está en tu site esperando que vuelvas.</p></div>
@@ -178,7 +206,7 @@
       </section>
 
       <section class="block" id="quiz">
-        <h2><span class="idx">07</span>¿Corro o camino?</h2>
+        <h2><span class="idx">09</span>¿Corro o camino?</h2>
         <p class="muted">Situaciones de defensa. Elige y mira por qué. <span id="quiz-score"></span></p>
         <div class="quiz" data-quiz>
           <div class="q" data-answer="camino">
@@ -201,6 +229,16 @@
             <div class="opts"><button class="preset" data-choice="corro">Roto corriendo</button><button class="preset" data-choice="camino">En silencio</button></div>
             <p class="why">Sin info, en silencio. Pueden estar jugando lento o buscando un timing.</p>
           </div>
+          <div class="q" data-answer="corro">
+            <p class="s">Estás en mid. Ves en el mapa a su centinela entrando a A junto a otros tres.</p>
+            <div class="opts"><button class="preset" data-choice="corro">Aprieto y cierro espaldas</button><button class="preset" data-choice="camino">Me quedo en mid</button></div>
+            <p class="why">Si el centinela va con el resto, lo más probable es que estén los 5. Es el momento de apretar.</p>
+          </div>
+          <div class="q" data-answer="camino">
+            <p class="s">Ejecutan A. Tú estás en C y tu compa de B ya rotó a A.</p>
+            <div class="opts"><button class="preset" data-choice="corro">Corro a A</button><button class="preset" data-choice="camino">Me corro a B</button></div>
+            <p class="why">Rotación escalonada: tú cubres B, dejando algo para la info de C. Si corres a A, B queda vacío.</p>
+          </div>
           <div class="q" data-answer="camino">
             <p class="s">Rush a A, el cent está en A. Tú estabas en B y fuiste a mid. No plantaron ni pasaron.</p>
             <div class="opts"><button class="preset" data-choice="corro">Vuelvo corriendo con cuchillo</button><button class="preset" data-choice="camino">Vuelvo sin exponerme</button></div>
@@ -210,7 +248,7 @@
       </section>
 
       <section class="block" id="practica">
-        <h2><span class="idx">08</span>Cómo practicarlo</h2>
+        <h2><span class="idx">10</span>Cómo practicarlo</h2>
         <div class="routine">
           <div class="panel drill reveal">
             <div class="drill-icon"><span class="big">5v5</span></div>
@@ -232,18 +270,21 @@
       </section>
 
       <section class="block" id="errores">
-        <h2><span class="idx">09</span>Errores que veo siempre</h2>
+        <h2><span class="idx">11</span>Errores que veo siempre</h2>
         <div class="errors">
           <div class="err reveal">Rotar corriendo al primer ruido sin saber dónde están los 5.</div>
           <div class="err reveal">Vender el site al segundo 10.</div>
           <div class="err reveal">Que nadie cuide al lurker cuando el cent está en el site del rush.</div>
           <div class="err reveal">Volver al site con cuchillo y entrar sin revisar.</div>
           <div class="err reveal">Rotar sin mirar el minimapa ni escuchar los calls.</div>
+          <div class="err reveal">Sobre-rotar: hay un ruido y van todos.</div>
+          <div class="err reveal">Cuatro en un site y uno solo lejos, sin nadie cubriendo el hueco.</div>
+          <div class="err reveal">Irse solo a lurkear en defensa sin info, morir y regalar el mapa.</div>
         </div>
       </section>
 
       <section class="block" id="clase">
-        <h2><span class="idx">10</span>Cómo va a ser la juntada</h2>
+        <h2><span class="idx">12</span>Cómo va a ser la juntada</h2>
         <div class="timeline reveal">
           <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Cuándo caminar, cuándo correr y el rush a A.</p></div>
           <div class="seg main" style="--w:20"><div class="bar"></div><span class="t">20 MIN</span><h4>El rush a A</h4><p>Rotaciones con lurker, cambiando de site.</p></div>
@@ -253,7 +294,7 @@
       </section>
 
       <section class="block" id="tarea">
-        <h2><span class="idx">11</span>Para esta semana</h2>
+        <h2><span class="idx">13</span>Para esta semana</h2>
         <div class="grid c3">
           <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Antes de rotar, pregúntate: ¿sé dónde están los 5? Si no, camina.</p></div>
           <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Si eres centinela, fíjate quién cuida al lurker cuando rushean tu site.</p></div>
@@ -262,7 +303,7 @@
       </section>
 
       <section class="block" id="checklist">
-        <h2><span class="idx">12</span>¿Ya lo tienes?</h2>
+        <h2><span class="idx">14</span>¿Ya lo tienes?</h2>
         <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
         <ul class="checklist" data-checklist="2-4">
           <li><label><input type="checkbox"><span>Si no sé dónde están los 5, roto caminando.</span></label></li>

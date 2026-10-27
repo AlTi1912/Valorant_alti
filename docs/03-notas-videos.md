@@ -28,7 +28,7 @@ Lo que más se repite entre creadores (⭐ en las notas):
 - **2.4 Rotaciones:**
   - Rotación escalonada (NaNoW).
   - No sobre-rotar.
-  - "No existe el lurk de defensa" (NaNoW).
+  - ~~"No existe el lurk de defensa"~~ (corregido por el profe: en defensa se puede cerrar mapa y lurkear si muere su centinela, sabiendo hacerlo).
   - En ataque, el centinela lurkea o mantiene el espacio.
   - Si ves al centinela con los demás, son los cinco: cierra espaldas.
 - **2.5 Ataque:**
