@@ -563,3 +563,46 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:34–00:35] Comunicar lo que haces ("no se adivina"). Como Chamber, él guía las micros del inicio de ronda y holdea dos zonas solo. → 1.6 / fichas (Chamber)
 - [00:38] "Si lo dijeras con más tacto ('estoy contigo, mírame') sería más óptimo para el equipo." → 1.6
 - [00:49–00:50] Siguen jugando "individualidades, uno a uno". No abrir los cinco pops a la vez a tu contacto (smokes de Clove). → 2.1
+
+### Rutina de aim del top 1 Radiant · https://youtu.be/Im0aVM-50Eg
+- [00:00–00:02] Aim Lab "Multishot Ultimate" 1–2 h al día, con descansos de 30 s a 2 min. ⚠ Otra rutina de aim trainer (como la de NaNoW): comparar con lo que pide el profe en el 1.x antes de recomendarla. → 1.2
+- [00:03–00:04] ⭐ **Entrenar ≠ calentar**: calentar es buscar sensaciones antes de jugar; entrenar se hace separado de las partidas (al final del día). → 1.2 / 1.8
+- [00:04] DM: ser proactivo y buscar el duelo para que se parezca a la competitiva (crosshair placement, decisiones, movimiento). → 1.2
+- [00:04–00:05] Campo de tiro: Jett con ulti, headshots en el aire desde desniveles (opcional). → —
+
+### Estos errores tumbaron a mi equipo (Premier, La Jubilona con HitboxKing de Chamber) · https://youtu.be/sBSgVxfbviI
+- [00:00] Haz tiempo para tu compañero cuando estás 1v2 hasta que llegue. → 2.6
+- [00:03–00:04] "Aunque no haya matado, la toma de decisiones fue impecable": valorar la decisión, no el resultado. → 2.8
+- [00:05–00:06] El Chamber tiene que jugar agresivo para sacar la entry kill del inicio de ronda; no tiene sentido pasivo en mid. (Coincide con el 2.5 del profe: Chamber first pick.) → fichas (Chamber)
+- [00:06] One-ways: ellos te ven las piernas cuando asomas. Si te doble-peekean, abrirte con shift o corriendo es un gran fallo. → 2.7
+- [00:07] Con Head Hunter (crouch peek) en vez de Vandal en duelos de aim, para ahorrar para Operator o armas del equipo. → fichas (Chamber) / 1.7
+- [00:08–00:09] ⭐ "Se han abierto juntos al mismo tiempo, aunque sean Vandal contra Operator: es más útil que hacerla solo." → 2.1
+- [00:09–00:10] ⭐ Si el site está perdido, no lo pelees solo: "un 4v4 es más inteligente que un 3v4". → 2.6 / 2.7
+- [00:10–00:11] Discord limpio: hablar lo mínimo imprescindible, comunicación directa y clara. → 1.6
+- [00:14–00:15] Si te quedas solo es porque decidiste pushear solo; nadie puede cubrir ese ángulo. → 2.1
+- [00:19–00:20] ⭐ Con Operator/Outlaw/Marshal/ulti de Chamber, **apunta antes de asomar**; si asomas y luego apuntas, la animación te hace perder el duelo. → fichas / 1.4
+- [00:20–00:21] Asomar uno a uno contra una eco = regalar armas, plata y orbes. → 1.7 / 2.1
+- [00:21] Si te ven parado, agáchate (cambias la altura de su crosshair); TP antes del stun. → 1.3
+- [00:22] Trampa de Chamber donde no la vean hasta que la pisan. Con sniper, apunta a la altura del pecho, no de la cabeza: es one-shot y más fácil de pegar. → fichas (Chamber)
+- [00:23] Los tres juntos a pushear al que está solo en B, rápido; no uno asoma y el otro mira atrás. → 2.4
+- [00:25] Post-plant: aléjate de la spike y acércate cuando la toquen. → 2.6
+- [00:26] Abrirse con A-D y crosshair a la altura de la cabeza, no con shift: el que holdea te gana. → 1.3 / 1.4
+- [00:32] Estar estático holdeando contra alguien que te peekea: pierdes por el ping (peeker's advantage). → 2.7
+- [00:34] Mejor guardar la utilidad para el post-plant y pushear todos al unísono. → 2.6
+- [00:37–00:38] Retake rápido y juntos "de libro". En un peek doble, los de un lado se abren medio segundo antes para limpiar. → 2.6
+- [00:39–00:40] Todos tenemos malas partidas; la crítica destructiva no ayuda. → 1.8
+
+### ¿Echan a mi equipo de Premier? · https://youtu.be/tPoviirKfaM
+- [00:00–00:01] ⭐ Comp por roles para Premier: un duelista, dos iniciadores, un smoker y un centinela agresivo tipo Chamber (en ese mapa el Operator da control de mapa). Se ajusta según lo que cada uno juega. → 3.1 / Premier
+- [00:00, 00:27] Cuando van mal (0-5, mala economía, cada uno por su lado): pedir pausa táctica. → 3.x (Premier)
+- [00:02] No moverse con shift todo el tiempo: así eres un blanco fácil. → 1.3
+- [00:06] El centinela con trampa en B puede mirar mid y jugar retake de B. → fichas (centinela)
+- [00:16–00:17] ⭐ Falta compenetración: "cuando entran al site, entren los cinco"; los duelistas quedan en el site y los otros tres descolgados. Plan concreto: TP arriba, flash y escudo de Iso al timing a través del humo. → 2.5
+- [00:17–00:18] El escudo de Iso se ve antes que tu cuerpo (ocupa más). → fichas (Iso)
+- [00:19] Recoge la trampa antes de rotar. → fichas (Chamber/Killjoy)
+- [00:20] Operator a distancias muy largas: doble zoom ("jugar a un zoom es troleada"). → fichas
+- [00:21] Al limpiar el site, apuntar un poco más abierto que la esquina por si hay alguien escondido. → 1.4
+- [00:24–00:25] ⭐ Ejecución: tiras el dron, te lo rompen, tiras la flecha mientras ya pusheas; la utilidad cae mientras entran todos detrás del duelista, aunque sea obvio que van B. → 2.5
+- [00:26] Con Yoru y Chamber hay que peekear agresivo en ambos sites para tener control de mapa. → 2.7
+- [00:29] Throw de un 4v2 por quedarse en duelos 1v1. → 2.1 / 2.6
+- [00:30] "Horcus peek": abrirse saltando (evitas el headshot) en vez de peekear con shift. → 1.3
