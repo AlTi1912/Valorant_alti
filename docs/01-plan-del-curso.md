@@ -286,3 +286,5 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 - 3.1: ejercicio de habilidades rápido = la cadena de Chamber en el Range (Sheriff → Q → X → Q → Sheriff, una kill con cada una) y después con su agente más jugado.
 - 3.1: el tono contra los que juegan full W va directo, como lo dijo el profe ("como estúpido", "eso se lo dejamos a los estúpidos que quieren smurfear y hacerse los buenos").
 - El profe todavía no tiene capturas, guía de humos ni fichas de agentes.
+- 2.7 "Agresivo, pero bien" (del profe): contra humos no darle espacio: doble peek (largo + corto, o dos ángulos) al mismo tiempo; no le da tiempo a reposicionarse; si ponen humo para defusar y no tienes molly/granada, mejor un 2v1 sin darle espacio; situacional, pero "tampoco es para que se vayan siempre para atrás como cagones". Enlazado desde el 2.6 (guardar utilidad).
+- YouTube: el dominio está permitido, pero YouTube bloquea la IP del servidor ("Sign in to confirm you're not a bot"). Alternativas: que el profe pegue la transcripción (botón "Mostrar transcripción"), o correrlo en su PC con yt-dlp.
