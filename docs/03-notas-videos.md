@@ -701,3 +701,45 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:23] Perdieron un 3v2 por no plantar con el compañero cubriendo. → 2.6
 - [00:24–00:26] ⭐ Dispara en ráfagas de 2–4 balas (hasta 5), no sprays largos; no te agaches ni te muevas mientras disparas (desesperado). Controladores: jugar un poco más atrás de los centinelas y no ser siempre el primero en abrir. → 1.3 / fichas (controlador)
 - [00:27] Smoker: pregunta dónde quieren el humo; si no te contestan, ponlo igual donde tenga sentido. → 1.6 / guía de humos
+
+### Analicé un Hierro jugando Cypher · https://youtu.be/JlNBgSKdrM8
+- [00:00] ⭐ "Mucha gente cree que en Hierro estás solo porque no sabes disparar; la realidad es otra." → nivel 1 (intro)
+- [00:01–00:02] Minimapa centrado en tu jugador para no perder info. (Revisar contra la config del 1.1 del profe.) → 1.1
+- [00:02–00:03] ⭐ Cypher: los cables se ponen en el tiempo de compra; si los pones con la ronda empezada, el rival escucha y sabe dónde estás. Nunca te abras con el cable (o cualquier habilidad) en la mano. → fichas (Cypher) / 1.5
+- [00:03–00:04] Abrir ángulos despacio con la mira a la altura de la cabeza; si oyes una cámara, sube la mira, rómpela y vuelve. → 1.2 / 1.4
+- [00:05] Encaja tu utilidad con la del compañero (jaula donde no llega el humo de Clove) para pasar seguro. → 1.5
+- [00:06] ⭐ "Primero no morir, después agarrar el arma": no vayas por el arma del piso con alguien disparándote. → 1.4
+- [00:06–00:07] Con 5000 no compres Guardian con chaleco chico. Cable a la altura de la cabeza (que no lo salten ni pasen por abajo). → 1.7 / fichas (Cypher)
+- [00:08–00:09] ⭐ Para pasar entre dos que te disparan, pasa corriendo/saltando, no con shift. Recarga escondido: recargando no te puedes defender. → 1.3 / 1.4
+- [00:10] Cerrar la puerta (Bind) y jugar CT hasta que haya otro humo. → mapas
+- [00:12] Piensa como el rival: ¿qué haría con tu cable? (lo salta, lo rodea). → fichas (Cypher)
+- [00:14–00:16] ⭐ **Economía**: siempre poder hacer un buy cómodo (arma fuerte + chaleco + habilidades). Si perdiste pistol y eco, la tercera ronda con 4400 compras Vandal + chaleco + habilidades; no Guardian con chaleco chico. Chaleco grande cuando el rival va eco con Sheriff o te sobra plata. (Revisar contra el 1.7 del profe.) → 1.7
+- [00:16–00:17] ⭐ Rompe el muro de Sage del inicio: si lo dejas romperse solo, el rival sabe que no vas a pasar hasta entonces; romperlo le deja la duda. "Ataque en dos tiempos" también vale. (Se repite en el video de Raze.) → 2.5
+- [00:17–00:18] ⭐ Mira el TAB: plata y orbes de tus compañeros. Si nadie tiene plata y tú sí, mejor guardar (o dropear). Si a alguien le falta un orbe, ve con él a buscarlo. "Es un juego en equipo." → 1.7 / 2.3
+- [00:19–00:20] No busques duelos a toda costa cuando ya vas en ventaja. No te abras con la cámara en la mano. → 2.6 / 1.5
+- [00:21–00:22] Truco de Cypher: tira la cámara y ábrete justo cuando el rival la está rompiendo. → fichas (Cypher)
+- [00:22] ⭐ **DM bien usado**: no juegues el DM para ganarlo (escondido, sonideando); juega para practicar abrir ángulos, mira a la altura de la cabeza y moverte bien. → 1.2
+- [00:22–00:23] ⭐ No tiltear: cuando mueres, identifica por qué (de espaldas → mejor cable; con habilidad en la mano → abrirte con el arma; detrás de un humo → evitar humos). → 1.8 / 2.8
+- [00:23–00:24] "No estás pensando qué miras": no apuntes donde no puede haber nada. Tradea al compañero cuando muere, no lo dejes morir. → 1.2 / 2.1
+- [00:25] Humo con mucha panza: mira los costados, no el centro del humo. → 1.4
+- [00:26] "El aim es lo que menos le voy a criticar: tienes 8000 errores que si los levantas vas a ser buenísimo." En el tiempo de compra, piensa qué quieres hacer en la ronda. → 1.x / 3.1 (`#cabeza`)
+- [00:30] En segunda ronda (bonus), no juegues Ghost con chaleco chico. Cables donde puedas aprovecharlos (con ángulo para matar). → 1.7 / fichas (Cypher)
+- [00:37–00:38] ⭐ Mientras más subes, más difícil es subir (lo que hay que mejorar es más puntual): en Hierro, crosshair placement y abrirte con el arma te suben mucho. No uses el mapa grande (M). → 1.x
+- [00:38–00:40] Variar el setup. Economía: si ganas la pistol, compra; si la pierdes, no compres (a lo más Sheriff) y deja plata para Vandal + chaleco chico + habilidades. DMs: dos antes de rankear y uno después; en el campo de tiro, practicar A-D disparando de a una o dos balas. Mirar más el mapa. → 1.2 / 1.7
+
+### Analicé una Raze Oro que no usa sus habilidades (Haven) · https://youtu.be/LrdpHj5HSRI
+- [00:01] En rangos bajos las comps son como "un DM random". → 3.1
+- [00:01–00:03] ⭐ No saques el cuchillo al abrir ángulos ni vayas primera con cuchillo: si se te abre alguien, te mata. "Lo que ganas con el cuchillo es ínfimo." (Tercera vez que sale; coincide con el profe.) → 2.4 / 1.4
+- [00:03–00:05] Opinión: Viper no es un smoker real en la mayoría de mapas (no puedes reponer el humo cuando te lo piden); es más strongholder. → 3.1 (comp)
+- [00:05] Buen detalle: el duelista compró chaleco en la segunda ronda. → 1.7
+- [00:05–00:06] Abrirse primero con el arma y recién después usar la habilidad. Pedir flash al iniciador o que la Viper baje el muro para revisar sin riesgo. → 1.5 / 1.6
+- [00:07–00:08] ⭐ Mecánica: si te abres y ves a alguien, **sigue moviéndote de lado mientras lo apuntas**; si te paras, te mata; si sigues, le cuesta reaccionar. "A veces moverse bien y entender la macro vale más que disparar a circulitos en Aim Lab." → 1.3
+- [00:08–00:09] ⭐ Muro de Sage en mid: callearlo y romperlo (de a dos: uno mira arriba, otro rompe). "Cada habilidad que le gastas al rival vale muchísimo." → 2.5
+- [00:09–00:10] Comunicar lo que vas a hacer: se volvió a C sin avisar y su KAY/O entró solo a garage. → 1.6
+- [00:10] Con humo del rival, no juegues afuera del site: te la defusan bajo el humo. → 2.6
+- [00:12–00:13] ⭐ Le falta **iniciativa**: proponer "tengo ulti, pasemos por B con mi ulti". → 1.6 / 3.1
+- [00:14] "Si juegas duelista, vas a ser tú quien abre los espacios." → 2.5 (`#orden`)
+- [00:15] Buen call: "solo vi a la Reyna" (sin inventar más gente). → 1.6
+- [00:17–00:19] Raze: dominio rápido de A (faca del KAY/O + granada y avanzar). → fichas (Raze)
+- [00:19–00:20] ⭐ Resumen: no sacar tanto el cuchillo, baitea sin darse cuenta (el duelista va adelante), no habla. "El mejor dúo de un duelista es un iniciador": pedir flashes, facas, info. Si no usas las habilidades, juega otro personaje (Reyna/Iso o un centinela). → 3.1 / 1.6
+- [00:22] "Lo más importante de estos análisis es sentirse identificado: 'yo hago lo mismo'." (Idea para el 2.8: mirar análisis ajenos como espejo.) → 2.8
