@@ -884,3 +884,68 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:19] ⭐ El centinela que juega mid tiene que dar miedo: si nadie juega mid, el rival se stackea en A o B tranquilo. → 2.7 / fichas (Cypher)
 - [00:19–00:21] ⭐ **Comp base: un duelista, un smoker, un iniciador, un centinela y un flex** (el flex es lo que quieras: Sage, otro iniciador, un segundo duelista...). Agentes fuera de meta (Phoenix, Gekko, Harbor) "no están del todo mal" pero rinden menos. (Coincide exacto con el 1+1+1+1+flex del 3.1.) → 3.1
 - [00:21–00:22] ⭐ "Para mí las comps por debajo de Inmortal casi no importan, porque nadie le saca provecho"; en Radiant se nota mucho un agente mal elegido. "Si disparas bien, le ganas con cinco duelistas a cinco que juegan cómodos." (Segunda vez que lo dice; útil para bajar la presión de la comp en el 3.1.) → 3.1
+
+### Horcus: guías cortas
+**Las 3 claves para ganar siempre** · https://youtu.be/OJ8vDYJbb9U
+- [00:00] Repite que el aim es "lo más importante", pero que no alcanza (⚠ ver arriba). Clave 1: confianza y perseverancia, pelear hasta el final aunque vayas 0-12. → 1.8
+- [00:08] ⭐ Clave 2: el mental, mente fría ante cualquier adversidad y animar al equipo inteligentemente. → 1.8
+- [00:15] ⭐ Clave 3: disciplina, hacer lo que tienes que hacer de forma constante aunque no tengas ganas. → 1.8
+
+**Valorant Top Tips #1: game sense** · https://youtu.be/T0NUoDVWXdM
+- [00:00–00:01] ⭐ Game sense = lectura de partida para decidir bien: tendencias del rival (agresivo/pasivo, costumbres), economía global (eco, forzado, full), habilidades y ultis de ambos equipos. → 2.3
+- [00:01–00:02] ⭐ Cómo entrenarlo: 1) barajar todas las posibilidades en cada momento, 2) reaccionar lo más rápido posible, 3) elegir la mejor decisión. "Nunca tengan miedo al error: cada error es una posibilidad de aprender." Ver streamers top. → 2.3 / 2.8
+
+**Cómo mejorar el aim: rutina y guía completa** · https://youtu.be/VXqO4q0h93I
+- [00:00–00:03] Rutina: Aim Lab Multishot Ultimate, 8–15 rondas con 1–5 min de descanso; ir al objetivo más cercano; **precisión antes que velocidad** ("la velocidad viene con el tiempo"). ⚠ Rutina de aim trainer (ver arriba). → 1.2
+- [00:04–00:06] Campo de tiro: Jett en el aire, ulti de Chamber; armas Sheriff (avanzado), Guardian o Vandal para matar con la primera bala. → 1.2
+- [00:07–00:08] Entrenar separado de las partidas ("como un futbolista: entrenamiento y después partido"). "Jugar solo rankeds apenas mejora tu aim." → 1.2
+- [00:09] ⭐ **Aislar duelos en el retake**: no asomar al centro donde te apuntan varios; ángulo tras ángulo, uno por uno. → 2.6
+- [00:10–00:12] ⭐ Tres formas de disparar: quieto (fácil pero eres blanco fácil), soltar y disparar, y **counter-strafe** (tecla contraria para frenar en seco: balas rectas sin dejar de moverte; es avanzado, no obligatorio). Crouch-peek (frenar con Ctrl). → 1.3
+- [00:12–00:13] Spray: seguir el patrón al revés; empezar con ráfagas de 3–5. Pero lo más importante es matar con una bala. Crosshair a la altura de la cabeza según distancia y desniveles (escaleras, cajas). → 1.2 / 1.3
+- [00:15] ⭐ **Desactivar la aceleración del mouse** en Windows ("Mejorar la precisión del puntero"). Mouse y alfombrilla importan menos de lo que parece. (Agregar al 1.1 si no está.) → 1.1
+- [00:18–00:19] Manos templadas, estiramientos de muñeca y antebrazo. → 1.8
+
+**Sin contenido didáctico** (gameplay o humor, no anoto): Así es el game sense de un top Radiant (https://youtu.be/Niiu67PDp1Y), Así piensa un top Radiante (https://youtu.be/V-3xYaTqcQA), Los "cheats legales" (consola y aim assist, https://youtu.be/GpIz1IJtftI), Los secretos del top 1 Chamber (https://youtu.be/eOWLOFG6CiE), Así se juega Corrode en Radiante (https://youtu.be/zZ6iH_6d2g8). Los shorts del canal tampoco.
+
+## NaNoW (agregados después de reintentar la descarga)
+
+### Guía de Valorant (para rango bajo) · https://youtu.be/n3rtUzlfJjc
+- [00:00] "Es un tactical shooter, no un deathmatch simulator": atacante, que explote la spike; defensor, que no. → nivel 1 (intro)
+- [00:01–00:03] ⭐ **Orden de importancia de los roles** (con duelista, dos iniciadores, controlador y centinela): controlador > iniciador > centinela > duelista. Si muere el duelista se pierde menos (su trabajo es mover la mira y chocar, y todos pueden chocar); si muere el controlador te quedas sin humos. (Coincide con el profe: el smoker no puede morir primero.) → 3.1
+- [00:03–00:05] Iniciadores: **spotters** (Sova, Fade, Tejo; Breach más neutro) y **flashers que también dan info** (Gekko, KAY/O, Skye; Skye es híbrida). Skye rinde en distancias cortas. → 3.1 / fichas
+- [00:06–00:09] Centinelas: agresivos (Chamber, Veto: TP y duelos; trampa débil si te la humean), de apoyo (Deadlock, Sage) y los más sólidos, que dan info activa y pasiva (Cypher, Killjoy, Vyse). Ojo con Deadlock como único centinela: sus sensores se pasan con shift. → 3.1 / fichas
+- [00:09–00:11] ⭐ Duelistas que **mueven la mira** (Jett, Neon, Waylay, Raze) y duelistas de **apoyo con flash** (Iso, Reyna, Phoenix, Yoru). En doble duelista, combinar uno de cada tipo (Raze + Yoru sí; Reyna + Iso no). "El duelista que mueve la mira no puede faltar" (según el mapa: Jett/Neon en Haven, Raze/Waylay en Bind). → 3.1
+- [00:11–00:12] Qué hace cada rol: duelista genera espacio y comunica qué utilidad necesita; iniciadores lo ayudan; controlador humea para que no te abras a 50 ángulos; centinela evita que te maten de espaldas y busca el error del rival. → 3.1
+- [00:13–00:14] ⭐ Disparo: **crosshair placement, pre-aim y pre-fire**; conocer los mapas te dice dónde apuntar. → 1.2
+- [00:15–00:19] DM comentado: mira siempre donde puede salir el rival, aislar duelos pegándose a una pared para pelear de a uno, A-D en el lugar para no recibir la bala quieto, pocas balas y corregir. → 1.2 / 1.3
+
+### Coacheando a un suscriptor #11 (Jett Diamante, Pearl) · https://youtu.be/qDUIGDBib3w
+- [00:00] "Dejen de jugar ego todo el tiempo, no son Aspas. Si quieren llegar a serlo, tienen que jugar disciplinadamente." → 3.1 (`#cabeza`)
+- [00:02–00:04] ⭐ **Duelista: mirar primeras kills vs primeras muertes** en el tracker; tiene que estar en positivo. "Un duelista que toma riesgo y muere todo el tiempo no me sirve: necesito uno que tome riesgo, consiga la ventaja y valorice." Ejemplo: entre Raze y Jett murieron primero 10 rondas = las rondas que perdieron. → tracker / 3.1
+- [00:05] No cambies de rol: enfócate en uno (y su pool: Jett, Raze, Neon). → 3.1
+- [00:06] Si el rival tiene más flashes, jugar antiflash o esperando la flash. Tridente: Jett primer entry, Reyna segundo (tradea), Fade spots y perros. → 2.5 (`#orden`)
+- [00:07] Contra un centinela que no mira espaldas (Deadlock), pushear mapa. → 2.4
+- [00:09] ⭐ Si tu compañero (dúo) ya decidió comer espalda, ve con él: 2v1, no lo dejes solo. "Somos un equipo." → 2.1
+- [00:50–00:51] ⭐ Resumen: dejar las quejas, "ser parte de la solución y no del problema". Bueno: pide utilidad (clave para un Jett). Ser más disciplinado y constante con los calls buenos ("tridente a B, la Clove mira mid, la Killjoy mira A"). → 1.6 / 1.8
+
+### Coacheando a un suscriptor #32 (Fade Diamante, Split) · https://youtu.be/k1MKnOxqqPY
+- [00:02] ⚠ Otra vez "el Chamber no sirve para nada" (opinión de NaNoW; el profe usa Chamber). → fichas
+- [00:04] Iniciadores en pistol: en ataque, full utilidad; en defensa, Sheriff (depende del mapa). Si faltan 4 segundos, acóplate al call del equipo aunque no te guste; solo cancélalo con justificación. → 1.7 / 1.6
+- [00:05] Sin auriculares no se puede. ⭐ Mirar el minimapa mientras rotas: "detalle de pro player"; en rangos bajos rotan mirando la pared. → 2.2 / 2.4
+- [00:05–00:06] ⭐ **Con igualdad numérica gana el atacante**: el defensor tiene menos herramientas por lugar; si defienden uno en cada site, tres contra uno pierdes. → 2.7 / 2.4
+- [00:06–00:08] ⭐ Un duelista no puede holdear solo un site. Divide el mapa en dos: el site donde estás con más gente es el que defiendes (más recursos, más utilidad, más margen de victoria); el otro se juega retake. El smoker con paranoia en mano para escapar tras usarla. → 2.7
+- [01:22] ⚠ Dice que la gente con TDA "no puede comunicar y jugar a la vez". El profe tiene TDAH y dijo que le ayuda a procesar info: **no usar esta frase**. Resumen útil: buscar compañeros que sepan qué hacer (FACEIT), ordenar al equipo, trabajar las mecánicas (abrir ángulos, mira). → (no usar)
+
+### Horcus: más coachings en vivo (resumen de 13 videos)
+> Videos: Coacheé al mejor de LATAM, a Safiro (https://youtu.be/MXdNbFxN83M), El final de Mixwell (https://youtu.be/8MCnKDbsF-Y), La gótica me invitó a salir (https://youtu.be/xBaIlC0p3QE), La gótica cerró la boca a todos (https://youtu.be/Bb0Eu78BWXE), Mi hermana nos dejó sin palabras (https://youtu.be/bhkYeiKwr5Y), ¿El final de La Jubilona? (https://youtu.be/pt_fpAGlHLE), Puse a prueba a 5 chicas (https://youtu.be/genR6uXad5M), Adivina qué chica lo hizo mejor (https://youtu.be/aulKOrFK1vU), Coacheando a la chica argentina (https://youtu.be/VQ0hKKZ7iVk), Así salvé su relación (https://youtu.be/kMNg6kadt3I), ¿Quién conquistará mi corazón? (https://youtu.be/AEoUG5Hgf0Y), Así es Iso (https://youtu.be/79XmspYzWy4), El mejor Chamber en top Radiant (https://youtu.be/eLlA--05Br4). Mucho show; anoto lo útil.
+- Chamber: recupera siempre el TP para recolocarlo; doble zoom a distancia (con reflejos); "cuanto menos compliques las mecánicas, mejor para la mente"; farmear orbes y dropear: "soy el banco del equipo" (MXdNbFxN83M [00:05–00:06], [00:15], [00:19]). → fichas (Chamber) / 1.7
+- Primera ronda: intentar matar la rotación; si la spike ya se está plantando, es raro que el de A haya cruzado (timing) (MXdNbFxN83M [00:12–00:13]). → 2.3
+- Guardar el Operator cuando la ronda está perdida (8MCnKDbsF-Y [00:06]). Al contacto de uno se abre el otro ([00:11]). → 1.7 / 2.1
+- No hagas ruido cuando no hace falta: das info de dónde estás (xBaIlC0p3QE [00:24]). Setups de Killjoy bien pensados, "no al azar" ([00:22–00:26]). → 2.2 / fichas (Killjoy)
+- Si tu compañero baitea, dispara poco a poco, "no es Call of Duty" (bhkYeiKwr5Y [00:07]). Escóndete donde tenga que buscarte (bhkYeiKwr5Y [00:11]). → 1.3
+- ⭐ **Premier: que una sola persona haga los calls macro (IGL); los demás, solo calls de micro-jugadas** (pt_fpAGlHLE [00:04], [00:18]). Si ya saben que es B, no te la juegues en solitario; posiciónate donde puedas llevarte a uno, esconderte y hacer tiempo ([00:06]). → 3.x (Premier) / 1.6
+- En retakes y defensa, el que define la ronda juega pasivo y no asoma (genR6uXad5M [00:08]). "Decid 'pusheamos' y pusheen; 'nos escondemos' y se esconden" ([00:36]). Controlar baños para un after-plant bien hecho ([00:38]). Curar al instante al compañero con poca vida ([00:50]). Flashes que no cieguen a los aliados ([00:51]). ⭐ En mapas grandes, siempre tener info del otro extremo ([00:51]). → 2.6 / 1.6
+- Flash: tirarla para que quede entre el enemigo y tú (aulKOrFK1vU [00:08]). Si matan a un compañero en un lugar, reaccionar al instante hacia ahí ([00:19]). Contra Operator ese ángulo es muy difícil: él tiene ventaja ([00:21]). Si no hay nadie con la spike, "métele el turbo" y defusa ([00:27]). ⭐ "Siempre miro el mapa cuando no estoy en una pelea; hay gente que nunca lo mira y eso no es bueno" ([00:41]). → 2.2 / 2.6
+- Controlar el spray bajando la mira; soltar y dejar que el arma se recupere; limpiar los corners con la mira; flashes de Reyna más cerca del corner por donde vas a salir; peek en "pirámide" (cobertura que te tapa la cabeza) (VQ0hKKZ7iVk [00:06–00:12]). → 1.3 / fichas (Reyna)
+- En la ronda que ganaste, compra chaleco alto y ve con tu equipo; deja asomar primero al Chamber; "ser impredecible es muy importante"; la trampa para cortar rotación o abrir info (kMNg6kadt3I [00:03], [00:20], [00:23], [00:26]). Al bajar la barrera, el que asoma primero tiene la ventaja ([00:29]). → 1.7 / 2.7
+- No peekees close range un ángulo largo: ábrelo de lejos con A-D (AEoUG5Hgf0Y [00:12]). → 1.4
