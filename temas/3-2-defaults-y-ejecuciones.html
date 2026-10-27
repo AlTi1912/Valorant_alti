@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Defaults y ejecuciones</title>
+  <meta name="description" content="Tema 3.2: la ronda en tres partes, el tridente y las puntas, el default por zonas, qué hacer al ganar una zona, cómo generar rotaciones, las tres formas de ejecutar y las ultis.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-lesson="3.2" data-title="Defaults y ejecuciones">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/crosshair/ascent-principal-a.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 3</div>
+      <div class="chips"><span class="chip red">Tema 3.2</span><span class="chip">Juntada de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Defaults<br>y ejecuciones</h1>
+      <p class="lead">Un plan de ataque que los cinco entiendan: ganar zonas, decidir con la info y entrar cuando hay ventaja.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#fases">La ronda en tres partes</a></li>
+          <li><a href="#tridente">El tridente y las puntas</a></li>
+          <li><a href="#default">El default</a></li>
+          <li><a href="#zona">Ganaste la zona</a></li>
+          <li><a href="#rotacion">Hacer rotar</a></li>
+          <li><a href="#ejecutar">Cómo ejecutar</a></li>
+          <li><a href="#utilidad">La utilidad en la ejecución</a></li>
+          <li><a href="#ultis">Las ultis</a></li>
+          <li><a href="#plan">Arma tu plan</a></li>
+          <li><a href="#quiz">¿Qué hacen?</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para esta semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel"><dl class="kv"><dt>Default</dt><dd>Ganar zonas</dd><dt>Pasar</dt><dd>Con 2+ kills</dd><dt>Humos</dt><dd>Al ir a entrar</dd><dt>Ulti</dt><dd>La que más vale</dd></dl></div>
+          <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="3-2"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Tener un plan de ataque que los cinco entiendan: un default por mapa y dos ejecuciones, y saber cuándo pasar de uno a la otra.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Sin idea de juego, cada ronda es apostar a correr a un site. No sabes qué hace el rival y cualquier jugada suya te rompe. Con un plan, el que reacciona es él.</p></div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Esto sigue al 2.5.</b> Ahí vimos el default, qué hacer después del pick y las tres formas de entrar (<a href="2-5-ataque-y-default.html">2.5</a>). Acá lo armamos en equipo.</div></div>
+      </section>
+
+      <section class="block" id="fases">
+        <h2><span class="idx">02</span>La ronda en tres partes</h2>
+        <p class="muted">Una ronda de ataque no es "salir y correr". Tiene tres partes, y en cada una haces otra cosa.</p>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Al principio</h4><p>Ganar zonas y sacar info, con la menor utilidad posible. Agarrar los orbes con alguien listo para el trade.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>A mitad de ronda</h4><p>Decidir con lo que sabes: frisar, redominar otra zona o pasar. Acá se usa el dron, el perro, la info.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Al final</h4><p>Ejecutar con tiempo para plantar. Si se acaba el reloj, entras corriendo y sin utilidad (<a href="2-5-ataque-y-default.html#reloj">2.5</a>).</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tridente">
+        <h2><span class="idx">03</span>El tridente y las puntas</h2>
+        <p class="muted">En ataque el equipo tiene una parte activa y una pasiva. Cada uno sabe dónde está.</p>
+        <div class="dos-donts">
+          <div class="dd yes reveal"><h4>Parte activa: el tridente</h4><ul><li>Duelista + iniciador + otro (el segundo duelista o el flex).</li><li>Juegan juntos: el primero mueve la mira, el segundo tradea, el tercero castiga.</li><li>Dominan una zona y deciden con la info.</li></ul></div>
+          <div class="dd yes reveal"><h4>Parte pasiva: las puntas</h4><ul><li>El controlador y el centinela.</li><li>Cuidan las puntas y la espalda, y castigan desde un off-angle al que pushea solo.</li><li>Su momento no es salir a buscar la primera kill.</li></ul></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Si eres pasivo</div><h4>Valora tu vida</h4><p class="muted">Si se muere tu controlador o tu centinela, el equipo pierde humos, trampas o info. Si quieres ir a pelear, juega alguien del tridente.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Un 3-1-1</div><h4>No es correr a ese site</h4><p class="muted">El tridente a un lado, uno en mid y uno en el otro lado no quiere decir que van a ese site. El tridente domina espacios y decide con la info.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="default">
+        <h2><span class="idx">04</span>El default</h2>
+        <p class="muted">El default es repartirse el mapa para ganar zonas e info. Las kills son el segundo objetivo.</p>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Verde</div><h4>Zonas tuyas</h4><p class="muted">Las que ya ganaste. No las regales: si agarras el orbe, vuelve a tu lugar.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Amarillo</div><h4>En disputa</h4><p class="muted">Las que pelean los dos. Acá va el tridente con la utilidad.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Rojo</div><h4>Del rival</h4><p class="muted">No vayas solo. Si el rival no te pelea una zona, avanza ahora y gánala: en 10 segundos ya se reposicionó.</p></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Su centinela</div><h4>Siempre va a haber algo</h4><p class="muted">Torreta, cable, cámara. Romper la utilidad del centinela es parte del default: así tu ejecución no se come la trampa.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Trade en mano</div><h4>Nunca de a uno solo</h4><p class="muted">Cuando uno agarra el orbe o asoma, el otro está en un ángulo distinto listo para el trade (<a href="2-1-trades-y-spacing.html">2.1</a>).</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="zona">
+        <h2><span class="idx">05</span>Ganaste la zona</h2>
+        <p class="muted">Ganar una zona genera una reacción del rival. Tienes tres opciones:</p>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Frisar</h4><p>Quedarte quieto esperando su reacción y castigarla. Cuando vas en ventaja.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Redominar</h4><p>Ir a ganar otra zona. Cuando perdiste el trade o la zona ya no da más.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Pasar</h4><p>Ir al site. Cuando ya mataste a dos o más.</p></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Lo que hace el rival</div><h4>Tres respuestas</h4><ul class="look"><li>Redomina: vuelve a pelear la zona y deja un gap en otro lado.</li><li>Rota: se va a otro site.</li><li>No hace nada: espera.</li></ul></div>
+          <div class="panel reveal"><div class="eyebrow">Trueque de zonas</div><h4>Si te dominan algo</h4><p class="muted">Domina otra cosa. Si te ganan mid, gana una punta. No gastes todo peleando donde ya perdiste.</p></div>
+        </div>
+        <div class="note"><span>⚠</span><div><b>Redominio.</b> Si el rival domina una zona con mucha utilidad al principio, espera a que la gaste y después vuelve con la tuya, cuando ya no tiene con qué responder.</div></div>
+      </section>
+
+      <section class="block" id="rotacion">
+        <h2><span class="idx">06</span>Hacer rotar</h2>
+        <p class="muted">El objetivo es que el rival se mueva y entrar donde quedaron menos (<a href="2-4-rotaciones.html">2.4</a>).</p>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Ruido a propósito</div><h4>Que crean que van muchos</h4><p class="muted">Ruido y algo de utilidad en un site para que roten. El resto espera callado en el otro.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Frisar</div><h4>Después de una kill</h4><p class="muted">Matan a uno en A y los que están en C se quedan quietos y sin ruido unos 15 segundos. El rival rota a A y C queda libre.</p></div>
+          <div class="panel reveal"><div class="eyebrow">La utilidad habla</div><h4>Te delata o engaña</h4><p class="muted">Humo y spot en tal lugar le dice al rival qué van a hacer. Úsalo a tu favor: si siempre tiras lo mismo, cambiarlo también confunde.</p></div>
+          <div class="panel reveal"><div class="eyebrow">No te repitas</div><h4>No cinco rondas al mismo lado</h4><p class="muted">Si ejecutan siempre por el mismo lado, el rival se adelanta. Alterna los planes.</p></div>
+        </div>
+        <div class="placeholder" style="margin-top:16px"><div><b>Fakes</b>Pocas habilidades se pueden fakear y es muy situacional. Lo vemos en la juntada.</div></div>
+      </section>
+
+      <section class="block" id="ejecutar">
+        <h2><span class="idx">07</span>Cómo ejecutar</h2>
+        <p class="muted">Las tres formas de entrar del 2.5, pero con cuándo usar cada una.</p>
+        <div class="table-wrap reveal">
+          <table>
+            <thead><tr><th scope="col">Forma</th><th scope="col">Cómo</th><th scope="col">Cuándo</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Al contacto</th><td>Primero la mira, la utilidad cuando hay contacto</td><td>El rival juega atrás o no tiene quién mueva la mira</td></tr>
+              <tr><th scope="row">Explosión</th><td>La utilidad cae mientras abres</td><td>Para sorprender. Una vez: si la repites, la esperan</td></tr>
+              <tr><th scope="row">Ejecución</th><td>Cae todo y después abres</td><td>Rondas lentas, rival bien parado, o después de un redominio</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 style="margin-top:24px">El orden del entry</h3>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Primer duelista</h4><p>Mueve la mira y abre espacio (Jett).</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Segundo</h4><p>Tradea al primero (Reyna, Phoenix).</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Iniciador</h4><p>Si se queda tirando dron o perros, pasa antes el humo.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>Controlador</h4><p>El último en morir: sin él no hay humos.</p></div>
+          <div class="step-card reveal"><span class="n">5</span><h4>Centinela</h4><p>No entra al site: corta la rotación y gana un timing.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="utilidad">
+        <h2><span class="idx">08</span>La utilidad en la ejecución</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">No todo junto</div><h4>Repártela</h4><p class="muted">No gastes paranoia, ulti y dron al mismo tiempo en la entrada. Uno tira el dron, otro la ulti, y la paranoia se guarda para el post-plant.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Los humos</div><h4>Cuando van a entrar</h4><p class="muted">No 15 segundos antes. En el default, solo el humo que niega el pick del Operator (<a href="../humos.html#cuando">guía de humos</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">Flash con el entry</div><h4>Solo si alguien entra</h4><p class="muted">Una paranoia al principio sirve si el duelista va a entrar al toque con ella. Si no, se pierde.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Plantar</div><h4>El iniciador planta</h4><p class="muted">En un lugar que se pueda cuidar desde adentro y desde afuera del site (<a href="2-6-post-plant-y-retake.html#plantar">2.6</a>).</p></div>
+        </div>
+        <div class="note"><span>⚠</span><div><b>Lo que rompes también da info.</b> Romper una puerta o una trampa le avisa al rival que estás ahí. Si vas a ejecutar de una, no avises antes.</div></div>
+      </section>
+
+      <section class="block" id="ultis">
+        <h2><span class="idx">09</span>Las ultis</h2>
+        <div class="grid">
+          <div class="panel reveal"><div class="eyebrow">Cuál vale más</div><h4>Su lista de ultis</h4><p class="muted">En cada comp hay una ulti que vale más que las otras para entrar (por ejemplo, la de Breach más que la de Omen). Esa se carga primero.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Orbes</div><h4>Fármealos</h4><p class="muted">Los orbes del mapa son para cargar esa ulti. Al agarrarlo, alguien te cubre para el trade.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Para qué</div><h4>Para la ronda, no para info</h4><p class="muted">Si ya hay utilidad que da la info, no gastes la ulti en eso. Y elígela según cómo juega el rival: la de Sova, para el plant y el post-plant.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="plan">
+        <h2><span class="idx">10</span>Arma tu plan</h2>
+        <p class="muted">Por cada mapa de la pool, el equipo arma esto. Empieza por uno.</p>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">El default</div><ul class="look"><li>Qué zona gana el tridente.</li><li>Quién cuida cada punta.</li><li>Qué utilidad se usa y cuál se guarda.</li></ul></div>
+          <div class="panel reveal"><div class="eyebrow">Ejecución 1</div><ul class="look"><li>A qué site.</li><li>Qué humos, flash y stun, y quién los tira.</li><li>El orden del entry y quién planta.</li></ul></div>
+          <div class="panel reveal"><div class="eyebrow">Ejecución 2</div><ul class="look"><li>Al otro site, o el mismo por otro lado.</li><li>Cuándo la usamos en vez de la primera.</li><li>Qué hacemos si nos cortan.</li></ul></div>
+        </div>
+        <p class="muted" style="margin-top:12px">Los planes de cada mapa los vamos armando en <a href="../mapas.html">mapas</a>.</p>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">11</span>¿Qué hacen?</h2>
+        <p class="muted">Situaciones de ataque. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="b">
+            <p class="s">Ganaron mid y mataron a uno. Están 5v4 y les queda bastante tiempo.</p>
+            <div class="opts"><button class="preset" data-choice="a">Pasamos al site ya</button><button class="preset" data-choice="b">Frisamos y esperamos</button></div>
+            <p class="why">Con ventaja y tiempo, espera su reacción y castígala. Con una sola kill, pasar todavía es arriesgado.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Mataron a dos en A. Su equipo viene rotando.</p>
+            <div class="opts"><button class="preset" data-choice="a">Pasamos al site</button><button class="preset" data-choice="b">Frisamos</button></div>
+            <p class="why">Con dos o más kills es el momento de pasar, antes de que llegue la rotación.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Te ganaron mid con mucha utilidad al principio.</p>
+            <div class="opts"><button class="preset" data-choice="a">Peleo mid otra vez ya</button><button class="preset" data-choice="b">Espero que la gaste y redomino</button></div>
+            <p class="why">Si vuelves ahora, te comes su utilidad. Espera a que la gaste o domina otra cosa.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Eres el Omen y el tridente está peleando en A.</p>
+            <div class="opts"><button class="preset" data-choice="a">Voy a ayudar a pelear</button><button class="preset" data-choice="b">Cuido mi punta y castigo desde lejos</button></div>
+            <p class="why">Eres parte pasiva: si te mueres, el equipo se queda sin humos.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Ganaron tres rondas seguidas ejecutando B.</p>
+            <div class="opts"><button class="preset" data-choice="a">Cambiamos de plan</button><button class="preset" data-choice="b">Otra vez B</button></div>
+            <p class="why">El rival ya se está adelantando. Cambia antes de que te lo castiguen.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">El rival juega muy atrás y nadie pelea zonas.</p>
+            <div class="opts"><button class="preset" data-choice="a">Ejecución con toda la utilidad</button><button class="preset" data-choice="b">Avanzar al contacto</button></div>
+            <p class="why">Si no te pelean, avanza con la mira y guarda la utilidad para cuando haya contacto o para el site.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Tu Sova tiene la ulti al principio de la ronda.</p>
+            <div class="opts"><button class="preset" data-choice="a">La tira para sacar info</button><button class="preset" data-choice="b">La guarda para el plant</button></div>
+            <p class="why">Para info ya están el dron y el dardo. La ulti de Sova vale más en el plant y el post-plant.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">12</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">1+2</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Un default y dos ejecuciones</h3>
+              <p class="muted">En un mapa: cada uno camina su parte del default sin rivales. Después las dos ejecuciones, con cada humo, flash y stun en su lugar, hasta que salgan sin pensar.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">5v3</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Contra defensores</h3>
+              <p class="muted">Tres defienden y cambian de setup cada ronda. Los cinco atacan con el plan y deciden con la info: frisar, redominar o pasar.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">5v5</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Con el reloj</h3>
+              <p class="muted">Rondas completas. Cuento en voz alta en qué parte de la ronda están, y al final revisamos cuándo pasaron y por qué.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">13</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Correr a un site sin ganar ninguna zona.</div>
+          <div class="err reveal">Pasar al site con una sola kill y sin utilidad.</div>
+          <div class="err reveal">Tirar todos los humos al principio de la ronda.</div>
+          <div class="err reveal">Gastar paranoia, ulti y dron al mismo tiempo.</div>
+          <div class="err reveal">El controlador o el centinela que salen a buscar la primera kill.</div>
+          <div class="err reveal">Ejecutar cinco rondas seguidas por el mismo lado.</div>
+          <div class="err reveal">Agarrar el orbe sin nadie para el trade y regalar la zona.</div>
+          <div class="err reveal">Romper la puerta o la trampa y ejecutar recién 30 segundos después.</div>
+          <div class="err reveal">Volver a pelear la zona donde el rival tiene toda su utilidad.</div>
+          <div class="err reveal">Usar la ulti para sacar info que ya tenían.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">14</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Tridente, default y ejecuciones.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Armar el plan</h4><p>Un mapa: default y dos ejecuciones.</p></div>
+          <div class="seg main" style="--w:25"><div class="bar"></div><span class="t">25 MIN</span><h4>5v3 y 5v5</h4><p>Lo ejecutamos contra defensores.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Revisión</h4><p>Qué salió y qué no.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">15</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Tu parte</div><p>Aprende tu parte del default y de las dos ejecuciones del mapa que elegimos.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>En cada ronda de ataque, piensa: ¿qué zona ganamos? ¿Frisamos, redominamos o pasamos?</p></div>
+          <div class="panel reveal"><div class="eyebrow">Mira</div><p>Una partida de un pro o de un streamer: fíjate en cuándo pasan al site y cuántas kills llevaban.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">16</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="3-2">
+          <li><label><input type="checkbox"><span>Sé si soy parte del tridente o de las puntas, y qué hago en cada una.</span></label></li>
+          <li><label><input type="checkbox"><span>En el default gano zonas y guardo la utilidad que no hace falta.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé cuándo frisar, cuándo redominar y cuándo pasar.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé mi parte del default y de dos ejecuciones en un mapa.</span></label></li>
+          <li><label><input type="checkbox"><span>Elijo al contacto, explosión o ejecución según cómo juega el rival.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="3-1-roles-y-composicion.html"><small>Anterior</small>3.1 Roles y composición</a>
+        <span class="next"><small>Siguiente</small>3.3 Setups defensivos</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel"><div class="aside-title">Regla rápida</div><dl class="kv"><dt>Default</dt><dd>Ganar zonas</dd><dt>Pasar</dt><dd>Con 2+ kills</dd><dt>Humos</dt><dd>Al ir a entrar</dd><dt>Ulti</dt><dd>La que más vale</dd></dl></div>
+        <div class="panel"><div class="aside-title">Recuerda</div><p style="margin:0">Pasar al site <strong>sin bajas</strong> casi siempre es un suicidio.</p></div>
+        <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="3-2"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

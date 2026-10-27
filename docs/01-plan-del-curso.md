@@ -324,3 +324,13 @@ Pestañas por rol con el agente principal y tipos seleccionables (imágenes de v
 - Centinela (Killjoy): cierran el mapa/info (Cypher, Killjoy; Veto y Chamber con trampa aportan menos, Veto con la E no muy útil en defensa fuerte). Paran rushes pero no cierran el mapa: Chamber (debate si es centinela), Sage (muro ~40 s), Deadlock (sensores), Veto (para el primer rush con la E, después endeble), Vyse (el muro puede cerrar el mapa, pero sirve más para parar rushes con zarzas y muro).
 - Flex: el que falta; flasher útil o uno que te guste, sabiendo qué carencias tendrá la comp y cómo compensarlas.
 Hush no está todavía en valorant-api: se muestra con la inicial.
+
+## Guía de humos (`humos.html`)
+
+- Del profe: humos sin panza, no al segundo 0, no donde mira tu Operator, humos aunque sea eco, Brimstone no gasta rápido (no se regeneran), humo en la spike, humo Avova.
+- Agregado por mí (de las notas de videos y criterio general): para qué sirve un humo (entrar, aguantar, plantar/defusar, aislar), diagrama con panza / sin panza, humo de atacante vs de defensor tirado en ataque, "si lo tiras, míralo", pedir dónde quieren el humo, los 4 pasos de cuándo tirarlo, one-way, errores. Recuadros reservados: cuándo poner humo en la spike y las capturas de cada mapa (Haven, Summit, Bind, Lotus, Sunset, Corrode, Abyss).
+
+## Tema 3.2 — Defaults y ejecuciones (`temas/3-2-defaults-y-ejecuciones.html`)
+
+- Del profe (de temas anteriores): orden del entry, pasar al site sin bajas es un suicidio, las tres formas de entrar (ya en el 2.5), el centinela corta la rotación.
+- Agregado por mí, desde las notas de videos (sin atribuir): la ronda en tres partes, tridente (parte activa) y puntas (parte pasiva), 3-1-1 no es correr a ese site, mapa por colores, romper la utilidad del centinela, frisar / redominar / pasar con 2+ kills, las tres respuestas del rival, trueque de zonas, redominio, generar rotaciones (ruido, frisar 15 s, la utilidad delata, no repetir el lado), tabla de cuándo usar contacto/explo/exec, utilidad repartida, paranoia solo si el duelista entra, romper puertas avisa, lista de ultis y farmear orbes, plantilla del plan (1 default + 2 ejecuciones), quiz, ejercicios, juntada, para esta semana, checklist. Recuadro reservado: fakes.

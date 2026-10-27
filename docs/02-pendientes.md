@@ -8,7 +8,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 2. ~~Revisar el tono de "Para esta semana"~~ Hecho: se quitó "subir a Discord" de la portada y de todos los temas; ahora es anotar con sinceridad, guardar una captura por semana o traerlo a la juntada. Al armar la página de aprobar el nivel 1, usar este mismo criterio (nada de "evidencia en Discord").
 3. ~~Coherencia entre temas~~ Revisado: índices completos, 5 puntos de checklist, enlaces anterior/siguiente, "Para esta semana" unificado. **Coherencia entre temas:** que los checklists, la juntada y "para esta semana" sigan el mismo formato; que la portada describa bien cada tema; que los enlaces "anterior / siguiente" estén todos.
 4. **Contenido que manda el profe:**
-   - Guía de humos buenos y malos (recuadro reservado en el 1.5).
+   - Capturas de humos por mapa para `humos.html#mapas` (la estructura ya está; el 1.5 enlaza a la guía).
    - Captura con un compa: exponerse a dos ángulos (recuadro reservado en el 1.4).
    - Pies de foto precisos para las referencias de altura del 1.2 (qué marca la línea en cada captura).
    - Opcional: capturas del 1.2 en mapas de la pool actual (las actuales son de Ascent).
@@ -17,12 +17,13 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3: hecho 3.1; el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
+- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3: hechos 3.1 y 3.2 (3.2 armado con las notas de videos, falta que el profe lo corrija); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).
 - Tracker más en detalle (pedido del profe).
-- Guía de humos: humo en la spike y humo Avova (notas en el plan).
+- Guía de humos (`humos.html`): estructura hecha. Falta del profe: cuándo poner humo en la spike (recuadro reservado), capturas por mapa y revisar lo agregado.
+- 3.2: falta del profe la parte de fakes (recuadro reservado) y revisar todo el tema.
 - Flood: va en el 2.6 (notas en el plan).
 - Fichas de agentes del profe: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
 - Completar las fichas de mapas con lo que sepa el profe.

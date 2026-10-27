@@ -568,7 +568,14 @@ td.on { color: var(--teal); font-weight: 600; }
 
 /* Pasos en fila */
 .steps-row { display: grid; gap: 10px; }
-@media (min-width: 760px) { .steps-row { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 760px) {
+  .steps-row { grid-template-columns: repeat(4, 1fr); }
+  /* 3 y 6 pasos en filas de 3; 5 pasos apilados, para no dejar huecos ni huérfanos */
+  .steps-row:has(> :nth-child(3):last-child), .steps-row:has(> :nth-child(6):last-child) { grid-template-columns: repeat(3, 1fr); }
+  .steps-row:has(> :nth-child(5):last-child) { grid-template-columns: 1fr; }
+  .steps-row:has(> :nth-child(5):last-child) .step-card { display: grid; grid-template-columns: 36px 1fr; column-gap: 12px; align-items: baseline; }
+  .steps-row:has(> :nth-child(5):last-child) .step-card .n { grid-row: span 2; }
+}
 .step-card { position: relative; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .step-card .n { font: 500 26px/1 var(--font-tech); color: var(--red); }
 .step-card h4 { margin: 8px 0 4px; }
