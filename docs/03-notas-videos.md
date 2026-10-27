@@ -59,13 +59,13 @@ Lo que más se repite entre creadores (⭐ en las notas):
   - "No es lo mismo el duelista que solo toca W que el que entiende cuándo duelear".
 - **Guía de humos (pendiente):** humos sin panza (Safiro). Hay humos de defensor y humos de atacante. No humear al segundo 0 ni donde mira tu Operator.
 
-**⚠ Para decidir con Alti:**
+**⚠ Decidido por Alti:**
 
-1. Rutinas de aim trainer y la frase de Horcus "el aim es más importante que el game sense / quien no sube no entrena aim". Choca con NaNoW, con Safiro y con tu enfoque.
-2. Opiniones anti-Chamber y anti-Clove de NaNoW, y el "veo un Phoenix y me pongo triste" de Safiro.
-3. Config del minimapa (NaNoW: no centrar; Safiro: centrar), para comparar con el 1.1.
-4. Mixwell 2020: "la ventaja la tiene el que espera".
-5. NaNoW sobre el TDA (no usar).
+1. **Aim vs game sense:** Horcus tiene razón: por debajo de Inmortal el aim es lo que más define las partidas. Pero la guía no enseña "aim por el aim". Enseña a pegar más headshots, tomar duelos inteligentes y ganar ventajas que ganan rondas, no kills que no ganan nada.
+2. **Aim trainers:** opcionales, para quien quiera y tenga tiempo. Kovaak's o Aim Lab sirven; Alti hoy entrena todo dentro del juego, en The Range.
+3. **Agentes "de ego"** (Clove, Reyna, Iso, Chamber...): NaNoW critica que no aportan en equipo. Pero alguien que los sabe jugar es determinante en rankeds. Se juega lo que te gusta, sabiendo qué aporta al equipo (como en el 3.1).
+4. **Minimapa:** no centrar al jugador (da más info). Es lo que usan Alti, NaNoW y Safiro; la nota de Safiro que decía "centrado" fue un error de comprensión de los subtítulos. El 1.1 ya lo dice así.
+5. **TDA:** "Cada persona es diferente, y ya." No se usa la frase de NaNoW.
 
 **Sin procesar:**
 
@@ -774,7 +774,7 @@ Lo que más se repite entre creadores (⭐ en las notas):
 
 ### Analicé un Hierro jugando Cypher · https://youtu.be/JlNBgSKdrM8
 - [00:00] ⭐ "Mucha gente cree que en Hierro estás solo porque no sabes disparar; la realidad es otra." → nivel 1 (intro)
-- [00:01–00:02] Minimapa centrado en tu jugador para no perder info. (Revisar contra la config del 1.1 del profe.) → 1.1
+- [00:01–00:02] Minimapa: que se vea entero, sin recortarse. (Los subtítulos decían "centrado": error de comprensión; Safiro tampoco centra al jugador, igual que el 1.1.) → 1.1
 - [00:02–00:03] ⭐ Cypher: los cables se ponen en el tiempo de compra; si los pones con la ronda empezada, el rival escucha y sabe dónde estás. Nunca te abras con el cable (o cualquier habilidad) en la mano. → fichas (Cypher) / 1.5
 - [00:03–00:04] Abrir ángulos despacio con la mira a la altura de la cabeza; si oyes una cámara, sube la mira, rómpela y vuelve. → 1.2 / 1.4
 - [00:05] Encaja tu utilidad con la del compañero (jaula donde no llega el humo de Clove) para pasar seguro. → 1.5

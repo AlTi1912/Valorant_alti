@@ -288,3 +288,11 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 - El profe todavía no tiene capturas, guía de humos ni fichas de agentes.
 - 2.7 "Agresivo, pero bien" (del profe): contra humos no darle espacio: doble peek (largo + corto, o dos ángulos) al mismo tiempo; no le da tiempo a reposicionarse; si ponen humo para defusar y no tienes molly/granada, mejor un 2v1 sin darle espacio; situacional, pero "tampoco es para que se vayan siempre para atrás como cagones". Enlazado desde el 2.6 (guardar utilidad).
 - YouTube: el dominio está permitido, pero YouTube bloquea la IP del servidor ("Sign in to confirm you're not a bot"). Alternativas: que el profe pegue la transcripción (botón "Mostrar transcripción"), o correrlo en su PC con yt-dlp.
+
+## Criterios del profe sobre los videos de creadores
+
+- **Aim:** por debajo de Inmortal es lo que más define las partidas, pero no se enseña "aim por el aim". Se enseña a pegar más headshots, tomar duelos inteligentes y ganar ventajas que ganen rondas, no buscar kills que no ganan rondas.
+- **Aim trainers (Kovaak's, Aim Lab):** opcionales, para quien quiera y tenga tiempo. El profe hoy entrena dentro del juego, en The Range.
+- **Agentes de ego:** no aportan mucho en equipo, pero alguien que los sabe jugar es determinante en rankeds.
+- **Minimapa:** no centrar al jugador (más info).
+- **TDAH / forma de procesar:** cada persona es diferente; no se generaliza.
