@@ -743,3 +743,52 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:17–00:19] Raze: dominio rápido de A (faca del KAY/O + granada y avanzar). → fichas (Raze)
 - [00:19–00:20] ⭐ Resumen: no sacar tanto el cuchillo, baitea sin darse cuenta (el duelista va adelante), no habla. "El mejor dúo de un duelista es un iniciador": pedir flashes, facas, info. Si no usas las habilidades, juega otro personaje (Reyna/Iso o un centinela). → 3.1 / 1.6
 - [00:22] "Lo más importante de estos análisis es sentirse identificado: 'yo hago lo mismo'." (Idea para el 2.8: mirar análisis ajenos como espejo.) → 2.8
+
+### Analicé una Skye Plata (Bind) · https://youtu.be/YL271W68UUE
+- [00:00–00:01] "Las comps no son tan importantes en estos rangos." Pistol Skye: en ataque comprar todo para el equipo (y agarrar un arma del piso después); en defensa, cura + dos flashes + chaleco chico. → fichas (Skye) / 1.7
+- [00:02–00:03] Bien: primero ganar el site y después plantar. Iniciador: usa tu utilidad **antes** de que muera tu compañero. → 2.5 / 3.1
+- [00:03–00:04] Si hay gente en backsite y tus compañeros pelean, no te mates plantando: pelea con ellos (flash y peek) primero. → 2.6
+- [00:04–00:05] Tirar el perro desde cobertura y más adelante (llega más lejos), no desde donde te puede matar el de la boca. → fichas (Skye)
+- [00:05–00:06] ⭐ **Avisa antes de flashear** si hay un compañero cerca ("voy a flashear"). → 1.6
+- [00:06–00:08] ⭐ Planta solo con el site dominado: si no tienes info de un lado, no plantes ahí expuesto; si no lo dominas, planta en un lugar más seguro y mirando hacia donde te pueden matar. → 2.6
+- [00:08–00:10] Chamber: trampa atrás para el lurk (no "como su perrito" que se lleva a todos lados); no ir los cinco a un lugar dejando 70–80% del mapa. → fichas (Chamber)
+- [00:09] ⭐ "Forzar" = comprar por debajo de 3500. → 1.7
+- [00:11] Rotar a pie da ventaja al rival que te escuchó (llega antes); en Bind, rotar por TP. → 2.4 / mapas (Bind)
+- [00:11–00:12] ⭐ Después de plantar, no salgas con el cuchillo: no sabes por dónde vienen. → 2.6
+- [00:12] Guarda el perro hasta que te lo rompan si todavía puede revisar más zonas. → fichas (Skye)
+- [00:13–00:14] Ulti de Skye después de plantar: ganas tiempo y sabes dónde están. ⭐ Mal hábito: sacar habilidades o el cuchillo en ángulos donde te pueden peekear; "que tengas a alguien al lado no significa que no puedas morir". Las habilidades se tiran con el menor riesgo posible. → 1.5
+- [00:15] El iniciador no está obligado a entrar segundo: depende de la ronda. → 2.5 (`#orden`)
+- [00:16] ⭐ **El iniciador suele llevar y plantar la spike** (entra cuando el site ya está limpio); puede pedir que lo cubran mientras planta. → 2.6
+- [00:17] Bind: Skye y Fade son los iniciadores que sirven. Flash de Skye guiándola con el minimapa. → mapas / fichas (Skye)
+- [00:20–00:21] ⭐ Dónde plantar: elegir el spot abierto a donde estarán tus compañeros (ej. para codo y fondo), no uno que solo se ve desde un lado o que se humea fácil. → 2.6
+- [00:23] ⭐ Calls con nombre exacto ("trampa abajo de Juca"), no "ahí". En rangos bajos casi nadie escucha, pero mientras más subes, más importa. → 1.6
+- [00:24] Una flecha/cosa vista no siempre es la cantidad real ("puede haber dos, el resto puede estar yéndose"). → 2.2
+- [00:28–00:29] Flash de Skye: si choca con una pared sale más rápido; la corta dura menos pero no da tiempo a darse vuelta. → fichas (Skye)
+- [00:30–00:32] ⭐ A-D bien hecho: corto y efectivo para sacar info, no "super A-D" saltando expuesto. Contra alguien que hace A-D, deja la mira donde va a reaparecer. → 1.3
+- [00:33–00:35] Resumen: crosshair, no peekear con shift (pasos silenciosos o A-D), usar recursos a resguardo, priorizar tu vida al plantar, usar habilidades también para ti (agresivo), calls precisos, DMs. → 1.x / 2.6
+
+### Deadlock Platino: buen aim, pésimo mental · https://youtu.be/TiXtzBbH3y8
+- [00:16] ⭐ Trabajar la mentalidad: dejar de quejarse, aportar cosas positivas; si te da vergüenza el micro, habla con tu dúo o escribe (daño hecho, desde dónde te mataron, habilidades puestas). "La comunicación es uno de los fundamentos más importantes." → 1.6 / 1.8
+- [00:16–00:18] Pistol de centinela: Classic + chaleco chico + pared o dos trampas. Las trampas están para pelear con ellas: ponte donde puedas aprovecharlas. → fichas (Deadlock)
+- [00:20–00:21] Resumen: mental, callear, economía, lurkear y proponer en ataque, variar setups. ⭐ "Ser centinela y jugar safe no significa regalar el espacio." → 2.7 / fichas
+
+### Waylay Platino que perdió por su mental · https://youtu.be/WU96mM469uQ
+- [00:25–00:27] ⭐ Culpar al Chamber y enojarse "no sirve de nada, lo digo por experiencia propia". → 1.8
+- [00:27–00:28] Seguir la utilidad del iniciador (abrirse con el lobo, aprovechar los humos). ⭐ Las habilidades se tiran **con información**, no porque te imaginas que hay alguien. Usar un dash para moverle la mira al rival y que tu compañero peekee. → 1.5 / 2.1
+- [00:28–00:29] ⭐ No aprovechaba la ventaja: "si te matas regalando la ventaja por ansiedad, tu equipo pierde". Safiro trabajó la paciencia jugando Chamber. Mira gameplays de buenos jugadores del agente. → 2.6 / 1.8
+
+### Brimstone Diamante (Bind) · https://youtu.be/DMG7xWG0cRc
+- [00:28] Humo que usan los defensores para matar al que planta detrás: no lo tires en ataque. "Basta de disparar a los humos." → guía de humos
+- [00:31] ⭐ **Holdear los humos** en defensa: están para que no entren y para matar al que sale (sale perdido). → 2.7 / fichas (controlador)
+- [00:31–00:32] ⭐ No baitear tras plantar: mira algo útil (un ángulo que nadie cubre). "Si tu equipo dice que nadie miraba L, quizás te tocaba a ti." → 2.6
+- [00:32–00:33] "Me molesta ver personas que disparan bien y no tienen los huevos para disparar": se esconden, gastan habilidades, mueren de lado. No disparar a los humos sin info. "Son cosas básicas que pasan en rangos muy bajos." → 2.7 (`#agresivo`)
+
+### Diamante que sueña con ser pro (Iso, Sunset) · https://youtu.be/FfLew3Gch40
+- [00:32–00:34] Iso: usar el escudo antes de abrirse. ⭐ "Siempre que estés en desventaja numérica, tienes que buscar la ventaja." → 2.7 (`#agresivo`)
+- [00:34–00:36] Resumen: baitea; pedir flashes, flechas, drones; saltea ángulos; apoyar al primer duelista; ulti cuando alguien te pueda tradear, no al segundo 0; contra ecos no pushear de más ni regalar un rifle. Bueno: positivo, callea, quiere ganar. → 1.6 / 1.7 / 2.1
+
+### Killjoy Diamante: solo tener buen aim no sirve · https://youtu.be/NotF7iMgjAQ
+- [00:20–00:21] ⭐ Si vas con tu equipo como centinela, ábrete a tradearlos (si no, no sirve que vayas); si no, deja la utilidad atrás y lurkea. Poner la torreta junto al equipo le dice al rival que no hay lurker. Lineups de granada al inicio para presionar. → 2.4 / fichas (Killjoy)
+- [00:21] "En defensa son todos los mejores del mundo; en ataque se cansan de baitear" (Diamante/Ascendente). → 2.5
+- [00:22–00:23] Con la spike plantada, no gastes balas tras el humo: ellos tienen que salir, quédate de mira. → 2.6
+- [00:24] Crear un patrón (hacer siempre lo mismo) para que la ronda que no lo haces gasten recursos buscándote. → 2.3 / 2.7
