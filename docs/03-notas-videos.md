@@ -309,3 +309,114 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:07–00:08] En una ronda económica a favor (tú con armas, ellos no), no pushees y menos solo: te expones a perder Vandal + chaleco y la economía. → 1.7 / 2.1
 - [00:08–00:09] Si el spot va a la izquierda, ábrete mirando a la derecha (no repitas lo que ya mira el spot). Pídele a tu Sova que rompa la flecha rival. Ver partidos competitivos del mapa enseña spots como el "antipush". → 1.5 / 2.2
 - [00:50–00:51] Más enfoque en ganar que en hacer amigos y reírse; "no te vas a divertir nunca si pierdes todo el tiempo". → 1.8
+
+### Coaching #12 — el mismo controlador del #19 (repite contenido) · https://youtu.be/fEU-Nv-xQz4
+- [00:09] Optimizar la utilidad del equipo: no gastar paranoia + ulti + dron al mismo tiempo en la entrada; uno drone, la Killjoy tira ulti, y la paranoia se guarda para el post-plant. → 2.6 / 3.2
+
+### Coaching #10 — un Diamante 3 con Reyna (Ascent) · https://youtu.be/VfnoSd9GyU4
+- [00:02–00:03] Variar de rol en rangos bajos es como querer jugar de delantero, arquero y defensa a la vez: un rol te deja sentirte cómodo y aprender cada vez más. El meta se actualiza por algo, pero en ranked prioriza lo que te haga sentir cómodo. → 3.1
+- [00:04] No guiarse por el HS% o el win rate: te condiciona; en 5 días puedes mejorar todo. → tracker
+- [00:05–00:08] Comp: primer duelista (mueve mira), Reyna (tradea), iniciador "banger" (flash) y Omen; sin spotter (Sova), en ataque te comen cruzados que no detectas. Omen aporta más que Clove (paranoia, TP, humos más largos); Killjoy da más dominio que Chamber. → 3.1
+- [00:09] Para defender un site: mínimo dos en el site y otro de apoyo, o tres. → 2.7
+- [01:02–01:03] ⭐ Reyna es segundo entry: su trabajo es ayudar a la Jett (support de la Jett), no jugar como si fuera ella. Espera el dash, tira la flash para que el rival tenga que mirar y la Jett lo mata; ve detrás, no adelante. La flash de Reyna, lo más alta posible. (Útil para los compas que juegan Reyna.) → 3.1 / fichas
+
+### Coaching #9 — un Radiant que juega Clove (Pearl) · https://youtu.be/2bQ6sOzR_HI
+- [00:04] "Que te salga bien no significa que lo estés haciendo bien." → 2.8
+- [00:05–00:06] Rival sin nadie que mueva mira (Phoenix, Iso): sus aperturas van al contacto con flash o escudo. Con dos entries + Chamber + Clove = comp de puro tiroteo; idea de juego: ubicar al Chamber (ancla con Operator). → 2.3
+- [00:06–00:08] ⭐ Minimapa en mapas grandes: que puedas ver todo. Su config: rotar con el jugador, no centrar al jugador, tamaño grande, zoom ~0.85 (ajústalo a tu gusto). ⚠ Comparar con la config del profe en el 1.1. → 1.1 / 2.2
+- [00:09] Un 3-1-1 (tridente a un lado, uno en mid, uno en el otro) no quiere decir correr a ese site: el tridente domina espacios y decide con la info. → 2.5
+- [01:06–01:07] ⭐ Astra vs Clove: humos más gordos y largos (Clove 13 s), y con Astra usas la utilidad sin quedarte "con la E en la mano" mirando el panel; con Clove te agarraron abriendo el mapa. (Encaja con "habilidades rápido" del 3.1 para los que juegan Clove: decidir antes dónde va el humo.) → 3.1
+
+### "El camino para ser un mejor jugador empieza aquí" · https://youtu.be/vKUjtmvUgZE
+- Promo de su sistema de coaching (Patreon). Sin contenido útil.
+
+### Coaching #8 — un Ascendente 3 con Fade (Pearl) · https://youtu.be/FJf1_l8e3aM
+- [00:00] "Perdés un montón de situaciones por no usar la utilidad." → 1.5
+- [00:01] En mapas grandes Clove te obliga a jugar en la mitad del mapa para llegar a ambos sites. (Opinión de NaNoW, muy anti-Clove.) → 3.1
+- [00:02–00:03] Fade como iniciador de presión: tira utilidad y además acompaña a la Jett de mira. Mandar a pelear al agente cuya utilidad cuesta menos perder (Chamber antes que Vyse). → 3.1
+- [00:04–00:10] Defensa en Pearl: el tridente domina una zona (agarrar el orbe y volver: no regalar el espacio ganado), el controlador en mid y el Cypher en B con cables y cámara (no hace falta nadie haciendo A-D en B). "Lo que importa son los roles y el juego en equipo, no la composición." → mapas / 2.7
+- [00:52] Pushear cada uno por su lado fuerza 1v1; "lo más lindo es el push conjunto". → 2.1
+- [00:53–00:54] Resumen: comunicar más (y con onda), saber tu función en el tridente (segundo tradea, tercero castiga), un iniciador no juega solo, usar la utilidad antes de abrirte de mira, prueba y error. → 3.1
+
+### Coaching #7 — un Ascendente con Cypher (Haven) · https://youtu.be/SjB8gvpq3mE
+- [00:00] Pagó una rutina de aim de 50 USD "y no le pegó una bala": la mecánica sola no alcanza. → 1.1
+- [00:02] Decir dónde vas a jugar y tener el setup armado antes de que empiece la ronda; guardar siempre una cage. → 1.6 / fichas (Cypher)
+- [00:03–00:05] Con tres en A ya cubierto, rotar por un ruido regala tu site. En el retake, el centinela "castiga": cubre el error del rival y mata al lurker; retake escalonado (primero los links, después el site), no todo junto. → 2.4 / 2.6
+- [00:06] Off-angle agachado esperando el error del rival (el Chamber que sale porque escucha al Omen en el humo). → 2.7
+- [00:07–00:08] Con ventaja y tu equipo jugando activo, tú pasivo: A-D para sacar info y callearla, no ir a buscar la kill. → 2.2 / 3.1
+- [00:08] Pide utilidad antes de la ronda: "si vienen a C, smokeame acá y métete conmigo". El centinela no puede defender un site solo. → 1.6 / 2.7
+
+### Coaching #6 — un Inmortal 2 con Neon (Lotus) · https://youtu.be/txGL3fS7wXo
+- [00:02–00:03] Un dominio se hace mínimo de a tres o cuatro, con utilidad (flash, stun, blast) antes de abrirse; no te abras solo con Guardian en una eco: es una gran pérdida económica. → 2.5 / 1.7
+- [00:04] Neon mueve mira: pasa y ábrete a ambos lados; el que juega de mira es el Chamber. → 3.1
+- [00:05–00:06] Si tu comp es de utilidad y la rival de aim, aprovéchala: no juegues al aim. En eco, Shorty + stun mejor que Ghost (ahorras 200 para la utilidad siguiente). → 1.7 / 2.3
+- [00:06–00:08] Si ganaste el espacio con humo, quédate de mira en el ángulo ganado (el rival tiene que limpiar cinco ángulos); esconderte hace que tu equipo se entere tarde. → 2.7
+- [00:33–00:34] ⭐ "Si eres nuevo, mira los Pro Tips de Mixwell: la persona que mejor explicó cómo jugar Valorant (ángulos, utilidad, rotaciones, economía)." También recomienda a Lucas Rojo. → recursos de la guía
+
+### Coaching #5 — un Radiant con Tejo (Pearl) · https://youtu.be/ll95SoEwIws
+- [00:00] En la segunda ronda (eco) mejor stun y molotovs que chaleco. → 1.7
+- [00:01–00:03] ⭐ Todo lo que hacen tiene que tener un motivo: entrar a un lugar "para baitear la utilidad" (pared de Vyse, trampa del Chamber…) y que roten. El controlador no abre el site y el centinela no tradea: si muere el humo, no hay humo en ningún site; si muere el centinela, nadie cuida la espalda. → 2.5 / 3.1
+- [00:03–00:06] ⭐ En eco no se gasta utilidad cara (dron 400): solo la renovable, salvo que ya estén ganando la ronda (5v3). El rival que ganó la pistola juega atrás esperando que vayas a morir. → 1.7
+- [00:06–00:09] El iniciador spotter, después de sacar la info, "castiga": espera el error del rival mientras el equipo juega; no se mete donde están todos. → 3.1
+- [00:10] No supongas; visualiza la ronda en voz alta ("tiro dron en A, si no hay nadie corremos, si hay…"). → 1.6
+- [00:41–00:42] ⭐ "Una cosa es llegar a Radiant y otra es jugar como un Radiant": se puede llegar disparando a la cabeza sin saber los conceptos; el impacto real fue casi nulo. → 3.1 (full W)
+
+### Coaching #4 — un Inmortal con Omen (Ascent) · https://youtu.be/YBB0PKLDJYo
+- [00:00–00:02] Rival sin nadie que mueva mira → cada ejecución es al contacto: se escucha y se come la utilidad. (Opina que Chamber no sirve en Ascent; muy fuerte anti-Chamber.) → 2.3
+- [00:03] Si vas a balcón, humea mid; si vas mid, humea balcón: el humo es una pared para negar info. → guía de humos
+- [00:03–00:07] ⭐ Mapa por colores: zonas que son tuyas, zonas en disputa y zonas del rival. Para jugar mid necesitas info de las puntas: tridente al medio, controlador y centinela mirando las puntas (1-3-1), porque si mueren pierdes mucha utilidad. → 2.5 / mapas
+- [00:07] "Liberar presión": si te dominan una zona, el que está en otra pushea. → 2.4
+- [00:32–00:34] Usa el factor sorpresa; un controlador no está siempre en el tridente: "entiende dónde está tu palmera" (si van tres a mid, tú eres el cuarto mirando la espalda). Pedir utilidad ("Gekko, tírame una flash y me abro"). → 3.1 / 1.6
+
+### Coaching #1 — un Raze (Bind) · https://youtu.be/vsDYDu0-3jM
+- [00:02–00:05] ⭐ "Todos los jugadores tienen virtudes; lo importante es generar impacto con ellas." El juego es 5v5 y "explota una bomba": los roles y personajes existen por algo. Lo ve como gestión de recursos: el objetivo es que explote o no la spike, no matar a todos. → 3.1
+- [00:05] Jugar con música, con cinco amigos en Discord o después de dormir 3 horas no te deja mejorar. → 1.8
+- [00:06–00:08] Analizar las comps antes de empezar te deja predecir al rival. ⭐ "Jugar compacto": no todos los días te levantas con la misma mira; el plan de la ronda no puede depender solo de pegar. → 2.3 / 1.8
+- [01:10] Seguir tu propia utilidad (ir detrás del perro); no recargar con dos balas en el cargador mientras el compa está solo. → 1.5
+- [01:12] Bajar la cabeza, entender los errores y trabajar el mental y el juego en equipo. → 1.8
+
+### Coaching #2 — un Raze (Bind, con Chamber) · https://youtu.be/ROLGKVZtD8c
+- [00:02–00:05] Comp agresiva (Clove, Reyna, Skye, Raze, Chamber): Chamber de mira castiga rotaciones y aperturas del humo. El tridente = entry + flash/iniciador + controlador que suportea; la Reyna puede lurkear porque su muerte afecta menos. → 3.1
+- [00:06–00:08] Bind por bloques: trampa en hookah + dominar larga = dos bloques; el tridente domina baños; la Reyna castiga. "Esto es gestión de recursos: el rival reacciona a tu contacto." → mapas (Bind)
+- [01:06–01:07] Calmar la mira: apuntar a la cabeza y disparar, no disparar y después apuntar. Guiar sin insultar ("Chamber, pon la trampa aquí, que no hay nadie mirando"). "Puedes matar 40 y perder: una cosa es disparar bien y otra jugar bien Valorant." → 1.2 / 1.6
+
+### Coaching #3 — un Radiant con Sova (Haven) · https://youtu.be/CMLHT22kSqg
+- [00:01–00:02] Lineups de Sova en Haven (larga y corta). La flecha no es solo revelar: marca presión, presencia, cancela jugadas. → fichas (Sova) / 1.5
+- [00:05–00:06] Rival sin centinela = para mirar una zona necesita a alguien de mira: domina una zona, para mira y espera a que se adelanten. → 2.3
+- [00:07–00:08] Al callear, di también el fin de la jugada ("tiro flecha larga, dominamos larga, después dron a corta para el Chamber") y lo que viste del rival ("cuidado que tienen Reyna y Jett, se van a abrir de mira"). → 1.6
+- [01:26–01:28] ⭐ Contra la toxicidad: detrás de cada PC hay una persona; si te enfocas en el error del compa no ganas; "dejen de ser el problema, pasen a ser la solución". → 1.6 / 1.8
+
+### Cómo jugar Corrode · https://youtu.be/PyTmqInria4
+- [00:01–00:03] Corrode se parece a Ascent (B, garaje, mercado, CT, balcón, main A). "Quiero que aprendan a razonar desde la lógica, no a memorizar como un librito. Adaptación es la clave." Usa la comp de MIBR en Champions como ejemplo. → mapas (Corrode)
+- [00:04–00:05] Con doble controlador, la Viper suele ser el centinela del equipo. → 3.1
+- [00:05–00:09] ⭐ Método para leer cualquier mapa: cada site es un "cuerpo" y cada entrada un "brazo"; ver a quién pertenece cada brazo al empezar la ronda (dónde terminan las barreras). Corrode y Ascent son defensivos (todos los brazos son del defensor); los de tres sites (Haven, Lotus) son atacantes; Bind depende. → mapas / 2.5
+- [00:09–00:10] El site fuerte es el que tiene tres. Lo más importante en un shooter: juego en equipo y ventaja numérica. → 2.1
+- [00:10–00:12] No mandes al Omen solo a dominar: si muere, no hay humos en ningún lado ("perdiste la mitad de la ronda"). → 3.1
+- [00:12–00:13] ⭐ "Ronda tres no se rushea" (la ronda de full buy): se busca info y se gana con eso. En la pistola un rush puede tener sentido. → 2.5 / 1.7
+- [00:13–00:17] El tridente domina una zona (no corre al site salvo que maten dos o tres) y eso genera una reacción: el rival redomina (y deja un gap en otro lado), se retira y rota (safe por base o arriesgado por mid) o no hace nada. "Gap" = ventana que el rival deja al intentar algo. → 2.5 / 3.2
+- [00:17–00:18] ⭐ Parte activa (tridente) / parte pasiva (controlador y centinela): mientras el tridente juega, los otros castigan desde un off-angle el error del rival (la Viper que pushea sola). → 2.7 / 3.1
+- [00:19–00:21] Rotar por mid "como idiotas, subidos a la cajita" es lo típico de rango bajo; rotar por base es seguro. → 2.4
+- [00:22–00:24] La utilidad delata la jugada (humo + spot en tal lugar = split hacia A). "Liberar presión": si te splitean un site, no pelees el split, pelea main (donde están menos). Ejecución directa: cuatro por main y uno delay por mid. → 2.4 / 2.5
+- [00:25–00:26] "Primero pasa, segundo tradea, tercero castiga": si son tres en el mismo lugar, el tercero estorba; tira su utilidad y castiga el humo. → 2.1
+- [00:29] ⭐ "¿Cómo lurkeo con Clove?": su trabajo no es lurkear para matar cinco; es clavar mira, esperar el error del rival y jugar recién cuando el tridente ya tiene la info. → 3.1 (Clove) / fichas
+- [00:30–00:31] Si te pushean la espalda como atacante, mejor aprovechar la ejecución (el site queda sin rotación). Como defensor ante un split, pelea donde hay menos rivales. → 2.4
+- [00:31–00:32] ⭐ "Si quieren ir a cagarse a tiros, jueguen a alguien del tridente. Si juegan controlador o centinela, su momento de brillar no es atacar: si se mueren dejan un espacio muy grande; valoren muchísimo su vida." → 3.1
+- [00:32–00:33] "Trueque de zonas": si te dominan algo, domina otra cosa. Tres posibilidades si no se oponen: pushean otro lado, rotan o esperan. "Cinco personajes, cuatro roles: no hay tanto misterio." → 2.4 / 2.5
+- [00:37–00:38] En rangos bajos sobrerrotan: "hay un ruido y corren todos ahí porque quieren matar". Por eso es fácil subir si aprendes estos conceptos. → 2.4
+- [00:39–00:40] El centinela y el último siempre van delay (cuando tu equipo ya jugó); no mueras primero. → 2.5 (orden del entry)
+- [00:41–00:43] Defensa: no acumularse en un site (si el Operator ya cubre B, los demás a mid); el que tiene más espacio tiene más info y más chances. Retake de un site cuando hay mucha utilidad (ultis); el site con menos defensores es el que se deja al retake. → 2.6 / 2.7
+
+### Te enseño cómo jugar Abyss (jugando en vivo) · https://youtu.be/TWm0hCB2f_4
+- [00:00] Defensa en "líneas": primera línea (off-angles adelante), segunda (cruzado desde CT y otra posición), tercera; según por dónde vengan (split, link) defiendes con un cruzado distinto. → mapas (Abyss) / 2.7
+- [00:01] Formaciones: 3 en A + 1 mid delay + 1 en B, o 3 mid, o 3 en B, según la lectura; si dejas a uno en mid y te tiras a A, defiendes A y juegas retake B. Pushear mid en una eco está mal. → 2.7 / 1.7
+- [00:02–00:03] Mirar la plata del rival (TAB): si tienen ~3500, van con chaleco chico → fuerza una Outlaw (te queda para Vandal la siguiente). En la tercera ronda es más probable que abran mid o dominen las puntas. (Coincide con el 2.3 del profe.) → 2.3 / 1.7
+- [00:04–00:05] Pide a tu compa que mire el ángulo que tú no vas a ver. Limpia primero el ángulo que te puede matar antes, después el otro: "no puedo abrir derecha limpiando izquierda". → 2.1 / 1.4
+- [00:06–00:07] "Nunca tengo la mira en otro lugar que donde tiene que estar": apertura, corrección, crosshair placement. "Disparar a la cabeza es el reflejo de entender qué está pasando." → 1.2
+- [00:07] Saber cuánta vida tienes y qué tiene el rival (una bala de Outlaw al pecho no te mata con 150) para decidir si asomas. → 2.3
+- [00:09–00:10] "Adaptaos o morid": cada cosa que hagas tiene que tener lógica. → 2.8
+- [00:11] Con ventaja numérica, quédate clavando el one-way: "ya gané la ronda"; abrirse ahí solo regala trades. → 2.6
+- [00:12] Esperar a que tiren toda la utilidad y abrirse en un timing que no esperan; reaccionar rápido para que no puedan reposicionarse. → 2.7
+- [00:16] Guiar al equipo: "uno a B para que no me pusheen, uno a A, smoke a la derecha y spot a la izquierda, y dominamos mid juntos". "Si no pides la utilidad, no puedes esperar que los demás hagan lo que piensas." → 1.6
+- [00:17] Arma tu tridente con amigos ("buscate uno que juegue Reyna y otro Jett"). → 3.1
+- [00:18–00:19] Siempre pensando que el rival se va a abrir ("está por salir") para no dormirse en el píxel. Cambiar el ritmo: después de tres rondas por mid, un rush a B. → 1.2 / 2.3
+- [00:22–00:24] "La primera vez que haces un café no te queda rico; después de un año sí": constancia. "Nunca es culpa de los demás: mírense para dentro." → 1.8
