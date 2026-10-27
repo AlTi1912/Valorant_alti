@@ -136,6 +136,11 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 ### Coaching a mi equipo de Premier · https://youtu.be/Ll_AhcTSUZ8
 - [00:00] En defensa el problema no es estar estático sino no reaccionar a la info que se dan. Setups donde te mueves un poco más; un "rol libre" para el que mejor lee el partido. (Video con poco contenido útil, casi todo partida en vivo.) → 3.3
 
+### Le hago coaching a mi equipo de Premier (Heretics) · https://youtu.be/ARTa-Wg3BiQ
+- [00:01] Lo más importante del equipo es pasarlo bien: buena actitud, positividad, animar cuando salen mal las cosas; "solo con eso subís el nivel". → 1.8 / 3.8
+- [00:07] Si el rival va a gastar mucha utilidad al principio, esperen y no salgan. → 2.7
+- [00:19] Nadie le dice nada negativo al que juega mal: "no salen las cosas, ya saldrán". (Video casi todo partida en vivo.) → 1.6 / 1.8
+
 ## HitboxKing (HITBOX LIVE)
 
 ### Haz esto para salir de Bronce — coaching a un suscriptor (Sova en Haven) · https://youtu.be/Qr__780gQFE
@@ -170,3 +175,85 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:38–00:40] Hay que exponerse un poco (jiggles) para sacar info aunque mueras; la mira siempre en un ángulo, nunca "muerta" en medio. → 1.2 / 2.2
 - [00:40–00:41] ⭐ "Falso registro": una jugada mala que te sale bien por suerte te hace repetirla; por eso revisar demos o tener a alguien que te lo diga. → 2.8 / 3.1 (full W)
 - [00:41] Resumen: falta de game sense (dónde estar, cómo moverse, qué se espera de mí, qué no hace mi compa que yo puedo suplir). → 2.8
+
+## iEchaz
+
+### Si quieres subir no juegues así — coaching (smoker en Diamante) · https://youtu.be/xbBiNMqU6T0
+- [00:00–00:02] Una sola persona con mala utilidad perjudica a todo el equipo: humos tirados apenas empieza la ronda, sin info, que después no están cuando entran. → guía de humos / 1.5
+- [00:01] Sin info, cubre un ángulo que te ayude a cubrir más de uno. → 2.7
+- [00:03] "La gente que sube a rangos muy altos es porque no la caga, no porque la caga y la arregla." → 2.8
+- [00:05] La ulti/utilidad con la menor cantidad de ruido y gasto; si el rival tarda 10 s en llegar, tu humo se gastó para nada. → guía de humos
+- [00:06] Lee la tendencia: si el rival siempre deja un site vendido, no hace falta humearlo. → 2.3
+- [00:07] El humo justo en la entrada del choke, sin dejar huecos. Disparar, moverse y volver a disparar en vez de aguantar el spray hace que en rangos bajos no maten. → guía de humos / 1.3
+- [00:08] Con un controlador rival vivo, nunca te alejes mucho de la spike. → 2.6
+- [00:09] No saber tu rol ni comunicar complica subir; su estilo le calza más a un centinela (Cypher). → 3.1
+
+## NaNoW
+
+### ¿Por qué no subís de rango? — coaching a un Diamante 2 (Skye en Bind) · https://youtu.be/hF7wgkuiC_8
+- [00:01–00:04] Mirar el tracker: horas por acto. Para mejorar de verdad, más de 100 horas por acto; un progreso lineal sin "punto de inflexión" indica estancamiento. → tracker
+- [00:04–00:05] El iniciador prioriza la utilidad antes que el arma: Skye es el único iniciador, la flash, el dron y la cura; ir a eco de Ghost "es lo opuesto a lo que tenés que hacer". → 3.1 / 1.7
+- [00:05–00:06] Analizar comps al empezar: controlador, centinela principal (el que más cumple el rol: Killjoy > Chamber) y "tridente" (duelista + iniciador + segundo); doble controlador rival = dominio de mid. → 3.1
+- [00:06–00:12] ⭐ Bind como "edificios" (larga, hookah/Juca, mid de A, baños): el equipo que tiene la info de cada edificio gana. Repartir el rol según la utilidad: Skye info de larga, Killjoy torreta/araña en hookah, Chamber con OP en mid, duelista + support a dominar baños. Default base. → mapas (Bind) / 2.5
+- [00:12–00:13] "Gap" = zona que nadie cubre (nadie en mid). Si el centinela rival te mata en una punta a los 15 s, está haciendo su trabajo: el resto no está ahí. → 2.2 / 2.3
+- [00:14] ⭐ Probabilidades: 1v4 ≈ 10% o menos; 4v4 = 50%. Jugar juntos cambia todo. (Coincide con las chances del 2.1.) → 2.1
+- [00:15–00:17] No gastes utilidad para sacar info que ya tienes. En desventaja numérica, flashéate a través de la pared y abre. Al morir, da info precisa ("Raze en baños"), no "pequé, agarré todo". → 1.5 / 1.6
+- [00:19–00:20] La flash para info se tira cuando no tienes info; en hookah espera 2–3 s a escuchar si suben. En rangos bajos "rotan corriendo, ejecutan corriendo, no shiftean nunca". → 2.2 / 2.4
+- [00:20–00:21] Si ves a la Raze, el resto del tridente (controlador + iniciador) suele estar con ella. → 2.3
+- [00:24–00:25] ⭐ Ventaja numérica: si van a rotar a B, van todos; 2v2 = 50%, sumándote 75–80%. "Siempre con el mínimo margen de error y las probabilidades a tu favor." → 2.1 / 2.4
+- [00:25–00:27] Mientras rotas, planifica en voz alta lo que harás al llegar ("Mix, ¿tienes smoke? Smokeas hookah, tiro perro y entramos todos"). Eficiencia. Pregúntate segundo a segundo "¿qué tengo que hacer para ganar?". → 2.6 / 1.6
+- [00:32–00:33] Ejecución típica en Bind: 4 por un lado y 1 por el otro; tu objetivo como iniciador: ir con tu duelista a buscar al que está solo. → 2.5
+- [00:36–00:39] No empieces la ronda atrás regalando espacio; usa la utilidad desde donde empieza el peligro. Dos tipos de flash: para habilitarte (popeas y abres) y para info. No gastes tres utilidades en un segundo. → 1.5 / 2.5
+- [00:42–00:43] En eco no gastes utilidad sin sentido; no especules por lo que pasó la ronda anterior. → 1.7 / 2.3
+- [00:45] "A veces uno quiere abarcar muchas cosas y no termina haciendo nada: haz tu trabajo bien." → 3.1
+- [00:46–00:48] Mental: dejar de culpar al equipo; es un juego, no te sabotees quejándote después de cada error. → 1.8
+- [00:48–00:49] No supongas: básate en la evidencia (lo que ves, escuchas). Mira el mapa (fake TP de tu Chamber). → 2.2
+- [01:11] Post-plant: el site se divide en dos; usa los ángulos cruzados con tu compa; no tengan miedo de buscar el choque juntos. → 2.6
+- [01:15–01:17] ⭐ Al entrar: "primero mueve mira, segundo tradea al que movió la mira, tercero castiga" (si dos miran a la izquierda, el tercero mira la derecha). Crosshair placement en los lugares lógicos por donde salen (puertas), no al medio. → 2.1 / 2.5 / 1.2
+- [01:21–01:23] Conclusión: más horas de análisis y menos de juego; usar la utilidad de forma eficiente; jugar con el duelista; pedir y ordenar a los compañeros; no ejecutar 5 rondas seguidas por el mismo lado. → 2.8 / 3.1
+
+### ¿Cómo llegar a Radiant? — coaching a un Diamante 3 (Raze en Lotus, Premier) · https://youtu.be/DZF-04Plqnc
+- [00:02] Del tracker: "platino, oro, platino, oro" = jugar en modo automático; dejar el automático es lo que lo hizo subir de Bronce a Ascendente. → 1.8 / tracker
+- [00:02–00:05] Lotus es mapa atacante (3 sites, pocos recursos para defender). Iniciadores se dividen en spotter (saca info: Fade, Sova, Skye, Tejo) y flash/support (Breach). El tridente = duelista (la punta) + spotter + otro; el centinela juega solo. Con dos centinelas: uno defiende (Killjoy) y el otro ayuda (Cypher, más global). Sin spotter, todo es apuesta. → 3.1
+- [00:05–00:06] En Premier la jugada tiene que estar preseteada; improvisar en la pistola = falta de estructura. → 3.2 / 3.7
+- [00:06–00:09] ⭐ "Redominio": si el rival domina una zona con mucha utilidad al empezar, espera a que la gaste y después re-domina con la tuya (paranoia, stun, flash) cuando ya no tiene con qué responder. El humo que tires dice si es redominio o ejecución. → 2.5 / 3.2
+- [00:09] La pistola sirve para recopilar info: no la juegues como una full buy. → 1.7 / 2.3
+- [00:09–00:13] Con ventaja numérica (5v4) no hace falta seguir pusheando: para la mira y espera a que el rival, ansioso, venga. El objetivo es ganar la ronda, no matar a los cinco. "Mínimo margen de error, balanza a tu favor." La spike la lleva el iniciador o el controlador, nunca el que lurkea. → 2.1 / 2.5
+- [00:13–00:14] Cuándo pushear: en desventaja numérica o sin utilidad. Con ventaja, site ganado y spike plantada, pushear es darle una oportunidad al rival. → 2.6
+- [00:15–00:16] Pushear por la espalda está bien si es premeditado y lo calleas ("vamos a base que vienen por la espalda"). → 2.4 / 1.6
+- [00:17–00:18] El rival nunca se abre pegado a la pared cerca del ángulo: se abre desde lejos. Tira la utilidad ahí. Sin iniciador, la única info es "face-check" (ir con la cara). → 1.4
+- [00:18–00:19] ⭐ El ancla/jugar de mira lo hace el agente con menos utilidad (Jett, Chamber); el que tiene más utilidad (Omen, Breach, Raze) no debe morir primero: "si se muere, ¿qué pierdo?". → 3.1 / 2.7
+- [00:19–00:21] Humos de ejecución: cuando estás por entrar, no 15 s antes. En default, humo para negar el pick del Operator. "Freeze": tras una kill en A, quédense quietos en C sin ruido 15 s: el rival rota a A y C queda libre. → 2.5 / guía de humos
+- [00:22] Con la info de "tres en A", aceleren al otro site. → 2.5
+- [00:52] "Gap" = momento en que tu equipo no tiene info de una zona; elige el ángulo que te deje ver más. → 2.2 / 2.7
+- [00:54] Si muere el Chamber en mid, no hay nadie: cuchillo y corre. → 2.4
+- [00:55–00:57] Rutina para controlar la mira: 20 min de aim trainer (gridshot, multishot, tracking) para acostumbrarte al mouse, 20 min de Range matando bots en movimiento, 3–4 DMs abriendo ángulos como en una ranked (no al flick), y recién ranked. Abrirse a un ángulo específico, no a cinco. ⚠ El profe no usa herramientas externas (aim trainer). → 1.1
+
+### Coaching #26 — un Ascendente 2 con Chamber (Breeze, scrim de equipo) · https://youtu.be/gewBMbXdtyc
+- [00:00] "Ascendente y lo único que hacen es correr para adelante y disparar." (Mismo tono que el profe contra el full W.) → 3.1
+- [00:02–00:04] ⭐ Elegir rol según tu personalidad: si te gusta comunicar, jugar en equipo y usar habilidades para ganar → iniciador; tranquilo, buscar el error del rival, Operator → centinela; juego más movido → duelista. Masterizar un rol: cambiar de agente todo el tiempo te deja estancado. → 3.1
+- [00:05–00:06] Sin flash rival, puedes defender con buenos cruzados. En el tridente mejor agentes cuya muerte cueste poco (si muere la Viper pierdes la pared; si muere el Chamber, "solo una mira"). → 3.1
+- [00:07–00:09] Pistola sin info: un 2-1-2 para empezar a leer al rival; un split de rush en la pistola te expone a un sándwich. → 2.5 / 1.7
+- [00:09–00:10] Pensar antes de hacer cada cosa en todos los márgenes de error (trampa adelante te comen espalda; atrás te la smokean). ⭐ "No hagas las cosas porque te salen bien: hazlas porque tienen que ser así." → 2.8 / 3.1
+- [00:10–00:12] Con ventaja numérica y la spike plantada, no re-peekees por ego: escóndete y deja que explote. "No vas a salir de Ascendente si tu prioridad es matar gente todo el tiempo." Imitar a un pro sin su nivel te mata como un bot. → 2.6 / 3.1
+- [00:13–00:14] El centinela: dominio de mapa (que no te coman la espalda), después del plant lurkear por mid y agarrar al rival de costado; generar caos condiciona mentalmente al rival. Game sense = entender cada pieza del ajedrez. → 3.1 / 2.6
+- [00:15] El clima de chistes en el equipo es divertido pero desconcentra. Arrinconarse los cinco en el site le regala todo el mapa al rival. → 1.8 / 2.7
+- [00:46–00:48] Crosshair placement malo y spray hacia adelante: practicar DM bala por bala con Guardian priorizando precisión. Aprender a jugar los mapas: los conceptos se repiten en todos. → 1.2 / 1.3
+
+### Coaching #21 — un Platino que juega Clove (Split) · https://youtu.be/przyNWUgu2E
+- [00:01] Juega Clove, Reyna, Neon: "personalidad agresiva, siempre a la mira", tracker negativo. Recomienda priorizar un rol. (⚠ NaNoW dice que Clove "es el peor personaje", opinión suya; el profe deja que jueguen lo que les gusta.) → 3.1
+- [00:02–00:03] Leer la comp rival: sin Sova no hay spot, sin stun, una sola flash (Gekko, se puede romper); trampas que se pueden smokear para decidir si pushear la espalda. Combo doble flash (Skye + Reyna). → 2.3 / 3.1
+- [00:04–00:05] Proponer un plan en ranked: el tridente juega junto (dominar A con one-way, deto, flash) y el centinela (Deadlock) en B. Sin idea de juego, cualquier jugada rival te rompe. → 2.7 / 3.3
+- [00:05–00:07] ⭐ Un iniciador no puede parar un rush solo (flash se esquiva, perro se rompe); un centinela sí (stun, muro, Nanoswarm). "Es todo porcentajes: si haces las cosas bien a nivel conceptual, tienes más probabilidad." Analogía: correr vs ir en auto a la playa. → 3.1 / 2.1
+- [00:07] Error de rango bajo: perder y seguir con el mismo setup. → 2.3
+- [00:08] En eco, cada kill vale doble (ellos pierden arma, chaleco y utilidad). → 1.7
+- [00:09–00:11] ⭐ Economía de inicio: si ganas la pistola, la segunda ronda mínimo 3 armas compradas; si la pierdes, la segunda es full eco (salvo una Sheriff); "ganas pistola, fuerzas la segunda, eco la tercera". En la ronda en que el rival tiene full buy y tú no, cualquier kill lastima su economía. → 1.7
+- [00:41–00:42] "El arma tiene 30 balas, no tienes por qué tirarlas todas": primero precisión, después velocidad. 2–3 DMs antes y después de jugar; calmar la mira. → 1.3 / 1.1
+
+### Coaching #20 — un Inmortal 3 duelista entry (Raze) · https://youtu.be/qnUJjvfGf0A
+- [00:00] No se rushea un site en la tercera ronda sin limpiar; callea cuando pusheas. → 2.5
+- [00:02–00:03] Juega Jett, Raze, Reyna, Chamber, Clove, Skye…: elige una cosa (Jett, si no Raze, si no Neon; si te sacan el rol, segundo entry o iniciador). → 3.1
+- [00:06–00:07] "A partir de Inmortal, lo que te diferencia son los detalles." Líneas defensivas: si no te defienden adelante, te defienden más atrás; siempre hay ángulos que el rival está limpiando. Ábrete pegado a la pared de atrás para abrir bien el ángulo. Espera a tu compa para el trade. → 1.4 / 2.1
+- [00:08–00:09] ⭐ Si el carrito ya limpió la izquierda, no tires la deto ahí: la utilidad de daño (deto, molly de Phoenix/Brimstone) se usa para sacar a alguien de un lugar o negarlo, no para matar. Calléala: "tiro deto CT, que el compa clave el smoke". → 1.5 / 3.1
+- [00:10–00:11] Mira en un punto muerto; abrir el ángulo "en tres cuotas" al voleo y jugar a la reacción hace perder los choques: limpia ángulo por ángulo con lógica. El entry no se queda mirando CT de espaldas: hace espacio y su equipo lo tradea. → 1.4 / 2.1
+- [01:01–01:02] Para subir: comunicar mejor, pulir la utilidad, ver cómo se juegan los mapas, ser consciente (si te corren cuatro veces al mismo lado, van a cambiar). No tiltearse: "full estoico"; mejor 4–5 ranked full tryhard que jugar en automático. → 1.8 / 2.3
