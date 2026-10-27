@@ -2,6 +2,76 @@
 
 Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada nota lleva el minuto y el tema de la guía donde encaja. Lo que contradiga lo que enseña Alti se marca con ⚠ para preguntarle antes de usarlo.
 
+## Resumen: qué sirve para cada tema
+
+Lo que más se repite entre creadores (⭐ en las notas):
+
+- **1.1 Config:** sensibilidad baja y no cambiar la mira cada semana (Horcus, Safiro). Desactivar la aceleración del mouse en Windows (Horcus). Tecla distinta para equipar y plantar la spike (Horcus). Gráficos en bajo (Safiro).
+- **1.2 Mira:** crosshair a la altura de la cabeza donde puede salir el rival, siguiendo los desniveles. Calm aim: apuntar, corregir y después disparar. El DM se juega para practicar abrir ángulos, no para ganarlo. Entrenar no es lo mismo que calentar (todos).
+- **1.3 Movimiento y disparo:**
+  - No peekear con shift: A-D o salto (todos).
+  - Ráfagas de 2–4 balas.
+  - Recargar escondido y no después de 7 balas.
+  - Seguir moviéndote de lado mientras disparas.
+  - Counter-strafe como mecánica avanzada.
+- **1.4 Ángulos:** abrir de a uno, lejos de la pared; el advantage peek de lejos te deja ver antes. No ir con el cuchillo ni con la habilidad en la mano. "Primero no morir, después el arma".
+- **1.6 Comunicación:** calls con nombre exacto. Avisar antes de flashear. Pedir utilidad al iniciador. Discord limpio. "Ser parte de la solución".
+- **1.7 Economía:** si cuatro compran, tú compras; comprar en la 2ª ronda tras ganar la pistol; la 3ª es la bonus. Forzar es comprar con menos de 3500. El controlador compra los dos humos aunque sea eco.
+- **1.8 Mental:**
+  - Tres pilares: game sense, aim y mente (Safiro).
+  - "Cada partida es nueva"; descansar si estás tilteado.
+  - No culpar al equipo; mutear al tóxico.
+  - Dormir, comer y hacer ejercicio.
+- **2.1 Trades:** peekear juntos y sincronizados, no uno a uno; si tu dúo come espalda, vas con él. "Al contacto de uno se abre el otro".
+- **2.2 Info:** usar el minimapa todo el tiempo, también al rotar; no mirar lo que ya cubre un compañero; identificar al tridente rival.
+- **2.3 Leer al rival:** TAB para la plata, los orbes y las ultis (por ejemplo, la ulti de Sova contra la de Killjoy). Detectar patrones. Timings: "no le da tiempo a llegar".
+- **2.4 Rotaciones:**
+  - Rotación escalonada (NaNoW).
+  - No sobre-rotar.
+  - "No existe el lurk de defensa" (NaNoW).
+  - En ataque, el centinela lurkea o mantiene el espacio.
+  - Si ves al centinela con los demás, son los cinco: cierra espaldas.
+- **2.5 Ataque:**
+  - Tras ganar la zona: frisar, redominar o pasar con dos kills o más (NaNoW). Coincide con tu "esperar el pick y entrar con equidad".
+  - Contacto, explo y exec como formas de entrar.
+  - Default no es lo mismo que dominio.
+  - Rompe el muro de Sage.
+  - Orden de entrada igual al tuyo (Safiro).
+  - Generar rotación con ruido (NaNoW, igual que tu ejemplo de Haven).
+- **2.6 Post-plant y retake:**
+  - Plantar con el site ganado.
+  - Aislar duelos en el clutch y en el retake.
+  - Con ventaja no buscar picks (Safiro, NaNoW).
+  - El iniciador suele plantar.
+  - Retake todos juntos con la utilidad simultánea.
+- **2.7 Defensa:**
+  - Ángulo intermedio (Safiro).
+  - Líneas de defensa.
+  - Con igualdad numérica gana el atacante (NaNoW).
+  - Dos lugares fuertes y uno débil: el débil no pelea.
+  - En desventaja numérica hay que buscar la ventaja: tu `#agresivo`.
+- **2.8 Revisar:** después de cada ronda, preguntarte qué funcionó y qué no; grabarte y ver VODs de pros de tu agente.
+- **3.1 Roles:**
+  - Comp base 1+1+1+1+flex, igual que la tuya (Safiro).
+  - Por debajo de Inmortal la comp casi no importa (Safiro).
+  - Importancia: controlador > iniciador > centinela > duelista (NaNoW).
+  - Duelistas que mueven la mira y duelistas de apoyo con flash.
+  - "No es lo mismo el duelista que solo toca W que el que entiende cuándo duelear".
+- **Guía de humos (pendiente):** humos sin panza (Safiro). Hay humos de defensor y humos de atacante. No humear al segundo 0 ni donde mira tu Operator.
+
+**⚠ Para decidir con Alti:**
+
+1. Rutinas de aim trainer y la frase de Horcus "el aim es más importante que el game sense / quien no sube no entrena aim". Choca con NaNoW, con Safiro y con tu enfoque.
+2. Opiniones anti-Chamber y anti-Clove de NaNoW, y el "veo un Phoenix y me pongo triste" de Safiro.
+3. Config del minimapa (NaNoW: no centrar; Safiro: centrar), para comparar con el 1.1.
+4. Mixwell 2020: "la ventaja la tiene el que espera".
+5. NaNoW sobre el TDA (no usar).
+
+**Sin procesar:**
+
+- Seis videos de Mixwell (Pro Tips #2, #6, #7, #9 y coachings #1 y #3), el coaching #17 de NaNoW y la Fade Inmortal de Safiro: no tienen subtítulos.
+- Las guías de NaNoW de Ascent, Split y Pearl (mapas fuera de la pool): descargadas, sin leer.
+
 ## Mixwell
 
 ### Pro Tips #1 — crosshair, entorno, movimiento y recoil (2020) · https://youtu.be/wBQLIWgxs8A
