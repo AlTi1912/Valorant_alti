@@ -264,3 +264,13 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 ## Orden del entry (añadido al 2.5, `#orden`; ampliar en 3.2)
 
 - Del profe: 1 Jett; 2 Reyna, Phoenix o segundo duelista; 3 el iniciador (si es un Sova o Skye que se queda tirando dron/perros, pasa antes el humo); 4 el controlador; 5 el centinela, que no tiene que entrar al site: corta rotación y gana un timing. Si van los 5 en rush, que el centinela no muera primero para evitar que lurkeen.
+
+## Nivel 3 — criterio del profe
+
+- "No les daré compos de VCT ni similar, solamente les enseñaré a pegar mejor y tener bases." El nivel 3 va con bases para ranked, no estrategia pro. Revisar si los temas 3.2–3.8 (pensados para Premier) siguen teniendo sentido.
+
+## Tema 3.1 — Roles y composición (`temas/3-1-roles-y-composicion.html`)
+
+- Del profe (de temas anteriores): qué hace cada rol, orden del entry, dron para el mid-round, humo último en morir, centinela no muere primero. Pidió comps comunes de ranked y mirar a streamers (nanowfps, Mixwell, safiro01, Horcus).
+- Agregado por mí: comp base 1+1+1+1+flex (nunca sin humo), selección (no instalockear, pool de 2–3 agentes, agentes para solo queue: Phoenix, Sage, KAY/O, Cypher), tabla "lo que más se ve por mapa" armada con fuentes web mezcladas (HotSpawn 2026, datos Platino+ de Haven/Summit, listas tempranas de Summit, guías de Abyss), quiz, ejercicios, juntada, checklist.
+- No encontré contenido escrito de nanowfps ni safiro01; de Mixwell solo "comunícate con tu equipo" en solo queue. Horcus: Radiant, contenido en español, sin guía puntual de comps.

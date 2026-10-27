@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roles y composición</title>
+  <meta name="description" content="Tema 3.1: qué hace cada rol, una composición base para ranked, cómo elegir en la selección y qué agentes se ven más en cada mapa.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-lesson="3.1" data-title="Roles y composición">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/crosshair/ascent-vestibulo-a.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 3</div>
+      <div class="chips"><span class="chip red">Tema 3.1</span><span class="chip">Juntada de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Roles<br>y composición</h1>
+      <p class="lead">Nada de comps de VCT: lo básico para que tu equipo tenga con qué jugar, y saber qué te toca hacer con tu rol.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#roles">Los cuatro roles</a></li>
+          <li><a href="#base">La comp base</a></li>
+          <li><a href="#seleccion">En la selección</a></li>
+          <li><a href="#mapas">Lo que más se ve por mapa</a></li>
+          <li><a href="#quiz">¿Qué agarras?</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para esta semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel"><dl class="kv"><dt>Mínimo</dt><dd>Un humo</dd><dt>Base</dt><dd>1 de cada + 1</dd><dt>Tu pool</dt><dd>2–3 agentes</dd><dt>Selección</dt><dd>Llena lo que falta</dd></dl></div>
+          <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="3-1"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Saber qué hace cada rol y armar una comp que tenga lo básico, sin copiar a los pros.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>En ranked no se juega como en VCT. Lo que gana es pegar bien y que el equipo tenga lo mínimo: alguien que entre, alguien que saque info, humos y alguien que cuide el flanco.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="roles">
+        <h2><span class="idx">02</span>Los cuatro roles</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Duelista</div><h3>Abre el espacio</h3><p class="muted">Entra primero al site y gana el espacio: Neon con su carril, Jett con su dash. El segundo duelista entra detrás al trade.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Iniciador</div><h3>Saca la info</h3><p class="muted">Dardo de Sova, ojo de Fade. Guarda la C (dron, merodeadores) para el mid-round o la ejecución.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Controlador</div><h3>Pone los humos</h3><p class="muted">Corta visión para entrar o para aguantar (el humo Avova). En un 2vX, que sea el último en morir: un humo en la spike gana rondas.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Centinela</div><h3>Cuida el flanco</h3><p class="muted">Cuida al lurker, corta rotaciones y gana timings. Si van los 5 en rush, no debe morir primero.</p></div>
+        </div>
+        <p class="muted" style="margin-top:12px">El orden en que entra cada uno está en el <a href="2-5-ataque-y-default.html#orden">2.5</a>.</p>
+      </section>
+
+      <section class="block" id="base">
+        <h2><span class="idx">03</span>La comp base para ranked</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Un duelista</h4><p>El que entra primero.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Un iniciador</h4><p>La info para entrar.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Un controlador</h4><p>Lo mínimo: sin humo no hay entry.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>Un centinela</h4><p>El flanco y el lurker.</p></div>
+          <div class="step-card reveal"><span class="n">5</span><h4>Uno flexible</h4><p>Segundo duelista o segundo iniciador, según el mapa.</p></div>
+        </div>
+        <div class="note"><span>⚠</span><div><b>Lo que nunca puede faltar es el humo.</b> Tres duelistas sin controlador es la comp que más rondas regala en elo bajo.</div></div>
+      </section>
+
+      <section class="block" id="seleccion">
+        <h2><span class="idx">04</span>En la selección de agentes</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">No instalockees</div><p class="muted">Espera a ver qué agarran los demás y llena lo que falta.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ten 2–3 agentes</div><p class="muted">De roles distintos, que sepas jugar bien. Así siempre puedes llenar.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Si vas solo</div><p class="muted">Agentes que aportan aunque nadie hable: Phoenix, Sage, KAY/O o Cypher.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="mapas">
+        <h2><span class="idx">05</span>Lo que más se ve por mapa</h2>
+        <p>Los agentes que más se ven en ranked en cada mapa de la pool. No es una comp para copiar: es para que sepas qué suele funcionar y qué te vas a encontrar.</p>
+        <div class="table-wrap" style="margin-top:16px" tabindex="0" role="region" aria-label="Agentes que más se ven por mapa">
+          <table class="kill-table">
+            <thead><tr><th>Mapa</th><th>Humo</th><th>Iniciador</th><th>Centinela</th><th>Duelista</th></tr></thead>
+            <tbody>
+              <tr><td>Haven</td><td>Omen</td><td>Sova</td><td>Cypher</td><td>Neon, Jett</td></tr>
+              <tr><td>Summit</td><td>Omen</td><td>Sova, Fade</td><td>Killjoy</td><td>Jett, Raze, Neon</td></tr>
+              <tr><td>Bind</td><td>Brimstone, Viper</td><td>Fade, Skye</td><td>Cypher</td><td>Raze</td></tr>
+              <tr><td>Lotus</td><td>Omen, Viper</td><td>Fade, Skye</td><td>Vyse, Killjoy</td><td>Raze</td></tr>
+              <tr><td>Sunset</td><td>Omen</td><td>Sova, Breach</td><td>Cypher</td><td>Neon</td></tr>
+              <tr><td>Corrode</td><td>Omen, Viper</td><td>Sova</td><td>Chamber</td><td>Neon</td></tr>
+              <tr><td>Abyss</td><td>Omen, Astra</td><td>Sova, Fade</td><td>Cypher</td><td>Jett</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Esto cambia con cada parche.</b> Si un agente no lo sabes jugar, mejor uno de tu pool del mismo rol. El que sabes jugar rinde más que el "mejor" del mapa.</div></div>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">06</span>¿Qué agarras?</h2>
+        <p class="muted">Situaciones de la selección y de tu rol. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="b">
+            <p class="s">En la selección ya hay Jett, Reyna y Phoenix. Nadie tiene humo.</p>
+            <div class="opts"><button class="preset" data-choice="a">Agarro otro duelista</button><button class="preset" data-choice="b">Agarro un humo</button></div>
+            <p class="why">Sin humo no se puede entrar a un site ni cortar visión. Llena lo que falta.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Solo queue, sin comunicación. Quieres un agente que aporte sin depender de nadie.</p>
+            <div class="opts"><button class="preset" data-choice="a">Uno que se arregla solo</button><button class="preset" data-choice="b">Uno que necesita setup</button></div>
+            <p class="why">Agentes como Phoenix, Sage, KAY/O o Cypher aportan aunque el equipo no hable.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Eres el centinela y van los 5 en rush.</p>
+            <div class="opts"><button class="preset" data-choice="a">Entro primero</button><button class="preset" data-choice="b">Entro último y cuido el flanco</button></div>
+            <p class="why">El centinela no debe morir primero: es el que evita que les lurkeen.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Eres Sova. Empieza la ronda de ataque.</p>
+            <div class="opts"><button class="preset" data-choice="a">Tiro el dron al segundo 5</button><button class="preset" data-choice="b">Dardo ahora, dron después</button></div>
+            <p class="why">El dron es para el mid-round o la ejecución (lo vimos en el 2.5).</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Nunca jugaste Viper y te toca en ranked porque nadie la quiere.</p>
+            <div class="opts"><button class="preset" data-choice="a">Mejor un humo que sí sé</button><button class="preset" data-choice="b">Pruebo Viper en ranked</button></div>
+            <p class="why">Jugar un agente que no sabes en ranked cuesta rondas. Practícalo antes en no clasificatoria o en custom.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">07</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">2–3</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Solo</span></div>
+              <h3>Arma tu pool</h3>
+              <p class="muted">Elige un agente principal y uno o dos de roles distintos. Practica sus habilidades en el Range y en no clasificatoria antes de llevarlos a ranked.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">5v5</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Cada uno con su rol</h3>
+              <p class="muted">Armamos la comp base y jugamos rondas de ataque: cada uno hace lo de su rol y entra en su orden.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">08</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Tres duelistas y nadie con humo.</div>
+          <div class="err reveal">Instalockear sin mirar qué falta.</div>
+          <div class="err reveal">Jugar en ranked un agente que nunca practicaste.</div>
+          <div class="err reveal">El duelista que no entra y espera a que entren los demás.</div>
+          <div class="err reveal">El iniciador que tira toda su utilidad al principio.</div>
+          <div class="err reveal">El centinela que muere primero en el rush.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">09</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Los roles y la comp base.</p></div>
+          <div class="seg main" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Su pool</h4><p>Cada uno elige sus 2–3 agentes.</p></div>
+          <div class="seg main" style="--w:25"><div class="bar"></div><span class="t">25 MIN</span><h4>5v5 con roles</h4><p>Cada uno con lo suyo.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Preguntas</h4><p>Lo que quieras.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">10</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Pool</div><p>Anota tus 2–3 agentes: uno principal y los otros de roles distintos.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>No instalockees: espera y llena lo que falte.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Piénsalo</div><p>En tu última partida, ¿hiciste lo que le toca a tu rol?</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">11</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="3-1">
+          <li><label><input type="checkbox"><span>Sé qué hace cada rol.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé armar la comp base y sé que nunca puede faltar el humo.</span></label></li>
+          <li><label><input type="checkbox"><span>Tengo 2–3 agentes de roles distintos que sé jugar.</span></label></li>
+          <li><label><input type="checkbox"><span>En la selección espero y lleno lo que falta.</span></label></li>
+          <li><label><input type="checkbox"><span>Hago lo que le toca a mi rol en la ronda.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="../nivel-2.html"><small>Anterior</small>Pasar al nivel 3</a>
+        <span class="next"><small>Siguiente</small>3.2 Defaults y ejecuciones</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel"><div class="aside-title">Regla rápida</div><dl class="kv"><dt>Mínimo</dt><dd>Un humo</dd><dt>Base</dt><dd>1 de cada + 1</dd><dt>Tu pool</dt><dd>2–3 agentes</dd><dt>Selección</dt><dd>Llena lo que falta</dd></dl></div>
+        <div class="panel"><div class="aside-title">Recuerda</div><p style="margin:0">El agente que <strong>sabes jugar</strong> rinde más que el "mejor" del mapa.</p></div>
+        <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="3-1"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>
