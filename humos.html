@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guía de humos · Guía Alti</title>
+  <meta name="description" content="Para qué sirve un humo, cómo ponerlo bien, cuándo tirarlo, humos de ataque y de defensa, el humo en la spike, el humo Avova y los humos de cada mapa.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="./#clase">Las juntadas</a>
+        <a href="./#temario">Qué veremos</a>
+        <a href="mapas.html">Mapas</a>
+        <a href="nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero hero-mini" style="--hero-img: url('assets/img/crosshair/ascent-principal-a.webp')">
+      <div class="wrap">
+        <div class="crumbs"><a href="./#temario">Qué veremos</a> / Herramientas</div>
+        <div class="chips"><span class="chip red">Guía</span><span class="chip">Controladores</span></div>
+        <h1>Guía de humos</h1>
+        <p class="lead">Un humo bien puesto gana rondas. Uno mal puesto se las regala al rival. Para qué sirve cada humo, cómo ponerlo y cuándo tirarlo.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Para qué sirve</div><h2>Un humo corta la visión</h2></div>
+          <p class="muted">Siempre tiene un motivo. Si no sabes para qué lo tiras, no lo tires.</p>
+        </div>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Atacando</div><h3>Para entrar</h3><p class="muted">Tapas los ángulos que te pueden matar al cruzar o al entrar al site, para pelear de a uno.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Defendiendo</div><h3>Para aguantar</h3><p class="muted">Frenas la entrada y ganas tiempo hasta que llegue la rotación. Y matas al que lo cruza: sale perdido.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Con la spike</div><h3>Para plantar o defusar</h3><p class="muted">Un humo encima de la spike te deja plantar o defusar sin que te vean. Y en el post-plant puede ganar la ronda.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Para aislar</div><h3>Un duelo a la vez</h3><p class="muted">Tapas un ángulo para que solo te puedan ver desde otro. Así peleas de a uno (<a href="temas/2-7-posicionamiento-defensivo.html#posicion">2.7</a>).</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="panza">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Bien puesto</div><h2>Sin panza</h2></div>
+          <p class="muted">El error más común: el humo con "panza", que sale hacia donde está el rival. Toca cada caso.</p>
+        </div>
+        <div class="place" data-diagram>
+          <div class="place-stage">
+            <svg class="diagram-stage" data-mode="panza" viewBox="0 0 400 260" role="img" aria-label="Esquema de un humo en la entrada de un site: con panza hacia afuera o sin panza">
+              <rect width="400" height="260" fill="#0a1118"/>
+              <rect x="40" y="130" width="320" height="120" rx="6" fill="#16222e" stroke="#2a3a4a"/>
+              <text x="350" y="240" fill="#95a3b0" font-size="13" font-family="Inter, sans-serif" text-anchor="end">SITE</text>
+              <rect x="150" y="10" width="100" height="120" fill="#16222e" stroke="#2a3a4a"/>
+              <text x="200" y="30" fill="#95a3b0" font-size="13" font-family="Inter, sans-serif" text-anchor="middle">entrada</text>
+              <circle cx="200" cy="215" r="11" fill="#3fe0c5"/>
+              <g class="m m-panza">
+                <circle cx="200" cy="102" r="52" fill="#8795a3" opacity=".55"/>
+                <circle cx="176" cy="84" r="10" fill="#ff4655"/><circle cx="226" cy="88" r="10" fill="#ff4655"/>
+                <path d="M184 92 L140 160" stroke="#ff4655" stroke-width="2.5" stroke-dasharray="5 4"/>
+                <path d="M234 96 L280 168" stroke="#ff4655" stroke-width="2.5" stroke-dasharray="5 4"/>
+                <text x="200" y="182" fill="#ff6b78" font-size="13" font-family="Inter, sans-serif" text-anchor="middle">se meten y prefirean a los lados</text>
+              </g>
+              <g class="m m-recto">
+                <rect x="150" y="104" width="100" height="40" rx="10" fill="#8795a3" opacity=".55"/>
+                <circle cx="200" cy="82" r="10" fill="#ff4655"/>
+                <path d="M200 205 L200 150" stroke="#3fe0c5" stroke-width="2.5"/>
+                <text x="200" y="182" fill="#3fe0c5" font-size="13" font-family="Inter, sans-serif" text-anchor="middle">sale del humo justo a tu mira</text>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <div class="place-modes">
+              <button class="place-mode" data-mode="panza" data-meta='<span class="chip red">Mal</span>' data-text="El humo sale hacia el rival. Le da espacio para meterse adentro, prefirear y tirarse a los lados sin que lo veas. Además te tapa info." aria-pressed="true"><b>Con panza</b><span>Hacia afuera</span></button>
+              <button class="place-mode" data-mode="recto" data-meta='<span class="chip teal">Bien</span>' data-text="El borde del humo queda parejo con la entrada. Si quiere pasar, sale sin saber dónde estás, justo frente a tu mira." aria-pressed="false"><b>Sin panza</b><span>Parejo con la entrada</span></button>
+            </div>
+            <p class="place-out" data-out></p>
+            <div class="peek-meta" data-meta-out></div>
+          </div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Una panza chiquita está bien</b> si quieres que el que sale del humo muera. La panza grande solo sirve a propósito: por ejemplo, en una eco con escopeta, para meterte tú.</div></div>
+      </div>
+    </section>
+
+    <section class="section" id="lados">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Ataque y defensa</div><h2>No es el mismo humo</h2></div>
+        </div>
+        <div class="dos-donts">
+          <div class="dd yes reveal"><h4>Humo de atacante</h4><ul><li>Tapa los ángulos desde donde te defienden, para que puedas entrar.</li><li>Se tira cuando ya van a entrar, no antes.</li><li>Corta la visión del Operator o del que holdea de lejos.</li></ul></div>
+          <div class="dd no reveal"><h4>Humo de defensor tirado en ataque</h4><ul><li>Tapa tu propia entrada: le dice al rival que no vas a pasar.</li><li>Deja que el defensor juegue adentro del humo y te mate al pasar.</li><li>Es un humo que los defensores ponen para ganar espacio.</li></ul></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">En defensa</div><h4>Si lo tiras, míralo</h4><p class="muted">El humo de defensa está para que no entren y para matar al que sale. Si no lo vas a mirar, mejor no lo tires (<a href="temas/2-7-posicionamiento-defensivo.html#humos">2.7</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">Con tu equipo</div><h4>No le tapes la mira a tu compa</h4><p class="muted">Si tu Operator está mirando larga, no le humees larga: le arruinas el trabajo. Pregunta dónde quieren el humo; si no te contestan, ponlo donde tenga sentido.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="cuando">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">El timing</div><h2>Cuándo tirarlo</h2></div>
+        </div>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>No al segundo 0</h4><p>Un humo al empezar la ronda dura poco y no tapa nada que importe. Guárdalo.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Cuando van a entrar</h4><p>En ataque, cuando el equipo ya está listo para pasar. En un rush, junto con el resto de la utilidad (<a href="temas/2-5-ataque-y-default.html#rush">2.5</a>).</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Al contacto</h4><p>En defensa, cuando escuchas que vienen o cuando matan a tu compa: humo al instante para ayudar.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>Listo para tirarlo</h4><p>Ten el humo preparado para tirarlo apenas suene el disparo o el call.</p></div>
+        </div>
+        <div class="note"><span>⚠</span><div><b>Algunos humos no se regeneran.</b> Brimstone, por ejemplo: si los gastas rápido, no tienes nada para el final de la ronda. Y compra siempre tus dos humos, aunque sea eco (<a href="temas/1-7-economia-basica.html#equipo">1.7</a>).</div></div>
+      </div>
+    </section>
+
+    <section class="section" id="especiales">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Humos que tienes que saber</div><h2>Spike, Avova y one-way</h2></div>
+        </div>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">En la spike</div><h4>Para plantar o defusar</h4><p class="muted">Atacando, te deja plantar sin que te vean. Defendiendo, te deja defusar. Si el rival pone humo para defusar y no tienes molly ni granada, no le des espacio: doble peek al mismo tiempo (<a href="temas/2-7-posicionamiento-defensivo.html#agresivo">2.7</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">Humo Avova</div><h4>El que divide el site</h4><p class="muted">Un humo búnker que parte el site en dos (lo puso de moda el pro Avova). Hace que la defensa del site sea más fácil y fuerte, y te deja aguantar hasta que llegue la rotación o el flood (<a href="temas/2-6-post-plant-y-retake.html#flood">2.6</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">One-way</div><h4>Tú lo ves, él no</h4><p class="muted">Un humo puesto de forma que tú ves los pies del rival y él no te ve a ti. Ojo: a veces te ven las piernas cuando asomas.</p></div>
+        </div>
+        <div class="placeholder" style="margin-top:16px"><div><b>¿Cuándo poner un humo en la spike?</b>Lo explico con ejemplos en la juntada.</div></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="controladores">
+      <div class="wrap grid c2" style="gap:32px;align-items:center">
+        <div>
+          <div class="eyebrow">Por controlador</div>
+          <h2>Cada uno usa sus humos distinto</h2>
+          <p class="muted">Omen, Clove, Astra, Harbor, Viper, Miks y Brimstone: cómo usar los humos de cada uno está en el tema de roles.</p>
+        </div>
+        <div><a class="btn btn-ghost" href="temas/3-1-roles-y-composicion.html#roles">Ver los controladores</a></div>
+      </div>
+    </section>
+
+    <section class="section" id="mapas">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Por mapa</div><h2>Los humos de cada mapa</h2></div>
+          <p class="muted">Los humos buenos y malos de cada site, con capturas. Los voy sumando.</p>
+        </div>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Haven</div><h4>Humos de Haven</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
+          <div class="panel reveal"><div class="eyebrow">Summit</div><h4>Humos de Summit</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
+          <div class="panel reveal"><div class="eyebrow">Bind</div><h4>Humos de Bind</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
+          <div class="panel reveal"><div class="eyebrow">Lotus</div><h4>Humos de Lotus</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
+          <div class="panel reveal"><div class="eyebrow">Sunset</div><h4>Humos de Sunset</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
+          <div class="panel reveal"><div class="eyebrow">Corrode</div><h4>Humos de Corrode</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
+          <div class="panel reveal"><div class="eyebrow">Abyss</div><h4>Humos de Abyss</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="errores">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">Errores que veo siempre</div><h2>Así no</h2></div></div>
+        <div class="errors">
+          <div class="err reveal">Humos con panza hacia el rival.</div>
+          <div class="err reveal">Tirar los humos al segundo 0, o al segundo 8 de un rush.</div>
+          <div class="err reveal">Tirar humos de defensor cuando estás atacando.</div>
+          <div class="err reveal">Humear donde está mirando tu Operator.</div>
+          <div class="err reveal">Tirar un humo en defensa y no mirarlo.</div>
+          <div class="err reveal">Quedarse adentro del humo esperando.</div>
+          <div class="err reveal">No comprar los humos en la eco.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="./"><img src="assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

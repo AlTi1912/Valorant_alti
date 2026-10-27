@@ -39,6 +39,7 @@
   /* Alias que usan los componentes existentes */
   --red: var(--accent);
   --red-bright: var(--red-500);
+  --red-soft: var(--red-400);  /* links sobre fondos teñidos */
   --red-dim: rgba(255, 70, 85, .14);
   --teal: var(--ok);
   --teal-bright: var(--teal-400);
@@ -372,6 +373,7 @@ td.on { color: var(--teal); font-weight: 600; }
 /* Avisos */
 .note { display: flex; gap: 14px; align-items: flex-start; padding: 16px 18px; background: rgba(240, 178, 50, .07); border: 1px solid rgba(240, 178, 50, .24); border-radius: var(--radius); margin-top: 20px; }
 .note b { color: var(--gold); }
+.note a { color: var(--red-soft); }
 .note.teal { background: var(--teal-dim); border-color: rgba(63, 224, 197, .24); }
 .note.teal b { color: var(--teal); }
 
@@ -683,7 +685,8 @@ td.on { color: var(--teal); font-weight: 600; }
 .diagram-stage[data-mode="sep"] .m-sep, .diagram-stage[data-mode="tras"] .m-tras, .diagram-stage[data-mode="bien"] .m-bien,
 .diagram-stage[data-mode="rush"] .m-rush, .diagram-stage[data-mode="plant"] .m-plant, .diagram-stage[data-mode="noplant"] .m-noplant,
 .diagram-stage[data-mode="juntos"] .m-juntos, .diagram-stage[data-mode="cruz"] .m-cruz,
-.diagram-stage[data-mode="lado"] .m-lado, .diagram-stage[data-mode="pegada"] .m-pegada, .diagram-stage[data-mode="lejos"] .m-lejos { display: inline; }
+.diagram-stage[data-mode="lado"] .m-lado, .diagram-stage[data-mode="pegada"] .m-pegada, .diagram-stage[data-mode="lejos"] .m-lejos,
+.diagram-stage[data-mode="panza"] .m-panza, .diagram-stage[data-mode="recto"] .m-recto { display: inline; }
 .odds { display: grid; gap: 10px; }
 .odds .row { display: grid; grid-template-columns: 1fr 64px; gap: 4px 12px; align-items: center; font-size: 14px; }
 .odds .track { grid-column: 1 / -1; height: 12px; border-radius: 12px; background: var(--surface-2); overflow: hidden; }
