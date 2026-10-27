@@ -606,3 +606,37 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:26] Con Yoru y Chamber hay que peekear agresivo en ambos sites para tener control de mapa. → 2.7
 - [00:29] Throw de un 4v2 por quedarse en duelos 1v1. → 2.1 / 2.6
 - [00:30] "Horcus peek": abrirse saltando (evitas el headshot) en vez de peekear con shift. → 1.3
+
+### Por qué un top Radiant no está en un equipo · https://youtu.be/DY8OrH1K0y8
+- Biografía, sin contenido táctico. Una idea: [00:00] "Nunca me comparé con otros: me comparo conmigo mismo y trato de ser mejor que mi yo de ayer." → 1.8
+
+### Las 7 mejores miras de 2026 · https://youtu.be/_LQypFG5YHc
+- [00:00–00:03] Repaso de miras de pros (TenZ, Keznit/Forsaken, etc.). Contorno negro ayuda a distinguir en cualquier fondo y dentro de la utilidad de Viper. → 1.1
+- [00:03] Punto vs cruceta: el punto tapa al enemigo cuando asoma en un ángulo muy pequeño; la cruceta con centro vacío no. → 1.1
+- [00:04–00:05] ⭐ El color que te resulte cómodo, no el "opuesto" teórico. **No cambies la mira cada semana**: eso sí te perjudica. "La mira no marca la diferencia entre el mejor del mundo y un jugador promedio." (Coincide con el 1.1 del profe.) → 1.1
+- [00:06] Principiante: mira la mira; con el tiempo te enfocas solo en el enemigo. → 1.2
+- [00:07] Mito: el spray es el mismo con punto o con cruceta; lo de las skins "que matan más" es mental. → 1.3
+
+## Safiro
+
+> Serie "Analizando viewers": revisa partidas de suscriptores de rangos bajos. Es lo más cercano al nivel de los compas.
+
+### Analicé un Phoenix Plata (Haven) · https://youtu.be/6IpMuTs7wp4
+- [00:00] Gráficos en bajo por rendimiento ("a veces más es menos"). → 1.1
+- [00:02] ⭐ Volver de una rotación con el cuchillo es peligroso si sabías que había un timing en que te podían pasar: entra con el arma. (Coincide con el 2.4 del profe: "volver sin cuchillo".) → 2.4
+- [00:02–00:03] Para avisar que tienes la spike: dilo por micro o haz un ping rápido; no te quedes mirando el piso pingueando. → 1.6
+- [00:03] En rangos bajos siempre juegan en el mismo lugar; variar. → 2.7
+- [00:03–00:04] ⭐ Ángulo cerrado / medio / abierto: holdear "wide" pero intermedio, para tener reflejos si se abre largo y tiempo de corregir si se abre fino. → 2.7 (distancia y ángulos)
+- [00:04–00:05] Flash de Phoenix pegada a la pared y larga = mucho recorrido, fácil de esquivar; separarse un poco y tirarla corta es más difícil de evitar. → fichas (Phoenix)
+- [00:05] Peekeó con shift y abierto: malo. Humos de Clove malos (los humos que dan ventaja al que se mete adentro). → 1.4 / guía de humos
+- [00:06–00:07] Si te muerden (slow, trampa), flash/habilidad al instante y muévete: el rival va a venir a matarte. Si te están comiendo de cerca, tira la flash al medio (no atrás de ellos). → fichas (Phoenix) / 2.7
+- [00:08–00:09] ⭐ Si tienes ulti de Killjoy y el Sova rival tiene ulti, te la va a contrar: plantea un fake, busca matar al Sova o forzar su ulti antes. Al revés, como Sova, guarda la ulti para romper la de Killjoy. → 2.3 (mirar ultis con TAB)
+- [00:09] Bueno: se mueve por el mapa con Phoenix. Malo: no toma riesgos, juega siempre atrás. → 3.1
+- [00:10] ⭐ Cuando muere tu compañero y pierdes la ventaja, tienes que buscarla (flash y peek, un pick), sobre todo si estás en desventaja; "si no, te pasan por encima". (Agresivo pero con utilidad, como el 2.7 `#agresivo` del profe.) → 2.7
+- [00:11] No tires habilidades "abierto" en medio de un duelo posible: escóndete y tírala. → 1.5
+- [00:12] Leer el mapa: con toda la info de C, ya sabes que es A o B. Malos humos, mala posición del Cypher. → 2.2
+- [00:13–00:14] ⭐ "Jugar Phoenix no es ir adelante siempre: es animarte a hacer picks con o sin info, y cuando estás en desventaja salir a buscar la ventaja." Moverse mientras disparas: abrir, disparar, cerrarte, flash, volver a abrir. → 3.1 / 1.3
+- [00:14–00:15] Crosshair "perdido": mira siempre en el píxel donde te puede salir el rival. → 1.2
+- [00:15] Humos de atacante que dejan al defensor jugar adentro = humos de defensor. → guía de humos
+- [00:16] No sabía que el fuego de Phoenix cura: usar más las habilidades. → fichas (Phoenix)
+- [00:19–00:20] ⭐ Resumen: le faltó iniciativa. Aprender picks con flash; flashes cortas; en rangos bajos "la gente corre para adelante como loca": cuando la escuchas venir, flash y peek → los matas ciegos. Ulti para el retake: dejar el site y volver juntos. → 3.1 / fichas (Phoenix)
