@@ -257,3 +257,55 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:08–00:09] ⭐ Si el carrito ya limpió la izquierda, no tires la deto ahí: la utilidad de daño (deto, molly de Phoenix/Brimstone) se usa para sacar a alguien de un lugar o negarlo, no para matar. Calléala: "tiro deto CT, que el compa clave el smoke". → 1.5 / 3.1
 - [00:10–00:11] Mira en un punto muerto; abrir el ángulo "en tres cuotas" al voleo y jugar a la reacción hace perder los choques: limpia ángulo por ángulo con lógica. El entry no se queda mirando CT de espaldas: hace espacio y su equipo lo tradea. → 1.4 / 2.1
 - [01:01–01:02] Para subir: comunicar mejor, pulir la utilidad, ver cómo se juegan los mapas, ser consciente (si te corren cuatro veces al mismo lado, van a cambiar). No tiltearse: "full estoico"; mejor 4–5 ranked full tryhard que jugar en automático. → 1.8 / 2.3
+
+### Coaching #19 — un controlador que solo juega Omen/Viper/Astra · https://youtu.be/dJrsk_2jD-k
+- [00:01–00:02] Elogia al que juega solo su rol (controlador) en vez de instalockear Jett: "el verdadero ejemplo de alguien que quiere mejorar". Las comps "de fou" (con alguien que mueva mira, iniciador, humo, centinela) ganan más contra comps sin estructura. → 3.1
+- [00:03] Paranoia en el primer tiempo solo si el duelista va a entrar al toque con ella ("te tiro paranoia, salta y dale en la cara"; el default de LOUD con Aspas). Si no, mejor otra cosa. → 3.2 / fichas (Omen)
+- [00:04] Calleá cuando smokeas. El humo se coloca según por dónde se abre el rival (con "panza" para que al irse quede expuesto). → guía de humos / 1.6
+- [00:05–00:06] "Mover mira": un dash/movilidad (Jett, Neon, Raze) obliga al que te apunta a mover la mira y así otro compa entra. Un Brimstone no puede mover mira. → 3.1 / 2.1
+- [00:07] En rondas donde el rival tiene mejor arma (Vandal vs Guardian), no renueves el humo: mejor que se te abran ellos. → 1.7 / 2.7
+- [00:08] Sin idea de juego, cada ronda "apostando a correr a un site": no sabes qué hace el rival. Con un default rompes la utilidad del Cypher, generas rotación y juegas el split. → 2.5
+- [00:10] ⭐ Calls detallados y con nombres: no "vamos mid", sino "Jett, ábrete mid; te tiro smoke a baranda; que Reyna te tradee; Sova, spot mid; Killjoy, quédate en B". Hacen sentir parte a los compas; 6 segundos. → 1.6 / 3.6
+- [00:11] El humo se escucha al lanzarlo. → 2.2
+- [00:27–00:28] Guiar al equipo ("Killjoy, quédate en B con la torreta, que la Jett se abra"). El mental: hay días de 21 kills y días de 2. → 1.6 / 1.8
+
+### Coaching #18 — un Diamante 2 duelista (Reyna) que juega 20 partidas por día · https://youtu.be/FDndxEpYbRg
+- [00:01–00:05] ⭐ "Menos es más": jugar 14–20 partidas por día con los mismos malos hábitos es tirar las partidas; sube "por jugar", no por entender. Mejor 8 ranked de calidad (proponiendo, en equipo, comunicando) con un calentamiento previo y estudio del mapa. → 1.8 / 1.1
+- [00:03–00:04] Primero: qué rol, cómo funciona, qué tienes que hacer en él y cómo ser buen compañero; después comunicación, juego en equipo, actitud. "Tu enfoque es ganar la partida, no matar." → 3.1
+- [00:06] Si el rival no tiene a nadie que mueva mira, un humo es una pared: el que sale del humo sale en desventaja. Con doble centinela rival, jugar lento y en grupo para los trades. → 2.3 / 2.7
+- [00:08–00:09] La mira siempre en un lugar (o derecha o izquierda), nunca en la mitad. ⭐ No calles "¡humos, humos!": "tírame smoke aquí, voy a dashear". El duelista propone la idea de juego. → 1.2 / 1.6
+- [00:10–00:11] Abrirse corriendo a "cinco ángulos distintos" = no saber abrir ni limpiar ángulos, "lo más básico de un shooter". → 1.4
+- [00:47–00:48] "Andá a estudiar": ver cómo se juega cada mapa y cuál es tu trabajo. → 2.8
+
+### Coaching #16 — Viper en Icebox · https://youtu.be/PoQNeIuQZ3s
+- [00:00–00:01] En mapas con mid importante, el Chamber deja "gaps" (huecos de info). Tridente propio vs rival: con más duelistas, jugar con más poder de fuego. → 3.1
+- [00:03–00:04] ⭐ Retake ordenado: "parte activa, parte pasiva": cuatro hacen el trabajo sucio juntos al trade por un lado y el quinto, pasivo, clava la espalda del equipo (castiga al que pushee el humo). → 2.6
+- [00:04–00:05] Hacer algo productivo en el primer tiempo (ofrecer utilidad al compa que pushea); "dos miras son más fuertes que una". En eco no se juzga tanto el concepto. → 2.7
+- [00:05–00:07] Dos agentes que cumplen la misma función (Jett y Chamber con Operator) no deben estar en el mismo lugar. ⭐ Dominio de mapa = tener info constante de lo que pasa, no tener todos los lugares tomados. → 2.2 / 3.1
+- [00:07–00:10] El tridente choca con el tridente rival; el centinela y el controlador cubren los gaps (trampa, humo). Killjoy cubre más que Chamber con torreta y araña. → 3.3
+- [00:10–00:11] Si tu equipo juega junto por un lado, acompáñalo y castiga desde atrás en vez de forzar un 1v1 solo: "es mejor jugar siempre a tres que un 1-2". → 2.1 / 2.4
+- [00:36–00:37] Viper es más de inteligencia que de mira; en ataque, ir a molestar al centinela rival (romper torreta, araña). Ordenar al equipo e imponer el lurk; jugar dúo/trío limita menos que solo. → 3.1 / fichas
+
+### Coaching #15 — un Ascendente 2 centinela (Cypher en Bind) · https://youtu.be/hXAhIK99L8A
+- [00:01–00:02] Jugar siempre el mismo rol es clave para mejorar (de Hierro a Ascendente con esfuerzo). El HS% "no es nada relevante" para él. → 3.1 / tracker
+- [00:02–00:06] Deadlock se usa más como iniciador (va en el tridente); el Cypher es el centinela. Comp que le gusta en Bind: Cypher (o Chamber), Raze + Skye, Reyna o otro iniciador, y Brimstone sí o sí. Combo de flashes Skye + Reyna. "La comp no es tan importante como saber usar bien el rol." → 3.1
+- [00:05–00:11] ⭐ El centinela es "parte pasiva": no va a buscar la primera kill (eso es del duelista con el iniciador); pone cables cuidando la espalda cuando el equipo ejecuta, castiga al que pushea y mata al lurker. Margen de error = probabilidades que tienes según lo que haces; con cables, tu equipo entra con confianza. → 3.1 / 2.5
+- [00:44–00:46] Muchas kills sin impacto ("rotas, matas dos, pierdes"); el mismo setup todo el tiempo te perjudica. Resumen: optimizar la utilidad, comunicar, cumplir el rol. "Si tienes tremenda mira, no juegues Cypher de esa manera." → 3.1
+
+### Coaching #14 — un Diamante 1 con Killjoy (Sunset) · https://youtu.be/vJ5MGVTzm10
+- [00:00] "La mala decisión de un jugador es la buena decisión de otro: el yo ser más inteligente que vos y ganarte por tus errores." → 2.3
+- [00:02–00:03] Jugar mucho da resultados; jugar mucho y bien, mucho más. → tracker
+- [00:03–00:04] Comp toda "de mira" → todas las resoluciones son disparar a la cabeza. Sin Killjoy ni Cypher rival, se puede comer espalda. → 2.3
+- [00:06–00:08] Tridente: primer entry mueve mira y abre espacio (Jett); segundo entry tradea (Reyna); iniciador spotter (Sova). En Sunset, dominar las puntas da la info. En defensa, el tridente domina A, deja a la Jett de ancla y los demás rotan: no gastar recursos donde ya hay info. → mapas (Sunset) / 2.7
+- [00:08–00:09] Clove: one-way y cerrar la puerta; así libera a la Killjoy para cubrir con torreta y araña. Cypher da más libertad que Killjoy. → 3.1 / fichas
+- [00:46–00:48] Optimizar dónde y por qué pones la utilidad; ordenar con nombres ("Aspas, júntate con la Reyna, que vaya el Sova: jueguen el tridente juntos"). Si tu dúo no quiere jugar igual que tú, mejor solo. Killjoy está hecha para aguantar el site: no hace falta jugar retake todas las rondas. → 1.6 / 2.7
+
+### Coaching #13 — un Diamante 1 con Jett (Icebox) · https://youtu.be/VblzR4phg9U
+- [00:01] Si eres duelista, entrena personajes que te sirvan para mejorar como duelista principal. Con pocas horas, el conocimiento es escaso: estudiar comps, agentes y roles. → 3.1
+- [00:02–00:04] Rival sin flash = puedes jugar posiciones que normalmente serían malas. Icebox se juega con Viper controlando mid. → 2.3 / mapas
+- [00:04–00:05] Sin idea de juego la Jett corre a otro lado y "regala el site": con la pared de Viper, defiende detrás con tu equipo. → 2.7
+- [00:06] "Hay veces que las cosas salen bien y las jugamos mal, y veces que salen mal y las jugamos bien a nivel conceptual." → 2.8
+- [00:06] ⭐ Segunda ronda después de ganar la pistola: compra chaleco grande, no chico, porque un tiro de Sheriff a la cabeza hace 145+ y con chaleco chico tienes 125. Jugar en pantalla completa, no "ventana sin bordes" (input lag). → 1.7 / 1.1
+- [00:07–00:08] En una ronda económica a favor (tú con armas, ellos no), no pushees y menos solo: te expones a perder Vandal + chaleco y la economía. → 1.7 / 2.1
+- [00:08–00:09] Si el spot va a la izquierda, ábrete mirando a la derecha (no repitas lo que ya mira el spot). Pídele a tu Sova que rompa la flecha rival. Ver partidos competitivos del mapa enseña spots como el "antipush". → 1.5 / 2.2
+- [00:50–00:51] Más enfoque en ganar que en hacer amigos y reírse; "no te vas a divertir nunca si pierdes todo el tiempo". → 1.8
