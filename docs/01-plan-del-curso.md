@@ -314,3 +314,13 @@ Aplicado en `tracker.html`: tarjetas "% Rondas" y "ACS / PS", panel "Así lo leo
 - Stack: por debajo de Ascendente, mejor dúo o trío. El 5-stack en rangos bajos aumenta mucho la probabilidad de que haya un smurf del otro lado (y la partida no es pareja); con dúo/trío evitas 3–4 compas con los que no te puedes comunicar.
 - "En defensa no se lurkea" es incorrecto: se puede cerrar mapa, esperar a ver si el centinela muere para lurkear y ganar timings, pero hay que saber hacerlo para no regalar el mapa (aplicado en `2-4#cerrar`).
 - Lo integrado en 1.8, 2.6 y 3.1 está aprobado.
+
+## 3.1 — Roles con agentes seleccionables (profe)
+
+Pestañas por rol con el agente principal y tipos seleccionables (imágenes de valorant-api.com; si no cargan, queda la inicial):
+- Duelista (Jett): entry puro/primario (Neon, Raze, Jett, Waylay, Hush): generan espacio, mueven la mira. Secundarios (Phoenix, Yoru, Reyna, Iso): suportean al entry con flash, mira y trade.
+- Controlador (Omen): Omen flash al contacto; Clove agresiva, juega con los humos, bajas importantes; Astra muy atento, compleja pero muy útil; Harbor (profe sin opinión; texto neutro de Claude); Viper no sirve sola, acompañada según el mapa, más lurker o strongholder con cúpula y molly; Miks stuns para parar rushes; Brim molly para parar rushes, no gastar humos rápido (no se regeneran).
+- Iniciador (Fade): spotters (Sova, Skye, Fade; Tejo agregado por Claude) y de ataque (KAY/O, Breach, Gekko; Gekko mix, utilidad se puede romper).
+- Centinela (Killjoy): cierran el mapa/info (Cypher, Killjoy; Vyse agregada por Claude; Veto y Chamber con trampa aportan menos, Veto con la E no muy útil en defensa fuerte). Paran rushes pero no cierran el mapa: Chamber (debate si es centinela), Sage (muro ~40 s), Deadlock (sensores), Veto (para el primer rush con la E, después endeble).
+- Flex: el que falta; flasher útil o uno que te guste, sabiendo qué carencias tendrá la comp y cómo compensarlas.
+Hush no está todavía en valorant-api: se muestra con la inicial.

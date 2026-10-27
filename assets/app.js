@@ -556,3 +556,23 @@ if (cmp) {
   fields.forEach(function (f) { f.addEventListener("input", cmpCalc); });
   cmpCalc();
 }
+
+// Roles del 3.1: elegir un tipo o agente muestra su info
+document.querySelectorAll("[data-agpick]").forEach(function (group) {
+  var btns = group.querySelectorAll(".ag-pick");
+  btns.forEach(function (b) {
+    b.addEventListener("click", function () {
+      btns.forEach(function (o) {
+        var on = o === b;
+        o.setAttribute("aria-pressed", on ? "true" : "false");
+        var panel = document.getElementById(o.dataset.target);
+        if (panel) panel.hidden = !on;
+      });
+    });
+  });
+});
+// Si una imagen de agente no carga, queda la inicial
+document.querySelectorAll(".ag-big img, .ag-img img, .ag-mini img").forEach(function (img) {
+  var fail = function () { img.parentNode.classList.add("no-img"); img.remove(); };
+  if (img.complete && img.naturalWidth === 0) fail(); else img.addEventListener("error", fail);
+});

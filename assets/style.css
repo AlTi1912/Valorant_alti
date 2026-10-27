@@ -702,3 +702,37 @@ td.on { color: var(--teal); font-weight: 600; }
   .kill-table th, .kill-table td { padding: 10px 6px; }
   .kill-table th { letter-spacing: .02em; }
 }
+
+/* Roles del 3.1: agentes seleccionables */
+.roles-box .tabpanel { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.ag-hero { display: grid; grid-template-columns: 96px 1fr; gap: 18px; align-items: center; margin-bottom: 20px; }
+.ag-hero h3 { margin: 4px 0 6px; }
+.ag-hero p { margin: 0; }
+.ag-big, .ag-img, .ag-mini { position: relative; display: inline-grid; place-items: center; overflow: hidden; border-radius: 50%; background: var(--surface-2); border: 1px solid var(--line); flex: none; }
+.ag-big { width: 96px; height: 96px; }
+.ag-img { width: 64px; height: 64px; }
+.ag-mini { width: 32px; height: 32px; }
+.ag-big img, .ag-img img, .ag-mini img { width: 100%; height: 100%; object-fit: cover; }
+.ag-big.no-img::after, .ag-img.no-img::after, .ag-mini.no-img::after { content: attr(data-initial); font: 600 18px/1 var(--font-tech); color: var(--muted); }
+.ag-big.no-img::after { font-size: 34px; }
+.ag-mini.no-img::after { font-size: 13px; }
+.ag-picker { display: flex; flex-wrap: wrap; gap: 10px; }
+.ag-pick { display: grid; justify-items: center; gap: 6px; min-width: 112px; padding: 14px 12px; background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--text); cursor: pointer; text-align: center; transition: border-color .2s, background .2s; }
+.ag-pick:hover { border-color: var(--muted); }
+.ag-pick[aria-pressed="true"] { border-color: var(--red); background: var(--red-dim); }
+.ag-pick b { font-weight: 640; font-size: 15px; }
+.ag-pick span:last-child { color: var(--muted); font-size: 13px; }
+.ag-pick:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.ag-panels { margin-top: 16px; }
+.ag-panel { padding: 16px 18px; border-left: 3px solid var(--red); background: var(--bg-2); border-radius: var(--radius-sm); }
+.ag-panel h4 { margin: 0 0 6px; }
+.ag-panel p { margin: 0; }
+.ag-panel .look { margin: 8px 0 0; }
+.ag-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 14px; padding: 0; margin: 14px 0 0; }
+.ag-list li { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+@media (max-width: 520px) {
+  .roles-box .tabpanel { padding: 16px; }
+  .ag-hero { grid-template-columns: 64px 1fr; gap: 14px; }
+  .ag-big { width: 64px; height: 64px; }
+  .ag-pick { min-width: 0; flex: 1 1 calc(50% - 10px); }
+}

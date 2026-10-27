@@ -41,8 +41,7 @@
         <div class="toc-title">En esta página</div>
         <ol>
           <li><a href="#resumen">Lo primero</a></li>
-          <li><a href="#roles">Los cuatro roles</a></li>
-          <li><a href="#tipos">Dentro de cada rol</a></li>
+          <li><a href="#roles">Los roles</a></li>
           <li><a href="#base">La comp base</a></li>
           <li><a href="#seleccion">En la selección</a></li>
           <li><a href="#habilidades">Lo que necesita la comp</a></li>
@@ -78,29 +77,47 @@
       </section>
 
       <section class="block" id="roles">
-        <h2><span class="idx">02</span>Los cuatro roles</h2>
-        <div class="grid c2">
-          <div class="panel reveal"><div class="eyebrow">Duelista</div><h3>Abre el espacio</h3><p class="muted">Entra primero al site y gana el espacio: Neon con su carril, Jett con su dash. El segundo duelista entra detrás al trade.</p></div>
-          <div class="panel reveal"><div class="eyebrow">Iniciador</div><h3>Saca la info</h3><p class="muted">Dardo de Sova, ojo de Fade. Guarda la C (dron, merodeadores) para el mid-round o la ejecución.</p></div>
-          <div class="panel reveal"><div class="eyebrow">Controlador</div><h3>Pone los humos</h3><p class="muted">Corta visión para entrar o para aguantar (el humo Avova). En un 2vX, que sea el último en morir: un humo en la spike gana rondas.</p></div>
-          <div class="panel reveal"><div class="eyebrow">Centinela</div><h3>Cuida el flanco</h3><p class="muted">Cuida al lurker, corta rotaciones y gana timings. Si van los 5 en rush, no debe morir primero.</p></div>
+        <h2><span class="idx">02</span>Los roles</h2>
+        <p class="muted">Toca un rol y después cada tipo o agente para ver qué hace.</p>
+        <div class="roles-box" data-tabs>
+          <div class="tabs" role="tablist" aria-label="Roles">
+            <button class="tab" role="tab" aria-selected="true" aria-controls="r-duel">Duelista</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="r-ctrl">Controlador</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="r-ini">Iniciador</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="r-cent">Centinela</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="r-flex">Flex</button>
+          </div>
+          <div class="tabpanel" id="r-duel" role="tabpanel">
+            <div class="ag-hero"><span class="ag-big" data-initial="J"><img src="https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><div><div class="eyebrow">Principal: Jett</div><h3>Abre el espacio</h3><p class="muted">Entra primero al site y gana el espacio. Hay dos tipos de duelista, y si juegan dos, que sea uno de cada uno.</p></div></div>
+            <div class="ag-picker" data-agpick role="group" aria-label="Tipos de duelista"><button class="ag-pick" type="button" data-target="du-entry" aria-pressed="true" aria-controls="du-entry"><span class="ag-img" data-initial="N"><img src="https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Entry puro</b><span>Genera espacio</span></button><button class="ag-pick" type="button" data-target="du-sec" aria-pressed="false" aria-controls="du-sec"><span class="ag-img" data-initial="I"><img src="https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Secundario</b><span>Apoya al entry</span></button></div>
+            <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="du-entry"><h4>Entry puro o primario</h4><p class="muted">Los que generan espacio: entran primero, te mueven la mira del rival y abren el site para que entren los demás.</p><ul class="ag-list"><li><span class="ag-mini" data-initial="N"><img src="https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Neon</span></li><li><span class="ag-mini" data-initial="R"><img src="https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Raze</span></li><li><span class="ag-mini" data-initial="J"><img src="https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Jett</span></li><li><span class="ag-mini" data-initial="W"><img src="https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Waylay</span></li><li><span class="ag-mini no-img" data-initial="H"></span><span>Hush</span></li></ul></div><div class="ag-panel" id="du-sec" hidden><h4>Secundario</h4><p class="muted">Los que suportean al entry: con flash, con mira y con el trade. Entran detrás del primero y cobran lo que él abrió.</p><ul class="ag-list"><li><span class="ag-mini" data-initial="P"><img src="https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Phoenix</span></li><li><span class="ag-mini" data-initial="Y"><img src="https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Yoru</span></li><li><span class="ag-mini" data-initial="R"><img src="https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Reyna</span></li><li><span class="ag-mini" data-initial="I"><img src="https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Iso</span></li></ul></div></div>
+          </div>
+          <div class="tabpanel" id="r-ctrl" role="tabpanel" hidden>
+            <div class="ag-hero"><span class="ag-big" data-initial="O"><img src="https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><div><div class="eyebrow">Principal: Omen</div><h3>Pone los humos</h3><p class="muted">Corta visión para entrar o para aguantar. Que sea el último en morir: un humo en la spike gana rondas. Toca cada uno para ver cómo se usan sus humos.</p></div></div>
+            <div class="ag-picker" data-agpick role="group" aria-label="Controladores"><button class="ag-pick" type="button" data-target="co-omen" aria-pressed="true" aria-controls="co-omen"><span class="ag-img" data-initial="O"><img src="https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Omen</b><span>Paranoia al contacto</span></button><button class="ag-pick" type="button" data-target="co-clove" aria-pressed="false" aria-controls="co-clove"><span class="ag-img" data-initial="C"><img src="https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Clove</b><span>Agresiva</span></button><button class="ag-pick" type="button" data-target="co-astra" aria-pressed="false" aria-controls="co-astra"><span class="ag-img" data-initial="A"><img src="https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Astra</b><span>Muy atenta</span></button><button class="ag-pick" type="button" data-target="co-harbor" aria-pressed="false" aria-controls="co-harbor"><span class="ag-img" data-initial="H"><img src="https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Harbor</b><span>Muros de agua</span></button><button class="ag-pick" type="button" data-target="co-viper" aria-pressed="false" aria-controls="co-viper"><span class="ag-img" data-initial="V"><img src="https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Viper</b><span>Acompañada</span></button><button class="ag-pick" type="button" data-target="co-miks" aria-pressed="false" aria-controls="co-miks"><span class="ag-img" data-initial="M"><img src="https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Miks</b><span>Para rushes</span></button><button class="ag-pick" type="button" data-target="co-brim" aria-pressed="false" aria-controls="co-brim"><span class="ag-img" data-initial="B"><img src="https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Brimstone</b><span>Molly y humos</span></button></div>
+            <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="co-omen"><h4>Omen</h4><p class="muted">Usa la flash (la paranoia) al contacto: cuando ya sabes que hay alguien, no al voleo.</p></div><div class="ag-panel" id="co-clove" hidden><h4>Clove</h4><p class="muted">Ser agresiva, jugar con los humos y hacer bajas importantes. Puede humear incluso después de morir.</p></div><div class="ag-panel" id="co-astra" hidden><h4>Astra</h4><p class="muted">Hay que estar muy atento. Es un personaje complejo, pero muy divertido y muy útil si se sabe usar.</p></div><div class="ag-panel" id="co-harbor" hidden><h4>Harbor</h4><p class="muted">Sus muros y su cúpula de agua cortan visión en líneas largas. Se ve poco en ranked.</p></div><div class="ag-panel" id="co-viper" hidden><h4>Viper</h4><p class="muted">No sirve como controlador sola: normalmente tiene que ir acompañada de otro, según el mapa. Sirve más como lurker o para aguantar espacios, con la cúpula y la molly.</p></div><div class="ag-panel" id="co-miks" hidden><h4>Miks</h4><p class="muted">Aprende a usar los stuns para parar rushes.</p></div><div class="ag-panel" id="co-brim" hidden><h4>Brimstone</h4><p class="muted">Para rushes con la molly, que hace mucho daño. No gastes los humos rápido: no se regeneran.</p></div></div>
+            <div class="note teal"><span>💨</span><div><b>Con cualquier controlador:</b> humos sin "panza" hacia afuera, no humear al segundo 0 y no humear donde está mirando tu Operator.</div></div>
+          </div>
+          <div class="tabpanel" id="r-ini" role="tabpanel" hidden>
+            <div class="ag-hero"><span class="ag-big" data-initial="F"><img src="https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><div><div class="eyebrow">Principal: Fade</div><h3>Saca la info o gana el primer duelo</h3><p class="muted">Guarda la utilidad que no se recarga (dron, merodeadores) para el mid-round o la ejecución.</p></div></div>
+            <div class="ag-picker" data-agpick role="group" aria-label="Tipos de iniciador"><button class="ag-pick" type="button" data-target="in-spot" aria-pressed="true" aria-controls="in-spot"><span class="ag-img" data-initial="S"><img src="https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Spotters</b><span>Sacan la info</span></button><button class="ag-pick" type="button" data-target="in-atk" aria-pressed="false" aria-controls="in-atk"><span class="ag-img" data-initial="B"><img src="https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>De ataque</b><span>Flash y stun</span></button></div>
+            <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="in-spot"><h4>Spotters</h4><p class="muted">Te dicen dónde están los rivales: dardo, dron, perro, ojo. Con esa info el equipo decide a dónde entrar.</p><ul class="ag-list"><li><span class="ag-mini" data-initial="S"><img src="https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Sova</span></li><li><span class="ag-mini" data-initial="S"><img src="https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Skye</span></li><li><span class="ag-mini" data-initial="F"><img src="https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Fade</span></li><li><span class="ag-mini" data-initial="T"><img src="https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Tejo</span></li></ul></div><div class="ag-panel" id="in-atk" hidden><h4>Iniciadores de ataque</h4><p class="muted">Flashes, stuns y utilidad para ganar el primer duelo al entrar. Gekko es un mix entre spotter y agresivo, pero su utilidad es menos efectiva porque se la pueden romper.</p><ul class="ag-list"><li><span class="ag-mini" data-initial="K"><img src="https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>KAY/O</span></li><li><span class="ag-mini" data-initial="B"><img src="https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Breach</span></li><li><span class="ag-mini" data-initial="G"><img src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Gekko</span></li></ul></div></div>
+          </div>
+          <div class="tabpanel" id="r-cent" role="tabpanel" hidden>
+            <div class="ag-hero"><span class="ag-big" data-initial="K"><img src="https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><div><div class="eyebrow">Principal: Killjoy</div><h3>Cuida el flanco</h3><p class="muted">Cuida al lurker, corta rotaciones y gana timings. Si van los 5 en rush, no debe morir primero.</p></div></div>
+            <div class="ag-picker" data-agpick role="group" aria-label="Tipos de centinela"><button class="ag-pick" type="button" data-target="ce-cierra" aria-pressed="true" aria-controls="ce-cierra"><span class="ag-img" data-initial="C"><img src="https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Cierran el mapa</b><span>Dan la info</span></button><button class="ag-pick" type="button" data-target="ce-frena" aria-pressed="false" aria-controls="ce-frena"><span class="ag-img" data-initial="S"><img src="https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Paran rushes</b><span>No cierran el mapa</span></button></div>
+            <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="ce-cierra"><h4>Los que cierran parte del mapa</h4><p class="muted">Cierran una zona y te dan la info aunque no estén ahí. Veto y Chamber también, con la trampa, pero aportan menos a la defensa (Veto sí, con la E, aunque no es muy útil en una defensa fuerte).</p><ul class="ag-list"><li><span class="ag-mini" data-initial="C"><img src="https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Cypher</span></li><li><span class="ag-mini" data-initial="K"><img src="https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Killjoy</span></li><li><span class="ag-mini" data-initial="V"><img src="https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Vyse</span></li></ul></div><div class="ag-panel" id="ce-frena" hidden><h4>Los que paran rushes pero no cierran el mapa</h4><ul class="look"><li><b>Chamber:</b> con sus picks agresivos puede ganar o perder el mapa. Como centinela no es muy bueno, y por eso se debate si debería considerarse centinela.</li><li><b>Sage:</b> el muro dura unos 40 segundos; después no tienes nada para cerrar el mapa.</li><li><b>Deadlock:</b> pasa lo mismo, pero con los sensores se puede hacer más fuerte en el site.</li><li><b>Veto:</b> puede parar un primer rush con la E, pero después queda bastante endeble.</li></ul><ul class="ag-list"><li><span class="ag-mini" data-initial="C"><img src="https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Chamber</span></li><li><span class="ag-mini" data-initial="S"><img src="https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Sage</span></li><li><span class="ag-mini" data-initial="D"><img src="https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Deadlock</span></li><li><span class="ag-mini" data-initial="V"><img src="https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><span>Veto</span></li></ul></div></div>
+          </div>
+          <div class="tabpanel" id="r-flex" role="tabpanel" hidden>
+            <div class="ag-hero"><span class="ag-big no-img" data-initial="?"></span><div><div class="eyebrow">El que falta</div><h3>Flex</h3><p class="muted">El personaje que falta en la comp. Puede ser un flasher útil o un personaje que te guste, pero sabiendo qué carencias va a tener la comp y cómo compensarlas con ese personaje. Lo que no puede faltar está en <a href="#habilidades">"Juega lo que te gusta"</a>.</p></div></div>
+          </div>
         </div>
         <p class="muted" style="margin-top:12px">El orden en que entra cada uno está en el <a href="2-5-ataque-y-default.html#orden">2.5</a>.</p>
         <div class="note"><span>⚠</span><div><b>Quién no se puede morir.</b> Si muere el controlador, te quedas sin humos y entrar se vuelve un choque sucio. Después pesa el iniciador (pierdes la info), luego el centinela, y por último el duelista: su trabajo es mover la mira y chocar, y chocar puede cualquiera. Por eso el smoker no muere primero, aunque eso no significa baitear.</div></div>
       </section>
 
-      <section class="block" id="tipos">
-        <h2><span class="idx">03</span>Dentro de cada rol</h2>
-        <p>No todos los agentes de un rol hacen lo mismo. Saberlo te ayuda a ver qué falta.</p>
-        <div class="grid" style="margin-top:16px">
-          <div class="panel reveal"><div class="eyebrow">Duelistas</div><h4>Mueven la mira o te apoyan</h4><p class="muted">Jett, Neon, Raze y Waylay entran rápido y mueven la mira del rival para que tus compas tradeen. Reyna, Iso, Phoenix y Yoru apoyan con flash o con lo suyo. Si juegan dos duelistas, uno de cada tipo: Reyna con Iso no se complementan.</p></div>
-          <div class="panel reveal"><div class="eyebrow">Iniciadores</div><h4>Info o flash</h4><p class="muted">Sova, Fade y Tejo sacan info (dónde están). Skye, KAY/O y Gekko flashean y además dan algo de info. Breach es stun y flash. Skye rinde en distancias cortas: en mapas largos le rompen el perro antes de que vea.</p></div>
-          <div class="panel reveal"><div class="eyebrow">Centinelas</div><h4>Info, agresivo o apoyo</h4><p class="muted">Cypher, Killjoy y Vyse cuidan el flanco aunque no estén ahí. Chamber y Veto son más de duelos, y su trampa se pasa fácil si te humean. Sage y Deadlock apoyan al equipo, pero si son el único centinela te pueden comer la espalda.</p></div>
-        </div>
-      </section>
-
       <section class="block" id="base">
-        <h2><span class="idx">04</span>La comp base para ranked</h2>
+        <h2><span class="idx">03</span>La comp base para ranked</h2>
         <div class="steps-row">
           <div class="step-card reveal"><span class="n">1</span><h4>Un duelista</h4><p>El que entra primero.</p></div>
           <div class="step-card reveal"><span class="n">2</span><h4>Un iniciador</h4><p>La info para entrar.</p></div>
@@ -116,7 +133,7 @@
       </section>
 
       <section class="block" id="seleccion">
-        <h2><span class="idx">05</span>En la selección de agentes</h2>
+        <h2><span class="idx">04</span>En la selección de agentes</h2>
         <div class="grid c3">
           <div class="panel reveal"><div class="eyebrow">No instalockees</div><p class="muted">Espera a ver qué agarran los demás y llena lo que falta. Si de verdad ganas con tu agente, agárralo; si pierdes más de lo que ganas con él, no es culpa del equipo.</p></div>
           <div class="panel reveal"><div class="eyebrow">Ten 2–3 agentes</div><p class="muted">De roles distintos, que sepas jugar bien. Así siempre puedes llenar.</p></div>
@@ -125,7 +142,7 @@
       </section>
 
       <section class="block" id="habilidades">
-        <h2><span class="idx">06</span>Juega lo que te gusta, pero mira qué falta</h2>
+        <h2><span class="idx">05</span>Juega lo que te gusta, pero mira qué falta</h2>
         <p>No tienes que jugar lo que juegan en VCT. Si te gusta Clove, Sage, Brimstone o Reyna, perfecto. Lo que importa es que entre los cinco tengan estas habilidades:</p>
         <div class="grid c2" style="margin-top:16px">
           <div class="panel reveal"><div class="eyebrow">Humos</div><p class="muted">Para entrar y para aguantar. Clove, Brimstone, Omen o el que sea: tiene que haber uno.</p></div>
@@ -137,7 +154,7 @@
       </section>
 
       <section class="block" id="cabeza">
-        <h2><span class="idx">07</span>Con cabeza, no full W</h2>
+        <h2><span class="idx">06</span>Con cabeza, no full W</h2>
         <div class="quote reveal">
           <p>Correr hacia adelante como estúpido <span class="hl">NO es la manera de jugar bien.</span></p>
           <small>Puede que mates mucho, pero así no aprendes a jugar. Eso se lo dejamos a los estúpidos que quieren smurfear y hacerse los buenos, y ya.</small>
@@ -151,7 +168,7 @@
       </section>
 
       <section class="block" id="decisiones">
-        <h2><span class="idx">08</span>Las decisiones</h2>
+        <h2><span class="idx">07</span>Las decisiones</h2>
         <p>Lo que busco es que aprendan a decidir:</p>
         <div class="grid c2" style="margin-top:16px">
           <div class="panel reveal"><div class="eyebrow">Cuándo salir de un humo</div><p class="muted">El humo es para cruzar o cortar visión, no para quedarte adentro: es donde te van a tirar una molly o disparar a ciegas. Sal sabiendo a qué ángulo sales y con un compa que te tradee.</p></div>
@@ -162,7 +179,7 @@
       </section>
 
       <section class="block" id="rapido">
-        <h2><span class="idx">09</span>Habilidades rápido</h2>
+        <h2><span class="idx">08</span>Habilidades rápido</h2>
         <p>Veo mucho que para usar una habilidad se complican, o lo hacen demasiado lento. Y ahí pasan cosas tontas que no deberían pasar: se meten a un humo o los matan de lado mientras la usan.</p>
         <div class="steps-row" style="margin-top:16px">
           <div class="step-card reveal"><span class="n">1</span><h4>Decide antes</h4><p>Antes de asomar, ten claro qué habilidad vas a tirar y a dónde.</p></div>
@@ -173,7 +190,7 @@
       </section>
 
       <section class="block" id="mapas">
-        <h2><span class="idx">10</span>Lo que más se ve por mapa</h2>
+        <h2><span class="idx">09</span>Lo que más se ve por mapa</h2>
         <p>Los agentes que más se ven en ranked en cada mapa de la pool. No es una comp para copiar: es para que sepas qué suele funcionar y qué te vas a encontrar.</p>
         <div class="table-wrap" style="margin-top:16px" tabindex="0" role="region" aria-label="Agentes que más se ven por mapa">
           <table class="kill-table">
@@ -193,7 +210,7 @@
       </section>
 
       <section class="block" id="quiz">
-        <h2><span class="idx">11</span>¿Qué agarras?</h2>
+        <h2><span class="idx">10</span>¿Qué agarras?</h2>
         <p class="muted">Situaciones de la selección y de tu rol. Elige y mira por qué. <span id="quiz-score"></span></p>
         <div class="quiz" data-quiz>
           <div class="q" data-answer="b">
@@ -240,7 +257,7 @@
       </section>
 
       <section class="block" id="practica">
-        <h2><span class="idx">12</span>Cómo practicarlo</h2>
+        <h2><span class="idx">11</span>Cómo practicarlo</h2>
         <div class="routine">
           <div class="panel drill reveal">
             <div class="drill-icon"><span class="big">⚡</span></div>
@@ -270,7 +287,7 @@
       </section>
 
       <section class="block" id="errores">
-        <h2><span class="idx">13</span>Errores que veo siempre</h2>
+        <h2><span class="idx">12</span>Errores que veo siempre</h2>
         <div class="errors">
           <div class="err reveal">Tres duelistas y nadie con humo.</div>
           <div class="err reveal">Jugar full W sin saber qué duelo vas a ganar.</div>
@@ -288,7 +305,7 @@
       </section>
 
       <section class="block" id="clase">
-        <h2><span class="idx">14</span>Cómo va a ser la juntada</h2>
+        <h2><span class="idx">13</span>Cómo va a ser la juntada</h2>
         <div class="timeline reveal">
           <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Los roles y la comp base.</p></div>
           <div class="seg main" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>Su pool</h4><p>Cada uno elige sus 2–3 agentes.</p></div>
@@ -298,7 +315,7 @@
       </section>
 
       <section class="block" id="tarea">
-        <h2><span class="idx">15</span>Para esta semana</h2>
+        <h2><span class="idx">14</span>Para esta semana</h2>
         <div class="grid c3">
           <div class="panel reveal"><div class="eyebrow">Pool</div><p>Anota tus 2–3 agentes: uno principal y los otros de roles distintos.</p></div>
           <div class="panel reveal"><div class="eyebrow">Ranked</div><p>No instalockees: espera y llena lo que falte.</p></div>
@@ -307,7 +324,7 @@
       </section>
 
       <section class="block" id="checklist">
-        <h2><span class="idx">16</span>¿Ya lo tienes?</h2>
+        <h2><span class="idx">15</span>¿Ya lo tienes?</h2>
         <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
         <ul class="checklist" data-checklist="3-1">
           <li><label><input type="checkbox"><span>Sé qué hace cada rol y qué habilidades necesita la comp.</span></label></li>
