@@ -337,5 +337,7 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 ## Tema 3.3 — Setups defensivos (`temas/3-3-setups-defensivos.html`)
 
+- Revisado por el profe: todo lo agregado es correcto (Killjoy cubre más que Chamber, Chamber deja gaps en mapas con mid, contra un split pelear main). El lado débil es donde hay desventaja numérica; el ejercicio "3+2" (vienen cuatro donde hay uno o dos) está bien.
+
 - Del profe (de temas anteriores): cerrar mapa y lurkear en defensa si cae su centinela (sabiendo hacerlo), el lado débil no pelea, con igualdad numérica se defiende fuerte donde hay más, stack solo con buena lectura, holdear los humos.
 - Agregado por mí, desde las notas de videos (sin atribuir): diagrama de formaciones 2-1-2 / 3-1-1 / stack, armar el setup en la compra, roles en defensa (ancla el que tiene menos utilidad, Killjoy aguanta el site y Cypher da libertad, el smoker no se queda clavando, el tridente domina una zona y vuelve, rol libre), líneas de defensa (boca, cruzado o humo, atrás), "si anclas adelante es disculpable que no te entren", no acumularse, gaps (Killjoy cubre más que Chamber; Chamber deja gaps en mapas con mid), reaccionar a la info (rotar con info y escalonado, contra un split pelear main, la utilidad delata, o holdeas o entras), la variante (cambiar uno, Operator por etapas, cambiar con una razón), plantilla del setup, quiz, ejercicios, juntada, para esta semana, checklist.
