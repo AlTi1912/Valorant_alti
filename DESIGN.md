@@ -99,7 +99,7 @@ Regla: el rojo `--red-500` no se usa para texto chico sobre `--surface-2`; ahí 
 | Eyebrow / labels | Oswald | 500 | 12–13px MAYÚS | 1 | 0.14–0.16em |
 | Números | Oswald | 500 | 22–44px | 1 | 0 |
 
-Las fuentes vienen de Google Fonts: `Inter:wght@400..700` (variable) y `Oswald:wght@500;600`. Los titulares van en mayúsculas y minúsculas.
+Las fuentes van alojadas en `assets/fonts/` (subset latino de Google Fonts): Inter variable 400–700 y Oswald variable 500–600. No se cargan desde Google: si un navegador bloquea Google Fonts, la página cae a una fuente del sistema y pierde la identidad. Los titulares van en mayúsculas y minúsculas.
 
 ---
 

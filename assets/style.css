@@ -1,4 +1,7 @@
 /* Guía Alti — sistema de diseño en DESIGN.md */
+/* Fuentes propias (sin depender de Google Fonts) */
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400 700; font-display: swap; src: url("fonts/inter-latin.woff2") format("woff2"); }
+@font-face { font-family: "Oswald"; font-style: normal; font-weight: 500 600; font-display: swap; src: url("fonts/oswald-latin.woff2") format("woff2"); }
 :root {
   /* ---- 1. Primitivos: la paleta (no usar directo en componentes) ---- */
   --navy-950: #0a1118;
