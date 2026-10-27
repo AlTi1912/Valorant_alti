@@ -839,3 +839,48 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - No apuntes a través de las paredes: apunta a por dónde puede asomar (7sEtq5rSJ90 [00:07], [00:10]). Tras matar, cambia de posición ([00:24]). Prevé dónde está agachado el Operator y asoma con la mira en su cabeza; holdea a la cintura por si se agacha ([00:32–00:33]). Peek lejos de la esquina, no pegado ([00:40]). Si te abres por info, no con shift ([00:50]). → 1.2 / 1.4
 - Controlar la ansiedad/hiperactividad: saber cuándo calmarse (shift, sin ruido, quieto) (7sEtq5rSJ90 [00:17–00:18]). → 1.8
 - Si un compañero pushea, tu humo tiene que ir rápido; con poco tiempo, reaccionar y plantar ya (t7lia-T4yIY [00:03], [00:29]). Esperar a tus compañeras y jugar juntas ([00:07]). → 2.5 / 2.1
+
+### Por qué no subes de rango · Clase #1 (guía) · https://youtu.be/v7XOMKyghvQ
+- [00:00–00:01] ⭐ **Tres pilares: game sense, aim y mentalidad**; sin los tres no eres un jugador completo. (Encaja con el enfoque del profe: disparo + decisiones + cabeza.) → 1.8 / 3.1 (`#cabeza`)
+- [00:01–00:03] ⭐ Por qué un día juegas bien y otro no: el juego se juega con las manos y con la cabeza. Mal día, enojo, sueño o tristeza → menos comunicación, más quejas, peores reflejos. Solución: dormir bien, comer bien, hacer ejercicio. → 1.8
+- [00:03–00:05] ⭐ **Regla de oro: hay partidas por las que no vale la pena tiltearse.** Insultar a un troll lo hace trolear más; al boosteado no lo hace jugar mejor; al tóxico le das la atención que busca. Mejor: explicarle con buena onda, pedirle que compre para el equipo, o mutear. → 1.8 / 1.6
+- [00:05–00:06] Si tienes un mal día: descanso, una peli, o si quieres jugar, calentar antes o jugar con amigos. → 1.8
+- [00:06–00:08] Por qué una partida haces 30 y otra 5: cada partida es distinta (equipo, comps). Los pensamientos tipo "soy malísimo" te hunden. ⭐ **"Cada partida es una partida nueva; cada lado es un lado nuevo."** Hasta tu pro favorito se ha comido un 0-13. → 1.8
+- [00:09–00:11] ⭐ **"No es culpa de tu equipo que no subas"**: autocrítica. Grábate y mira tus errores, mira VODs de pros de tu agente, juega DMs. Sin excusas: él subió a Radiant con monitor de 60 Hz y un PC que se apagaba; jugó de pro sin mousepad. (Coincide con el 2.8 y con el profe.) → 1.8 / 2.8
+- [00:11] Miedo a rankear: no hay promociones; "se gana o se aprende". Disfruta. → 1.8
+
+### Omen Oro 2 (Bind) · https://youtu.be/w4VdVynJ_vY
+- [00:01–00:02] Humo de defensa con apenas un poco de panza hacia afuera (que el que sale muera); con mucha panza se te meten y te tapa info. → guía de humos
+- [00:02–00:03] ⭐ **Segunda ronda tras ganar la pistol: hay que comprar para asegurarla** (no jugar como en la pistol con 3650). → 1.7
+- [00:03] Problema de audio: no distinguió de dónde venía el TP. → 2.2 (config de audio)
+- [00:04] Bind: dos en un site jugando defensivo (dominan una zona o juegan retake, sin riesgos) y tres fuertes en el otro (ahí sí se toman riesgos para buscar ventaja). → mapas (Bind) / 2.7
+- [00:05–00:06] Omen: no juegues siempre cerrado y atrás; ponte donde tu humo llegue rápido y tu flash sirva. → fichas (Omen)
+- [00:06–00:07] Antes de salir de tu humo, revisa el ángulo cercano; flash recta para el ángulo que no puedes chequear. Spamear balas detrás del humo nunca sale bien. → 1.5
+- [00:08] ⭐ Entre rondas: pensar "¿por qué perdimos? ¿qué podría haber hecho?" (en vez de mirar el celular). → 2.8
+- [00:08–00:10] ⭐ **Economía de las primeras rondas**: 1ª pistol, 2ª (si ganaste) compras armas (Spectre, Marshal, Outlaw, Stinger...), 3ª es la **bonus** (juegas con lo que te sobró), 4ª compras bien. La 3ª no estás obligado a ganarla. Mira el TAB para decidir tu compra según tu equipo. (Revisar contra el 1.7.) → 1.7
+- [00:10] Smoker: Phantom mejor que Vandal si no tomas duelos (para matar a través de humos). → fichas (controlador)
+- [00:11] ⭐ "Ley de oro": cuando escuchas que vienen o matan a tu compañero, humo al instante para ayudar. → fichas (controlador)
+- [00:12–00:13] Si se murió todo tu equipo, guarda el arma; no gastes utilidad sin nadie que la aproveche. Mira el TAB: orbes de compañeros. → 1.7 / 2.5
+- [00:13–00:14] Peekear agachado: te slowean y no puedes salir; dispara y sal corriendo de lado. → 1.3
+- [00:16–00:18] ⭐ **Con ventaja, no busques picks**: juega tranquilo, info de lejos, humos sin morir; ellos tienen que venir a ti. Abrirte y morir regala la ventaja que consiguió tu equipo. (Coincide con NaNoW: "frisar en ventaja".) → 2.6 / 2.7
+- [00:20] ⭐ El smoker no puede morir primero (no significa baitear). Si siempre van por el mismo lado del duelista, varíen; mejor 4+1 con el Cypher dominando solo. → fichas (controlador) / 2.5
+- [00:21] En todos los rangos conviene jugar con dúo, trío o stack. → 1.8
+- [00:22] Patrón de rangos bajos: "perdimos en B, vamos A; perdimos en A, vamos B". Abre los ángulos como si siempre hubiera alguien. → 2.3 / 1.4
+- [00:23] "En ranked ni siquiera importa tanto la macro: estar atento al mapa y a tu equipo y entender por qué pones los humos donde los pones." → 2.2
+- [00:24–00:27] Resumen: comprar en la 2ª ronda, tomar más riesgo en CT, usar la flash para el equipo (calls tipo "flasheo la derecha"), crosshair, mirar el mapa, proponer; en defensa se abría justo cuando tenía ventaja (cuando menos conviene). Brimstone le iría mejor por estilo. → 1.x / fichas (Omen)
+
+### Omen Diamante (Haven) · https://youtu.be/zXtR-TLZA_I
+- [00:19] Trampa de Chamber al medio, no en un costado (si pasas caminando no te ve). → fichas (Chamber)
+- [00:20] Tiró los dos humos y entró primera antes que sus compañeros. → 2.5 (`#orden`)
+- [00:21–00:22] Call mal leído: si te vieron en C y llamas B, los de A rotan a B y te agarran. Resumen: deja de subirte a todas las cajas, no tires los humos al segundo 0, "que tengas habilidades no significa que tengas que tocar todo cada 2 segundos". → 2.4 / 1.5
+
+### Jett Diamante (Ascent) · https://youtu.be/zZth5Ir4dKQ
+- [00:32–00:34] Jett: dash, humo y mirar a los costados al entrar; los humos sirven para aislar duelos, no para baitear. Economía: con menos de 4100 se juega igual (Vandal + chaleco chico + algo). ⭐ **Advantage peek: mientras más lejos peekeas del ángulo, más tarde te ve.** Usa el dash para cerrarte después del duelo. Crosshair donde puede salir alguien, no en un punto muerto. Pedir flash/spot/flecha para entrar. → 1.4 / fichas (Jett)
+
+### Yoru Inmortal (Bind) · https://youtu.be/t2uj2v7OxUk
+- [00:24–00:26] Si en un site juegan tres, el duelista va a pelear ahí, no al débil. Usa tus habilidades para ganar otros espacios si otro ya gastó las suyas. ⭐ Detectar patrones del rival (mismo muro, mismo clon, misma Skye en el mismo lugar). Si nadie lurkea o presiona el otro site, "causar" (molestar, gastar recursos del rival) con un fake. "En todos los rangos la gente se desespera rotando." → 2.3 / 2.4
+
+### Cypher Ascendente (Corrode) · https://youtu.be/xMVVbgqPZjw
+- [00:19] ⭐ El centinela que juega mid tiene que dar miedo: si nadie juega mid, el rival se stackea en A o B tranquilo. → 2.7 / fichas (Cypher)
+- [00:19–00:21] ⭐ **Comp base: un duelista, un smoker, un iniciador, un centinela y un flex** (el flex es lo que quieras: Sage, otro iniciador, un segundo duelista...). Agentes fuera de meta (Phoenix, Gekko, Harbor) "no están del todo mal" pero rinden menos. (Coincide exacto con el 1+1+1+1+flex del 3.1.) → 3.1
+- [00:21–00:22] ⭐ "Para mí las comps por debajo de Inmortal casi no importan, porque nadie le saca provecho"; en Radiant se nota mucho un agente mal elegido. "Si disparas bien, le ganas con cinco duelistas a cinco que juegan cómodos." (Segunda vez que lo dice; útil para bajar la presión de la comp en el 3.1.) → 3.1
