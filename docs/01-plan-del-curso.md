@@ -255,3 +255,8 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 
 - Del profe: usar la replay; ver qué tan bien o mal apuntan (CHP); mira muy cerca de la pared o muy alejada → reacción lenta, flick o microajuste y te matan antes; movimiento y agacharse al disparar; qué decisiones podían tomar mejor y por qué; qué hicieron mal en general; el mapa: si ya se había visto a todos y se quedó shifteando en el otro site, si había info; siempre desde su perspectiva (lo que hace, su mira) y ver el otro lado del mapa en el minimapa.
 - Agregado: cómo abrir la replay (pestaña Carrera → descargar; parche 11.06, sin customs, duran mientras siga el parche — según guías), diagrama de la mira (pegada / alejada / bien), plantilla de 6 preguntas por muerte, revisar 5 muertes y no la partida entera, quiz, ejercicios, juntada.
+
+## Pasar al nivel 3 (`nivel-2.html`)
+
+- Mismo formato que `nivel-1.html`: progreso de los 8 temas del nivel 2, cuatro cosas (trades, info, decisiones, revisión), 5 pruebas del plan (10 DMs + 10 TDMs con foco, 2 revisiones con la plantilla del 2.8, trades 2v2, escenarios de rotación, retake 2v2), checklist final de 6.
+- "X de Y" del retake 2v2 puesto en **6 de 10** por mí: confirmar con el profe.

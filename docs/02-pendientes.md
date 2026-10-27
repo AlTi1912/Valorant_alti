@@ -17,7 +17,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8). Falta: página "Pasar al nivel 3" (checklist del nivel 2) y el nivel 3.
+- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmar: retake 2v2 "6 de 10" y el "¿Retake o salvar?" del 2.6. Siguiente: nivel 3.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).
