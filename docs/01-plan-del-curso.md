@@ -260,3 +260,7 @@ Tracker: KAST 70%+, HS% 20%+, ADR 130+, K/D 1.0+ con buen KAST, más FB que FD (
 
 - Mismo formato que `nivel-1.html`: progreso de los 8 temas del nivel 2, cuatro cosas (trades, info, decisiones, revisión), 5 pruebas del plan (10 DMs + 10 TDMs con foco, 2 revisiones con la plantilla del 2.8, trades 2v2, escenarios de rotación, retake 2v2), checklist final de 6.
 - "X de Y" del retake 2v2 puesto en **6 de 10** por mí: confirmar con el profe.
+
+## Orden del entry (añadido al 2.5, `#orden`; ampliar en 3.2)
+
+- Del profe: 1 Jett; 2 Reyna, Phoenix o segundo duelista; 3 el iniciador (si es un Sova o Skye que se queda tirando dron/perros, pasa antes el humo); 4 el controlador; 5 el centinela, que no tiene que entrar al site: corta rotación y gana un timing. Si van los 5 en rush, que el centinela no muera primero para evitar que lurkeen.
