@@ -792,3 +792,32 @@ Sacadas de los subtítulos de YouTube (Mixwell, NaNoW, Horcus, Safiro). Cada not
 - [00:21] "En defensa son todos los mejores del mundo; en ataque se cansan de baitear" (Diamante/Ascendente). → 2.5
 - [00:22–00:23] Con la spike plantada, no gastes balas tras el humo: ellos tienen que salir, quédate de mira. → 2.6
 - [00:24] Crear un patrón (hacer siempre lo mismo) para que la ronda que no lo haces gasten recursos buscándote. → 2.3 / 2.7
+
+> Desde acá, para los análisis de Safiro de rangos más altos o que repiten lo ya anotado, leo solo el resumen final.
+
+### Sova Oro que repite la misma jugada · https://youtu.be/cpKwZcc2arc
+- [00:20–00:21] ⭐ **Aislar duelos en un clutch**: con los rivales dateados, pelea en el orden en que te pueden llegar (primero el más cercano, cerrándote para que el otro tenga que venir a ti), no contra dos a la vez. → 2.6
+- [00:22] Iniciador: tras dronear y callear, entra con tus compañeros; "ya no tienes excusa". → 2.5
+- [00:23] Saca la flecha recién donde la vas a tirar; ve con el arma hasta ahí. → 1.5
+- [00:24] ⭐ Buena actitud: el que juega bien, comunica y no se queja recibe solicitudes de amistad; "lo que te diga el que te insulta tiene que importarte cero". → 1.8
+- [00:25] Resumen: comunicación casi nula, sobre-rota, malgasta recursos. Iniciador proactivo: proponer jugadas. Mira arriba, hacia donde te pueden peekear. → 1.6 / 2.4
+
+### Plata con Jett en Corrode · https://youtu.be/h-zCsW3CHPo
+- [00:28] ⭐ "Es muy bueno disparando, pero no está generando situaciones para disparar": no busca duelos aislados, no pide recursos, no aprovecha los ángulos. → 2.1 / 3.1 (`#cabeza`)
+- [00:29–00:30] Pide la flash (si no te la tiran, no te abras). Si regalaste un espacio, asume que ya es de ellos al abrirte. Mira los costados de un humo, no el centro. → 1.4 / 1.6
+- [00:31] Jett: humo adelante y dash adentro; mira a ambos lados o decide uno. → fichas (Jett)
+- [00:32–00:34] ⭐ Duelista: pide recursos a todos (flash, dron, perro, stun, humos) y callea jugadas si nadie lo hace: "si se alinean los planetas y te hacen caso, ganas la ronda". Duelista no es "siempre adelante", pero no te da derecho a baitear. ⭐ "A veces los duelos se ganan por cómo peekeas y te mueves antes que por cómo disparas." → 1.6 / 1.3 / 2.5
+
+### Neon Platino (Breeze) · https://youtu.be/ZaO216U4f3U
+- [00:29–00:30] En ataque prioriza tu vida y espera la utilidad del iniciador/humos; sé insistente pidiendo (dos o tres veces). Usa las habilidades: morir con todas encima es error (el stun de Neon se usa casi siempre). Mira el mapa para rotar antes de que te avisen. → 1.5 / 2.2 / fichas (Neon)
+
+### Breach estancado en Ascendente · https://youtu.be/lyBT2XklhmE
+- [00:26–00:27] Con una ulti valiosa no la arriesgues peekeando; retake con la ulti esperando que piquen. → 2.6
+- [00:27–00:28] Bueno: anclar el site cuando nadie lo ancla, rotar cuando entran, revisar el lurker, jugar los clutches junto al equipo. Le falta variar, usar mejor la utilidad, hablar con sus duelistas y moverse mejor. → 2.7 / 1.3
+
+### Así es una partida en Hierro · https://youtu.be/pmO1EWFe0gw
+- Casi todo humor. Una observación: [00:02] "Los Hierro sueltan el teclado y disparan solo con el mouse" (se quedan quietos al disparar; en Hierro funciona porque nadie se mueve, pero es un hábito a corregir). → 1.3
+
+### Reyna Ascendente (Abyss) · https://youtu.be/sWhj1HKKCmc
+- [00:22–00:24] ⭐ **Mental y tilt**: no es sano morir y lo primero que haces es culpar a un compañero. "Es un juego que saca lo peor de ti." Si estás tilteado después de una derrota: café, vaso de agua, un DM, un video, o descansar 15 min–2 h o ir a dormir; no te metas a otra partida enojado porque la pagan tus compañeros. → 1.8
+- [00:24–00:25] Las habilidades tienen que tener un motivo; jugar con el dúo ("el dúo no está para hacerte de psicólogo"). Menos baiteo como duelista. → 1.5 / 2.1
