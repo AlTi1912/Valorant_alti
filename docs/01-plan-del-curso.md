@@ -386,3 +386,12 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - Del plan (aprobar nivel 3, por equipo): 1 default + 2 ejecuciones sin errores graves de timing; setup base en 2 mapas; 1 scrim + revisión en grupo.
 - Agregado por mí (confirmar con el profe): retake 5v3 armado ganando al menos 7 de 10; anti-eco 5 rondas sin regalar ni un arma; el IGL de la swiftplay con VOD (ejercicio del profe en el 3.6 usado como prueba). Progreso de los 8 temas, cuatro cosas a lograr, banda "La hoja del rival", checklist final de 6. Enlazada desde el inicio ("La prueba del nivel 3") y desde el 3.8 (pager y sección "Cerrar el nivel 3").
+
+## Revisión general y herramientas
+
+- Pedido del profe: revisar todo, glosario, página de citas de videos por tema, armar los fakes del 3.2, página de error graciosa que diga que se comuniquen con él, skeletons para las cargas. Sin previews de Discord.
+- Agregado por mí: `niveles.html` (hub de los 3 niveles, la navegación apunta ahí), pie con herramientas, sección "Herramientas" en el inicio.
+- `glosario.html`: 92 términos en 8 grupos (juego básico, disparo y movimiento, peeks y ángulos, equipo, ataque y defensa, utilidad, economía, tracker y competitivo), definiciones mías, buscador sin tildes.
+- `videos.html`: hasta 5 citas por tema de Mixwell, NaNoW, Horcus y Safiro (con el minuto aproximado, las notas están por minuto) y videos de pros y coaches elegidos a mano. Se dejó afuera lo que choca con lo del profe.
+- 3.2 Fakes (agregado por mí, desde las fuentes pro y las notas): la frase del profe ("pocas habilidades se pueden fakear y es muy situacional") como aviso; solo si el rival rota; dos venden y tres esperan; pasan con la utilidad completa; qué se puede fakear (lo que se recarga, la pared de Viper; no quemar la utilidad principal); info falsa (mostrarse y desaparecer, insert); el fake tarde (40 s) y cortar el ruido.
+- `404.html`: rutas absolutas `/Valorant_alti/`, 14 frases (coquetas y de juego) al azar con botón "Otra excusa", aviso para escribirle a Alti por Discord.

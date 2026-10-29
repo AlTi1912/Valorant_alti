@@ -15,15 +15,23 @@ Lista viva. Se revisa al inicio de cada sesión.
 5. ~~+200 por kill y caso de drops~~ Hecho: casilla "Soy el que más plata tiene" (3100–7000 → compra al que menos tiene).
 6. ~~Revisar la web publicada~~ Confirmado por el profe: imágenes, logos y SVG cargan bien.
 
+## Hecho en la revisión general
+
+- Hush agregado en el 3.1. Navegación "Pasar de nivel" → `niveles.html` (hub de los 3 niveles). Pie con links a las herramientas en todas las páginas. Sección "Herramientas" en el inicio.
+- `glosario.html` (92 términos con buscador y link al tema), `videos.html` (citas por tema con el minuto, de creadores y pros), `404.html` (frases que rotan; pide avisar a Alti por Discord).
+- Skeletons también en las imágenes de agentes.
+- Previews de Discord: no van (decisión del profe).
+- Pendiente: la pool de mapas dice "Act 6 / 13.08"; revisar si cambió con el parche 13.09.
+
 ## Después
 
 - Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3 completo (3.1 a 3.8 y `nivel-3.html`, falta que el profe confirme las pruebas: retake 5v3 7 de 10, anti-eco 5 rondas sin regalar armas; 3.3 a 3.6 revisados por el profe; falta que corrija el 3.2, el 3.7 y el 3.8); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
 - Captura de la configuración de audio del profe (2.2).
-- Guía de fakes para el nivel 3.
+- ~~Guía de fakes para el nivel 3~~ Armada en el 3.2 (#rotacion, "Fakes") con el material que había; falta que el profe la revise.
 - Profundizar probabilidades y condiciones de victoria (2.1).
 - Tracker más en detalle (pedido del profe).
 - Guía de humos (`humos.html`): estructura hecha. Falta del profe: cuándo poner humo en la spike (recuadro reservado), capturas por mapa y revisar lo agregado.
-- 3.2: falta del profe la parte de fakes (recuadro reservado) y revisar todo el tema.
+- 3.2: falta que el profe revise la parte de fakes (ya no es recuadro reservado) y todo el tema.
 - Flood: va en el 2.6 (notas en el plan).
 - Fichas de agentes del profe: Sova, Vyse, Deadlock, Chamber, Jett, Neon, Omen, Clove.
 - Completar las fichas de mapas con lo que sepa el profe.

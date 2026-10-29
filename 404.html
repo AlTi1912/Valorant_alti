@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página no encontrada · Guía Alti</title>
+  <meta name="description" content="Esta página no existe. Vuelve al inicio de la Guía Alti.">
+  <link rel="icon" href="/Valorant_alti/assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="/Valorant_alti/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/Valorant_alti/assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/Valorant_alti/"><img src="/Valorant_alti/assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="/Valorant_alti/#clase">Las juntadas</a>
+        <a href="/Valorant_alti/#temario">Qué veremos</a>
+        <a href="/Valorant_alti/mapas.html">Mapas</a>
+        <a href="/Valorant_alti/niveles.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero err-hero" style="--hero-img: url('/Valorant_alti/assets/img/peeks/summit-curva-mid.webp')">
+      <div class="wrap">
+        <div class="err-code" aria-hidden="true">404</div>
+        <h1>Esta página no existe</h1>
+        <p class="lead err-joke" id="joke" aria-live="polite">¿Me dejas ser la pocket Sage de tu Jett? Yo te revivo, tú me cargas.</p>
+        <div class="err-actions">
+          <a class="btn btn-primary" href="/Valorant_alti/">Volver al inicio</a>
+          <button class="btn btn-ghost" type="button" id="joke-next">Otra excusa</button>
+        </div>
+        <div class="note teal"><span>💬</span><div><b>¿Llegaste desde un link de la guía?</b> Avísale a Alti por Discord y lo arreglo. Si solo venías a leer las frases, también vale.</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="/Valorant_alti/"><img src="/Valorant_alti/assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <nav class="foot-links" aria-label="Herramientas"><a href="/Valorant_alti/glosario.html">Glosario</a><a href="/Valorant_alti/videos.html">Videos por tema</a><a href="/Valorant_alti/humos.html">Guía de humos</a><a href="/Valorant_alti/tracker.html">Tu tracker</a><a href="/Valorant_alti/niveles.html">Pasar de nivel</a></nav>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="/Valorant_alti/assets/app.js"></script>
+  <script>
+    (function () {
+      var j = ["¿Me dejas ser la pocket Sage de tu Jett? Yo te revivo, tú me cargas.", "Este link murió más rápido que una Jett sin dash.", "Esta página se fue a lurkear y no volvió.", "¿Eres una flash de Skye? Porque me dejaste en blanco.", "¿Eres la spike? Desde que te plantaste aquí tengo 45 segundos para declararme.", "Esta página hizo un fake a A y se fue a B. Caíste.", "Te tiraste un wide peek a un link que no existe. Respeto el valor.", "Esta página está en eco. Vuelve la próxima ronda.", "Yo contigo no hago fakes: lo nuestro es un execute directo.", "Si fueras un humo de Omen, me quedaría a vivir adentro.", "Sin ti mi ulti no carga. Y sin esta página, tampoco tu link.", "La página se compró un Operator con 4700 justos y salió sin escudo. No sobrevivió.", "Contigo sí hago trade: mi kill por tu Discord.", "Aquí no hay nada. Ni la info que te prometió tu duelista."];
+      var el = document.getElementById("joke"), i = Math.floor(Math.random() * j.length);
+      el.textContent = j[i];
+      document.getElementById("joke-next").addEventListener("click", function () { i = (i + 1 + Math.floor(Math.random() * (j.length - 1))) % j.length; el.textContent = j[i]; });
+    })();
+  </script>
+</body>
+</html>

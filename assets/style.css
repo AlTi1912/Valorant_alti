@@ -396,6 +396,9 @@ td.on { color: var(--teal); font-weight: 600; }
 .site-footer .brand b { font-size: 16px; }
 .site-footer .brand b span { color: var(--red-bright); }
 .site-footer p { max-width: 760px; margin: 0; }
+.foot-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 20px; }
+.foot-links a { color: var(--on-dark); font-size: 14px; text-decoration: none; padding: 4px 0; }
+.foot-links a:hover { color: var(--red-soft); text-decoration: underline; }
 
 /* Animación de entrada */
 .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
@@ -750,3 +753,34 @@ td.on { color: var(--teal); font-weight: 600; }
   .ag-big { width: 64px; height: 64px; }
   .ag-pick { min-width: 0; flex: 1 1 calc(50% - 10px); }
 }
+
+/* Videos por tema */
+.cites { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 10px; }
+.cites li { display: grid; gap: 2px; padding: 10px 0; border-top: 1px solid var(--line); }
+.cites li:first-child { border-top: 0; }
+.cites a { justify-self: start; display: inline-flex; align-items: center; min-height: 24px; font-size: 14px; color: var(--red-soft); }
+.panel h3 > a { display: inline-block; min-height: 24px; }
+.cites a b { font-family: var(--font-tech); font-weight: 500; letter-spacing: .04em; }
+.cites span { color: var(--muted); font-size: 15px; }
+
+/* Glosario */
+.gl-search { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px 24px; margin-bottom: 24px; }
+.gl-search .field { flex: 1 1 280px; max-width: 480px; margin: 0; }
+.gl-search p { margin: 0 0 12px; }
+.gl-groups { display: grid; gap: 16px; }
+.gl-cat { font-size: 20px; margin: 0 0 4px; }
+.gl { margin: 0; }
+.gl-item { padding: 12px 0; border-top: 1px solid var(--line); }
+.gl-item:first-child { border-top: 0; }
+.gl-item dt { font-weight: 600; color: var(--text); }
+.gl-item dd { margin: 2px 0 0; color: var(--muted); }
+.gl-item dd a { color: var(--red-soft); white-space: nowrap; }
+.gl-item dd a::before { content: "→ "; }
+.gl-item[hidden], .gl-group[hidden], .gl-empty[hidden] { display: none; }
+
+/* 404 */
+.err-hero { min-height: calc(100vh - 64px); display: flex; align-items: center; }
+.err-hero .wrap { max-width: 720px; }
+.err-code { font-family: var(--font-tech); font-size: clamp(96px, 22vw, 180px); line-height: 1; color: var(--red); letter-spacing: .02em; }
+.err-joke { min-height: 3.2em; }
+.err-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }

@@ -431,7 +431,7 @@ window.skWatch = function (el) {
   });
   setTimeout(done, 8000);
 };
-document.querySelectorAll(".shot button, .weapon .art, .drill-icon").forEach(function (el) {
+document.querySelectorAll(".shot button, .weapon .art, .drill-icon, .ag-big, .ag-img, .ag-mini, .agent").forEach(function (el) {
   if (el.querySelector("img")) window.skWatch(el);
 });
 
@@ -623,4 +623,20 @@ document.querySelectorAll("[data-builder]").forEach(function (box) {
   };
   btns.forEach(function (b) { b.addEventListener("click", function () { parts[b.dataset.part] = b.dataset.value; render(); }); });
   render();
+});
+
+/* Glosario: filtro en vivo */
+document.querySelectorAll("[data-glossary]").forEach(function (root) {
+  var q = root.querySelector("#gl-q"), count = root.querySelector("#gl-count"), empty = root.querySelector(".gl-empty");
+  var items = root.querySelectorAll(".gl-item"), groups = root.querySelectorAll(".gl-group");
+  var norm = function (s) { return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); };
+  items.forEach(function (it) { it.dataset.text = norm(it.textContent); });
+  var run = function () {
+    var v = norm(q.value.trim()), n = 0;
+    items.forEach(function (it) { var ok = !v || it.dataset.text.indexOf(v) > -1; it.hidden = !ok; if (ok) n++; });
+    groups.forEach(function (g) { g.hidden = !g.querySelector(".gl-item:not([hidden])"); });
+    count.textContent = n === 1 ? "1 término" : n + " términos";
+    empty.hidden = n > 0;
+  };
+  q.addEventListener("input", run);
 });
