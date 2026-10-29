@@ -21,6 +21,8 @@ Lista viva. Se revisa al inicio de cada sesión.
 - `glosario.html` (92 términos con buscador y link al tema), `videos.html` (citas por tema con el minuto, de creadores y pros), `404.html` (frases que rotan; pide avisar a Alti por Discord).
 - Skeletons también en las imágenes de agentes.
 - Previews de Discord: no van (decisión del profe).
+- Efectos (pedido del profe, todo menos el texto que se descifra): transición entre páginas, brillo en tarjetas, glosario dentro de los temas, flashcards, defuse en el 2.6, números que cuentan, acordeón y carrusel en el 3.1, pase de nivel que se arranca. Detalle en DESIGN.md (7b).
+- Acordeón para la guía de humos: cuando lleguen las capturas por mapa.
 - Pendiente: la pool de mapas dice "Act 6 / 13.08"; revisar si cambió con el parche 13.09.
 
 ## Después

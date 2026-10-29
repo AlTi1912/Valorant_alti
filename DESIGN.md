@@ -157,6 +157,20 @@ Mientras cargan imágenes o datos, se muestra un bloque en `--surface-2` con un 
 
 ---
 
+## 7b. Efectos (portados de React Bits, sin React ni gsap)
+
+Solo efectos que enseñan algo o ayudan a ubicarse. Todos respetan "reducir movimiento" y pasan axe.
+
+- **Transición entre páginas:** `@view-transition` nativo; el header no se mueve. Donde no hay soporte, la página carga normal.
+- **Brillo al pasar el mouse:** solo en `.lesson` y `.tema-card`, solo con mouse.
+- **Términos del glosario:** el primer uso de cada término en un tema es un link punteado que abre su definición (`assets/glossary-data.js`, generado junto con `glosario.html`).
+- **Flashcards:** modo "Practicar" del glosario.
+- **Defuse (2.6):** botón que se mantiene apretado, con la mitad guardada.
+- **Números que cuentan:** anillos de nivel y créditos del 3.5; la compra entra girando.
+- **Acordeón con imágenes (3.1, comp base)** y **carrusel con profundidad (3.1, por mapa)**. El carrusel siempre deja la tabla completa en "Ver todo en una tabla".
+- **Pase que se arranca (tear ticket):** en `nivel-1/2/3.html`, se libera con el checklist final completo.
+- No van: texto que se descifra, fondos 3D, cursores custom, scroll secuestrado, bordes eléctricos.
+
 ## 8. Accesibilidad (WCAG 2.2 AA)
 
 - **Contraste:** todos los pares de color pasan AA (tabla 2.4). Auditado con axe-core en todas las páginas, sin violaciones.

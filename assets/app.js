@@ -640,3 +640,374 @@ document.querySelectorAll("[data-glossary]").forEach(function (root) {
   };
   q.addEventListener("input", run);
 });
+
+/* ===== Efectos ===== */
+var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+var ROOT = (function () {
+  var s = document.querySelector('script[src$="assets/app.js"]');
+  return s ? s.getAttribute("src").replace("assets/app.js", "") : "";
+})();
+
+// Contar hasta un número
+function countTo(el, to, ms, fmt) {
+  fmt = fmt || function (v) { return String(v); };
+  var from = parseFloat(el.dataset.n || "0") || 0;
+  el.dataset.n = to;
+  if (reduceMotion || from === to) { el.textContent = fmt(to); return; }
+  var t0 = performance.now();
+  var tick = function (now) {
+    var k = Math.min(1, (now - t0) / (ms || 500));
+    k = 1 - Math.pow(1 - k, 3);
+    el.textContent = fmt(Math.round(from + (to - from) * k));
+    if (k < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
+
+// Brillo que sigue al mouse
+document.addEventListener("pointermove", function (e) {
+  var card = e.target.closest && e.target.closest(".lesson, .tema-card");
+  if (!card) return;
+  var r = card.getBoundingClientRect();
+  card.style.setProperty("--mx", (e.clientX - r.left) + "px");
+  card.style.setProperty("--my", (e.clientY - r.top) + "px");
+});
+
+// Anillos de progreso de los niveles: suben desde cero
+document.querySelectorAll("[data-level-progress] [data-tema]").forEach(function (card) {
+  var b = card.querySelector("b"), fg = card.querySelector(".fg");
+  if (!b || !fg || reduceMotion) return;
+  var parts = b.textContent.split("/"), done = parseInt(parts[0], 10) || 0;
+  var target = fg.style.strokeDashoffset;
+  fg.style.strokeDashoffset = fg.style.strokeDasharray;
+  b.dataset.n = 0;
+  b.textContent = "0/" + parts[1];
+  requestAnimationFrame(function () {
+    requestAnimationFrame(function () {
+      fg.style.transition = "stroke-dashoffset .9s cubic-bezier(.3,.7,.2,1)";
+      fg.style.strokeDashoffset = target;
+      countTo(b, done, 900, function (v) { return v + "/" + parts[1]; });
+    });
+  });
+});
+
+// 3.5: los créditos cuentan y la compra entra girando
+(function () {
+  var next = document.getElementById("rv-next"), buy = document.getElementById("rv-buy");
+  if (!next || !buy) return;
+  var last = buy.textContent;
+  new MutationObserver(function () {
+    if (next.dataset.busy) return;
+    var v = parseInt(next.textContent.replace(/\D/g, ""), 10) || 0;
+    if (String(v) === next.dataset.n) return;
+    next.dataset.busy = 1;
+    countTo(next, v, 450, function (x) { return x.toLocaleString("es"); });
+    setTimeout(function () { delete next.dataset.busy; }, 0);
+  }).observe(next, { childList: true });
+  new MutationObserver(function () {
+    if (buy.textContent === last) return;
+    last = buy.textContent;
+    buy.classList.remove("flip-in"); void buy.offsetWidth; buy.classList.add("flip-in");
+  }).observe(buy, { childList: true });
+  next.dataset.n = parseInt(next.textContent.replace(/\D/g, ""), 10) || 0;
+})();
+
+// Glosario dentro de los temas: el primer uso de cada término muestra su definición
+(function () {
+  if (!window.GLOSSARY || !document.body.dataset.lesson) return;
+  var skip = /^(site|main|spike|plant|info|rotar|utilidad|smoke|flash|ulti|créditos|escudo|push|timing|hold|clear|peek|tap|drop|save|roles|comp|callear|wall|recon)$/i;
+  var terms = [];
+  window.GLOSSARY.forEach(function (g) {
+    if (skip.test(g.t)) return;
+    g.t.split(" / ").concat(g.a || []).forEach(function (w) {
+      var esc = w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      terms.push({ g: g, re: new RegExp("(^|[^\\p{L}\\p{N}])(" + esc + "(?:s|es)?)(?![\\p{L}\\p{N}])", "iu") });
+    });
+  });
+  var used = {};
+  var tip = document.createElement("span");
+  tip.className = "gl-tip"; tip.id = "gl-tip"; tip.hidden = true; tip.setAttribute("role", "tooltip");
+  tip.innerHTML = "<b></b><span></span><a>Ver en el glosario</a>";
+  var current = null, hideT = null, pinned = false;
+  var place = function (btn) {
+    var r = btn.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+    var left = Math.max(16, Math.min(r.left, window.innerWidth - w - 16));
+    var top = r.bottom + 8 + h > window.innerHeight - 8 ? r.top - h - 8 : r.bottom + 8;
+    tip.style.left = left + "px"; tip.style.top = Math.max(8, top) + "px";
+  };
+  var open = function (btn) {
+    clearTimeout(hideT);
+    if (current && current !== btn) current.setAttribute("aria-expanded", "false");
+    var g = btn._gl;
+    tip.querySelector("b").textContent = g.t;
+    tip.querySelector("span").textContent = g.d;
+    tip.querySelector("a").href = ROOT + "glosario.html#" + g.id;
+    btn.after(tip);
+    tip.hidden = false;
+    btn.setAttribute("aria-expanded", "true");
+    btn.setAttribute("aria-describedby", "gl-tip");
+    current = btn;
+    place(btn);
+  };
+  var close = function () {
+    if (!current) return;
+    current.setAttribute("aria-expanded", "false");
+    current.removeAttribute("aria-describedby");
+    tip.hidden = true; current = null; pinned = false;
+  };
+  var walk = function (root) {
+    var tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        var p = n.parentElement;
+        if (!p || p.closest("a, button, label, select, option, textarea, h1, h2, h3, h4, .eyebrow, .chip, .idx, [data-quiz], .checklist, .toc, .pager, .gl-tip, .dc, script, style, summary, th, .crumbs")) return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.trim().length > 2 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [], n;
+    while ((n = tw.nextNode())) nodes.push(n);
+    nodes.forEach(function (node) {
+      for (var i = 0; i < terms.length; i++) {
+        var t = terms[i];
+        if (used[t.g.id]) continue;
+        var m = t.re.exec(node.nodeValue);
+        if (!m) continue;
+        used[t.g.id] = 1;
+        var start = m.index + m[1].length;
+        var after = node.splitText(start);
+        after.splitText(m[2].length);
+        var btn = document.createElement("a");
+        btn.href = ROOT + "glosario.html#" + t.g.id; btn.className = "gl-term"; btn._gl = t.g;
+        btn.setAttribute("aria-expanded", "false");
+        btn.textContent = after.nodeValue;
+        after.replaceWith(btn);
+        node = btn.nextSibling;
+        if (!node) break;
+        i = -1;
+      }
+    });
+  };
+  document.querySelectorAll("#contenido .block").forEach(walk);
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest(".gl-term");
+    if (b) { e.preventDefault(); if (current === b && pinned) { close(); pinned = false; } else { open(b); pinned = true; } return; }
+    if (!e.target.closest(".gl-tip")) close();
+  });
+  if (window.matchMedia("(hover: hover)").matches) {
+    document.addEventListener("mouseover", function (e) {
+      var b = e.target.closest(".gl-term");
+      if (b && b !== current) { open(b); pinned = false; }
+      else if (e.target.closest(".gl-tip")) clearTimeout(hideT);
+    });
+    document.addEventListener("mouseout", function (e) {
+      if (!pinned && e.target.closest(".gl-term, .gl-tip")) { clearTimeout(hideT); hideT = setTimeout(close, 250); }
+    });
+  }
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && current) { var b = current; close(); b.focus(); } });
+  window.addEventListener("scroll", function () {
+    if (!current) return;
+    var r = current.getBoundingClientRect();
+    if (r.bottom < 0 || r.top > window.innerHeight) close(); else place(current);
+  }, { passive: true });
+  window.addEventListener("resize", close);
+})();
+
+// Flashcards del glosario
+(function () {
+  var box = document.querySelector("[data-flashcards]");
+  if (!box || !window.GLOSSARY) return;
+  var sel = box.querySelector("#fc-cat"), card = box.querySelector(".fc"), inner = card.querySelector(".fc-inner");
+  var term = card.querySelector(".fc-front b"), cat = card.querySelector(".fc-front .eyebrow");
+  var def = card.querySelector(".fc-back p"), link = card.querySelector(".fc-back a");
+  var front = card.querySelector(".fc-front"), back = card.querySelector(".fc-back");
+  var flipBtn = box.querySelector("#fc-flip"), nextBtn = box.querySelector("#fc-next"), count = box.querySelector(".fc-count"), live = box.querySelector("#fc-live");
+  var deck = [], i = 0;
+  var shuffle = function (a) { for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var x = a[k]; a[k] = a[j]; a[j] = x; } return a; };
+  var setFlip = function (on) {
+    card.classList.toggle("flipped", on);
+    front.setAttribute("aria-hidden", on); back.setAttribute("aria-hidden", !on);
+    link.tabIndex = on ? 0 : -1;
+    flipBtn.textContent = on ? "Ver el término" : "Ver la definición";
+    live.textContent = on ? def.textContent : term.textContent;
+  };
+  var show = function () {
+    var g = deck[i];
+    setFlip(false);
+    term.textContent = g.t; cat.textContent = g.c;
+    def.textContent = g.d; link.href = g.href; link.textContent = "→ " + g.l;
+    count.textContent = (i + 1) + " / " + deck.length;
+    live.textContent = g.t;
+  };
+  var build = function () {
+    deck = shuffle(window.GLOSSARY.filter(function (g) { return !sel.value || g.c === sel.value; }));
+    i = 0; show();
+  };
+  inner.addEventListener("click", function (e) { if (!e.target.closest("a")) setFlip(!card.classList.contains("flipped")); });
+  flipBtn.addEventListener("click", function () { setFlip(!card.classList.contains("flipped")); });
+  nextBtn.addEventListener("click", function () { i = (i + 1) % deck.length; if (i === 0) shuffle(deck); show(); });
+  sel.addEventListener("change", build);
+  build();
+})();
+
+// Defuse (2.6): mantén 7 s; si sueltas pasada la mitad, queda guardada
+document.querySelectorAll("[data-defuse]").forEach(function (box) {
+  var btn = box.querySelector(".df-btn"), fill = box.querySelector(".df-fill"), bar = box.querySelector(".df-bar");
+  var time = box.querySelector(".df-time"), msg = box.querySelector(".df-msg"), reset = box.querySelector(".df-reset");
+  var p = 0, holding = false, last = 0, start = 0, done = false, halfSaid = false, lastAria = -1;
+  var paint = function () {
+    fill.style.width = (p / 7 * 100) + "%";
+    time.textContent = p.toFixed(1).replace(".", ",") + " s";
+    var a = Math.floor(p * 2) / 2;
+    if (a !== lastAria) { bar.setAttribute("aria-valuenow", a); bar.setAttribute("aria-valuetext", a.toString().replace(".", ",") + " de 7 segundos"); lastAria = a; }
+  };
+  var loop = function (now) {
+    if (!holding) return;
+    p = Math.min(7, p + (now - last) / 1000); last = now;
+    if (p >= 3.5 && !halfSaid) { halfSaid = true; msg.textContent = "Mitad guardada. Si sueltas ahora, no pierdes lo que llevas."; }
+    if (p >= 7) { holding = false; done = true; btn.classList.remove("holding"); btn.disabled = true; msg.textContent = "Defuseado. Ganaron la ronda."; paint(); reset.focus(); return; }
+    paint();
+    requestAnimationFrame(loop);
+  };
+  var down = function () {
+    if (holding || done) return;
+    holding = true; start = last = performance.now();
+    btn.classList.add("holding");
+    msg.textContent = p >= 3.5 ? "Retomas desde la mitad." : "Defuseando...";
+    requestAnimationFrame(loop);
+  };
+  var up = function () {
+    if (!holding) return;
+    holding = false; btn.classList.remove("holding");
+    var held = performance.now() - start;
+    if (p >= 3.5) { p = Math.max(3.5, p); p = 3.5; msg.textContent = "Soltaste pasada la mitad: arrancas otra vez desde 3,5 s."; }
+    else { p = 0; msg.textContent = held < 600 ? "Eso es tapear: el rival escucha el sonido del defuse y puede salir a mirar." : "Soltaste antes de la mitad: vuelve a cero."; }
+    paint();
+  };
+  btn.addEventListener("pointerdown", function (e) { e.preventDefault(); btn.setPointerCapture(e.pointerId); down(); });
+  btn.addEventListener("pointerup", up);
+  btn.addEventListener("pointercancel", up);
+  btn.addEventListener("lostpointercapture", up);
+  btn.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+  btn.addEventListener("keydown", function (e) { if ((e.key === " " || e.key === "Enter") && !e.repeat) { e.preventDefault(); down(); } });
+  btn.addEventListener("keyup", function (e) { if (e.key === " " || e.key === "Enter") { e.preventDefault(); up(); } });
+  btn.addEventListener("blur", up);
+  btn.addEventListener("click", function (e) { e.preventDefault(); });
+  reset.addEventListener("click", function () { p = 0; done = false; halfSaid = false; btn.disabled = false; msg.textContent = ""; paint(); btn.focus(); });
+  paint();
+});
+
+// Acordeón con imágenes
+document.querySelectorAll("[data-accgal]").forEach(function (gal) {
+  var items = gal.querySelectorAll(".acc-item");
+  var set = function (it) { items.forEach(function (x) { var on = x === it; x.classList.toggle("is-active", on); x.setAttribute("aria-expanded", on); }); };
+  items.forEach(function (it) {
+    window.skWatch(it);
+    it.addEventListener("click", function () { set(it); });
+    it.addEventListener("focus", function () { set(it); });
+    if (window.matchMedia("(hover: hover)").matches) it.addEventListener("mouseenter", function () { set(it); });
+  });
+});
+
+// Carrusel con profundidad
+document.querySelectorAll("[data-depth]").forEach(function (box) {
+  var stage = box.querySelector(".dc-stage"), cards = [].slice.call(box.querySelectorAll(".dc-card"));
+  var dots = box.querySelector(".dc-dots"), live = box.querySelector(".dc-live"), n = cards.length, cur = 0;
+  cards.forEach(function (c, i) {
+    window.skWatch(c);
+    var d = document.createElement("button");
+    d.type = "button"; d.className = "dc-dot"; d.setAttribute("aria-label", c.dataset.name);
+    d.addEventListener("click", function () { go(i); });
+    dots.appendChild(d);
+    c.addEventListener("click", function () { if (i !== cur) go(i); });
+  });
+  var go = function (i) {
+    cur = (i + n) % n;
+    var narrow = stage.clientWidth < 560;
+    cards.forEach(function (c, k) {
+      var d = k - cur;
+      if (d > n / 2) d -= n;
+      if (d < -n / 2) d += n;
+      var a = Math.abs(d);
+      c.style.transform = "translateX(" + d * (narrow ? 62 : 92) + "%) translateZ(" + (-a * (narrow ? 160 : 220)) + "px) rotateY(" + (-d * 22) + "deg)";
+      c.style.opacity = a > 2 ? 0 : 1 - a * 0.22;
+      c.style.filter = a ? "blur(" + Math.min(a * 2, 6) + "px) brightness(" + (1 - a * 0.2) + ")" : "none";
+      c.style.zIndex = 10 - a;
+      c.classList.toggle("is-active", !d);
+      c.setAttribute("aria-hidden", d ? "true" : "false");
+      if (d) c.setAttribute("inert", ""); else c.removeAttribute("inert");
+      c.style.pointerEvents = a > 2 ? "none" : "";
+    });
+    dots.querySelectorAll(".dc-dot").forEach(function (d, k) { d.setAttribute("aria-current", k === cur ? "true" : "false"); });
+    live.textContent = cards[cur].dataset.name + ", " + (cur + 1) + " de " + n;
+  };
+  box.querySelector(".dc-prev").addEventListener("click", function () { go(cur - 1); });
+  box.querySelector(".dc-next").addEventListener("click", function () { go(cur + 1); });
+  stage.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft") { e.preventDefault(); go(cur - 1); }
+    if (e.key === "ArrowRight") { e.preventDefault(); go(cur + 1); }
+  });
+  var sx = null, sy = null;
+  stage.addEventListener("pointerdown", function (e) { sx = e.clientX; sy = e.clientY; });
+  stage.addEventListener("pointerup", function (e) {
+    if (sx === null) return;
+    var dx = e.clientX - sx, dy = e.clientY - sy; sx = null;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) go(cur + (dx < 0 ? 1 : -1));
+  });
+  window.addEventListener("resize", function () { go(cur); });
+  go(0);
+});
+
+// Pase de nivel: se libera con el checklist completo y se arranca
+document.querySelectorAll("[data-ticket]").forEach(function (box) {
+  var id = box.dataset.ticket, total = parseInt(box.dataset.total, 10);
+  var ticket = box.querySelector(".ticket"), stub = box.querySelector(".tk-stub"), body = box.querySelector(".tk-body");
+  var stamp = box.querySelector(".tk-stamp"), btn = box.querySelector(".tk-btn"), msg = box.querySelector(".tk-msg");
+  var key = "ticket:" + id, torn = !!store(key), drag = null;
+  var doneCount = function () { return (store("checklist:" + id) || []).filter(Boolean).length; };
+  var render = function () {
+    var ok = doneCount() >= total;
+    ticket.classList.toggle("locked", !ok && !torn);
+    ticket.classList.toggle("torn", torn);
+    btn.hidden = torn;
+    btn.disabled = !ok;
+    msg.textContent = torn ? box.dataset.tornMsg : ok ? "Listo. Arranca el talón (arrástralo) o usa el botón." : "Completa el checklist final para liberar tu pase (" + doneCount() + "/" + total + ").";
+  };
+  var tear = function (angle) {
+    torn = true; store(key, true);
+    var sign = angle < 0 ? -1 : 1;
+    if (reduceMotion || !stub.animate) { render(); return; }
+    var from = stub.style.transform || "none";
+    stub.animate([{ transform: from, opacity: 1 }, { transform: "translate(30px, " + (sign * 260) + "px) rotate(" + (sign * 75) + "deg)", opacity: 0 }], { duration: 750, easing: "cubic-bezier(.45,0,.9,.6)", fill: "forwards" })
+      .onfinish = function () { stub.style.transform = ""; stub.getAnimations().forEach(function (a) { a.cancel(); }); render(); stamp.animate([{ transform: "rotate(-10deg) scale(1.8)", opacity: 0 }, { transform: "rotate(-10deg) scale(1)", opacity: 1 }], { duration: 320, easing: "cubic-bezier(.3,1.4,.5,1)" }); };
+    body.animate([{ transform: "translateX(0)" }, { transform: "translateX(-6px)" }, { transform: "translateX(0)" }], { duration: 260 });
+  };
+  stub.addEventListener("pointerdown", function (e) {
+    if (torn || ticket.classList.contains("locked")) return;
+    e.preventDefault(); stub.setPointerCapture(e.pointerId);
+    drag = { x: e.clientX, y: e.clientY };
+    stub.classList.add("grabbing"); stub.style.transition = "none";
+  });
+  stub.addEventListener("pointermove", function (e) {
+    if (!drag) return;
+    var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    stub.style.transformOrigin = dy < 0 ? "0 100%" : "0 0";
+    var ang = Math.max(-34, Math.min(34, dy * 0.3));
+    stub.style.transform = "translateX(" + Math.max(0, Math.min(10, dx * 0.08)) + "px) rotate(" + ang + "deg)";
+    drag.ang = ang;
+    if (Math.abs(ang) >= 28) { var a = ang; drag = null; stub.classList.remove("grabbing"); tear(a); }
+  });
+  var release = function () {
+    if (!drag) return;
+    drag = null; stub.classList.remove("grabbing");
+    stub.style.transition = "transform .35s cubic-bezier(.3,1.5,.5,1)"; stub.style.transform = "";
+  };
+  stub.addEventListener("pointerup", release);
+  stub.addEventListener("pointercancel", release);
+  btn.addEventListener("click", function () {
+    if (torn) return;
+    stub.style.transformOrigin = "0 0";
+    if (reduceMotion || !stub.animate) { tear(1); return; }
+    stub.animate([{ transform: "none" }, { transform: "rotate(28deg)" }], { duration: 300, easing: "ease-in", fill: "forwards" }).onfinish = function () { stub.style.transform = "rotate(28deg)"; tear(1); };
+  });
+  document.addEventListener("change", function (e) { if (e.target.closest('[data-checklist="' + id + '"]')) render(); });
+  render();
+});

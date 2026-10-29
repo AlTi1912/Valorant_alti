@@ -395,3 +395,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - `videos.html`: hasta 5 citas por tema de Mixwell, NaNoW, Horcus y Safiro (con el minuto aproximado, las notas están por minuto) y videos de pros y coaches elegidos a mano. Se dejó afuera lo que choca con lo del profe.
 - 3.2 Fakes (agregado por mí, desde las fuentes pro y las notas): la frase del profe ("pocas habilidades se pueden fakear y es muy situacional") como aviso; solo si el rival rota; dos venden y tres esperan; pasan con la utilidad completa; qué se puede fakear (lo que se recarga, la pared de Viper; no quemar la utilidad principal); info falsa (mostrarse y desaparecer, insert); el fake tarde (40 s) y cortar el ruido.
 - `404.html`: rutas absolutas `/Valorant_alti/`, 14 frases (coquetas y de juego) al azar con botón "Otra excusa", aviso para escribirle a Alti por Discord.
+
+## Efectos
+
+- Pedido del profe: agregar lo propuesto de React Bits y similares menos el texto que se descifra, y sumar el tear ticket.
+- Agregado por mí: el pase de nivel que se arranca (se libera con el checklist final; "Aprobado" al arrancarlo), el botón de defuse del 2.6 (7 s, mitad guardada a los 3,5, "eso es tapear" si sueltas al toque), las flashcards del glosario, los términos del glosario dentro de los temas (con alias en español: tradear, lurker, retakear...), el acordeón de la comp base y el carrusel de agentes por mapa en el 3.1 (imágenes locales en `assets/img/agents` y `assets/img/maps`).
