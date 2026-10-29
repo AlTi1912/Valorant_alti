@@ -1062,3 +1062,26 @@ div.acc-item { cursor: default; }
 .bd-legend .bd-foe { border-radius: 5px; background: var(--red); }
 .bd-legend .bd-cam { padding: 2px; background: var(--navy-950); border-radius: 5px; }
 .sm-text p { margin: 0 0 10px; }
+
+/* Tarjetas de compra: brillo, inclinación y agente que sube */
+.bcard { transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform .35s cubic-bezier(.3, .7, .2, 1), border-color .3s, box-shadow .3s; will-change: transform; }
+.bcard { border-color: color-mix(in srgb, var(--c) 55%, var(--line)); box-shadow: 0 10px 30px rgba(0, 0, 0, .35), inset 0 1px 0 rgba(255, 255, 255, .06); }
+.bcard-glare { position: absolute; inset: 0; z-index: 2; pointer-events: none; border-radius: inherit; opacity: 0; transition: opacity .3s; background: radial-gradient(260px circle at var(--gx, 50%) var(--gy, 0%), rgba(255, 255, 255, .16), transparent 60%); }
+.bcard-name { background: linear-gradient(180deg, #fff 30%, color-mix(in srgb, var(--c) 35%, #fff)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.bcard-agent { transition: transform .5s cubic-bezier(.3, .7, .2, 1), filter .5s; filter: drop-shadow(0 0 0 transparent); }
+.bcard .bi { transition: transform .35s cubic-bezier(.3, .7, .2, 1); }
+.bcard .bcard-plus, .bcard .bcard-or { transition: opacity .3s; }
+@media (hover: hover) and (pointer: fine) {
+  .bcard:hover { border-color: var(--c); box-shadow: 0 18px 44px rgba(0, 0, 0, .5), 0 0 0 1px var(--c), 0 0 40px color-mix(in srgb, var(--c) 45%, transparent); }
+  .bcard:hover .bcard-glare { opacity: 1; }
+  .bcard:hover .bcard-agent { transform: translateX(-50%) translateY(-10px) scale(1.05); filter: drop-shadow(0 0 24px color-mix(in srgb, var(--c) 80%, transparent)); }
+  .bcard:hover .bi { transform: translateY(-3px); }
+}
+/* Entrada: el agente sube cuando aparece la tarjeta */
+.js .bcard.reveal .bcard-agent { transform: translateX(-50%) translateY(30px); opacity: 0; transition: transform .8s cubic-bezier(.3, .7, .2, 1) .15s, opacity .6s .15s, filter .5s; }
+.js .bcard.reveal.in .bcard-agent { transform: translateX(-50%); opacity: 1; }
+@media (max-width: 640px) { .bcard.is-centered { border-color: var(--c); box-shadow: 0 0 0 1px var(--c), 0 0 32px color-mix(in srgb, var(--c) 40%, transparent); } }
+@media (prefers-reduced-motion: reduce) {
+  .bcard { transform: none !important; }
+  .js .bcard.reveal .bcard-agent { transform: translateX(-50%); opacity: 1; }
+}

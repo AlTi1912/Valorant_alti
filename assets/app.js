@@ -1032,3 +1032,28 @@ document.querySelectorAll("[data-smokemap]").forEach(function (box) {
     });
   });
 });
+
+// Tarjetas de compra: inclinación y brillo con el mouse; en el celular, la del centro se resalta
+(function () {
+  var cards = document.querySelectorAll(".bcard");
+  if (!cards.length) return;
+  if (!reduceMotion && window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+    cards.forEach(function (c) {
+      c.addEventListener("pointermove", function (e) {
+        var r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        c.style.setProperty("--ry", ((x - .5) * 10).toFixed(2) + "deg");
+        c.style.setProperty("--rx", ((.5 - y) * 8).toFixed(2) + "deg");
+        c.style.setProperty("--gx", (x * 100).toFixed(1) + "%");
+        c.style.setProperty("--gy", (y * 100).toFixed(1) + "%");
+      });
+      c.addEventListener("pointerleave", function () { c.style.setProperty("--rx", "0deg"); c.style.setProperty("--ry", "0deg"); });
+    });
+  }
+  var grid = document.querySelector(".bcard-grid");
+  if (grid && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { e.target.classList.toggle("is-centered", e.intersectionRatio > .85); });
+    }, { root: grid, threshold: [0, .85, 1] });
+    cards.forEach(function (c) { io.observe(c); });
+  }
+})();
