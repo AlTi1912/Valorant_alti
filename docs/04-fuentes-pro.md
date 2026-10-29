@@ -1,0 +1,443 @@
+# Fuentes pro: equipos, coaches e IGLs (LATAM primero)
+
+Notas para contrastar lo de la guía con gente de trayectoria. Primero el resumen por tema, después las notas por fuente y al final la lista de videos para ver.
+
+Marcas: **✔** coincide con lo que ya dice la guía (o con el profe) · **➕** suma algo nuevo · **⚠** choca o hay que decidir.
+
+## Quiénes son
+
+- **LATAM (LAS):**
+  - **Leviatán**, campeón de Masters London 2026 (primer título internacional de LATAM).
+    - kiNgg: IGL chileno.
+    - Onur: head coach argentino, ex-KRÜ.
+    - Nacho Pellerategui: psicólogo deportivo del equipo.
+  - **KRÜ Esports**:
+    - Klaus, Melser (IGL) y Keznit.
+    - Onur y Beto como coaches en su KRÜ School.
+    - KRÜ Blaze, equipo de Game Changers LAS: Kalita (IGL), Romi, Mica, Conir y Shyz.
+    - Nacho Ruiz: psicólogo deportivo.
+  - **Saadhak**: IGL argentino, campeón de Champions 2022 con LOUD.
+- **LAN:**
+  - ValorantLook: creador mexicano que analizó la comunicación de Boaster.
+  - Znorux: creador de CS en español.
+- **Argentina (CS):** ROX, de 9z.
+- **EMEA (español):**
+  - Mixwell (ex-pro de CS y Valorant; Heretics).
+  - GiantX: tutorial de macro y micro.
+- **NA/EMEA (inglés):**
+  - IGLs de Valorant: FNS (campeón de Masters Reykjavik con OpTic), Boostio (100 Thieves) y Boaster (Fnatic).
+  - Coaches de Valorant:
+    - Elevated (VCT, Global Esports), en un AMA.
+    - Bonkar (NRG) y JoshRT (G2).
+    - Immi (Version1).
+    - Un coach pro de Fellowship Esports.
+    - Woohoojin: coach de ranked, con su sistema de VOD review.
+  - yay: ex-pro de CS y Valorant.
+- **CS (los que más ganaron):**
+  - karrigan (FaZe), apEX (Vitality) y Aleksib (G2/NAVI), en la mesa redonda de IGLs de ESL.
+  - Elmapuddy: analista de CS y ex-coach (anti-strat, stacks, clutches, timeouts).
+- **Analistas de Valorant y Sentinels:**
+  - Thinking Man's Valorant (TMV): analista, ahora asistente de coach en VCT.
+  - Sentinels: TenZ, Kaplan, tarik y su Sova.
+
+## Resumen por tema
+
+### Nivel 1
+
+- **1.1 Ajustes y calentamiento**
+  - ✔ Rutina ligera antes de jugar, con propósito (Elevated). Mucha gente pierde el tiempo en DM y ranked en piloto automático.
+  - ➕ Aim trainer con foco total y eligiendo las tareas de lo que peor haces, no con un video de fondo. El profe ya lo dejó opcional.
+  - ➕ Sueño, comida, ejercicio y una rutina igual antes de cada partida (Elevated, KRÜ). Coincide con el panel "Dormir, comer y moverse" del 1.8.
+- **1.2 Crosshair placement**
+  - ✔ Mira a la cabeza y lista antes de asomar (Mixwell, yay).
+  - ➕ Ajustar la altura de la mira en cada rampa o escalón (yay).
+- **1.3 Movimiento y disparo**
+  - ✔ No pararse en medio del mapa a disparar; usar el entorno.
+  - ➕ Metas concretas (Mixwell): matar en menos de 2 s, no más de 10 balas por kill, las 3 primeras a la cabeza y bajar el mouse, ráfagas de 3 de lejos.
+  - ➕ Mira (ADS) solo en un 1v1 y con plan B; nunca si vienen varios.
+  - ⚠ Mixwell en un video viejo dice "agáchate y muévete de lado mientras disparas". Choca con el profe, que no quiere agacharse; no lo agregué.
+- **1.4 Peeks y ángulos**
+  - ✔ No peekear abierto a un Operator; peek desde la pared de atrás (FNS, yay).
+  - ➕ Jiggle peek silencioso para sacar el tiro o la info, jump peek contra el Operator, shoulder peek (yay, Mixwell).
+  - ➕ No quedarse pegado a la esquina: abrirse un poco para que el que entra tenga que mover la mira (Mixwell sobre Zekken).
+  - ⚠ Mixwell dice "la ventaja la tiene el que espera". Es del año en que salió el juego y choca con el peeker's advantage del 1.4. Lo dejaría afuera.
+- **1.5 Utilidad básica**
+  - ✔ Decidir antes de asomar y tirar desde cubierto.
+  - ➕ "Piensa en herramientas, no en personajes" (Saadhak), para el 3.1.
+- **1.6 Comunicación**
+  - ✔ Info corta y útil.
+  - ➕ Con alguien en clutch, solo info; "juega lento, tienes 40 s" lo calma (Boostio, IGL de 100T).
+  - ➕ No repetir comandos, porque pone nervioso al resto; no saturar (psicólogo de Leviatán).
+  - ➕ Simplificar la call: "1, 2, 3 nos abrimos" (Klaus).
+  - ➕ Corregir errores después de la partida, nunca en el medio (IGL de CS en Dignitas).
+  - ➕ Decir "my bad" y hacerse cargo (apEX). "Juegas con personas, no con máquinas": preguntar cómo durmió el compa (Saadhak).
+  - ➕ "Practica como quieres jugar": si en práctica gritas, en el partido vas a gritar (Boostio).
+- **1.7 Economía básica**
+  - ➕ Ronda bonus según Klaus: jugar tricky y sorpresivo, buscando el hueco que deja la comp y las armas del rival.
+  - ➕ El Outlaw contra una eco: casi imposible que gane la eco (pro de VCT Americas).
+  - ⚠ Mixwell prefiere Stinger a Spectre en el bonus. Es opinión; decide tú.
+- **1.8 Mental**
+  - ✔ Ronda a ronda (kiNgg); la partida no se pierde en la pistola.
+  - ➕ Termómetro emocional del psicólogo de KRÜ: "estoy en un 8" → 2-3 min, lavarse la cara, caminar.
+  - ➕ Enfocarse en lo que controlas. Respirar: ni muy activado ni muy relajado. "Dar el 100% del 70% que tienes hoy."
+  - ➕ Al compa tilteado, darle una tarea simple ("solo aguanta esta posición esta ronda") (Elevated).
+  - ➕ "Puedes estar triste después del partido, no durante" (coach de Fellowship). Un líder nunca se apaga (karrigan).
+  - ➕ "No se acaba hasta la 13" (Saadhak).
+
+### Nivel 2
+
+- **2.1 Trades y spacing**
+  - ✔ Pelear juntos y en posición de trade.
+  - ➕ "Refrag por minimapa" (Woohoojin): si no eres el primero, mira el minimapa mientras tu entry asoma y pre-apunta donde apareció el rival.
+  - ➕ Con ventaja grande (5v2), nada de apuestas; los que estaban juntos no se separan, porque si no un rival gana el clutch (Elmapuddy sobre Falcons).
+  - ➕ Holdear el humo es mejor que jugar al refrag: si no, un 5v3 termina en 2v3 (Mixwell).
+  - ➕ Buen bait: solo si el duelo agresivo de tu compa hace que el rival acelere y se descuide (Elmapuddy).
+- **2.2 Información y sonido**
+  - ➕ Contar los humos que ya tiró el rival: si gastó todo en A, un execute tarde en A es más fácil (Aleksib, Elmapuddy).
+  - ➕ Leer el radar: si tu compa tiene long, el rival va a pelear por el otro lado (karrigan).
+- **2.3 Leer al rival**
+  - ✔ Patrones.
+  - ➕ Ejemplos reales de CS:
+    - El rival tiraba siempre humo en el mismo lugar, salvo las rondas en que iba a pushear (ahí molly). Así NAVI le leyó el rush a FURIA.
+    - El mid de Falcons spameaba siempre a los 1:43; si no había spam, 100T cruzaba el humo.
+  - ➕ Cambiar el ritmo: después de varias rondas agresivas, una totalmente pasiva hace que el rival gaste utilidad (Aleksib).
+  - ➕ Piensa en la ronda anterior y adapta: si siempre te humean donde arrancas, cambia de lugar (Mixwell).
+- **2.4 Rotaciones**
+  - ✔ El objetivo del atacante es mover rotaciones y entrar donde hay menos (GiantX). Coincide con el profe.
+  - ➕ "¿Cómo perderíamos esta ronda ahora?": cierra esas entradas y no te muevas de más (karrigan).
+  - ➕ "Esperen, ellos van a rotar; cuando roten, entramos" (Saadhak).
+- **2.5 Ataque y default**
+  - ✔ Default para ganar espacio.
+  - ➕ "El espacio que mantuviste es el site que vas a pegar" (FNS).
+  - ➕ Contra agentes de TP (Yoru, Waylay): no hagas nada los primeros 30 s, espera su TP y recién ahí defaultea (FNS).
+- **2.6 Post-plant y retake**
+  - ✔ Aislar duelos y no buscar picks con ventaja.
+  - ➕ Retake para nuevos (Mixwell): ¿hace cuánto plantaron?, ¿qué tan cerca estás?, ¿cuántos quedan?, ¿dónde está tu compa? Escucha dónde se ponen y arma el pathing.
+  - ➕ Post-plant: no asomes al toque; espera a que el rival le dispare al que defusa y ahí asomas (Mixwell sobre Zekken).
+  - ➕ Clutch (Elmapuddy):
+    - Usar la info de toda la ronda para deducir dónde está el último.
+    - Elegir una esquina donde decides tú cuándo pasa el duelo.
+    - A veces conviene usar el humo antes de la spike para romper un cruzado.
+- **2.7 Posicionamiento defensivo**
+  - ✔ Ángulo intermedio y lado débil.
+  - ➕ Nunca una posición "todo o nada"; siempre un segundo plan (muro, flash, otro ángulo), "porque todos fallan" (Mixwell).
+  - ➕ El centinela cambia el setup cada ronda (Romi, KRÜ Blaze).
+- **2.8 Revisar tu partida**
+  - ✔ Decisiones antes que aim.
+  - ➕ Woohoojin: no hacer la lista de todos los errores. Puntúa categorías y elige las 1 o 2 peores. En 117 reviews solo recomendó trabajar la mecánica 3 veces.
+  - ➕ Juzgar la call por el plan, no por el resultado: si el plan te dio el duelo y lo perdiste, la call estaba bien (mesa de IGLs de CS).
+  - ➕ Comparar qué haces en práctica con qué hiciste en el partido, bajo presión (Onur, tras perder: un día de descanso y una hora de review por mapa).
+  - ➕ Si no sabes qué hacer en una situación, busca a un pro con ese agente en ese mapa (Woohoojin).
+
+### Nivel 3 (para el 3.4 en adelante)
+
+- **3.1 Roles y composición**
+  - ✔ La comp importa menos que saber jugar el rol.
+  - ➕ "No pienso en personajes, pienso en las herramientas" (Saadhak): 7 flashes son 7 formas de controlar el mapa. Las debilidades de la comp se tapan; por ejemplo, sin centinela, Breach en B.
+  - ➕ El coach busca la zona donde cada jugador da más valor y no lo fuerza a un esquema (Onur). No pongas a Less de Jett si sus timings de lurk son buenísimos (Saadhak).
+  - ➕ No copiar el meta sin saber por qué: "no hay meta, hay tu meta" (Bonkar y JoshRT). Onur mira el meta "para hacer algo diferente".
+  - ➕ El IGL suele jugar smoker: está con el grupo y en el medio del mapa (FNS, Boaster, Znorux).
+- **3.2 Defaults y ejecuciones**
+  - ✔ Lo del tema coincide con FNS y GiantX.
+  - ➕ "Inserts" (FNS): tras el default, dejar a dos (duelista y controlador) en líneas fuertes mientras el resto reagrupa.
+  - ➕ Fake a ~40 s y tocar la spike a ~25 s. Los defaults tienen que parecerse para no delatar el plan (FNS).
+  - ➕ "Cortar el ruido" tras una kill de apertura: el rival no sabe a dónde vas. Solo si tienes mucho control del mapa (coach de Fellowship).
+  - ➕ En la compra, decir el plan y a dónde quieres terminar, para que cada uno guarde la utilidad que hace falta (Aleksib).
+  - ➕ "Limpiar al revés": en vez de sacar al Operator de su lugar, presionar en otro lado para que se tenga que ir (Elmapuddy sobre NAVI).
+  - ➕ Default de TMV: spike en un lugar neutro y deducir dónde están por pistas (un orbe, el sonido de una ulti, un tiro de Judge). Si hay tres en B, vas a A. Un jugador cuida los flancos para no perder el control del mapa mientras cambias de site.
+- **3.3 Setups defensivos**
+  - ✔ Coincide con el tema.
+  - ➕ Un stack bien hecho parece una ronda normal, y el lado débil hace el trabajo pesado retrasando con utilidad (Elmapuddy).
+  - ➕ El lado pasivo tiene que ser pasivo de verdad; si muere, la rotación que espera el lado fuerte nunca llega (Aleksib).
+  - ➕ Entregar un site con un retake armado (Version1).
+  - ⚠ "Jugar para el retake es jugar para perder más lento" (TMV). Un retake 5v5 completo pierde en casi todos los sites; solo funciona con un protocolo muy ensayado para ese site o con ultis grandes. Ojo: G2 jugó así en todos lados y quedó afuera de Masters London. El profe dijo en el 2.7 que dejarlo al retake puede ser mejor con ventaja de armas y habilidades; no choca, lo afina.
+  - ➕ "Setup de ranked = uno por entrada y nada proactivo" (TMV).
+- **3.4 Retakes coordinados**
+  - ➕ Retake armado de Version1:
+    - Cámara de Cypher, flash de Omen y dardo de Sova, todo al mismo tiempo.
+    - Si muere el controlador, se adapta: cámara, dron y flashes siguiendo al dron.
+    - Agruparse y pushear juntos a través del humo.
+  - ➕ Con ventaja, nada de apuestas; "respira un segundo" (Elmapuddy).
+  - ➕ El smoker tira sus humos antes de morir (análisis de Boaster).
+  - ➕ Guardar la flash para el post-plant (karrigan).
+  - ➕ Decidir el retake según las ultis que tienen (Sentinels: "jugamos retake porque teníamos Breach y Killjoy ulti"). Guardar el dardo de Sova para el retake.
+  - ➕ Después de plantar, el atacante gana ~75% de las rondas; algunos sites se retakean mucho más fácil que otros (TMV, datos de 2021).
+- **3.5 Economía de equipo**
+  - ➕ Anotar qué compró el rival: si forzaron la 2.ª ronda, en la 4.ª van a estar débiles (Znorux).
+  - ➕ En rondas grandes conviene tener toda la utilidad; no forzar justo antes (Elmapuddy).
+  - ➕ Bonus de Klaus (ver 1.7).
+- **3.6 IGL y mid-round**: es lo que más material tiene.
+  - ➕ IGL = visión del juego, saber comunicarla y confianza para que te crean (Elevated).
+  - ➕ Orden de la call (Fellowship):
+    - El IGL llama, los jugadores preguntan o sugieren, y después se coordinan la utilidad.
+    - Primero la idea, después las posiciones, después los detalles.
+    - Todos callados mientras habla el IGL.
+  - ➕ Errores del IGL nuevo: quedarse callado tras una ronda mala, y "sobrecocinar" la call (Fellowship).
+  - ➕ Mid-round: hablan los vivos (Dignitas, FNS). El IGL muerto sigue dirigiendo (Boaster).
+  - ➕ Timeout: recordar el plan o hacer un ajuste para ganar UNA ronda; "el marcador no importa" (Elevated). Spirit gastó un timeout para "cerrar las rondas juntos" (Elmapuddy).
+  - ➕ Los 4 tips del psicólogo de Leviatán:
+    1. Tener claro el ritmo.
+    2. Comunicación asertiva.
+    3. No dudar: respirar y volver al plan.
+    4. Liderar también fuera del juego, adaptándose a cada uno.
+  - ➕ Qué es un IGL para los campeones de CS:
+    - Pasión y autocrítica (karrigan).
+    - Ponerse último (Aleksib).
+    - Hacer brillar a los demás (apEX).
+- **3.7 Preparar un partido (anti-strat)**
+  - ⚠ Las fuentes no coinciden:
+    - Onur dice que el anti-strat "no es tan efectivo" y que "a veces es una frase vacía".
+    - FNS y Elevated: primero tu juego, más pequeños ajustes contra tendencias claras del rival.
+    - Los IGL de CS: mezclar estudiar al rival con cambiar cosas propias para que no te lean.
+    - Elmapuddy muestra anti-strats que sí ganaron partidos.
+  - Propuesta: enseñarlo como "tu juego primero, más 2 o 3 tendencias del rival", que es lo que comparten todos. Decide tú.
+- **3.8 Scrim y revisión**
+  - ➕ Día de práctica de Elevated: teoría y server time con el foco del día → scrims → comida → scrims → VOD review. Algunos días son "de partido": sin pausas y con solo 2 timeouts.
+  - ➕ En scrims, probar cosas en vez de salir a ganar el scrim (Onur).
+  - ➕ KRÜ Blaze: mañana táctica y revisión de errores, tarde de scrims.
+  - ➕ Sentinels: la mira para ser pro "es fácil de alcanzar"; lo que falta es sentido de juego, decisiones y disciplina. Hace falta "estructura": estrategias, posiciones y protocolos ensayados.
+  - ➕ Para aprender (Sentinels): partidos pro, videos de comms, watch parties de IGLs y Premier con el mismo grupo varias veces por semana.
+
+## Notas por fuente
+
+La flecha (→) indica a qué tema sirve cada cosa.
+
+### Entrevistas y textos
+- FNS (IGL OpTic, campeón Masters Reykjavik 2022; ONE Esports 2023): IGL = mantener al equipo calmado en ranked ("la gente se va a equivocar"), facilitar las discusiones sin que nadie se tiltee; micromanejar utilidad y no tener miedo de pedir la estrategia; por eso IGL suele ser controlador o centinela y el duelista se encarga de entrar. → 3.6 / 1.6
+- FNS (Hotspawn 2020): el agente ideal para IGL es un smoker: estás con el grupo y en el medio del mapa. "Todos aportan al mid-round, así no tengo que callear cada ronda." Anti-strat: "nos enfocamos en nosotros, buscamos tendencias del rival; eso es lo máximo que explotamos". Scrim 5 días/semana. → 3.6 / 3.7
+- Dignitas (artículo de un IGL de CS, nivel ESEA Open): no micromanejar cómo juega cada uno (decir qué mirar sí es tu trabajo); mirar tus propias partidas además de pros; en equipos que están mejorando, que los vivos se hablen el mid-round (el IGL muerto que callea todo hace sentir que no confías); corregir errores DESPUÉS de la partida, nunca en medio; no mirar el rango del rival, mirar sus partidas. → 3.6 / 2.8 / 1.6
+- kiNgg (IGL Leviatán, Strafe 2023): perdieron contra KRÜ por presión, nervios y miedo: "fuimos a hacer nuestro trabajo, no a ganar y destruir". Le costó 7-8 meses sentirse seguro como IGL; "me va bien porque mi equipo confía mucho en mí". Estilo: agresivo los primeros 30 s, presionar, hacerlos retroceder; "no es magia, es lo que practico en scrims". Escucha a sus compas: nzr le cambió una call y la tomó. 20-25 scrims contra Sentinels: "era como leer un libro". → 3.6 / 1.8 / 3.7
+- Elevated (coach VCT, Global Esports; AMA en VLR 2025):
+  - IGL = 1) visión del juego 2) saber comunicarla 3) confianza para que los demás crean en ella. Se puede aprender, pero hay que tener las soluciones cuando las cosas salen mal. → 3.6
+  - Lo que más vale: "la confianza. Puedes hacer muchas tonterías, pero si las hacen juntos y con confianza total, les va bien." → 1.6 / 3.x
+  - Mucha gente pierde el tiempo en ranked y DMs sin un propósito. Aim trainer con foco total, elegir tareas de lo que peor haces, no en piloto automático. → 1.1
+  - Para ir a pro: mecánica a cierto nivel; después comunicación constante y mental estable >>> seguir con el aim. → 1.8
+  - Tilt en partida: hacer reír, o simplificar: darle al tilteado una tarea simple ("solo aguanta esta posición esta ronda"). → 1.8
+  - Timeout cuando van perdiendo: recordar qué estamos haciendo o un ajuste/call concreto para ganar UNA ronda; "el marcador no importa, todo en la próxima ronda". → 3.6
+  - Anti-strat: si tu equipo todavía está flojo jugando junto, es muy difícil contrarrestar al otro. Lo mejor: tu juego + pequeños ajustes contra tendencias claras del rival. Datos: % por lado, tempo, quién toma qué duelos; demasiado análisis te hace sobrepensar tu plan. → 3.7
+  - Día de práctica: server time y teoría con el foco del día → scrims → comida → scrims → VOD review casi todos los días. Días de "partido": sin pausas, a ganar, solo 2 timeouts. → 3.8
+  - Roles: rol fijo de support sirve para acostumbrarse al timing de la utilidad; flexear está bien si la comp tiene sentido. Los jugadores se quedan en 1-2 agentes porque pensar la utilidad los hace sentir peor mientras aprenden. → 3.1
+  - Rutina: sueño, dieta, ejercicio y una rutina constante antes de jugar (Aspas es famoso por eso). → 1.1 / 1.8
+  - "Sé un buen compañero. El juego no es tu score. Ganar rondas es lo único que importa." Ventaja numérica al inicio = uno de los mejores predictores de ganar. → 1.8 / 2.1
+- Foros VLR (comunidad, no pro): revisar VODs: antes de cada ronda plata de ambos (eco/anti-eco/bonus, ¿pueden comprar la siguiente?), ultis listas o a 1 orbe, posiciones y setups; ronda en 4 partes (pre-ronda, inicio, mid-round, post-plant); ¿qué hizo cada agente vs lo esperado? Un 1x1 suele favorecer al ataque, salvo que el defensor saque info de 4 con 25 s. → 2.8 / 3.7
+
+### Videos
+- KRÜ Lessons by VISA (KRÜ Blaze, Game Changers LAS, 10 clips de ~50 s): Kalita IGL: "pasarle la confianza a mis compañeras"; Romi centinela: "innovar, cambiar los setups cada ronda" (KJ: alarma en mid, torreta mirando garage, nanos en lobby y botón; Cypher: cámara en rampa, cable en la entrada, jaulas); Mica duelista: "la seguridad me la da mi equipo", entra con la utilidad de las compañeras; Conir smoker: dar acceso libre y seguridad al entrar, negar visión primero, después flash. → 3.1 / 3.3 / guía de humos
+- KRÜ School: psicólogo deportivo (Nacho Ruiz): 4 patas (física, técnica, táctica, mental); descansos, no 8-10 h/día ("te quemas"); la frustración no se evita, se gestiona: termómetro emocional ("estoy en un 8": lavarse la cara, 2-3 min, caminar); enfocarse en lo que controlas (tu juego, no el compa); respirar: ni hiperactivado ni demasiado relajado; confianza en uno mismo; "dar el 100% del 70% que tienes hoy"; disciplina = rutina sana de sueño y nutrición, sin alcohol ni energéticas. → 1.8
+- KRÜ School, Onur y Beto (coaches de KRÜ): a jugadores jóvenes primero les enseñan teoría: cómo se juega con ventaja, en desventaja, la estructura del mapa, por qué se rota, cómo se cubre un mapa: "primero enseñarles a pensar"; ~6 h diarias de trabajo; jugador con años arrastra malos hábitos que desaprender; analizar después de cada partida qué hicieron bien y mal. → plan / 3.x
+- KRÜ Blaze (tetracampeonas del sur): rutina 10-12 táctico/revisión de errores, comida, descanso o ejercicio, 14-17 scrims; psicólogo, respiración, "un día malo es normal"; perseverar y aceptar la crítica. → 1.8 / 3.8
+- Klaus (KRÜ, VCT Americas; SHOT//CALLER): ronda bonus = la que ganas tras ganar la pistola y la segunda, con compra no tan buena. Jugar tricky y sorpresivo, buscando números, trades y kills. Mirar su comp y sus armas para "buscar el hueco" (lo débil). Último tip: SIMPLIFICAR la call: "espérame acá", "1, 2, 3 nos abrimos", "1, 2, 3 ejecutamos"; que tu idea llegue al compa. → 3.5 / 3.6 / 1.7
+- Saadhak (LOUD, campeón Champions 2022; SHOT//CALLER retake): audio en portugués/español mezclado, subtítulo casi ilegible; lo que se entiende: en un clutch, entender qué pasa y usar la info (sabía dónde estaba el Gekko; tras matar a la Viper, chequea el único lugar posible). → 2.6 (poco usable)
+- Boostio (IGL 100T; SHOT//CALLER): en clutch o momento tenso: saber cuándo hablar fuerte y cuándo callar; después de la ronda grita lo que quieras; al que está en clutch solo info ("si sabes dónde hay uno, o escuchaste un flanco que él no"). Decir "play slow" cuando hay tiempo calma al compa: "tienes 40 s, piensa". Respira, habla claro. "Practica como quieres jugar": si en práctica gritas, en el partido vas a gritar. → 1.6 / 2.6 / 1.8
+- On The Spot (coaches VCT): para el jugador promedio: comunicación y mira en el lugar correcto; llegar a Radiante es sobre todo mecánica; "rutina y trabajar"; adaptarse como camaleón. → 1.x
+- Bonkar (NRG) y JoshRT (G2), "De Coach a Coach": no copiar el meta sin saber por qué ("muchos equipos copian algo porque todos lo llaman meta"); "la belleza de Valorant es que no hay meta, hay tu propio meta"; lo que aprendieron: "confía en tu camino, en tu sistema y en todos en el equipo, sea cual sea la decisión". Paper Rex: defaultean tanto que el defensor en CT no sabe a qué site ir; cambios de ritmo todo el tiempo. Contra el doble iniciador de NRG nadie sabía jugar: lo distinto es una ventaja. → 3.1 / 3.2
+- "Así lo juego" (pro de VCT Americas, Lotus): A queda más para la defensa (backsite para holdear y mejores cruzados con tus compas), C más para el ataque (pueden venir por más lugares; a veces conviene dejarlo y jugar retake). → mapas (Lotus)
+- "Así lo juego" (Outlaw): contra una eco, casi imposible que gane el que está en eco: mata de un tiro a la cabeza a distancia y dispara dos veces. → 1.7 / 3.5
+- Leviatán, psicólogo deportivo Nacho Pellerategui, "4 tips para ser el mejor IGL": 1) mentalidad estratégica: tener claro contra quién juegas y qué ritmo quieres en la ronda (rápido, lento, cuándo parar o avanzar) para no improvisar por emoción; 2) comunicación asertiva: no saturar, a veces un silencio o un solo comentario; "cuidado con repetir palabras": repetir comandos pone más nervioso al resto; 3) decisiones bajo presión: no dudar; respirar, volver a la conciencia, recordar que hay una estrategia; si te equivocas, se resetea la próxima ronda; 4) liderazgo fuera del juego: armar relación con cada compa y adaptar tu forma de liderar a cada uno ("no hay una única estrategia para todos"). → 3.6 / 1.6
+- kiNgg (stream, chileno): "lo importante es pensar ronda a ronda": la gente pierde la pistola y ya dice que perdió la partida; si fallaste, olvídalo y focus en la siguiente; si pierdes muchas, descanso. Perder contra FURIA "fue un cachetazo, un golpe de realidad: aprendimos mucho". → 1.8
+- Leviatán, voice comms de la final de Masters London 2026 (ganaron 3-x a Paper Rex tras perder el primer mapa 13-1; primer título internacional de LATAM). Subtítulo traducido del portugués, muy sucio. Lo útil: calls cortas ("uno, dos", "3, 2, 1 B", "voy a plantar y uso dron", "tómalo con calma", "cálmate, cálmate"), avisan cuántos hay ("hay tres para B"); entre mapas: "la forma más sencilla es la más correcta", "si ganamos la primera ronda nos da energía", "aunque perdamos la pistola, sigamos comunicando: hablando y escuchando mucho". → 1.6 / 3.6
+- Onur (head coach Leviatán, ex KRÜ; argentino):
+  - (Kickoff 2026) "El anti-strat no es tan efectivo… muchos lo dicen y no saben explicar qué es; a veces es una frase vacía." → 3.7 (choca con la idea de anti-strat pesado; coincide con FNS y Elevated: primero tu juego)
+  - Cada año revisa su trabajo del año anterior: "si no ves errores en lo que hiciste, estás haciendo algo mal ahora". → 2.8 / 1.8
+  - Tras perder: un día de descanso para resetear la cabeza; después VOD review larga (una hora por mapa) comparando cada situación: qué hacen en el entrenamiento vs qué hicieron en el partido. Objetivo: entender cómo cambia su toma de decisiones bajo presión. → 2.8 / 3.8
+  - Equipo de 18 años promedio vs 24 de un campeón: proceso largo. → plan
+  - (Entrevista academia) El coach tiene que leer la personalidad y las tendencias de cada jugador y encontrar la zona donde más valor da; no forzar a todos a un esquema: "funcional", tire y afloje hasta la zona de confort del jugador, el coach y el equipo. → 3.1
+  - Meta: "trato de no mirar qué está en meta, o lo miro para hacer algo diferente". En 2023 jugaron más meta de lo que hubiera querido. En scrims, entrenar de forma experimental y no salir a ganar el scrim. → 3.1 / 3.8
+  - No querer controlar todo: dejar que los jugadores maduren solos y se den cuenta. → plan
+- Keznit (KRÜ): los dos videos son partida en vivo con insultos y bromas; nada usable.
+- GIANTX, tutorial #1 "Macrojuego y microjuego" (jugador de GiantX, EMEA, España):
+  - El objetivo real del atacante no es "plantar o matar a todos": es MOVER ROTACIONES y entrar al site con la menor cantidad posible de defensores (o donde la utilidad haga mejor sinergia). El del defensor, al revés: tener la mayor cantidad posible de defensores en el site donde entran. → 2.4 / 2.5 / 3.2 / 3.3
+  - Fake = amago (ruido + humos) para que un apoyo rote. No tiene sentido si nadie cubre ese lado o si el rival nunca rota. En rangos bajos se rota mal y el fake se hace "por inercia". → 3.2 (fakes)
+  - Equipos de rotación rápida (el apoyo llega al toque) vs lenta (solo rota si ya entraron o si lo vieron). → 2.4 / 3.3
+  - Macro = qué hacen los cinco (lo decide el IGL o el coach: "1-1-3, tomamos A para que roten y después entramos B"). Micro = cómo cada uno o cada pareja cumple su parte (el que holdea mid, la pareja que pushea con muro de Viper y asoma a la vez). "La micro siempre está condicionada por la macro." → 3.2 / 3.6
+  - Defensa "al retake" en un site: el que está ahí solo avisa que entran (spotea), juega hacia atrás, les deja plantar y retakean todos juntos. → 2.6 / 3.3 / 3.4
+- Mixwell (Heretics), "Así tienes que hacer de IGL" (partida en vivo): poco aprovechable; calls: "si perdimos mid, hagamos la setup de control de mid con flash", "no vayáis a hacer el héroe", "tenéis toda la info: planta". Él juega "lo que sobra" para dejar espacio a los jóvenes. → 1.6
+- Saadhak (IGL argentino, campeón de Champions 2022 con LOUD; entrevista con Mixwell, "Trece Cero"):
+  - El IGL da profundidad táctica: "tengo jugadores que, si fuera por ellos, todas las rondas se deciden en la mira. En vez de 10-12 rondas a la mira, ¿por qué no un fake, un dominio de espacio y volver, o dominar y ejecutar?". Así el equipo no es fácil de leer. → 3.2 / 3.6
+  - Momentos decisivos: "muchachos, está todo bien, tranquilos, vamos paso a paso". Ejemplo (ronda bonus): "esperen, esperen, ellos van a rotar; cuando roten, entramos". "No necesitas una mira extraordinaria, necesitas usar la cabeza y que el equipo confíe en vos." → 3.6 / 2.4
+  - "No se acaba hasta la ronda 13": confianza hasta el final. → 1.8
+  - Comps: "no pienso en personajes, pienso en las herramientas que me dan" (7 flashes = formas de controlar el mapa, no flashear y entrar). Las debilidades se enmascaran: comp sin centinela → Breach en B; mucho retake con flashes y stun. Cambiar cosas da ventaja táctica: el rival tiene que "redescubrir" tu comp en medio del partido. → 3.1
+  - Liderazgo: hay predisposición, pero hay que estudiar el mapa y, lo más importante, a las personas. Empatía: no voy a poner a Less de Jett si sus timings de lurk son buenísimos. → 3.1 / 3.6
+  - "Acordate que jugás con personas, no con máquinas" (frase de su padre): entender cómo durmió, cómo maneja la frustración; preguntar "¿cómo dormiste? ¿estás bien?". Una estrella tóxica hace que "aunque ganes, sufras". "Está todo bien perder, pero vamos a jugar juntos y divertirnos." → 1.6 / 1.8 / 3.6
+- Mixwell analizando a Zekken (duelista de Sentinels):
+  - No te quedes pegado a la esquina ("quedarte en la esquina es de bot"): ábrete un poco para que el que entra tenga que mover la mira. → 2.7 / 1.4
+  - Solo, jugar una posición "todo o nada" sin ventaja es troll. → 2.7
+  - Piensa en lo que pasó la ronda anterior: si alguien te toma B main cada ronda, el de B no puede vender B. Si siempre te humean donde arrancas, cambia de lugar. → 2.3 / 3.3
+  - Post-plant: no asomes al toque; espera a que el Cypher le dispare al que defusa y ahí asomas y lo matas. → 2.6
+  - Holdear el humo > jugar al refrag: si dejas abierto el humo y matan a tu compa, un 5v3 se vuelve 2v3. "Si no haces la mejor jugada estás cometiendo un error, aunque sea la segunda mejor." → 2.1 / 2.7
+  - Conocimiento > aim: si dejas de jugar un mes, la mira se va pero el conocimiento queda. → 1.x
+  - Intuición + razonamiento = flow (Keznit). Los que ganan torneos toman mejores decisiones, no solo hacen 40 kills. → 1.8
+  - Stinger mejor que Spectre en bonus (opinión). → 1.7 / 3.5
+- Mixwell, "Pro Tips #1" (2M vistas; para quienes vienen de otros juegos):
+  - Mira siempre a la cabeza y "preparada" antes de asomar; acércate a la esquina con la mira ya puesta y sal "del tirón". Shoulder peek para ver si te esperan sin arriesgar; prefire si sabes que está. "En este juego la ventaja la tiene el que espera." → 1.2 / 1.4
+  - No te agaches en medio del mapa al ver a alguien: usa el entorno. Dispara, si no lo matas vuelve a cubierto y comunica ("veo uno en A, cuidado corta, yo miro larga"). Nunca posiciones "todo o nada": siempre un segundo plan (muro, flash, otro ángulo) porque todos fallan. → 1.3 / 1.4 / 2.7
+  - Meta: matar en menos de 2 s; no más de 10 balas por kill; las 3 primeras a la cabeza y bajar el mouse; de lejos, ráfagas de 3 o tiro a tiro. Mira (ADS) solo en un 1v1 con plan B; si vienen muchos, nunca ADS. → 1.3
+  - Retake (para nuevos): antes de entrar piensa: ¿hace cuánto plantaron?, ¿qué tan cerca estabas?, ¿cuántos quedan?, ¿dónde está tu compa? Si estás cerca, ven en silencio y escucha dónde se ponen: arma un mapa mental, elige el pathing con el mínimo riesgo y habla con tu compa (o propón el plan tú: "flasheo al de la derecha y asomo al de corta"). → 2.6 / 3.4
+- "ValorantLook" (creador mexicano, LAN), análisis de la comunicación de Boaster (Fnatic, LOCK//IN 2023):
+  - El IGL "tiene que estar en todo": qué tiene su equipo, qué tiene el rival (ultis), qué hacen; avisa "van a voltear e inundar" y prepara al equipo. → 3.6
+  - Tras perder una ronda clave: "no te preocupes, tranquilo"; calmar dentro y entre rondas. → 1.6
+  - Fake con dos (Jett y Breach) mientras tres van a B; "planten y nos vamos". → 3.2
+  - Muerto, sigue dirigiendo ("tenemos ulti, jueguen al tiempo"). → 3.6
+  - "Vamos a tomar nuestro tiempo, vamos a ganar esto lento"; "espera, Leo, están en los humos". → 3.2
+  - Antes de morir en el retake ya tiró sus humos: hizo su trabajo. 4v1: "jueguen juntos, estas rondas se pueden perder". → 3.4 / 2.6
+  - Boaster juega smoker: rol pasivo que juega alrededor del equipo y ve todo el mapa: le calza al IGL. → 3.1 / 3.6
+- Znorux (creador de CS en español, LAN), consejos de IGL:
+  - No eres la mamá de nadie: das jugadas y pautas en el momento justo, no le dices a cada uno cómo apuntar. → 3.6
+  - El IGL no debería ser el AWPer ni el entry (roles que piden mucho foco): mejor un rol de apoyo y rotación en el medio, "abrazado" por el equipo, tomando info. (En Valorant: smoker, igual que FNS y Boaster.) → 3.6 / 3.1
+  - Tiene que saber de economía: anotar qué compró el rival (si forzaron la 2.ª, la 4.ª van a estar débiles; no preocuparse tanto por armas de largo alcance). → 3.5
+  - El IGL es el rol más débil: depende de la info que le dan; por eso hace falta confianza. En un 3v5: aprovechar errores del rival, tomar info "suavecito" sin que te vean. → 3.6
+- 9z ROX (coach/jugador de CS argentino): como soporte, contra un humo de rush en B tienes dos opciones: molly para que no crucen, o guardar la granada y "re-dominar" cuando se va el humo (timing). → 2.7 (CS)
+- Woohoojin (coach, VOD reviews): no hagas la "lista de todos los errores": abruma y no sirve. Puntúa categorías del 1 al 10 y elige las 1-2 peores. Básicas: higiene en los duelos, ¿la ronda tenía un plan con los compas?, ¿comunicaste tu utilidad?, ¿mira cerca de la cabeza?, ¿tomaste duelos en desventaja por economía (peekear Operator sin recon, Spectre contra Vandal de lejos)? Avanzadas: timing de la utilidad, fuerza del plan, decisiones muy rápidas o muy lentas, debilidades de la comp rival, adaptarse a sus hábitos. Mecánica: en 117 reviews solo recomendó enfocarse en mecánica 3 veces (<3%). → 2.8 (coincide con el criterio del profe: decisiones > aim)
+- Version1 (Immi, head coach), "Cómo retakear: entregar un site": dejaban C a propósito con un retake armado: cámara de Cypher + flash de Omen + dardo de Sova, todo al mismo tiempo, y entran por CT y garage. Si muere el Omen (sin flash ni humos), adaptan: cámara + dron + flashes siguiendo al dron. "Marcan" a la Jett una y otra vez para que no pueda jugar. Agruparse antes de entrar; el error fue no pushear juntos a través del humo. Jett + Reyna en el mismo ángulo: la Jett mata y dashea afuera, la Reyna toma el siguiente. Con media compra, stackearon C porque el rival iba casi siempre ahí: "a veces tienes que arriesgar con la lectura". → 3.3 / 3.4
+- Version1 (Immi), setups de Killjoy en Haven: setup pasivo para uno mismo: la torreta hace que el atacante gire a dispararle y ahí asomas; nanos para que no te empujen de costado en un split. En dúo con Phoenix: torreta en las esquinas; cuando dispara, el Phoenix flashea y pelea. Retake con ulti de KJ: entrar al site mirando para que no quede un hueco donde se esconda alguien; los compas entran ~3 s después. "En ranked probablemente no pase: juega para ti." → fichas (Killjoy) / 3.3 / 3.4
+- FNS (canal propio), "Guía de ataque en Haven" para quien empieza a IGLear:
+  - Lo más básico: tres defaults (tres sites, tres chokes). Cada default con la utilidad de cada uno (stun, humo por si hay un Operator, dardo donde romperlo cuesta). → 3.2 / mapas (Haven)
+  - "Inserts": tras el default, dejar dos jugadores (duelista + controlador) en líneas fuertes y reagrupar el resto en otro lado: castigan al que repite y dan info (si les tiran un dardo, eso también es info). Si muere uno, el rival cree que era el único. → 3.2
+  - Fake: mejor a ~40 s; tocar la spike a ~25 s todavía deja tiempo para volver. "Cuanto más tarde el fake, más convincente." → 3.2
+  - Los defaults tienen que parecerse para que no se note cuál es el plan; si te ven el dron muy temprano, protocolo: cambiar a fake. → 3.2
+  - Viper/Harbor: el muro que se regenera hace parecer que siempre vuelves a A: obliga a la defensa a separarse. → 3.1 / 3.2
+  - Peek siempre desde la pared de atrás (back-wall), nunca pegado. → 1.4
+- FNS (clip ValoCook): ¿cómo elige el IGL el site? Defaulteando: mides cuánto espacio tiene el rival y tomas todo lo que puedas; "el espacio que mantuviste es el site que vas a pegar". Contra agentes de TP (Yoru, Waylay): no hagas nada los primeros 30 s, espera su primer TP, y recién ahí defaultea: queda atrapado y tu utilidad vale. "Ruido en A, ruido en B, y mantener el espacio que te dan gratis." → 3.2
+- Fellowship Esports, "Cómo IGLear de verdad" (coach pro):
+  - IGL = controlar tus emociones y las del equipo, dar el ejemplo en el trabajo: así confían en tus calls dudosas. Nada de negatividad en las prácticas: se filtra a los partidos. → 3.6 / 1.6
+  - Error 1 del IGL nuevo: afectarse por un resultado malo, quedarse callado, y entonces alguien hace una jugada solo y muere. "Puedes estar triste después del partido, no en el momento." → 3.6 / 1.8
+  - Error 2: "sobrecocinar" la call de la compra (demasiado, muy rápido, cosas que dependen de lo que pase). Calls simples y específicas; dejar que los compas tomen sus pequeñas decisiones. → 3.6
+  - Partes: pre-ronda, mid-round (con post-plant) y post-ronda. En la compra: el IGL llama → los jugadores preguntan o sugieren → los jugadores se coordinan la utilidad. Todos callados mientras habla el IGL. Orden de la call: idea general → posiciones → detalles ("default B; Brim con Viper a pelear hookah; Vice, si no ves nada en unos segundos, vente a B"). No dictar la utilidad salvo que viste un hueco. → 3.6 / 1.6
+  - Mid-round: voz clara y paciencia. Tras una kill de apertura, a veces lo correcto es "cortar el ruido": el rival no sabe a dónde vas y tiene que repartirse. Sirve si tienes mucho control del mapa; con poco control, cortar el ruido es pedir que te flanqueen. Si tus compas están sentados en un humo esperando sin saber si salir, algo hiciste mal. → 3.2 / 3.6
+- Elmapuddy (analista y coach de CS), "Por qué el stack de B se decide en A" (Vitality):
+  - Un stack de pro no es una apuesta al azar: tiene que parecer una ronda normal (el Operator se muestra en mid como siempre y después rota callado). → 3.3
+  - El que defiende el lado débil hace el trabajo pesado: usa utilidad para retrasar y obligar a los atacantes a ir hacia el stack (molly en el momento justo: 50 s alcanzan para entrar, 35 s no). → 3.3
+  - Usar utilidad temprano cuando el site está débil: el lurker lo avisa y el IGL cuenta los humos del rival. → 3.3 / 2.2
+  - Las granadas, cuando sospechas que esperan detrás de tu utilidad para entrar. En el site del stack hacen falta multi-kills: un 3v3 de post-plant favorece al atacante. → 2.6 / 3.3
+- Elmapuddy, "Por qué Falcons pierde 5v2": con ventaja grande, nada de apuestas innecesarias (entrar en una pelea de spam en un 5v2 "aunque sea favorable"); los tres que estaban juntos se separan y cada duelo queda sin trade: así un solo rival gana el clutch. "Respira un segundo": en el 3v1 no hacía falta flashear; humo, plantar, y el compa en posición de trade. Hace falta una voz fuerte que recuerde dónde pueden estar los vivos y cómo ponerse. → 2.1 / 2.6 / 3.4
+- Elmapuddy, "La mente de los mejores clutches":
+  - Usar la info de toda la ronda para deducir dónde está el último (si plantaron con 40 s y no lo vio desde CT, venía flanqueando). → 2.6
+  - Ponerse en una esquina que te deja controlar cuándo pasa el duelo: asomas un ángulo, después el otro. Paciencia. → 2.6
+  - A veces conviene usar el humo antes de la spike, para romper un cruzado. Cuando les cambias el plan, los jugadores "se ajustan de menos" y quedan con la mira en el lugar equivocado. → 2.6 / 3.4
+  - Pelear contra los que se mueven al descubierto, esperar el sonido; cambiar la altura (agacharse detrás de la caja) para que te pre-apunten mal. → 2.6
+- Elmapuddy, "Cómo NAVI se preparó para FURIA" (anti-strat real):
+  - Mirar los patrones de utilidad del rival: FURIA tiraba humo en low ramp en casi todas las rondas con armas, salvo las dos en que pushearon agresivo (ahí tiraron molly a los 12 s). "Si ves molly en vez de humo, algo pasa": juega lento y espera. Con el humo de siempre, toman el control gratis porque FURIA casi nunca atraviesa su propio humo. → 3.7 / 2.3
+  - Conocer las 3 posiciones habituales de su Operator: según lo que pasa en la ronda, sabes dónde está y pre-apuntas. → 3.7
+  - "Limpiar al revés": en vez de entrar a sacar al Operator de su posición fuerte, presionar en otro lado del mapa para que tenga que irse, y ahí tomar el lugar. → 3.2
+  - Esperar a que el rival "te diga" que una zona está vacía cuando le tira utilidad. → 2.3
+- Elmapuddy, "El timeout que ganó a Spirit la EWC": Spirit ya conocía el plan del rival (caos y agresión) pero no lo castigaba. Gastaron el último timeout temprano para ajustar: encerrarse con humo y molly, cadena de trades (uno tradea al otro), jugar pasivo, y "cerrar las rondas juntos, como unidad, sin entrar en el caos que busca el rival"; ejecutar de verdad (no rush) el site que el rival dejaba vacío. → 3.6 / 3.7
+- Elmapuddy, "Por qué Falcons era tan fácil de leer" (100 Thieves): vieron todas las rondas del rival en ese mapa: el jugador de mid spameaba el humo a los 1:43 el 80-85% de las veces → si no hay spam, cruzan el humo. Otro jugador jiggleaba siempre el mismo lugar (30% de las rondas) → asomarle con la mira ahí. "Riesgo calculado". En rondas grandes conviene tener toda la utilidad (no forzar antes). → 3.7 / 3.5
+- Elmapuddy, "Tips de CS2": un buen humo puede "duplicar" los defensores que hacen falta para cubrir una zona (el que la mira tiene que elegir). Buen bait: dejar que tu compa tome un duelo agresivo solo si eso hace que el rival acelere y se descuide, para que tú hagas multi-kill; si no, pelear juntos. → guía de humos / 2.1
+- karrigan (IGL de FaZe, CS), "Decisiones inteligentes en el mid-round" (revisando la partida de un fan):
+  - Preguntarse "¿cómo perderíamos esta ronda ahora?" y ponerse según eso: si la única forma de perder es un split por dos lados, esos dos lados se cierran; no te muevas a donde no hace falta. → 2.4 / 3.3 / 3.6
+  - Con ventaja (5v4, 5v2), nada de movidas arriesgadas: jugar juntos y no perderla. → 2.6 / 3.4
+  - Concentrarse en un duelo a la vez; confiar en los compas. → 2.1
+  - Guardar la flash para el post-plant en vez de gastarla para "dispersar". Usar utilidad para ganar control del mapa. → 2.6
+  - Leer el radar: si tu compa tiene el control de long, el rival va a pelear por el otro lado. → 2.2
+- Aleksib (IGL de G2, CS), tutorial de IGL:
+  - Sin compañeros que hablen, ningún IGL decide bien. Si el de A avisa "ya tiraron 2-3 humos", un execute tardío en A es más fácil. → 1.6 / 3.6
+  - En la compra, decir el plan y a dónde quieres terminar ("default, y a media ronda explotamos A") para que cada uno guarde la utilidad que hace falta; "solo default" hace que cada uno gaste todo y el final de ronda sea horrible. → 3.2 / 3.6
+  - Adaptar el ritmo: después de varias rondas agresivas, una totalmente pasiva hace que el rival dude y gaste utilidad de más. Si el rival viene jugando pasivo, prepárate para que cambie el ritmo. → 2.3 / 3.2
+  - No puedes tener razón siempre: escucha lo que te dicen los compas y haz una call con eso. → 3.6
+  - Setups de defensa: piensa en el otro lado del mapa. El lado pasivo tiene que ser pasivo de verdad (no morir, solo molestar o flashear para fingir), porque si muere, la rotación que necesita el lado agresivo nunca llega. → 3.3
+- ESL, "Mesa redonda de IGL" (karrigan, apEX y Aleksib, campeones de majors de CS; 68 min):
+  - karrigan: de joven se "apagaba" si jugaba mal individualmente; un líder nunca se puede apagar: si las cosas salen mal, se mantiene positivo y empuja. Antes daba demasiada libertad; decidió liderar como él quería: "en el 13-13 todos te miran a ti". → 3.6 / 1.8
+  - Aleksib: hay que notar las señales chicas de que algo anda mal en el equipo y hablarlo uno a uno antes de que explote. → 1.6 / 3.6
+  - apEX: hacerse cargo ("hoy la cagué"); que el IGL diga "my bad" da permiso a los demás. Pide que sus jugadores digan "my bad" cuando se equivocan, sin culpas. Un coach que marca los errores de los jugadores ayuda a que el IGL no sea siempre "el malo". → 1.6 / 3.8
+  - "Fallé el tiro" vs "había dos esperándome": para el IGL es info clave. Si el plan te dio el duelo y lo perdiste, la call estaba bien; si entraste a un stack y ganaste igual, la call fue mala. Juzgar la call por el plan, no por el resultado. → 2.8 / 3.6
+  - La comunicación es lo número uno: muchas jugadas que parecen tontas vienen de una info mal dada o dada tarde. → 1.6
+  - Anti-strat hoy: mezclar estudiar al rival con cambiar cosas propias para que no te lean (si nunca haces fakes, haz uno el próximo partido). Algunos equipos cambian todo de un partido a otro: no prepararse de más contra ellos. Tener una base propia y adaptarla. → 3.7
+  - Hay que poder jugar lento y rápido; si solo juegas lento, das patrones; llevar registro de lo que llamaste en partidos anteriores. "No hay meta." → 3.2 / 3.6
+  - Es un juego de confianza: el equipo confiado gana los clutches. → 1.8
+  - ¿Qué es un IGL? karrigan: pasión y ser autocrítico. Aleksib: ponerse último: que los demás estén cómodos primero. apEX: "un gran IGL hace brillar a sus jugadores": puede ir 15-28 y estar contento si el equipo ganó porque hizo su trabajo. → 3.6
+- yay (ex-pro de CS y Valorant, campeón de Masters; "Fundamentos: crosshair placement y jiggle"):
+  - Mira a la altura de la cabeza, ajustándola en cada cambio de altura del mapa (subes una rampa: mira más arriba; desde arriba: más abajo). → 1.2
+  - El peek importa tanto como la mira. Peekear abierto (wide) contra alguien que espera, sobre todo un Operator, es regalar la kill. Jiggle peek: ir y volver, mostrando el hombro, no para pelear sino para sacar un tiro o la info; en silencio (A-D sin hacer ruido). Jump peek contra Operator. → 1.4
+  - Piensa dónde puede estar el rival y limpia esas posiciones de a una; holdea la pared cercana para que el rival tenga que salir abierto; cambia la altura (agáchate) para que su mira quede mal puesta. → 1.2 / 1.4
+- Woohoojin, "Así tradean los Radiantes": si no eres el primero en entrar, mira el minimapa mientras tu entry asoma: lo primero lo ve él; tú ves en el minimapa dónde apareció el rival y pre-apuntas ese ángulo antes de salir. Tradeas mucho más rápido y preciso. → 2.1 / 2.2
+- Woohoojin, "Cómo estudiar a los pros" (coaching a un jugador):
+  - "Limit testing": probar jugar más agresivo para saber qué te estás perdiendo jugando lento; jugar lento a veces está bien, no siempre. "Un entry con miedo a morir no es un entry." El que tiene menos utilidad que perder toma el primer duelo; mira tus first kills / first deaths (1 FK y 3 FD = estás jugando muy pasivo). → 3.1 / tracker
+  - Cuando pierdes una ronda con el Operator, pregúntate cuál fue el problema más grande y resuélvelo (si siempre terminas en retake por jugar mid, juega Operator en un main). → 2.8
+  - Si no sabes qué hacer en una situación, busca en YouTube a un pro con ese agente en ese mapa y mira qué hace. → 2.8
+  - Peekear de a un ángulo con A-D; alejarte de la esquina te da ventaja de ángulo. Critica el smurfeo ("arruina las partidas de otros"). → 1.4 / 1.8
+- Sentinels, "Cómo los pros juegan Sova" (con Sacy, campeón con LOUD):
+  - Lo que importa del dardo es el timing, no solo dónde cae; la flash va después del dardo para el entry. → fichas (Sova)
+  - De ancla en B de Ascent, en rangos bajos ya esperan el dardo + Odin: el Sova con experiencia se tira atrás y usa la utilidad para tomar duelos favorables. → fichas (Sova) / 2.7
+  - La ulti, combinada con la utilidad de los compas (en abierto la esquivan). Guardar el dardo para el retake. → fichas / 3.4
+  - "Decidimos jugar retake porque teníamos buenas ultis (Breach, Killjoy)." → 3.4
+- Sentinels, "Por qué los Radiantes no llegan a pro" (TenZ, Kaplan y tarik):
+  - La mira para ser pro es fácil de alcanzar; lo que falta es sentido de juego, decisiones y disciplina. Nadie quiere ser support ni IGL. → 1.8 / 3.1
+  - "Estructura": estrategias armadas, posiciones fijas y protocolos (reacciones que ensayaron con el equipo). Jugar "pug" (cada uno siente la partida y juega con los demás) es inconsistente. → 3.6 / 3.8
+  - Para aprender: mirar partidos pro, videos de comms de equipos pro, watch parties de IGLs y coaches, buscar scrims en Discord y jugar Premier con el mismo grupo varias veces por semana: "es como ping-pong: pasarse info e ideas todo el tiempo". → plan / 3.8
+- Thinking Man's Valorant (TMV, analista; ahora asistente de coach en VCT), "Defaultear como un pro":
+  - Spike en un lugar neutro para poder ir a cualquier site. Negar tu info y sacar la del rival: deducir posiciones por un orbe de Viper, el sonido de una ulti, un tiro de Judge (Liquid siempre pone uno con Judge en hookah) → si hay tres en B, vas a A. → 3.2 / 2.3
+  - Paciencia; un jugador que patrulla los flancos (por debajo del tubo en Fracture) mantiene el control del mapa mientras el equipo cambia de site. Hacer que el rival gaste la utilidad mientras defaulteas. → 3.2
+- TMV, estadísticas de plant de Champions 2021: después de plantar, el atacante gana ~75% de las rondas en promedio; algunos sites se retakean mucho más fácil que otros. Son datos de 2021 y de mapas que cambiaron: sirven como idea, no como número. → 3.4
+- TMV, "Los archivos de G2: retake en todos lados" (Masters London 2026):
+  - "Jugar para el retake es jugar para perder más lento": un retake 5v5 completo pierde en casi todos los sites. Funciona solo con un protocolo muy bien armado para ese site (Leviatán en A de Split) o con ultis grandes. → 3.3 / 3.4
+  - G2 jugaba pasivo en A y en B: sin aviso temprano, el rival salía rápido y terminaban en 3v4 de retake. El humo para "encauzar" no es un muro: lo atraviesan. → 3.3 / guía de humos
+  - "Setup de ranked: uno por cada entrada y nada proactivo". → 3.3
+
+## Videos para ver
+⭐ = los que más recomiendo. Duración en minutos.
+
+### LATAM (LAS y LAN)
+- [KRÜ LESSON by VISA #1 - IGL ft. KALITA](https://www.youtube.com/watch?v=XVnoid-ho_E) · Krü Esports · 1 min
+- [KRÜ LESSON by VISA #3 - CENTINELA ft. ROMI](https://www.youtube.com/watch?v=z_1AOKnxObY) · Krü Esports · 1 min
+- [KRÜ LESSON by VISA #5 - SMOKER ft. CONIR](https://www.youtube.com/watch?v=DEU5FujfOOU) · Krü Esports · 1 min
+- ⭐ [BASTA DE TILTEARSE](https://www.youtube.com/watch?v=gWz-83SnoNc) · Krü Esports · 9 min
+- ⭐ [CONVERTITE EN COACH con ONUR y BETO](https://www.youtube.com/watch?v=DIKt4693CfQ) · Krü Esports · 14 min
+- [Así se preparan las TETRACAMPEONAS DEL SUR](https://www.youtube.com/watch?v=EglZYoMiav8) · Krü Esports · 12 min
+- [Tips para ganar las rondas bonus con Klaus](https://www.youtube.com/watch?v=PfKWM3Ggx6E) · VALORANT Esports LA · 2 min
+- ⭐ [4 Tips to Be the Best IGL](https://www.youtube.com/watch?v=eP-B2Hk1PuE) · LEVIATAN VALORANT · 4 min
+- [LEV KINGG HABLA SOBRE CUAL SERIA SU ROSTER SI FUERA COACH DE LEVIATAN](https://www.youtube.com/watch?v=MsvCfH7-Y8Q) · VALO INFO · 2 min
+- [ASI SE ESCUCHA SER CAMPEON DEL MUNDO](https://www.youtube.com/watch?v=cDxx57g1Hhc) · LEVIATAN VALORANT · 21 min
+- [ASI SE ESCUCHA NUESTROS PARTIDOS en MASTER LONDON](https://www.youtube.com/watch?v=joLO-wISczM) · LEVIATAN VALORANT · 16 min
+- [Losing to 100 Thieves, returning to Leviatan, changes as a coach - LEV Onur Interview](https://www.youtube.com/watch?v=Vf6Sw0BqSJY) · Pedro Romero · 14 min
+- [Onur nos habla de esta nueva etapa en la Academia de Leviatan](https://www.youtube.com/watch?v=zk7GH0IUDps) · Malazunto QPE · 40 min
+- ⭐ [El Secreto De Ser IGL - Saadhak](https://www.youtube.com/watch?v=iZCNCDpkRow) · MIXWELL WATCH PARTY  · 25 min
+- [¿Cómo es tan buen IGL? Análisis de la comunicación de BOASTER // Valorant Champions Tour:LockIn 2023](https://www.youtube.com/watch?v=Mujq7nPIAV4) · ValorantLook · 12 min
+- [CONSEJOS PARA SER MEJOR IN GAME LEADER (IGL)](https://www.youtube.com/watch?v=eWhuMEvdI18) · Znorux · 12 min
+- [9z ROX: PRO TIPS PARA JUGAR SITE B EN INFERNO](https://www.youtube.com/watch?v=vp1AGnY5VtM) · lokomotioncs · 3 min
+
+### EMEA en español
+- ⭐ [Macrojuego y Microjuego](https://www.youtube.com/watch?v=USLVie9vcUk) · GIANTX · 14 min
+- ⭐ [ASÍ PIENSA ZEKKEN - ANÁLISIS PROFUNDO DE UN DUELISTA PROFESIONAL](https://www.youtube.com/watch?v=vJptbWhP0TM) · mixwell · 29 min
+- ⭐ [Valorant Pro Tips #1- crosshair, entorno, movimiento y recoil, by mixwell](https://www.youtube.com/watch?v=wBQLIWgxs8A) · mixwell · 14 min
+- [ASÍ ES COMO TIENES QUE HACER DE IGL A TU EQUIPO](https://www.youtube.com/watch?v=NbYmhWhCfCk) · mixwell · 24 min
+
+### VCT y coaches de Valorant (inglés)
+- [Tips para la concentración con Boostio](https://www.youtube.com/watch?v=Ko4BCIPoxmo) · VALORANT Esports LA · 2 min
+- [Retoma como un profesional con Saadhak](https://www.youtube.com/watch?v=OZ1M4DQbI_w) · VALORANT Esports LA · 3 min
+- [Los Mejores Coaches Comparten sus Consejos para Mejorar](https://www.youtube.com/watch?v=b7mKy00BRgg) · VALORANT Esports LA · 4 min
+- [Esa es la belleza de VALORANT, no tiene un meta](https://www.youtube.com/watch?v=tIaVKm6fAYs) · VALORANT Esports LA · 7 min
+- [ASÍ LO JUEGO: Pro tips sobre el nuevo Lotus](https://www.youtube.com/watch?v=aGn3eCEO764) · VALORANT Esports LA · 1 min
+- ⭐ [HOW TO RETAKE - Giving up and retaking a VALORANT site  - Coach's Corner presented by XRocker](https://www.youtube.com/watch?v=JZm5ONMdUyI) · Version1 · 7 min
+- [HOW TO SET UP ON HAVEN WITH KILLJOY - Coach's Corner with Immi presented by X Rocker](https://www.youtube.com/watch?v=spzIgjROi1I) · Version1 · 10 min
+- ⭐ [The ULTIMATE Guide to Attack on Haven! - Pro VALORANT IGL Tips & Tricks](https://www.youtube.com/watch?v=Zq32hr73BYo) · FNS · 17 min
+- [FNS Explains How Do IGL's Decide Site Hits While Defaulting in Valorant](https://www.youtube.com/watch?v=IWCHqv9T5Vs) · ValoCook · 2 min
+- ⭐ [How to actually IGL, from a Pro Coach](https://www.youtube.com/watch?v=6zfMSrA_WB0) · Fellowship Esports · 20 min
+- [VALORANT Fundamentals from YAY - Crosshair Placement and Jiggling](https://www.youtube.com/watch?v=2rUpglPIlQE) · yayster · 21 min
+- [This is how Radiants Trade](https://www.youtube.com/watch?v=rK64OvTw7BA) · Woohoojin · 3 min
+- [How to study pros](https://www.youtube.com/watch?v=c386L7DL75s) · Woohoojin · 15 min
+- ⭐ [You Suck at VOD Review](https://www.youtube.com/watch?v=3XydhpDyKaU) · Woohoojin · 4 min
+- [How Pros Perfectly Play Sova](https://www.youtube.com/watch?v=Mey7vc-xcIg) · Sentinels · 8 min
+- ⭐ [Why radiant players never go pro](https://www.youtube.com/watch?v=83kruQ90Ytc) · Sentinels · 8 min
+- [Watch this to Default Like a Pro! (Reupload cause I'm an idiot)](https://www.youtube.com/watch?v=vLtP43B_478) · Thinking Man's Valorant · 18 min
+- [Which Sites Are The Best To Plant On? Easiest to Retake?](https://www.youtube.com/watch?v=4_eLuZ_QUaM) · Thinking Man's Valorant · 17 min
+- ⭐ [The G-FLU Files: FULL RETAKE EVERYWHERE!](https://www.youtube.com/watch?v=cPFjbZ4S9iM) · Thinking Man's Valorant · 12 min
+
+### Counter-Strike (inglés)
+- ⭐ [Learn IGL'ing from the best - IGL Roundtable](https://www.youtube.com/watch?v=R8k85Yd4Xvw) · ESL Counter-Strike · 68 min
+- [How to Make Smart Mid Round Decisons - Karrigan Reviews #6 CS:GO](https://www.youtube.com/watch?v=mTKkgmsoinQ) · karrigan · 15 min
+- [G2 Aleksib](https://www.youtube.com/watch?v=-DfqcmHVYt0) · betway esports · 12 min
+- ⭐ [Why stacking B is decided on A](https://www.youtube.com/watch?v=vut7kgnJwU4) · Elmapuddy · 8 min
+- [Why Falcons Keep Losing 5v2s](https://www.youtube.com/watch?v=cy3YDv31QgQ) · Elmapuddy · 10 min
+- [Inside the Mind of the Best Pro Clutches](https://www.youtube.com/watch?v=3XTMUYw3QTI) · Elmapuddy · 9 min
+- ⭐ [How NAVI Prepared for FURIA Better Than Anyone Else](https://www.youtube.com/watch?v=fhmBtM6ULf8) · Elmapuddy · 11 min
+- [The Timeout That Won Spirit EWC](https://www.youtube.com/watch?v=fi-6pyzetA4) · Elmapuddy · 14 min
+- [Why Falcons Were So Easy to Read](https://www.youtube.com/watch?v=9ZfGqcBDqzA) · Elmapuddy · 11 min
+- [CS2 Tips Pros Use That Most Players Miss](https://www.youtube.com/watch?v=TeakNWWto-E) · Elmapuddy · 7 min
+
+### Texto
+- [FNS: guía de IGL (ONE Esports)](https://www.oneesports.gg/valorant/how-to-be-a-good-valorant-igl-guide/)
+- [FNS en Hotspawn (2020)](https://www.hotspawn.com/?p=14347)
+- [Las reglas no escritas del IGL (Dignitas)](https://dignitas.gg/articles/the-unwritten-rules-of-in-game-leading)
+- [kiNgg en Strafe (2023)](https://www.strafe.com/news/read/lev-kingg-talks-about-his-individual-performance-and-more/)
+- [AMA de Elevated, coach de VCT (VLR)](https://www.vlr.gg/569757/ama-about-coaching-in-vct)
+- [Cómo analizar un VOD (VLR, comunidad)](https://www.vlr.gg/394247/how-to-analysis-a-vod)
