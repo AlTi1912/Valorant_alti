@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Centinela · Guía Alti</title>
+  <meta name="description" content="Cómo jugar centinela: cerrar una parte del mapa, cuidar el flanco y qué haces en cada parte de la ronda, en defensa y en ataque. Con Killjoy, Cypher, Chamber y el resto.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-gl="rol-centinela">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../niveles.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('/Valorant_alti/assets/img/maps/bind.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#roles">Roles</a> / Centinela</div>
+      <div class="chips"><span class="chip red">Rol</span><span class="chip">Centinela</span><span class="chip">Killjoy · Cypher · Chamber · Vyse</span></div>
+      <h1>Centinela</h1>
+      <p class="lead">Cuidas el flanco, cortas rotaciones y ganas timings. Cierras una parte del mapa y das la info aunque no estés ahí. Y no mueres primero.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#trabajo">Tu trabajo</a></li>
+          <li><a href="#compra">La compra</a></li>
+          <li><a href="#defensa">En defensa</a></li>
+          <li><a href="#ataque">En ataque</a></li>
+          <li><a href="#agentes">Los centinelas</a></li>
+          <li><a href="#equipo">Con tu equipo</a></li>
+          <li><a href="#quiz">¿Qué haces?</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel"><dl class="kv"><dt>Tu trabajo</dt><dd>Cerrar el flanco</dd><dt>Setup</dt><dd>Armado en la compra</dd><dt>En el rush</dt><dd>No mueras primero</dd><dt>Regla</dt><dd>Cambia el setup</dd></dl></div>
+          <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="rol-centinela"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+        </div>
+      </details>
+
+      <section class="block" id="trabajo">
+        <h2><span class="idx">01</span>Tu trabajo</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Cerrar una parte del mapa para que no te coman la espalda, dar la info de esa zona y estar vivo para castigar al que se equivoca.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Un iniciador no puede parar un rush solo: la flash se esquiva y el dron se rompe. Un centinela sí, con su utilidad. Y si nadie cuida el flanco, el lurker te gana la ronda.</p></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Tu lugar</div><h4>La parte pasiva</h4><p class="muted">No vas a buscar la primera kill: eso es del duelista con el iniciador. Pones tu utilidad, castigas al que pushea y matas al lurker.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Dos tipos</div><h4>Cierran el mapa o paran rushes</h4><p class="muted">Killjoy y Cypher cierran una zona y te dan la info aunque no estén. Sage, Deadlock, Veto y Vyse paran rushes, pero después quedan más débiles (<a href="#agentes">los centinelas</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">No defiendes solo</div><h4>Pide ayuda antes</h4><p class="muted">Un centinela solo no aguanta un site. Pide utilidad en la compra: "si vienen a C, humea aquí y métete conmigo".</p></div>
+          <div class="panel reveal"><div class="eyebrow">Tu cabeza</div><h4>Tranquilo y atento</h4><p class="muted">Es el rol para el que es paciente y busca el error del rival. Si te gusta ir a los tiros, juega del tridente.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="compra">
+        <h2><span class="idx">02</span>La compra</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Tu utilidad primero</h4><p>Tu setup es lo que cierra el mapa. Sin cables, torreta o trampa, eres uno más con un arma.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Eco es eco</h4><p>Si el equipo ahorra, ahorras. Nada de Marshal con Cypher porque sí.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Si cuatro compran, compras</h4><p>No fuerces solo, y no te quedes en eco si el resto compra.</p></div>
+        </div>
+        <div class="placeholder" style="margin-top:16px"><div><b>Compra en pistola</b>Las tarjetas por centinela, como las de los controladores. Las armo con las capturas de la guía.</div></div>
+      </section>
+
+      <section class="block" id="defensa">
+        <h2><span class="idx">03</span>En defensa, parte por parte</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>En la compra</h4><p>Arma tu setup antes de que empiece la ronda y di dónde vas a jugar. Si pones la utilidad con la ronda empezada, el rival te escucha.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Al contacto</h4><p>Tu utilidad avisa o frena. Callea al instante cuántos son y por dónde vienen, y frena el rush para que llegue la rotación.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Si entran</h4><p>No mueras primero. Aguanta lejos y con cobertura hasta que llegue la ayuda: tu trabajo es ganar tiempo.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>En el retake</h4><p>Castigas: cubres el error del rival y matas al lurker. Primero se toman los links, después el site.</p></div>
+          <div class="step-card reveal"><span class="n">5</span><h4>La próxima ronda</h4><p>Cambia el setup. Si siempre pones lo mismo en el mismo lugar, el rival ya sabe dónde romperlo.</p></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Dónde va la trampa</div><h4>Ni muy adelante ni muy atrás</h4><p class="muted">Muy adelante, te comen la espalda. Muy atrás, te la humean y pasan. Piensa por dónde viene el rival y qué le hace tu utilidad.</p></div>
+          <div class="panel reveal"><div class="eyebrow">No rotes por un ruido</div><h4>Tu site primero</h4><p class="muted">Si en el otro site ya hay tres, no te vayas por un ruido: le regalas tu site al lurker.</p></div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Los setups</b> de cada site y cómo entregar un site con el retake armado están en el <a href="../temas/3-3-setups-defensivos.html">3.3</a>.</div></div>
+      </section>
+
+      <section class="block" id="ataque">
+        <h2><span class="idx">04</span>En ataque</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">La punta del mapa</div><h4>Cuidas el flanco</h4><p class="muted">Controlas una punta con tu utilidad, sin morir, para que no lurkeen a tu equipo. Si te ven con los demás, son los cinco: cierra la espalda.</p></div>
+          <div class="panel reveal"><div class="eyebrow">En la ejecución</div><h4>Tu utilidad atrás</h4><p class="muted">Cuando el equipo entra, pon tu utilidad cuidando la espalda. No eres el que abre el site.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Después del plant</div><h4>Juega el costado</h4><p class="muted">Cuida la spike desde lejos o lurkea por mid y agarra al rival de costado cuando rote.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Recoge tu utilidad</div><h4>Para la próxima</h4><p class="muted">Si la ronda ya terminó o cambian de site, recoge lo que se pueda recoger.</p></div>
+        </div>
+        <div class="panel reveal" style="margin-top:16px"><div class="eyebrow">Un ejemplo: Bind en ataque</div><h4>Cypher o Chamber</h4><p class="muted">Controlando la punta del mapa: larga o baños, con cámara y seguro, sin morir, y con dos cables en una zona para que no lurkeen. Míralo en el <a href="../humos.html#bind">tablero de Bind</a>.</p></div>
+      </section>
+
+      <section class="block" id="agentes">
+        <h2><span class="idx">05</span>Los centinelas</h2>
+        <p class="muted">Toca cada uno y abajo ves cómo se juega.</p>
+        <div class="acc-gal acc-agents reveal" data-accgal>
+          <div class="acc-item is-active" data-target="ce-killjoy" style="--c:#5c5a2a"><img src="../assets/img/agents/killjoy.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="true" aria-controls="ce-killjoy"><span class="sr-only">Killjoy</span></button><span class="acc-label">Killjoy</span><span class="acc-text">Cuida al lurker, corta rotaciones y gana timings.</span></div>
+          <div class="acc-item" data-target="ce-cypher" style="--c:#3a4a5a"><img src="../assets/img/agents/cypher.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-cypher"><span class="sr-only">Cypher</span></button><span class="acc-label">Cypher</span><span class="acc-text">Cierra una zona y te da la info aunque no esté ahí.</span></div>
+          <div class="acc-item" data-target="ce-chamber" style="--c:#6a5a2a"><img src="../assets/img/agents/chamber.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-chamber"><span class="sr-only">Chamber</span></button><span class="acc-label">Chamber</span><span class="acc-text">Con sus picks agresivos puede ganar o perder el mapa.</span></div>
+          <div class="acc-item" data-target="ce-sage" style="--c:#2a5a5a"><img src="../assets/img/agents/sage.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-sage"><span class="sr-only">Sage</span></button><span class="acc-label">Sage</span><span class="acc-text">El muro dura unos 40 segundos; después no tienes nada para cerrar el mapa.</span></div>
+          <div class="acc-item" data-target="ce-deadlock" style="--c:#4a4a5a"><img src="../assets/img/agents/deadlock.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-deadlock"><span class="sr-only">Deadlock</span></button><span class="acc-label">Deadlock</span><span class="acc-text">Pasa lo mismo, pero con los sensores se puede hacer más fuerte en el site.</span></div>
+          <div class="acc-item" data-target="ce-vyse" style="--c:#4a2a5a"><img src="../assets/img/agents/vyse.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-vyse"><span class="sr-only">Vyse</span></button><span class="acc-label">Vyse</span><span class="acc-text">Con el muro puede cerrar el mapa, pero sirve más para parar un rush, con las zarzas y el muro.</span></div>
+          <div class="acc-item" data-target="ce-veto" style="--c:#2a3a5a"><img src="../assets/img/agents/veto.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-veto"><span class="sr-only">Veto</span></button><span class="acc-label">Veto</span><span class="acc-text">Puede parar un primer rush con la E, pero después queda bastante endeble.</span></div>
+        </div>
+        <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="ce-killjoy"><h4>Killjoy</h4><p>Cuida al lurker, corta rotaciones y gana timings. Si van los 5 en rush, no debe morir primero.</p><ul class="look"><li>La torreta y el Alarmbot cubren una zona sin que estés ahí: te dan la info y te ganan tiempo.</li><li>Los Nanoswarm sirven para frenar el rush o el defuse. Tíralos cuando ya escuchas la spike, no antes.</li><li>La ulti es para el retake o para sacarlos del site: úsala con tu equipo listo para entrar.</li></ul></div><div class="ag-panel" id="ce-cypher" hidden><h4>Cypher</h4><p>Cierra una zona y te da la info aunque no esté ahí.</p><ul class="look"><li>Pon los cables en la compra: si los pones con la ronda empezada, el rival te escucha y sabe dónde estás.</li><li>Párate donde veas al rival antes de que rompa el cable. Cuando lo escucha y mira el cable, lo matas.</li><li>Guarda siempre una cage para el final de la ronda. Y recoge tus trampas antes de que termine.</li><li>La cámara es info: úsala cuando el equipo la necesita, no para mirar por mirar.</li></ul></div><div class="ag-panel" id="ce-chamber" hidden><h4>Chamber</h4><p>Con sus picks agresivos puede ganar o perder el mapa. Como centinela no es muy bueno, y por eso se debate si debería considerarse centinela.</p><ul class="look"><li>Juega de mira: es el que ancla un ángulo con Operator o con la Headhunter.</li><li>No se juntan dos que hacen lo mismo: si tu Jett tiene Operator, no estén en el mismo lugar.</li><li>En mapas con un mid importante deja huecos de info: avisa qué no estás viendo.</li></ul></div><div class="ag-panel" id="ce-sage" hidden><h4>Sage</h4><p>El muro dura unos 40 segundos; después no tienes nada para cerrar el mapa.</p><ul class="look"><li>El muro sirve para frenar un rush o para plantar tranquilo, no para tirarlo al voleo.</li><li>El Slow Orb frena el rush o el defuse.</li></ul></div><div class="ag-panel" id="ce-deadlock" hidden><h4>Deadlock</h4><p>Pasa lo mismo, pero con los sensores se puede hacer más fuerte en el site.</p><ul class="look"><li>Muchos la usan más como iniciador, adentro del tridente, por el GravNet.</li></ul></div><div class="ag-panel" id="ce-vyse" hidden><h4>Vyse</h4><p>Con el muro puede cerrar el mapa, pero sirve más para parar un rush, con las zarzas y el muro.</p></div><div class="ag-panel" id="ce-veto" hidden><h4>Veto</h4><p>Puede parar un primer rush con la E, pero después queda bastante endeble.</p></div></div>
+      </section>
+
+      <section class="block" id="equipo">
+        <h2><span class="idx">06</span>Con tu equipo</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">El tridente</div><h4>Ellos chocan, tú cubres</h4><p class="muted">Duelista, iniciador y el tercero pelean la zona. Tú cubres los huecos que dejan con tu utilidad.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Controlador</div><h4>La otra parte pasiva</h4><p class="muted">Ustedes dos cuidan las puntas y la espalda. Un one-way o una puerta cerrada del humo te libera para cubrir más.</p></div>
+          <div class="panel reveal"><div class="eyebrow">El que callea</div><h4>Dile dónde estás</h4><p class="muted">"Killjoy, quédate en B con la torreta": si el equipo sabe dónde está tu setup, juega alrededor de él.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Si mueres</div><h4>Avisa qué queda</h4><p class="muted">Di qué utilidad tuya sigue viva y qué zona quedó sin cubrir.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">07</span>¿Qué haces?</h2>
+        <p class="muted">Situaciones de centinela. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="a">
+            <p class="s">Eres Cypher. Empieza la ronda de defensa y todavía no pusiste los cables.</p>
+            <div class="opts"><button class="preset" data-choice="a">Los pongo en la compra</button><button class="preset" data-choice="b">Los pongo cuando escuche algo</button></div>
+            <p class="why">Si los pones con la ronda empezada, el rival te escucha y sabe dónde estás.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Vienen los cinco en rush a tu site.</p>
+            <div class="opts"><button class="preset" data-choice="a">Me quedo a pelear de cerca</button><button class="preset" data-choice="b">Freno con la utilidad y me retraso</button></div>
+            <p class="why">El centinela no debe morir primero. Frena, callea y gana tiempo para la rotación.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Escuchas un ruido en el otro site, donde ya hay tres compas.</p>
+            <div class="opts"><button class="preset" data-choice="a">Roto a ayudar</button><button class="preset" data-choice="b">Me quedo en mi site</button></div>
+            <p class="why">Con tres allá ya está cubierto. Si te vas por un ruido, le regalas tu site al lurker.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Llevas tres rondas con el mismo setup y en la última te lo rompieron rápido.</p>
+            <div class="opts"><button class="preset" data-choice="a">Lo cambio</button><button class="preset" data-choice="b">Lo dejo, funcionaba</button></div>
+            <p class="why">El rival ya sabe dónde está. Cambia el setup para que no te lean.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">En ataque, tu equipo va a ejecutar A.</p>
+            <div class="opts"><button class="preset" data-choice="a">Entro primero al site</button><button class="preset" data-choice="b">Cuido la espalda con mi utilidad</button></div>
+            <p class="why">No eres el que abre el site. Si cuidas la espalda, nadie los lurkea.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">08</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">🛡</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Dos setups por site</h3>
+              <p class="muted">En el mapa que más juegas, arma dos setups distintos para cada site. Ponlos rápido, en la compra, sin pensar.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">🎙</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Swiftplay</span></div>
+              <h3>Callea tu zona</h3>
+              <p class="muted">Una swiftplay de centinela diciendo al empezar dónde juegas y avisando cada vez que tu utilidad detecta algo.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">VOD</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Revisión</span></div>
+              <h3>¿Te lurkearon?</h3>
+              <p class="muted">En tu última ranked cuenta las rondas en que te comieron la espalda y las que moriste primero en un rush. Esas son las primeras a corregir.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">09</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Poner la utilidad con la ronda empezada.</div>
+          <div class="err reveal">Morir primero en el rush.</div>
+          <div class="err reveal">Rotar por un ruido y regalar el site.</div>
+          <div class="err reveal">El mismo setup todas las rondas.</div>
+          <div class="err reveal">Ir a buscar la primera kill en ataque.</div>
+          <div class="err reveal">No avisar lo que detecta tu utilidad.</div>
+          <div class="err reveal">Defender un site solo sin pedir ayuda.</div>
+          <div class="err reveal">Dejar el flanco libre cuando el equipo ejecuta.</div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">10</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, ya juegas de centinela. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="rol-centinela">
+          <li><label><input type="checkbox"><span>Armo mi setup en la compra y digo dónde juego.</span></label></li>
+          <li><label><input type="checkbox"><span>En un rush freno, calleo y no muero primero.</span></label></li>
+          <li><label><input type="checkbox"><span>No roto por un ruido si mi site queda solo.</span></label></li>
+          <li><label><input type="checkbox"><span>Cambio el setup para que no me lean.</span></label></li>
+          <li><label><input type="checkbox"><span>En ataque cuido la espalda y no dejo que nos lurkeen.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="controlador.html"><small>Anterior</small>Controlador</a>
+        <a class="next" href="../temas/3-1-roles-y-composicion.html"><small>Siguiente</small>3.1 Roles y composición</a>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel"><div class="aside-title">Regla rápida</div><dl class="kv"><dt>Tu trabajo</dt><dd>Cerrar el flanco</dd><dt>Setup</dt><dd>Armado en la compra</dd><dt>En el rush</dt><dd>No mueras primero</dd><dt>Regla</dt><dd>Cambia el setup</dd></dl></div>
+        <div class="panel"><div class="aside-title">Recuerda</div><p style="margin:0">Si van los 5 en rush, <strong>no mueras primero</strong>.</p></div>
+        <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="rol-centinela"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <nav class="foot-links" aria-label="Herramientas"><a href="../glosario.html">Glosario</a><a href="../videos.html">Videos por tema</a><a href="../humos.html">Guía de humos</a><a href="../tracker.html">Tu tracker</a><a href="../niveles.html">Pasar de nivel</a></nav>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/glossary-data.js"></script>
+  <script src="../assets/app.js"></script>
+</body>
+</html>
