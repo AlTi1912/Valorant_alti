@@ -1085,3 +1085,23 @@ div.acc-item { cursor: default; }
   .bcard { transform: none !important; }
   .js .bcard.reveal .bcard-agent { transform: translateX(-50%); opacity: 1; }
 }
+
+/* Banner con arte completo (páginas de rol) */
+.hero-banner { min-height: clamp(420px, 42vw, 620px); display: flex; align-items: flex-end; background:
+  linear-gradient(0deg, rgba(10, 17, 24, .96) 0%, rgba(10, 17, 24, .55) 28%, transparent 55%),
+  var(--hero-img, none) center 20% / cover no-repeat,
+  var(--navy-950); }
+.hero-banner .wrap { width: 100%; padding-top: 32px; padding-bottom: 40px; }
+.hero-banner .wrap > * { max-width: 640px; }
+.hero-banner .lead { text-shadow: 0 1px 8px rgba(0, 0, 0, .7); }
+.hero-banner h1 { text-shadow: 0 2px 18px rgba(0, 0, 0, .6); }
+@media (max-width: 720px) {
+  .hero-banner { min-height: 0; display: block; padding-top: 43vw; background:
+    linear-gradient(0deg, var(--navy-950) 0%, var(--navy-950) calc(100% - 43vw), rgba(10, 17, 24, .2) calc(100% - 43vw + 60px), transparent 100%),
+    var(--hero-img-sm, var(--hero-img, none)) top center / 100% auto no-repeat,
+    var(--navy-950); }
+  .hero-banner .wrap { padding-top: 8px; }
+}
+.hero-glass { max-width: 600px; padding: 22px 26px; background: rgba(10, 17, 24, .58); border: 1px solid rgba(255, 255, 255, .12); border-radius: var(--radius); -webkit-backdrop-filter: blur(12px) saturate(1.2); backdrop-filter: blur(12px) saturate(1.2); }
+.hero-glass .lead { margin-bottom: 0; }
+@media (max-width: 720px) { .hero-glass { padding: 0; background: none; border: 0; -webkit-backdrop-filter: none; backdrop-filter: none; } }
