@@ -426,4 +426,5 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
   - Si nadie va por baños: humos como en la primera imagen.
   - Si el centinela va por baños, acompañado por la Clove/Reyna y se tradean por baños: humos como en la segunda imagen, para ganar el máximo espacio posible.
   - Fake en B y el lurker entra por baños: gana espacio en el site de A, descuenta al que se queda en lamps o en el site, y los humos van más atrás para tener libre todo el site (más espacio = más % de ganar); el equipo se tepea y rota a A.
-- En la guía de humos (`humos.html#bind`) con pestañas por plan y las 3 imágenes; enlazado desde la página del controlador.
+- En la guía de humos (`humos.html#bind`): pedido del profe, no publicar sus imágenes tal cual. Valoplant no tiene API pública, así que el tablero se rehízo con el minimapa y los íconos de valorant-api, con las posiciones pasadas de sus tableros (humos, aliados, rivales, rival muerto en lamps, cámaras). Botones por plan; enlazado desde la página del controlador.
+- Compra en pistola: tarjetas por agente al estilo de ValoHandbook (nombre, pistola y habilidades en silueta, agente abajo); en el celular se deslizan.

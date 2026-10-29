@@ -1015,3 +1015,50 @@ div.acc-item { cursor: default; }
 .sm-body-wide .shot { margin: 0; }
 .sm-body-wide p { margin: 0 0 10px; }
 .sm-body-wide .shot img { height: auto; aspect-ratio: 1100 / 907; object-fit: contain; }
+
+/* Compra en pistola: tarjetas por agente (estilo ValoHandbook) */
+.bcard-grid { display: grid; gap: 12px; margin-top: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
+.bcard { position: relative; isolation: isolate; overflow: hidden; min-height: 420px; padding: 22px 16px 0; display: flex; flex-direction: column; align-items: center; text-align: center; color: var(--on-dark); background: radial-gradient(120% 70% at 50% 100%, var(--c) 0%, var(--navy-950) 70%); border: 1px solid var(--line); border-radius: var(--radius); }
+.bcard::before { content: ""; position: absolute; inset: -20%; z-index: -2; background: var(--img) center 30% / cover no-repeat; filter: blur(22px) saturate(1.3); opacity: .35; }
+.bcard::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(rgba(6, 9, 20, .55), rgba(6, 9, 20, .15) 55%, rgba(6, 9, 20, .5)); }
+.bcard-name { font: 500 34px/1 var(--font-tech); letter-spacing: .06em; text-transform: uppercase; margin: 0 0 14px; text-shadow: 0 2px 12px rgba(0, 0, 0, .6); }
+.bcard-opts { position: relative; z-index: 1; display: grid; justify-items: center; gap: 6px; }
+.bcard-row { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: 4px 6px; }
+.bi { position: relative; display: grid; justify-items: center; gap: 4px; min-width: 52px; }
+.bi img { height: 34px; width: auto; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, .6)); }
+.bi-gun img { height: 28px; margin-top: 3px; }
+.bi i { position: absolute; top: -6px; right: 2px; font: 500 11px var(--font-tech); font-style: normal; color: #fff; background: var(--red); border-radius: 999px; padding: 1px 5px; }
+.bi small { font: 500 10px/1.2 var(--font-tech); letter-spacing: .06em; text-transform: uppercase; color: var(--on-dark-muted); max-width: 72px; }
+.bcard-plus { font: 500 20px/34px var(--font-tech); color: #fff; opacity: .8; }
+.bcard-or { font: 500 13px var(--font-tech); letter-spacing: .18em; text-transform: uppercase; color: var(--on-dark-muted); }
+.bcard-agent { position: absolute; left: 50%; bottom: -6px; z-index: 0; width: 120%; max-width: none; height: 62%; object-fit: contain; object-position: 50% 100%; transform: translateX(-50%); pointer-events: none; -webkit-mask: linear-gradient(transparent, #000 25%); mask: linear-gradient(transparent, #000 25%); }
+.bi-gun img { filter: brightness(0) invert(1) drop-shadow(0 2px 6px rgba(0, 0, 0, .6)); }
+.bcard { min-height: 460px; }
+.bcard-agent { height: 54%; }
+.bi small { text-shadow: 0 1px 4px rgba(0, 0, 0, .9); }
+.bcard-grid:focus-visible { outline: 2px solid var(--focus); outline-offset: 4px; border-radius: var(--radius); }
+@media (max-width: 640px) {
+  .bcard-grid { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 80%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; overscroll-behavior-x: contain; }
+  .bcard { scroll-snap-align: center; }
+}
+
+/* Tablero (estilo Valoplant, hecho con el minimapa oficial) */
+.sm-map.sm-norot { transform: none; }
+.sm-body-wide .sm-stage { max-width: none; }
+.bd-smoke, .bd-ag, .bd-foe, .bd-cam { position: absolute; transform: translate(-50%, -50%); border-radius: 50%; }
+.sm-map .bd-smoke { width: 6.5%; aspect-ratio: 1; background: radial-gradient(circle at 40% 35%, rgba(235, 220, 255, .95), rgba(160, 140, 240, .85) 55%, rgba(120, 100, 220, .5) 75%, transparent 77%); box-shadow: 0 0 10px rgba(170, 150, 255, .6); animation: sm-pop .35s ease-out both; }
+.sm-map .bd-ag { width: 5.5%; aspect-ratio: 1; overflow: hidden; border-radius: 6px; background: var(--teal); padding: 2px; box-shadow: 0 2px 6px rgba(0, 0, 0, .6); animation: sm-pop .35s ease-out both; }
+.sm-map .bd-ag img, .bd-cam img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+.sm-map .bd-foe { width: 4%; aspect-ratio: 1; border-radius: 6px; background: var(--red); box-shadow: 0 2px 6px rgba(0, 0, 0, .6); animation: sm-pop .35s ease-out both; }
+.bd-dead { background: var(--navy-700) !important; }
+.bd-dead::before, .bd-dead::after { content: ""; position: absolute; left: 10%; right: 10%; top: 45%; height: 12%; background: #7cff6b; border-radius: 2px; transform: rotate(45deg); }
+.bd-dead::after { transform: rotate(-45deg); }
+.sm-map .bd-cam { width: 3.6%; aspect-ratio: 1; padding: 3px; background: var(--navy-950); border-radius: 6px; }
+.bd-legend { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; color: var(--muted); }
+.bd-legend li { display: inline-flex; align-items: center; gap: 8px; }
+.bd-legend span { position: relative; transform: none; width: 18px; height: 18px; flex: none; }
+.bd-legend .bd-smoke { border-radius: 50%; background: radial-gradient(circle at 40% 35%, #ebdcff, #a08cf0 60%); }
+.bd-legend .bd-key { border-radius: 5px; background: var(--teal); }
+.bd-legend .bd-foe { border-radius: 5px; background: var(--red); }
+.bd-legend .bd-cam { padding: 2px; background: var(--navy-950); border-radius: 5px; }
+.sm-text p { margin: 0 0 10px; }
