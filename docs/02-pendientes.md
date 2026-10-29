@@ -23,8 +23,9 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Previews de Discord: no van (decisión del profe).
 - Efectos (pedido del profe, todo menos el texto que se descifra): transición entre páginas, brillo en tarjetas, glosario dentro de los temas, flashcards, defuse en el 2.6, números que cuentan, acordeón y carrusel en el 3.1, pase de nivel que se arranca. Detalle en DESIGN.md (7b).
 - Inicio: carrusel de mapas (reemplaza la grilla) y sección "Cómo jugar cada rol" (acordeón con los 4 roles: qué hace y cuándo).
-- **Página del controlador hecha** (`roles/controlador.html`): falta que el profe mande las capturas (compra con humos, humos bien puestos, Omen y Clove; recuadros reservados) y revise lo agregado. Siguen iniciador, centinela y duelista, enfocados en los agentes que juega o vio el profe.
+- **Página del controlador hecha** (`roles/controlador.html`): con compra de pistola por controlador, "humo de Oro vs. de Inmortal" y acordeón de controladores con panel abajo (de las capturas de ValoHandbook que mandó el profe). Falta que el profe revise y, si quiere, compras de eco/force/full. Siguen iniciador, centinela y duelista, enfocados en los agentes que juega o vio el profe.
 - **Páginas por rol** (duelista, iniciador, controlador, centinela): qué hace, cómo y cuándo en cada fase de la ronda, en ataque y en defensa. Después decidir qué queda en el 3.1.
+- Guía de humos: Haven y Abyss con minimapa por caso (de ValoHandbook, a revisar por el profe). Faltan Summit, Bind, Lotus, Sunset y Corrode, y los humos de defensa.
 - Acordeón para la guía de humos: cuando lleguen las capturas por mapa.
 - Pendiente: la pool de mapas dice "Act 6 / 13.08"; revisar si cambió con el parche 13.09.
 

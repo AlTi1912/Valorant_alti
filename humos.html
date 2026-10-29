@@ -25,7 +25,7 @@
   </header>
 
   <main id="contenido">
-    <section class="hero hero-mini" style="--hero-img: url('assets/img/crosshair/ascent-principal-a.webp')">
+    <section class="hero hero-mini" style="--hero-img: url('/Valorant_alti/assets/img/crosshair/ascent-principal-a.webp')">
       <div class="wrap">
         <div class="crumbs"><a href="./#temario">Qué veremos</a> / Herramientas</div>
         <div class="chips"><span class="chip red">Guía</span><span class="chip">Controladores</span></div>
@@ -152,16 +152,38 @@
       <div class="wrap">
         <div class="section-head">
           <div><div class="eyebrow">Por mapa</div><h2>Los humos de cada mapa</h2></div>
-          <p class="muted">Los humos buenos y malos de cada site, con capturas. Los voy sumando.</p>
+          <p class="muted">Dónde va cada humo para entrar a cada site. Toca cada caso y mira el minimapa. Los voy sumando.</p>
         </div>
+        <div class="dos-donts">
+          <div class="dd no reveal"><h4>Humo de Oro</h4><ul><li>Flotando en el medio, con huecos a los lados.</li><li>Metido en una ventana: por abajo igual te asoman.</li><li>Dos humos tan pegados a la entrada que tu equipo no tiene por dónde pasar.</li></ul></div>
+          <div class="dd yes reveal"><h4>Humo de Inmortal</h4><ul><li>Pegado a la pared o a la esquina, sin huecos.</li><li>Tapa toda la abertura, de arriba abajo.</li><li>Deja espacio para que tu equipo entre y se pare detrás.</li></ul></div>
+        </div>
+        <div class="sm-grid" style="margin-top:16px">
+          <div class="panel sm reveal" data-smokemap>
+            <div class="eyebrow">Haven</div><h4>Humos de Haven</h4>
+            <div class="sm-modes" role="group" aria-label="Humos de Haven"><button class="place-mode" type="button" data-sm="haven-a" aria-pressed="true">A en ataque</button><button class="place-mode" type="button" data-sm="haven-b" aria-pressed="false">B en ataque</button><button class="place-mode" type="button" data-sm="haven-c" aria-pressed="false">C en ataque</button><button class="place-mode" type="button" data-sm="haven-r" aria-pressed="false">Retake de A</button></div>
+            <div class="sm-body">
+              <div class="sm-stage" aria-hidden="true"><div class="sm-map"><img src="assets/img/maps/haven-mini.webp" alt="" width="640" height="640" loading="lazy"><span class="sm-layer" data-sm-dots="haven-a"><span class="sm-dot" style="left:34.6%;top:26.7%"><b>1</b></span><span class="sm-dot" style="left:34.6%;top:18.0%"><b>2</b></span></span><span class="sm-layer" data-sm-dots="haven-b" hidden><span class="sm-dot" style="left:39.9%;top:32.4%"><b>1</b></span><span class="sm-dot" style="left:38.8%;top:59.5%"><b>2</b></span></span><span class="sm-layer" data-sm-dots="haven-c" hidden><span class="sm-dot" style="left:34.0%;top:72.4%"><b>1</b></span><span class="sm-dot" style="left:45.2%;top:70.4%"><b>2</b></span></span><span class="sm-layer" data-sm-dots="haven-r" hidden><span class="sm-dot" style="left:44.5%;top:25.0%"><b>1</b></span></span></div><span class="sm-side">Ataque</span></div>
+              <div class="sm-text" aria-live="polite"><div data-sm-list="haven-a"><p class="muted" style="margin:0 0 8px">Entran por Long y Sewer.</p><ol class="sm-list"><li>A Link</li><li>A Tower (heaven)</li></ol></div><div data-sm-list="haven-b" hidden><p class="muted" style="margin:0 0 8px">Entran desde mid.</p><ol class="sm-list"><li>La salida de B hacia A Link</li><li>La salida de B hacia C</li></ol></div><div data-sm-list="haven-c" hidden><p class="muted" style="margin:0 0 8px">Entran por C Long.</p><ol class="sm-list"><li>C Link</li><li>Garage</li></ol></div><div data-sm-list="haven-r" hidden><p class="muted" style="margin:0 0 8px">Para entrar o defusar sin que te vean desde Sewer.</p><ol class="sm-list"><li>El site, del lado de Sewer</li></ol></div><p class="muted" style="font-size:14px;margin:12px 0 0">Haven también tiene one-ways para defender: el rival sale del humo y tú le ves los pies.</p></div>
+            </div>
+          </div>
+          <div class="panel sm reveal" data-smokemap>
+            <div class="eyebrow">Abyss</div><h4>Humos de Abyss</h4>
+            <div class="sm-modes" role="group" aria-label="Humos de Abyss"><button class="place-mode" type="button" data-sm="abyss-a" aria-pressed="true">A en ataque</button><button class="place-mode" type="button" data-sm="abyss-b" aria-pressed="false">B en ataque</button><button class="place-mode" type="button" data-sm="abyss-m" aria-pressed="false">Mid</button></div>
+            <div class="sm-body">
+              <div class="sm-stage" aria-hidden="true"><div class="sm-map"><img src="assets/img/maps/abyss-mini.webp" alt="" width="640" height="640" loading="lazy"><span class="sm-layer" data-sm-dots="abyss-a"><span class="sm-dot" style="left:35.9%;top:20.5%"><b>1</b></span><span class="sm-dot" style="left:50.8%;top:29.3%"><b>2</b></span></span><span class="sm-layer" data-sm-dots="abyss-b" hidden><span class="sm-dot" style="left:37.8%;top:80.2%"><b>1</b></span><span class="sm-dot" style="left:48.7%;top:74.6%"><b>2</b></span></span><span class="sm-layer" data-sm-dots="abyss-m" hidden><span class="sm-dot" style="left:44.0%;top:50.4%"><b>1</b></span></span></div><span class="sm-side">Ataque</span></div>
+              <div class="sm-text" aria-live="polite"><div data-sm-list="abyss-a"><p class="muted" style="margin:0 0 8px">Entran por A Main.</p><ol class="sm-list"><li>Del lado de A Link</li><li>Del lado de Tower</li></ol></div><div data-sm-list="abyss-b" hidden><p class="muted" style="margin:0 0 8px">Entran por B Main.</p><ol class="sm-list"><li>Del lado de B Tower</li><li>Del lado de mid (Bend)</li></ol></div><div data-sm-list="abyss-m" hidden><p class="muted" style="margin:0 0 8px">Para cruzar mid desde Bottom.</p><ol class="sm-list"><li>Library</li></ol></div><p class="muted" style="font-size:14px;margin:12px 0 0">En Abyss los bordes no tienen pared: con el humo puesto, cuidado al moverte cerca del vacío.</p></div>
+            </div>
+          </div>
+        </div>
+        <p class="muted" style="font-size:14px;margin-top:12px">Humos basados en las guías de <a href="https://www.tiktok.com/@valohandbook" target="_blank" rel="noopener">ValoHandbook</a>. Para ver el lineup exacto de cada humo o dibujar sus jugadas: <a href="https://valoplant.gg/es/lineups" target="_blank" rel="noopener">Valoplant</a>.</p>
+        <h3 style="margin-top:32px">Los otros mapas</h3>
         <div class="grid c2">
-          <div class="panel reveal"><div class="eyebrow">Haven</div><h4>Humos de Haven</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
           <div class="panel reveal"><div class="eyebrow">Summit</div><h4>Humos de Summit</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
           <div class="panel reveal"><div class="eyebrow">Bind</div><h4>Humos de Bind</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
           <div class="panel reveal"><div class="eyebrow">Lotus</div><h4>Humos de Lotus</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
           <div class="panel reveal"><div class="eyebrow">Sunset</div><h4>Humos de Sunset</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
           <div class="panel reveal"><div class="eyebrow">Corrode</div><h4>Humos de Corrode</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
-          <div class="panel reveal"><div class="eyebrow">Abyss</div><h4>Humos de Abyss</h4><ul class="look"><li>Ataque: humos para entrar a cada site.</li><li>Defensa: humos para aguantar o frenar.</li><li>Post-plant y retake.</li></ul><div class="placeholder" style="min-height:96px;margin-top:12px"><div><b>Capturas pendientes</b>Las pongo con cada humo.</div></div></div>
         </div>
       </div>
     </section>

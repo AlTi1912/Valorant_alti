@@ -898,7 +898,14 @@ document.querySelectorAll("[data-defuse]").forEach(function (box) {
 // Acordeón con imágenes
 document.querySelectorAll("[data-accgal]").forEach(function (gal) {
   var items = gal.querySelectorAll(".acc-item");
-  var set = function (it) { items.forEach(function (x) { var on = x === it; x.classList.toggle("is-active", on); (x.querySelector(".acc-hit") || x).setAttribute("aria-expanded", on); }); };
+  var set = function (it) {
+    items.forEach(function (x) {
+      var on = x === it, panel = x.dataset.target && document.getElementById(x.dataset.target);
+      x.classList.toggle("is-active", on);
+      (x.querySelector(".acc-hit") || x).setAttribute("aria-expanded", on);
+      if (panel) panel.hidden = !on;
+    });
+  };
   items.forEach(function (it) {
     var hit = it.querySelector(".acc-hit") || it;
     window.skWatch(it);
@@ -1011,4 +1018,17 @@ document.querySelectorAll("[data-ticket]").forEach(function (box) {
   });
   document.addEventListener("change", function (e) { if (e.target.closest('[data-checklist="' + id + '"]')) render(); });
   render();
+});
+
+// Humos por mapa: botones que cambian los puntos del minimapa
+document.querySelectorAll("[data-smokemap]").forEach(function (box) {
+  var btns = box.querySelectorAll("[data-sm]");
+  btns.forEach(function (b) {
+    b.addEventListener("click", function () {
+      btns.forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      box.querySelectorAll("[data-sm-dots], [data-sm-list]").forEach(function (el) {
+        el.hidden = (el.dataset.smDots || el.dataset.smList) !== b.dataset.sm;
+      });
+    });
+  });
 });

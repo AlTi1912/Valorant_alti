@@ -966,3 +966,48 @@ div.acc-item { cursor: default; }
 .acc-link { position: relative; z-index: 3; align-self: flex-start; display: inline-flex; align-items: center; min-height: 24px; margin-top: 6px; font-size: 14px; font-weight: 600; color: var(--red-soft); }
 .acc-link::after { content: " →"; white-space: pre; }
 .acc-item:not(.is-active) .acc-link { display: none; }
+
+/* Compra por controlador */
+.buy-grid { display: grid; gap: 12px; margin-top: 16px; }
+@media (min-width: 720px) { .buy-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.buy { display: grid; gap: 10px; align-content: start; }
+.buy-head { display: flex; align-items: center; gap: 10px; }
+.buy-head .ag-mini { width: 36px; height: 36px; }
+.buy-head b { font-size: 17px; }
+.buy-opt { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.buy-ab, .buy-gun { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 6px; font-size: 14px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; }
+.buy-gun { padding-left: 10px; font-family: var(--font-tech); letter-spacing: .04em; }
+.buy-ab img { width: 22px; height: 22px; }
+.buy-plus { color: var(--muted); }
+.buy-or { font: 500 12px var(--font-tech); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+
+/* Acordeón de agentes (página de rol) */
+.acc-agents { height: 360px; gap: 8px; }
+.acc-agents .acc-item { padding: 14px; }
+.acc-agents .acc-label { font-size: 17px; }
+.acc-agents .acc-text { font-size: 14px; }
+.acc-agents + .ag-panels { margin-top: 12px; }
+@media (max-width: 720px) {
+  .acc-agents { height: auto; }
+  .acc-agents .acc-item { height: 56px; }
+  .acc-agents .acc-item.is-active { height: 260px; }
+}
+
+/* Humos por mapa (minimapa con puntos) */
+.sm-grid { display: grid; gap: 16px; }
+.sm-modes { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px; }
+.sm-body { display: grid; gap: 16px; align-items: start; }
+@media (min-width: 760px) { .sm-body { grid-template-columns: minmax(0, 360px) minmax(0, 1fr); } }
+.sm-stage { position: relative; max-width: 360px; padding-bottom: 22px; }
+.sm-map { position: relative; aspect-ratio: 1; transform: rotate(90deg); background: var(--navy-950); border-radius: var(--radius-sm); }
+.sm-map img { display: block; width: 100%; height: 100%; opacity: .85; }
+.sm-layer[hidden] { display: none; }
+.sm-dot { position: absolute; width: 13%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%; background: radial-gradient(circle, rgba(170, 150, 255, .75) 0 45%, rgba(120, 100, 230, .35) 70%, transparent 72%); display: grid; place-items: center; animation: sm-pop .35s ease-out both; }
+.sm-dot b { transform: rotate(-90deg); font: 500 15px var(--font-tech); color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .8); }
+@keyframes sm-pop { from { transform: translate(-50%, -50%) scale(.4); opacity: 0; } to { transform: translate(-50%, -50%) scale(1); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .sm-dot { animation: none; } }
+.sm-side { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); font: 500 11px var(--font-tech); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.sm-side::before { content: "↑ "; }
+.sm-list { margin: 0; padding-left: 22px; }
+.sm-list li { margin: 4px 0; }
+.sm-text [hidden] { display: none; }
