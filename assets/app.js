@@ -594,18 +594,33 @@ document.querySelectorAll(".ag-big img, .ag-img img, .ag-mini img").forEach(func
     } else if (c < 3900) {
       buy = next >= 3900 ? "Force o ahorro" : "Force";
       msg = "SMG, escopetas, Bulldog o una Outlaw con escudo ligero. No les des duelos de cerca: juégales lejos y frena los rushes con utilidad." + (next >= 3900 ? " Si ahorran, la próxima llegan a full buy: es probable que ahorren." : " Ahorrar no les alcanza para full buy: es probable que fuercen.");
-    } else if (c < 5700) {
+    } else if (c < 5100) {
       buy = "Full buy";
       msg = "Rifles y escudo pesado. Juega la ronda normal, con tu plan.";
     } else {
       buy = "Full + Operator";
-      msg = "Pueden tener rifles, escudo pesado y Operator. Ubica al Operator antes de asomar.";
+      msg = "Pueden tener rifles y alguno una Operator, aunque sea con escudo ligero o una habilidad (4700 + 400). Ubica al Operator antes de asomar.";
     }
     outBuy.textContent = buy;
     outNext.textContent = next.toLocaleString("es");
-    outMsg.textContent = msg + " Mira en TAB si alguno tiene 4700 o más: ese puede comprar Operator.";
+    outMsg.textContent = msg + " Mira en TAB si alguno tiene 4700 o más: ese puede comprar Operator, y con 5100 le alcanza para Operator y escudo ligero.";
   };
   cred.addEventListener("input", read);
   streak.addEventListener("change", read);
   read();
 })();
+
+/* 3.6: arma la call de la compra */
+document.querySelectorAll("[data-builder]").forEach(function (box) {
+  var out = box.querySelector("[data-builder-out]"), parts = {};
+  var btns = box.querySelectorAll("[data-part]");
+  btns.forEach(function (b) { if (b.getAttribute("aria-pressed") === "true") parts[b.dataset.part] = b.dataset.value; });
+  var order = [];
+  btns.forEach(function (b) { if (order.indexOf(b.dataset.part) < 0) order.push(b.dataset.part); });
+  var render = function () {
+    out.textContent = order.map(function (k) { return parts[k]; }).filter(Boolean).join(" ");
+    btns.forEach(function (b) { b.setAttribute("aria-pressed", parts[b.dataset.part] === b.dataset.value ? "true" : "false"); });
+  };
+  btns.forEach(function (b) { b.addEventListener("click", function () { parts[b.dataset.part] = b.dataset.value; render(); }); });
+  render();
+});
