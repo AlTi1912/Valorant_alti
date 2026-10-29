@@ -419,3 +419,11 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Reglas "humo de Oro vs. de Inmortal" (sin huecos, toda la abertura, dejar espacio, en la boca de la entrada), sacadas de las comparaciones con rangos y de los ✗/✓ de Ascent (fuera de la pool).
 - Haven: A (A Link + Tower), B (salidas hacia A Link y hacia C), C (C Link + Garage), retake de A. Abyss: A (lado de A Link + lado de Tower), B (lado de B Tower + lado de mid), mid (Library). Ubicación pasada del minimapa de las capturas al de la API: revisar con el profe.
 - Arreglado: la imagen de fondo del encabezado no cargaba en las páginas de la raíz (rutas relativas dentro de una variable CSS); ahora son absolutas (/Valorant_alti/...).
+
+## Bind en ataque (tableros del profe en Valoplant)
+
+- Del profe, tal cual: comp más o menos común. Cypher o Chamber controlando la punta del mapa (larga o baños), con cámara y seguro, sin morir, y dos cables en una zona para que no lurkeen. El tridente (Raze, Fade y Reyna/Clove) gana espacios; en este caso, corta.
+  - Si nadie va por baños: humos como en la primera imagen.
+  - Si el centinela va por baños, acompañado por la Clove/Reyna y se tradean por baños: humos como en la segunda imagen, para ganar el máximo espacio posible.
+  - Fake en B y el lurker entra por baños: gana espacio en el site de A, descuenta al que se queda en lamps o en el site, y los humos van más atrás para tener libre todo el site (más espacio = más % de ganar); el equipo se tepea y rota a A.
+- En la guía de humos (`humos.html#bind`) con pestañas por plan y las 3 imágenes; enlazado desde la página del controlador.

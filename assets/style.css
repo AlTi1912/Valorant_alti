@@ -1011,3 +1011,7 @@ div.acc-item { cursor: default; }
 .sm-list { margin: 0; padding-left: 22px; }
 .sm-list li { margin: 4px 0; }
 .sm-text [hidden] { display: none; }
+@media (min-width: 760px) { .sm-body-wide { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } }
+.sm-body-wide .shot { margin: 0; }
+.sm-body-wide p { margin: 0 0 10px; }
+.sm-body-wide .shot img { height: auto; aspect-ratio: 1100 / 907; object-fit: contain; }
