@@ -576,3 +576,36 @@ document.querySelectorAll(".ag-big img, .ag-img img, .ag-mini img").forEach(func
   var fail = function () { img.parentNode.classList.add("no-img"); img.remove(); };
   if (img.complete && img.naturalWidth === 0) fail(); else img.addEventListener("error", fail);
 });
+
+/* 3.5: leer la plata del rival */
+(function () {
+  var box = document.querySelector("[data-rival]");
+  if (!box) return;
+  var cred = document.getElementById("rv-cred"), streak = document.getElementById("rv-streak");
+  var outBuy = document.getElementById("rv-buy"), outNext = document.getElementById("rv-next"), outMsg = document.getElementById("rv-msg");
+  var bonus = [1900, 2400, 2900];
+  var read = function () {
+    var c = Math.max(0, Math.min(9000, parseInt(cred.value, 10) || 0));
+    var next = Math.min(9000, c + bonus[parseInt(streak.value, 10) || 0]);
+    var buy, msg;
+    if (c < 2000) {
+      buy = "Eco";
+      msg = "Pistolas (Sheriff, Ghost) y quizá escudo ligero o una Marshal. Juntos, que vengan ellos, y nada de duelos de cerca: ahí una Sheriff a la cabeza te mata igual.";
+    } else if (c < 3900) {
+      buy = next >= 3900 ? "Force o ahorro" : "Force";
+      msg = "SMG, escopetas, Bulldog o una Outlaw con escudo ligero. No les des duelos de cerca: juégales lejos y frena los rushes con utilidad." + (next >= 3900 ? " Si ahorran, la próxima llegan a full buy: es probable que ahorren." : " Ahorrar no les alcanza para full buy: es probable que fuercen.");
+    } else if (c < 5700) {
+      buy = "Full buy";
+      msg = "Rifles y escudo pesado. Juega la ronda normal, con tu plan.";
+    } else {
+      buy = "Full + Operator";
+      msg = "Pueden tener rifles, escudo pesado y Operator. Ubica al Operator antes de asomar.";
+    }
+    outBuy.textContent = buy;
+    outNext.textContent = next.toLocaleString("es");
+    outMsg.textContent = msg + " Mira en TAB si alguno tiene 4700 o más: ese puede comprar Operator.";
+  };
+  cred.addEventListener("input", read);
+  streak.addEventListener("change", read);
+  read();
+})();

@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Economía de equipo</title>
+  <meta name="description" content="Tema 3.5: leer la plata del rival, cómo jugar contra su eco y contra su force, la compra en equipo, cuándo forzar, tus rondas económicas y el plan de economía.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-lesson="3.5" data-title="Economía de equipo">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario" aria-current="page">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../nivel-1.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/crosshair/ascent-vestibulo-a.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#temario">Qué veremos</a> / Nivel 3</div>
+      <div class="chips"><span class="chip red">Tema 3.5</span><span class="chip">Juntada de ~1 hora</span><span class="chip">Custom</span></div>
+      <h1>Economía<br>de equipo</h1>
+      <p class="lead">Mirar la plata del rival, comprar los cinco juntos y jugar distinto contra su eco y contra su force.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#resumen">Lo primero</a></li>
+          <li><a href="#leer">Lee su plata</a></li>
+          <li><a href="#anti-eco">Contra su eco</a></li>
+          <li><a href="#anti-force">Contra su force</a></li>
+          <li><a href="#compra">La compra del equipo</a></li>
+          <li><a href="#forzar">¿Cuándo forzar?</a></li>
+          <li><a href="#nuestra">Tus rondas económicas</a></li>
+          <li><a href="#mitad">Fin de mitad y overtime</a></li>
+          <li><a href="#plan">Arma tu plan</a></li>
+          <li><a href="#quiz">¿Qué compran?</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#clase">La juntada</a></li>
+          <li><a href="#tarea">Para esta semana</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel"><dl class="kv"><dt>Antes de comprar</dt><dd>Mira su plata</dd><dt>Su eco</dt><dd>Juntos y lejos</dd><dt>Su force</dt><dd>Nada de cerca</dd><dt>Forzar</dt><dd>Los cinco o nadie</dd></dl></div>
+          <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="3-5"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+        </div>
+      </details>
+
+      <section class="block" id="resumen">
+        <h2><span class="idx">01</span>Lo primero</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Que el equipo compre junto, sepa qué tiene el rival antes de cada ronda y juegue distinto según eso: contra su eco, contra su force y en las rondas propias.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Muchas rondas se pierden antes de empezar: uno fuerza solo, nadie miró la plata del rival, o se pierde una anti-eco por pushear de a uno y regalar un rifle.</p></div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Esto sigue al 1.7.</b> Ahí están cómo entra la plata, los tipos de ronda, la pistola, cuándo salvar, qué escudo comprar y la regla de los drops (<a href="1-7-economia-basica.html">1.7</a>). Acá lo jugamos en equipo.</div></div>
+      </section>
+
+      <section class="block" id="leer">
+        <h2><span class="idx">02</span>Lee su plata</h2>
+        <p class="muted">En la compra, abre TAB y mira la plata del rival. Pon su promedio:</p>
+        <div class="panel reveal" data-rival>
+          <div class="calc">
+            <div>
+              <div class="field"><label for="rv-cred">Plata promedio del rival</label><input id="rv-cred" type="number" inputmode="numeric" value="2600" min="0" max="9000" step="100"></div>
+              <div class="field"><label for="rv-streak">¿Cómo vienen ellos?</label>
+                <select id="rv-streak">
+                  <option value="0">Ganaron la última</option>
+                  <option value="1" selected>Perdieron 1 seguida</option>
+                  <option value="2">Perdieron 2 o más seguidas</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <div class="grid c2" style="gap:12px">
+                <div><div class="aside-title">Lo más probable</div><div class="result" id="rv-buy" style="font-size:30px">–</div></div>
+                <div><div class="aside-title">Si ahorran y pierden, la próxima</div><div class="result" id="rv-next">–</div></div>
+              </div>
+              <p id="rv-msg" style="margin:14px 0 0"></p>
+            </div>
+          </div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">El Operator</div><h4>Cuesta 4700</h4><p class="muted">Si nadie del rival tiene 4700 o más, no hay Operator (salvo que alguien se lo dropee). Si alguno tiene, ubícalo antes de asomar.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Su ronda pasada</div><h4>Si forzaron, la próxima están débiles</h4><p class="muted">Si forzaron la segunda ronda, en la cuarta probablemente no tienen full buy. Fíjate en TAB qué compraron en cada ronda.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="anti-eco">
+        <h2><span class="idx">03</span>Contra su eco</h2>
+        <p class="muted">Tienes rifles, ellos pistolas. Esta ronda se pierde de una sola forma: regalándola.</p>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Juntos</div><h4>Que vengan ellos</h4><p class="muted">No pushees solo ni asomes uno por uno. Si te matan, le das un rifle, plata y orbes. En eco, cada kill vale doble: pierden el arma, el escudo y la utilidad.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Lejos</div><h4>Juega a distancia</h4><p class="muted">Sus armas pegan de cerca. Juega ángulos largos, donde tu rifle gana y su Sheriff tiene que acertar a la cabeza.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Su plan</div><h4>Van a venir juntos</h4><p class="muted">En eco suelen ir los cinco juntos a un site, a pelear de cerca. Si escuchas un rush, utilidad para frenarlo y retrocede para pelear de lejos.</p></div>
+          <div class="panel reveal"><div class="eyebrow">El arma</div><h4>Outlaw si te alcanza</h4><p class="muted">Contra una eco, una Outlaw es casi imposible de ganar para el rival: mata de un tiro a la cabeza a distancia y dispara dos veces.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="anti-force">
+        <h2><span class="idx">04</span>Contra su force</h2>
+        <p class="muted">Ellos compraron lo que pudieron: SMG, escopetas, Bulldog. Es más peligrosa que una eco.</p>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">De cerca</div><h4>Nada de esquinas</h4><p class="muted">Una Judge o una Bucky en una esquina te mata aunque tengas Vandal y escudo pesado. No limpies esquinas cerradas: usa utilidad o déjalas.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Lejos</div><h4>Tu rifle gana de lejos</h4><p class="muted">Igual que contra la eco: pelea donde tu arma es mejor. Una Spectre de cerca es un láser; de lejos, no.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Sus escudos</div><h4>Mira qué compraron</h4><p class="muted">Si van con escudo ligero, cada tiro tuyo pesa más. Una Outlaw o una Guardian los mata de un tiro a la cabeza.</p></div>
+          <div class="panel reveal"><div class="eyebrow">El rush</div><h4>Frénalo</h4><p class="muted">Un force casi siempre es rápido. Molly, slow o un humo en la entrada, y retrocede: si les cortas el rush, se quedan sin nada.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="compra">
+        <h2><span class="idx">05</span>La compra del equipo</h2>
+        <p class="muted">En la compra se decide la ronda. Una sola voz y todos lo mismo.</p>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Una call</div><h4>"Full", "eco", "force"</h4><p class="muted">Uno dice qué compra el equipo y los demás lo siguen. Si alguien no puede, lo dice en ese momento: "yo no llego".</p></div>
+          <div class="panel reveal"><div class="eyebrow">Todos lo mismo</div><h4>Si cuatro compran, compras</h4><p class="muted">Aunque solo te alcance para Sheriff y escudo pesado. Y si el equipo ahorra, tú también: si compras solo, la próxima nadie tiene full buy.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Drops</div><h4>El que más tiene, compra</h4><p class="muted">Si te sobran más de 3100 después de tu compra, dropéale al que menos tiene (<a href="1-7-economia-basica.html#equipo">1.7</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">Rondas grandes</div><h4>Toda la utilidad</h4><p class="muted">En las rondas que deciden la mitad, conviene que todos lleguen con todas sus habilidades. No fuercen justo antes si eso los deja sin utilidad.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="forzar">
+        <h2><span class="idx">06</span>¿Cuándo forzar?</h2>
+        <p class="muted">Forzar es una decisión de equipo. Los cinco o ninguno.</p>
+        <div class="dos-donts">
+          <div class="dd yes reveal"><h4>Forzar tiene sentido</h4><ul><li>Si ahorrar no les alcanza para full buy la próxima: ahorrar no sirve de nada.</li><li>En punto de mapa (el rival a una ronda de ganar).</li><li>Si tienen ventaja de ultis.</li><li>Si el rival tampoco tiene: le rompieron la economía.</li></ul></div>
+          <div class="dd no reveal"><h4>Mejor no</h4><ul><li>Si ahorrando llegan a full buy la próxima.</li><li>Si fuerza uno solo.</li><li>Si el rival tiene full buy con Operator y ustedes SMG.</li><li>Si después no les queda ni para la utilidad de la siguiente.</li></ul></div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Si pierden la pistola,</b> yo suelo hacer full eco. Depende de la comp y del mapa: si hay una Neon, quizá forzar Stingers, pero puede ser mala idea (<a href="1-7-economia-basica.html#pistola">1.7</a>).</div></div>
+      </section>
+
+      <section class="block" id="nuestra">
+        <h2><span class="idx">07</span>Tus rondas económicas</h2>
+        <p class="muted">Cuando el que ahorra eres tú.</p>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Utilidad</div><h4>Solo la barata</h4><p class="muted">En eco, la utilidad cara (un dron, por ejemplo) no se gasta, salvo que ya estén ganando la ronda. La que se renueva o es barata, sí. Si eres controlador, compra tus dos humos.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Juntos</div><h4>Los cinco a un site</h4><p class="muted">Juntos, de cerca y sin duelos largos (mid, líneas largas): ahí una Marshal o una Outlaw los mata de un tiro.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Qué comprar</div><h4>Utilidad antes que pistola</h4><p class="muted">A veces una escopeta barata y un stun valen más que una Ghost. Un iniciador sin su flash o su dron aporta mucho menos.</p></div>
+          <div class="panel reveal"><div class="eyebrow">El objetivo</div><h4>Dañar su economía</h4><p class="muted">Si no ganan, al menos llévense kills y armas: cada kill les quita un rifle, un escudo y utilidad para la próxima.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="mitad">
+        <h2><span class="idx">08</span>Fin de mitad y overtime</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">La ronda 12</div><h4>Gasta todo</h4><p class="muted">La plata no pasa a la otra mitad: en la última ronda de la mitad todos empiezan con 800. Compra lo mejor que puedas, aunque te deje en cero.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Overtime</div><h4>Todos compran</h4><p class="muted">En overtime todos reciben la misma plata en cada ronda y alcanza para full buy: no hay ecos. Lo que cambia la ronda son las ultis y la utilidad.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="plan">
+        <h2><span class="idx">09</span>Arma tu plan</h2>
+        <p class="muted">Lo hablan antes del partido, para no decidir en la compra.</p>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Pistola</div><h4>Si la ganamos y si la perdemos</h4><p class="muted">Qué compramos en la 2 y en la 3 en cada caso (<a href="1-7-economia-basica.html#pistola">1.7</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">Durante el partido</div><h4>Quién llama la compra</h4><p class="muted">Quién mira la plata del rival, quién dice "full, eco o force", y quién dropea a quién.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Las reglas</div><h4>Cuándo forzamos</h4><p class="muted">En punto de mapa, con ventaja de ultis o si ahorrar no nos alcanza. Si no, ahorramos los cinco.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">10</span>¿Qué compran?</h2>
+        <p class="muted">Situaciones de economía. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="b">
+            <p class="s">Ganaron la ronda y el rival tiene 1500 en promedio. Tú tienes Vandal.</p>
+            <div class="opts"><button class="preset" data-choice="a">Voy a buscarlos a mid</button><button class="preset" data-choice="b">Jugamos juntos y que vengan ellos</button></div>
+            <p class="why">Es su eco: si te matan solo, les regalas un rifle. Que vengan ellos a tus ángulos largos.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">El rival tiene 3200 en promedio. Esperas su entrada en el site.</p>
+            <div class="opts"><button class="preset" data-choice="a">Juego lejos y freno el rush</button><button class="preset" data-choice="b">Me pongo en la esquina con Vandal</button></div>
+            <p class="why">Con 3200 pueden ir con Judge o SMG. De cerca te ganan aunque tengas Vandal.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Ustedes tienen 2900 en promedio y perdieron 2 seguidas. El rival no está en punto de mapa.</p>
+            <div class="opts"><button class="preset" data-choice="a">Forzamos</button><button class="preset" data-choice="b">Ahorramos</button></div>
+            <p class="why">Si ahorran, la próxima tienen 2900 + 2900: full buy para los cinco.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Es la ronda 12, la última de la mitad. Tienes 2400.</p>
+            <div class="opts"><button class="preset" data-choice="a">Gasto todo</button><button class="preset" data-choice="b">Ahorro para la próxima</button></div>
+            <p class="why">La plata no pasa a la otra mitad. Gasta todo.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Nadie del rival tiene más de 4000.</p>
+            <div class="opts"><button class="preset" data-choice="a">Juego como si hubiera Operator</button><button class="preset" data-choice="b">No hay Operator: puedo pelear más lejos</button></div>
+            <p class="why">La Operator cuesta 4700. Si nadie llega, no la tienen (salvo un drop).</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Cuatro compran rifle. A ti solo te alcanza para Sheriff y escudo pesado.</p>
+            <div class="opts"><button class="preset" data-choice="a">Compro eso</button><button class="preset" data-choice="b">Ahorro solo</button></div>
+            <p class="why">Si ahorras solo, la próxima tú tienes y ellos no: el equipo nunca compra junto.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Es tu eco y eres Sova. Tienes 900.</p>
+            <div class="opts"><button class="preset" data-choice="a">Me compro una Ghost</button><button class="preset" data-choice="b">Me compro el dardo y algo barato</button></div>
+            <p class="why">El iniciador aporta con su utilidad. Pero en eco no gastes en la cara: el dron, solo si ya van ganando la ronda.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">11</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">Eco</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Anti-eco</h3>
+              <p class="muted">Cinco con rifles contra cinco con pistolas. Los de rifle no pueden pushear solos: ganan si no regalan ningún arma.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">Force</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Anti-force</h3>
+              <p class="muted">Cinco con rifles contra cinco con SMG y escopetas que rushean. Los de rifle tienen que frenar el rush y pelear de lejos.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">TAB</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Ranked</span></div>
+              <h3>La compra</h3>
+              <p class="muted">En cada compra, mira la plata del rival y di en voz alta qué crees que van a comprar. Después confirma si acertaste.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">12</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">No mirar la plata del rival antes de comprar.</div>
+          <div class="err reveal">Pushear solo contra una eco y regalar un rifle.</div>
+          <div class="err reveal">Limpiar esquinas cerradas contra un force con escopetas.</div>
+          <div class="err reveal">Forzar solo cuando el equipo ahorra.</div>
+          <div class="err reveal">Ahorrar solo cuando cuatro compran.</div>
+          <div class="err reveal">Forzar cuando ahorrando llegaban a full buy.</div>
+          <div class="err reveal">Guardar plata en la ronda 12.</div>
+          <div class="err reveal">Gastar la utilidad cara en tu eco.</div>
+          <div class="err reveal">Jugar duelos largos en tu eco.</div>
+          <div class="err reveal">Comprar sin decir nada y que cada uno haga otra cosa.</div>
+        </div>
+      </section>
+
+      <section class="block" id="clase">
+        <h2><span class="idx">13</span>Cómo va a ser la juntada</h2>
+        <div class="timeline reveal">
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>La idea</h4><p>Leer su plata y jugarle.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Anti-eco</h4><p>Rifles contra pistolas.</p></div>
+          <div class="seg main" style="--w:15"><div class="bar"></div><span class="t">15 MIN</span><h4>Anti-force</h4><p>Rifles contra un rush.</p></div>
+          <div class="seg talk" style="--w:10"><div class="bar"></div><span class="t">10 MIN</span><h4>El plan</h4><p>Nuestras reglas de compra.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="tarea">
+        <h2><span class="idx">14</span>Para esta semana</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">TAB</div><p>En cada compra, mira la plata del rival y adivina qué compran.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Ranked</div><p>Contra su eco, ni un duelo solo.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Piénsalo</div><p>¿Cuántas rondas perdiste por la compra (forzar solo, no mirar su plata)?</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">15</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, pasamos al siguiente tema. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="3-5">
+          <li><label><input type="checkbox"><span>Antes de comprar, miro la plata del rival y sé qué pueden tener.</span></label></li>
+          <li><label><input type="checkbox"><span>Contra su eco juego junto y lejos, y no regalo armas.</span></label></li>
+          <li><label><input type="checkbox"><span>Contra su force no peleo de cerca y freno el rush.</span></label></li>
+          <li><label><input type="checkbox"><span>Compro con mi equipo: los cinco fuerzan o ninguno.</span></label></li>
+          <li><label><input type="checkbox"><span>Sé qué hacer en mi eco, en la ronda 12 y en overtime.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="3-4-retakes-coordinados.html"><small>Anterior</small>3.4 Retakes coordinados</a>
+        <span class="next"><small>Siguiente</small>3.6 IGL y mid-round</span>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel"><div class="aside-title">Regla rápida</div><dl class="kv"><dt>Antes de comprar</dt><dd>Mira su plata</dd><dt>Su eco</dt><dd>Juntos y lejos</dd><dt>Su force</dt><dd>Nada de cerca</dd><dt>Forzar</dt><dd>Los cinco o nadie</dd></dl></div>
+        <div class="panel"><div class="aside-title">Recuerda</div><p style="margin:0">Contra una eco, la ronda se pierde de una sola forma: <strong>regalándola</strong>.</p></div>
+        <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="3-5"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/app.js"></script>
+</body>
+</html>
