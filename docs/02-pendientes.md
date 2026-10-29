@@ -29,3 +29,4 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Completar las fichas de mapas con lo que sepa el profe.
 - Opcional: pasar la publicación a una rama `main`.
 - Notas de videos (Mixwell, NaNoW, Horcus, Safiro) listas en `docs/03-notas-videos.md`, con resumen por tema arriba. ⚠ decididos por el profe. Integrado sin atribuir (criterio del profe: "añádelo directamente") en todos los temas (1.2–1.4, 1.7, 1.8, 2.2–2.8 y 3.1). Lo que queda de las notas sirve para fichas de agentes, guía de humos y nivel 3.
+- Fuentes pro (`docs/04-fuentes-pro.md`): integrado lo que no choca en 1.3–3.3. Falta que el profe decida los ⚠ (agacharse al disparar, "ventaja del que espera", Stinger vs Spectre, "juega lento" en clutch, cuánto anti-strat en el 3.7) y revise lo agregado.
