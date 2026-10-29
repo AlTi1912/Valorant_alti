@@ -400,3 +400,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - Pedido del profe: agregar lo propuesto de React Bits y similares menos el texto que se descifra, y sumar el tear ticket.
 - Agregado por mí: el pase de nivel que se arranca (se libera con el checklist final; "Aprobado" al arrancarlo), el botón de defuse del 2.6 (7 s, mitad guardada a los 3,5, "eso es tapear" si sueltas al toque), las flashcards del glosario, los términos del glosario dentro de los temas (con alias en español: tradear, lurker, retakear...), el acordeón de la comp base y el carrusel de agentes por mapa en el 3.1 (imágenes locales en `assets/img/agents` y `assets/img/maps`).
+
+## Inicio con efectos y roles
+
+- Pedido del profe: que los efectos estén desde el inicio; carrusel para los mapas en el home; sección "Cómo jugar cada rol"; después, una página por rol con qué hace, cómo y cuándo, y ver qué hacer con el 3.1.
+- Hecho: carrusel con profundidad de los 7 mapas (link a cada ficha) y acordeón de roles en el inicio. Los textos de cada rol salen del 3.1 (palabras del profe); la línea "Cuándo" de cada rol es mía.

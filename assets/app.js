@@ -898,11 +898,12 @@ document.querySelectorAll("[data-defuse]").forEach(function (box) {
 // Acordeón con imágenes
 document.querySelectorAll("[data-accgal]").forEach(function (gal) {
   var items = gal.querySelectorAll(".acc-item");
-  var set = function (it) { items.forEach(function (x) { var on = x === it; x.classList.toggle("is-active", on); x.setAttribute("aria-expanded", on); }); };
+  var set = function (it) { items.forEach(function (x) { var on = x === it; x.classList.toggle("is-active", on); (x.querySelector(".acc-hit") || x).setAttribute("aria-expanded", on); }); };
   items.forEach(function (it) {
+    var hit = it.querySelector(".acc-hit") || it;
     window.skWatch(it);
-    it.addEventListener("click", function () { set(it); });
-    it.addEventListener("focus", function () { set(it); });
+    hit.addEventListener("click", function () { set(it); });
+    hit.addEventListener("focus", function () { set(it); });
     if (window.matchMedia("(hover: hover)").matches) it.addEventListener("mouseenter", function () { set(it); });
   });
 });
@@ -917,7 +918,7 @@ document.querySelectorAll("[data-depth]").forEach(function (box) {
     d.type = "button"; d.className = "dc-dot"; d.setAttribute("aria-label", c.dataset.name);
     d.addEventListener("click", function () { go(i); });
     dots.appendChild(d);
-    c.addEventListener("click", function () { if (i !== cur) go(i); });
+    c.addEventListener("click", function (e) { if (i !== cur) { e.preventDefault(); go(i); } });
   });
   var go = function (i) {
     cur = (i + n) % n;
@@ -933,7 +934,7 @@ document.querySelectorAll("[data-depth]").forEach(function (box) {
       c.style.zIndex = 10 - a;
       c.classList.toggle("is-active", !d);
       c.setAttribute("aria-hidden", d ? "true" : "false");
-      if (d) c.setAttribute("inert", ""); else c.removeAttribute("inert");
+      c.querySelectorAll("a, button").forEach(function (f) { f.tabIndex = d ? -1 : 0; });
       c.style.pointerEvents = a > 2 ? "none" : "";
     });
     dots.querySelectorAll(".dc-dot").forEach(function (d, k) { d.setAttribute("aria-current", k === cur ? "true" : "false"); });

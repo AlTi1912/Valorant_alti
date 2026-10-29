@@ -22,6 +22,8 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Skeletons también en las imágenes de agentes.
 - Previews de Discord: no van (decisión del profe).
 - Efectos (pedido del profe, todo menos el texto que se descifra): transición entre páginas, brillo en tarjetas, glosario dentro de los temas, flashcards, defuse en el 2.6, números que cuentan, acordeón y carrusel en el 3.1, pase de nivel que se arranca. Detalle en DESIGN.md (7b).
+- Inicio: carrusel de mapas (reemplaza la grilla) y sección "Cómo jugar cada rol" (acordeón con los 4 roles: qué hace y cuándo).
+- **Siguiente: una página por rol** (duelista, iniciador, controlador, centinela): qué hace, cómo y cuándo en cada fase de la ronda, en ataque y en defensa. Después decidir qué queda en el 3.1.
 - Acordeón para la guía de humos: cuando lleguen las capturas por mapa.
 - Pendiente: la pool de mapas dice "Act 6 / 13.08"; revisar si cambió con el parche 13.09.
 

@@ -936,3 +936,30 @@ a.gl-term:hover, a.gl-term[aria-expanded="true"] { text-decoration-color: var(--
 .dc-table summary { cursor: pointer; font-weight: 600; font-size: 15px; padding: 14px 18px; min-height: 48px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .dc-table summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .dc-table .table-wrap { margin-top: 12px !important; }
+div.acc-item { cursor: default; }
+.acc-hit { position: absolute; inset: 0; z-index: 2; padding: 0; background: none; border: 0; border-radius: inherit; cursor: pointer; }
+.acc-hit:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.acc-text b { color: var(--on-dark); font-weight: 620; }
+.acc-when { display: block; margin-top: 8px; color: var(--on-dark); font-size: 14px; }
+.dc-card p { margin: 0 0 10px; font-size: 14px; line-height: 1.45; color: var(--on-dark-muted); }
+.dc-card .eyebrow { margin-bottom: 4px; }
+.dc-card > .dc-link { position: static; align-self: flex-start; min-height: 24px; font-size: 14px; font-weight: 600; color: var(--red-soft); }
+.dc-card > .dc-link::after { content: " →"; }
+.dc-card.is-active > .dc-link::before { content: ""; position: absolute; inset: 0; z-index: 2; border-radius: inherit; }
+.dc-card.is-active:focus-within { outline: 2px solid var(--focus); outline-offset: 2px; }
+.dc-card > .dc-link:focus-visible { outline: none; }
+.band .dc-btn { background: rgba(255, 255, 255, .06); color: var(--on-dark); border-color: rgba(255, 255, 255, .18); }
+.band .dc-dot::before { background: rgba(255, 255, 255, .25); }
+.band .dc-dot[aria-current="true"]::before { background: var(--red); }
+.acc-item:not(.is-active) .acc-text { display: none; }
+@keyframes acc-text-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.acc-item.is-active .acc-text { animation: acc-text-in .35s .12s both; }
+@media (prefers-reduced-motion: reduce) { .acc-item.is-active .acc-text { animation: none; } }
+.dc-home .dc-card::after { background: linear-gradient(rgba(6, 9, 20, 0) 5%, rgba(6, 9, 20, .86) 40%, rgba(6, 9, 20, .97) 62%); }
+.dc-card h3, .dc-card p, .dc-card dl { text-shadow: 0 1px 3px rgba(0, 0, 0, .7); }
+@media (max-width: 640px) {
+  .dc-home .dc-stage { height: 420px; }
+  .dc-home .dc-card { height: 390px; }
+  .dc-home .dc-card::after { background: linear-gradient(rgba(6, 9, 20, 0) 15%, rgba(6, 9, 20, .86) 45%, rgba(6, 9, 20, .97) 62%); }
+}
+.dc-card > img { z-index: 0; }
