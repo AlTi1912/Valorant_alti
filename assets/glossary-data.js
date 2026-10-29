@@ -35,7 +35,7 @@ window.GLOSSARY = [{"id":"gl-site","t":"Site","d":"La zona donde se planta la sp
 {"id":"gl-spacing","t":"Spacing","d":"La distancia entre compas: ni tan juntos que mueran con la misma utilidad, ni tan lejos que no se puedan tradear.","c":"Equipo","href":"temas/2-1-trades-y-spacing.html","l":"Tema 2.1"},
 {"id":"gl-entry","t":"Entry","d":"El primero que entra al site. Abre espacio para los demás.","c":"Equipo","href":"temas/2-1-trades-y-spacing.html","l":"Tema 2.1"},
 {"id":"gl-lurk","t":"Lurk","d":"Jugar solo y lejos del equipo para cortar rotaciones o agarrar al rival por la espalda.","c":"Equipo","href":"temas/2-4-rotaciones.html","l":"Tema 2.4","a":["lurker","lurkear","lurkea"]},
-{"id":"gl-anchor","t":"Anchor","d":"El defensor que se queda en su site pase lo que pase y aguanta hasta que llegue ayuda.","c":"Equipo","href":"temas/2-7-posicionamiento-defensivo.html","l":"Tema 2.7","a":["anclar","ancla"]},
+{"id":"gl-anchor","t":"Anchor","d":"El defensor que se queda en su site pase lo que pase y aguanta hasta que llegue ayuda.","c":"Equipo","href":"temas/2-7-posicionamiento-defensivo.html","l":"Tema 2.7"},
 {"id":"gl-rotar","t":"Rotar","d":"Cambiar de site o de zona según la info que tengas.","c":"Equipo","href":"temas/2-4-rotaciones.html","l":"Tema 2.4"},
 {"id":"gl-stack","t":"Stack","d":"Poner más defensores de lo normal en un site porque crees que vienen ahí.","c":"Equipo","href":"temas/3-3-setups-defensivos.html","l":"Tema 3.3","a":["stackear","stackean"]},
 {"id":"gl-info","t":"Info","d":"Todo lo que sabes del rival: dónde está, cuántos son, qué utilidad gastó.","c":"Equipo","href":"temas/2-2-informacion-y-sonido.html","l":"Tema 2.2"},

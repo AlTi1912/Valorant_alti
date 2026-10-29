@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Controlador · Guía Alti</title>
+  <meta name="description" content="Cómo jugar controlador: qué compras, dónde va tu humo y qué haces en cada parte de la ronda, en ataque y en defensa. Con Omen, Clove y el resto.">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-gl="rol-controlador">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="../#clase">Las juntadas</a>
+        <a href="../#temario">Qué veremos</a>
+        <a href="../mapas.html">Mapas</a>
+        <a href="../niveles.html">Pasar de nivel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-mini" style="--hero-img: url('../assets/img/maps/haven.webp')">
+    <div class="wrap">
+      <div class="crumbs"><a href="../#roles">Roles</a> / Controlador</div>
+      <div class="chips"><span class="chip red">Rol</span><span class="chip">Controlador</span><span class="chip">Omen · Clove · Astra · Viper</span></div>
+      <h1>Controlador</h1>
+      <p class="lead">Pones los humos y decides por dónde se pelea. Corta la visión para entrar o para aguantar, y sigue vivo: un humo en la spike gana rondas.</p>
+    </div>
+  </section>
+
+  <div class="lesson-layout">
+    <aside class="toc">
+      <div class="sticky">
+        <div class="toc-title">En esta página</div>
+        <ol>
+          <li><a href="#trabajo">Tu trabajo</a></li>
+          <li><a href="#compra">La compra</a></li>
+          <li><a href="#ataque">En ataque</a></li>
+          <li><a href="#defensa">En defensa</a></li>
+          <li><a href="#humos">Humos bien puestos</a></li>
+          <li><a href="#agentes">Los controladores</a></li>
+          <li><a href="#equipo">Con tu equipo</a></li>
+          <li><a href="#quiz">¿Qué haces?</a></li>
+          <li><a href="#practica">Practicar</a></li>
+          <li><a href="#errores">Errores</a></li>
+          <li><a href="#checklist">¿Ya lo tienes?</a></li>
+        </ol>
+      </div>
+    </aside>
+
+    <main id="contenido">
+      <details class="aside-mobile">
+        <summary>Regla rápida</summary>
+        <div class="inner">
+          <div class="panel"><dl class="kv"><dt>Tu trabajo</dt><dd>Cortar visión</dd><dt>Compra</dt><dd>Siempre tus humos</dd><dt>Al empezar</dt><dd>Guárdalos</dd><dt>Regla</dt><dd>No mueras primero</dd></dl></div>
+          <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="rol-controlador"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+        </div>
+      </details>
+
+      <section class="block" id="trabajo">
+        <h2><span class="idx">01</span>Tu trabajo</h2>
+        <div class="objective">
+          <div class="panel reveal"><h4>La meta</h4><p>Cortar la visión del rival para que tu equipo entre o aguante, y seguir vivo para el humo del final de la ronda.</p></div>
+          <div class="panel reveal"><h4>¿Por qué?</h4><p>Sin humo no hay entry: entrar a un site se vuelve un choque sucio. Si muere el controlador, el equipo pierde los humos en los dos sites.</p></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Tu lugar</div><h4>La parte pasiva</h4><p class="muted">No abres el site y no vas a buscar los tiros. El duelista y el iniciador chocan; tú cuidas una punta, humeas y castigas al que se equivoca.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Tu momento</div><h4>No es atacar</h4><p class="muted">Tu momento de brillar es el humo justo y estar vivo al final. Si te mueres primero, dejas un hueco enorme. Valora tu vida.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Dónde pararte</div><h4>Cerca de los dos sites</h4><p class="muted">Juega donde puedas humear los dos sites, normalmente cerca del medio. Si estás en una punta, la otra queda sin humo.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Hablas mucho</div><h4>Callea tus humos</h4><p class="muted">Di dónde vas a humear y cuándo. Ves poco la mira y mucho el mapa: muchas veces el que callea en ranked es el humo (<a href="../temas/3-6-igl-y-mid-round.html">3.6</a>).</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="compra">
+        <h2><span class="idx">02</span>La compra</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Siempre tus humos</h4><p>Aunque sea eco. Un humo vale más que una pistola mejor.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>Si cuatro compran, compras</h4><p>No fuerces solo, y no te quedes en eco si el resto compra.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>Lo demás, según la plata</h4><p>Con plata, la flash o la molly. Sin plata, primero humos, después arma.</p></div>
+        </div>
+        <div class="placeholder" style="margin-top:16px"><div><b>Qué compro con humos</b>Capturas de mis compras en eco, force y full buy. Las pongo con lo que me mandes.</div></div>
+        <div class="note"><span>⚠</span><div><b>Algunos humos no vuelven.</b> Los de Brimstone no se regeneran. Si los gastas al principio, no tienes nada para la entrada ni para el post-plant.</div></div>
+      </section>
+
+      <section class="block" id="ataque">
+        <h2><span class="idx">03</span>En ataque, parte por parte</h2>
+        <div class="steps-row">
+          <div class="step-card reveal"><span class="n">1</span><h4>Al empezar</h4><p>No humees al segundo 0: dura poco y no tapa nada que importe. Párate donde llegues a los dos sites y cuida una punta.</p></div>
+          <div class="step-card reveal"><span class="n">2</span><h4>En el default</h4><p>Un solo humo puede cambiar todo: el que niega el pick del Operator o el que ancla a dos rivales en un site aunque vayan al otro.</p></div>
+          <div class="step-card reveal"><span class="n">3</span><h4>En la entrada</h4><p>Humos cuando tu equipo ya va a entrar, no 15 segundos antes. Tápale al rival los ángulos desde donde los matan.</p></div>
+          <div class="step-card reveal"><span class="n">4</span><h4>En el post-plant</h4><p>Guárdate un humo para la spike o para el defuse. Desde lejos y cubierto: tú no tienes que ir a pelear.</p></div>
+          <div class="step-card reveal"><span class="n">5</span><h4>Si te van a matar</h4><p>Tira tus humos antes de morir. Si caes con todo en la mano, el equipo juega el resto de la ronda sin visión.</p></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Con tu duelista</div><h4>Él propone, tú humeas</h4><p class="muted">La mejor call no es "¡humos!", es "tírame humo aquí, voy a dashear". Pónganse de acuerdo en la compra.</p></div>
+          <div class="panel reveal"><div class="eyebrow">No te repitas</div><h4>El humo habla</h4><p class="muted">Si siempre tiras el mismo humo, el rival te lee. Y cuando lo cambias, también se da cuenta: úsalo para un fake (<a href="../temas/3-2-defaults-y-ejecuciones.html#rotacion">3.2</a>).</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="defensa">
+        <h2><span class="idx">04</span>En defensa</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Al contacto</div><h4>Humo al instante</h4><p class="muted">Cuando escuchas que vienen o matan a tu compa, humo apenas suena. Tenlo listo para tirarlo.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Si lo tiras, míralo</div><h4>Para matar al que sale</h4><p class="muted">El humo de defensa es para que no entren y para matar al que lo cruza. Si nadie lo mira, mejor no lo tires (<a href="../temas/2-7-posicionamiento-defensivo.html">2.7</a>).</p></div>
+          <div class="panel reveal"><div class="eyebrow">Un 2v1</div><h4>Parte el site</h4><p class="muted">Con tu compa en el site, un humo que divida el site hace que el que quiera tradear tenga que cruzarlo. Ganas tiempo para la rotación.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Contra mejor arma</div><h4>No renueves el humo</h4><p class="muted">Si ellos tienen Vandal y tú Guardian, no les cortes la visión otra vez: mejor que se te abran ellos.</p></div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>En el retake</b> los humos van primero y todos entran juntos (<a href="../temas/3-4-retakes-coordinados.html">3.4</a>). Si te matan antes de entrar, que ya estén tirados.</div></div>
+      </section>
+
+      <section class="block" id="humos">
+        <h2><span class="idx">05</span>Humos bien puestos</h2>
+        <div class="grid c3">
+          <div class="panel reveal"><div class="eyebrow">Sin panza</div><h4>Parejo con la entrada</h4><p class="muted">Si el humo sale hacia el rival, le das espacio para meterse y prefirear.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Tu Operator</div><h4>No le tapes la mira</h4><p class="muted">Si tu Operator mira larga, no humees larga. Pregunta dónde quieren el humo.</p></div>
+          <div class="panel reveal"><div class="eyebrow">One-way</div><h4>Tú ves, él no</h4><p class="muted">Ves los pies del rival y él no te ve. Ojo: a veces te ven las piernas al asomar.</p></div>
+        </div>
+        <div class="placeholder" style="margin-top:16px"><div><b>Dónde van los humos</b>Capturas de humos bien puestos y mal puestos por mapa. Las pongo con lo que me mandes.</div></div>
+        <p class="muted" style="margin-top:12px">Todo con detalle en la <a href="../humos.html">guía de humos</a>.</p>
+      </section>
+
+      <section class="block" id="agentes">
+        <h2><span class="idx">06</span>Los controladores</h2>
+        <p class="muted">Toca cada uno. Omen y Clove son los que más juego.</p>
+        <div class="roles-box">
+          <div class="ag-picker" data-agpick role="group" aria-label="Controladores"><button class="ag-pick" type="button" data-target="co-omen" aria-pressed="true" aria-controls="co-omen"><span class="ag-img" data-initial="O"><img src="https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Omen</b><span>Paranoia al contacto</span></button><button class="ag-pick" type="button" data-target="co-clove" aria-pressed="false" aria-controls="co-clove"><span class="ag-img" data-initial="C"><img src="https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Clove</b><span>Agresiva</span></button><button class="ag-pick" type="button" data-target="co-astra" aria-pressed="false" aria-controls="co-astra"><span class="ag-img" data-initial="A"><img src="https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Astra</b><span>Muy atenta</span></button><button class="ag-pick" type="button" data-target="co-harbor" aria-pressed="false" aria-controls="co-harbor"><span class="ag-img" data-initial="H"><img src="https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Harbor</b><span>Muros de agua</span></button><button class="ag-pick" type="button" data-target="co-viper" aria-pressed="false" aria-controls="co-viper"><span class="ag-img" data-initial="V"><img src="https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Viper</b><span>Acompañada</span></button><button class="ag-pick" type="button" data-target="co-miks" aria-pressed="false" aria-controls="co-miks"><span class="ag-img" data-initial="M"><img src="https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Miks</b><span>Para rushes</span></button><button class="ag-pick" type="button" data-target="co-brim" aria-pressed="false" aria-controls="co-brim"><span class="ag-img" data-initial="B"><img src="https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png" alt="" width="128" height="128" loading="lazy"></span><b>Brimstone</b><span>Molly y humos</span></button></div>
+          <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="co-omen"><h4>Omen</h4><p>Usa la flash (la paranoia) al contacto: cuando ya sabes que hay alguien, no al voleo.</p><ul class="look"><li>Paranoia al empezar solo si tu duelista entra al toque con ella: "te tiro paranoia, salta y dale".</li><li>Paranoia y asomar a la vez con tu compa: la flash sola no mata a nadie.</li><li>El TP te sirve para reposicionarte después de humear, no para entrar solo al site.</li><li>No te mandes solo a dominar una zona: si te matan, el equipo se queda sin humos en los dos sites.</li></ul><div class="placeholder" style="margin-top:12px"><div><b>Capturas de Omen</b>Mis humos y la compra con Omen. Las pongo con lo que me mandes.</div></div></div><div class="ag-panel" id="co-clove" hidden><h4>Clove</h4><p>Ser agresiva, jugar con los humos y hacer bajas importantes. Puede humear incluso después de morir.</p><ul class="look"><li>Decide dónde va el humo antes de abrir el mapa: si te quedas con la habilidad en la mano mirando el mapa, te matan.</li><li>Lurkear con Clove no es ir a matar a cinco: es clavar la mira, esperar el error del rival y jugar cuando tu equipo ya tiene la info.</li><li>Como puedes humear muerta, tu muerte cuesta menos que la de otro humo. Igual: la primera muerte de la ronda no tiene que ser la tuya.</li><li>En mapas grandes te obliga a jugar cerca del medio para llegar a los dos sites.</li></ul><div class="placeholder" style="margin-top:12px"><div><b>Capturas de Clove</b>Mis humos y la compra con Clove. Las pongo con lo que me mandes.</div></div></div><div class="ag-panel" id="co-astra" hidden><h4>Astra</h4><p>Hay que estar muy atento. Es un personaje complejo, pero muy divertido y muy útil si se sabe usar.</p><ul class="look"><li>Pon las estrellas en la compra pensando en todas las opciones de la ronda: entrada, post-plant y retake.</li><li>Sus humos son grandes y duran: buenos para cortar líneas largas.</li><li>Al activar desde el mapa quedas quieta y ciega: hazlo desde un lugar seguro.</li></ul></div><div class="ag-panel" id="co-harbor" hidden><h4>Harbor</h4><p>Sus muros y su cúpula de agua cortan visión en líneas largas. Se ve poco en ranked.</p></div><div class="ag-panel" id="co-viper" hidden><h4>Viper</h4><p>No sirve como controlador sola: normalmente tiene que ir acompañada de otro, según el mapa. Sirve más como lurker o para aguantar espacios, con la cúpula y la molly.</p><ul class="look"><li>La pared se apaga y se vuelve a prender: el rival nunca sabe si vuelves a ese site.</li><li>Es más de cabeza que de mira: en ataque ve a molestar al centinela rival (romper torreta, cables).</li><li>Con doble controlador, muchas veces la Viper hace de centinela del equipo.</li></ul></div><div class="ag-panel" id="co-miks" hidden><h4>Miks</h4><p>Aprende a usar los stuns para parar rushes.</p></div><div class="ag-panel" id="co-brim" hidden><h4>Brimstone</h4><p>Para rushes con la molly, que hace mucho daño. No gastes los humos rápido: no se regeneran.</p><ul class="look"><li>La molly sirve para sacar a alguien de un lugar o para frenar el defuse, no para buscar la kill.</li><li>Como no puede mover la mira de nadie, juega detrás de tu entry, no adelante.</li></ul></div></div>
+        </div>
+      </section>
+
+      <section class="block" id="equipo">
+        <h2><span class="idx">07</span>Con tu equipo</h2>
+        <div class="grid c2">
+          <div class="panel reveal"><div class="eyebrow">Duelista</div><h4>Le abres el camino</h4><p class="muted">Humeas los ángulos de su entrada y entras después, no antes.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Iniciador</div><h4>Primero la info</h4><p class="muted">Su dron o su flecha te dice dónde humear. Flash y humo al mismo tiempo, no uno y después el otro.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Centinela</div><h4>Las puntas</h4><p class="muted">Mientras el resto choca, ustedes dos cuidan las puntas y la espalda. Si los dos mueren, se pierde mucha utilidad.</p></div>
+          <div class="panel reveal"><div class="eyebrow">Operator</div><h4>Lejos de su línea</h4><p class="muted">Si tu Operator está mirando un lugar, ese lugar no se humea.</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="quiz">
+        <h2><span class="idx">08</span>¿Qué haces?</h2>
+        <p class="muted">Situaciones de controlador. Elige y mira por qué. <span id="quiz-score"></span></p>
+        <div class="quiz" data-quiz>
+          <div class="q" data-answer="b">
+            <p class="s">Empieza la ronda de ataque. Todavía no saben a qué site van.</p>
+            <div class="opts"><button class="preset" data-choice="a">Tiro un humo ya, por si acaso</button><button class="preset" data-choice="b">Lo guardo</button></div>
+            <p class="why">Un humo al segundo 0 no tapa nada que importe y después no está cuando entran.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Van a entrar a B. Tu Operator está mirando larga desde afuera.</p>
+            <div class="opts"><button class="preset" data-choice="a">Humeo otro ángulo</button><button class="preset" data-choice="b">Humeo larga también</button></div>
+            <p class="why">Si humeas larga, le arruinas el trabajo a tu Operator. Pregunta dónde quieren el humo.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Te están matando y todavía tienes dos humos.</p>
+            <div class="opts"><button class="preset" data-choice="a">Me escondo y no los uso</button><button class="preset" data-choice="b">Los tiro antes de morir</button></div>
+            <p class="why">Si caes con los humos en la mano, el equipo juega el resto de la ronda sin visión.</p>
+          </div>
+          <div class="q" data-answer="b">
+            <p class="s">Eres Omen. Nadie sabe dónde están los rivales.</p>
+            <div class="opts"><button class="preset" data-choice="a">Tiro la paranoia al voleo</button><button class="preset" data-choice="b">La guardo para el contacto</button></div>
+            <p class="why">La paranoia va al contacto, cuando ya sabes que hay alguien, y con un compa que asome a la vez.</p>
+          </div>
+          <div class="q" data-answer="a">
+            <p class="s">Es eco. Tienes 1600 créditos.</p>
+            <div class="opts"><button class="preset" data-choice="a">Humos primero</button><button class="preset" data-choice="b">Sheriff y nada de humos</button></div>
+            <p class="why">El humo siempre se compra, aunque sea eco. Sin humo, la eco es correr a morir.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="practica">
+        <h2><span class="idx">09</span>Cómo practicarlo</h2>
+        <div class="routine">
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">💨</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Custom</span></div>
+              <h3>Tus humos de memoria</h3>
+              <p class="muted">En cada site del mapa que más juegas: los humos de entrada y uno para la spike. Tíralos hasta que salgan rápido y sin abrir el mapa a pensar.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">🎙</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Swiftplay</span></div>
+              <h3>Callea cada humo</h3>
+              <p class="muted">Una swiftplay de controlador diciendo cada humo antes de tirarlo: dónde y para qué. Si no sabes para qué, no lo tires.</p>
+            </div>
+          </div>
+          <div class="panel drill reveal">
+            <div class="drill-icon"><span class="big">VOD</span></div>
+            <div>
+              <div class="chips"><span class="chip red">Revisión</span></div>
+              <h3>¿Cuándo murió tu humo?</h3>
+              <p class="muted">En tu última ranked cuenta las rondas en que moriste primero y las que moriste con humos en la mano. Esas dos cosas son las primeras a corregir.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="errores">
+        <h2><span class="idx">10</span>Errores que veo siempre</h2>
+        <div class="errors">
+          <div class="err reveal">Humear al segundo 0, o al segundo 8 de un rush.</div>
+          <div class="err reveal">Morir primero y dejar al equipo sin humos.</div>
+          <div class="err reveal">Ir solo a dominar una zona.</div>
+          <div class="err reveal">Humos con panza hacia el rival.</div>
+          <div class="err reveal">Humear donde mira tu Operator.</div>
+          <div class="err reveal">Quedarse abriendo el mapa con la habilidad en la mano.</div>
+          <div class="err reveal">Morir con los humos sin tirar.</div>
+          <div class="err reveal">No decir dónde vas a humear.</div>
+        </div>
+      </section>
+
+      <section class="block" id="checklist">
+        <h2><span class="idx">11</span>¿Ya lo tienes?</h2>
+        <p class="muted">Si puedes marcar todo, ya juegas de controlador. Se guarda en tu navegador.</p>
+        <ul class="checklist" data-checklist="rol-controlador">
+          <li><label><input type="checkbox"><span>Compro mis humos siempre, aunque sea eco.</span></label></li>
+          <li><label><input type="checkbox"><span>No humeo al empezar la ronda: los guardo para cuando entran.</span></label></li>
+          <li><label><input type="checkbox"><span>Tiro mis humos de entrada rápido y sin panza.</span></label></li>
+          <li><label><input type="checkbox"><span>Calleo dónde voy a humear y no tapo a mi Operator.</span></label></li>
+          <li><label><input type="checkbox"><span>No muero primero, y si me matan, mis humos ya están tirados.</span></label></li>
+        </ul>
+      </section>
+
+      <nav class="pager">
+        <a href="../#roles"><small>Anterior</small>Los roles</a>
+        <a class="next" href="../temas/3-1-roles-y-composicion.html"><small>Siguiente</small>3.1 Roles y composición</a>
+      </nav>
+    </main>
+
+    <aside class="aside">
+      <div class="sticky">
+        <div class="panel"><div class="aside-title">Regla rápida</div><dl class="kv"><dt>Tu trabajo</dt><dd>Cortar visión</dd><dt>Compra</dt><dd>Siempre tus humos</dd><dt>Al empezar</dt><dd>Guárdalos</dd><dt>Regla</dt><dd>No mueras primero</dd></dl></div>
+        <div class="panel"><div class="aside-title">Recuerda</div><p style="margin:0">Si no sabes <strong>para qué</strong> tiras el humo, no lo tires.</p></div>
+        <div class="panel"><div class="aside-title">Tu progreso</div><div class="ring" data-progress="rol-controlador"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="bg" cx="28" cy="28" r="24"/><circle class="fg" cx="28" cy="28" r="24"/></svg><div><b>0/5</b><div class="muted" style="font-size:13px">del checklist</div></div></div></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <a class="brand" href="../"><img src="../assets/img/logo.svg" alt=""><b>Guía <span>Alti</span></b></a>
+        <span>Hecha por Alti para el grupo</span>
+      </div>
+      <nav class="foot-links" aria-label="Herramientas"><a href="../glosario.html">Glosario</a><a href="../videos.html">Videos por tema</a><a href="../humos.html">Guía de humos</a><a href="../tracker.html">Tu tracker</a><a href="../niveles.html">Pasar de nivel</a></nav>
+      <p>Guía Alti no está respaldada por Riot Games y no refleja los puntos de vista ni las opiniones de Riot Games ni de nadie oficialmente involucrado en la producción o gestión de las propiedades de Riot Games. Riot Games y todas las propiedades asociadas son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/glossary-data.js"></script>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

@@ -714,7 +714,7 @@ document.querySelectorAll("[data-level-progress] [data-tema]").forEach(function 
 
 // Glosario dentro de los temas: el primer uso de cada término muestra su definición
 (function () {
-  if (!window.GLOSSARY || !document.body.dataset.lesson) return;
+  if (!window.GLOSSARY || !(document.body.dataset.lesson || document.body.dataset.gl)) return;
   var skip = /^(site|main|spike|plant|info|rotar|utilidad|smoke|flash|ulti|créditos|escudo|push|timing|hold|clear|peek|tap|drop|save|roles|comp|callear|wall|recon)$/i;
   var terms = [];
   window.GLOSSARY.forEach(function (g) {
