@@ -17,7 +17,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3: hechos 3.1, 3.2 y 3.3 (3.3 revisado por el profe; falta que corrija el 3.2); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
+- Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3: hechos 3.1 a 3.4 (3.3 revisado por el profe; falta que corrija el 3.2 y el 3.4); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
 - Captura de la configuración de audio del profe (2.2).
 - Guía de fakes para el nivel 3.
 - Profundizar probabilidades y condiciones de victoria (2.1).
@@ -29,4 +29,4 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Completar las fichas de mapas con lo que sepa el profe.
 - Opcional: pasar la publicación a una rama `main`.
 - Notas de videos (Mixwell, NaNoW, Horcus, Safiro) listas en `docs/03-notas-videos.md`, con resumen por tema arriba. ⚠ decididos por el profe. Integrado sin atribuir (criterio del profe: "añádelo directamente") en todos los temas (1.2–1.4, 1.7, 1.8, 2.2–2.8 y 3.1). Lo que queda de las notas sirve para fichas de agentes, guía de humos y nivel 3.
-- Fuentes pro (`docs/04-fuentes-pro.md`): integrado lo que no choca en 1.3–3.3. Falta que el profe decida los ⚠ (agacharse al disparar, "ventaja del que espera", Stinger vs Spectre, "juega lento" en clutch, cuánto anti-strat en el 3.7) y revise lo agregado.
+- Fuentes pro (`docs/04-fuentes-pro.md`): integrado lo que no choca en 1.3–3.3. Los ⚠ ya los decidió el profe (aplicados en 1.3, 1.4, 1.6, 1.7; anti-strat para el 3.7). Falta que revise lo agregado.
