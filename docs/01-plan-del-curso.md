@@ -476,3 +476,11 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Pool: el texto pasa a "Act 6, parche 13.09". No se encontraron cambios de mapas en 13.09 (solo Hush, Clove y otros ajustes); las notas oficiales no se pudieron leer. Lo de Corrode "cambiado en 13.08" se deja porque es historia del mapa.
 - Tracker (agregado por mí): "Según tu rol" (qué número mirar en cada rol) y "Más allá del resumen" (por mapa, por agente, por arma, ronda a ronda; compararte contigo mismo).
 - 2.1 (agregado por mí): condiciones de victoria por lado, la primera kill (gana la mayoría de las rondas), con ventaja no regalarla, el tiempo también pelea, y "¿este duelo me acerca a una condición de victoria?". Reemplaza el aviso "esto da para más".
+
+## Correcciones del profe y siguientes pasos
+
+- Retake 5v3 (nivel 3 y ejercicio del 3.4), del profe: hay que ganar ventajas numéricas; cinco holdeando ángulos siempre deberían ganar el 5v3, así que la prueba va con desventaja: los cinco con poca utilidad, o los tres con mejor equipo o más habilidades.
+- Consejos por agente: correctos según el profe; se completaron los que tenían solo la descripción (Harbor, Miks, Brimstone, Sage, Deadlock, Vyse, Veto, KAY/O, Breach, Gekko, Fade, Skye, Tejo, Neon, Waylay, Iso, Yoru, Phoenix, Reyna, Hush), sacados del kit oficial (agregado por mí).
+- Compras después de la pistola (eco, force, full) en cada página de rol, desde lo del 1.7 y 3.5 (agregado por mí).
+- Tableros de Bind del profe: borrados también del historial del repositorio (pedido del profe).
+- Próximo: páginas específicas por agente (decidido por el profe).

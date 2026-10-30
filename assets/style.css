@@ -1188,3 +1188,4 @@ div.acc-item { cursor: default; }
     var(--hero-img-sm, var(--hero-img, none)) top center / 100% auto no-repeat,
     var(--navy-950); }
 }
+.buy-rounds .step-card .n { font-size: 22px; letter-spacing: .06em; text-transform: uppercase; }
