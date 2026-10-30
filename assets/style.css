@@ -1209,3 +1209,7 @@ div.acc-item { cursor: default; }
 .tips li::before { content: ""; position: absolute; left: 18px; top: 22px; width: 10px; height: 10px; border-radius: 2px; background: var(--red); transform: rotate(45deg); }
 .ag-boards { display: grid; gap: 12px; margin-top: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
 .ag-board { min-height: 140px; margin: 0; }
+.caps-block { margin-top: 24px; }
+.caps-h { margin: 16px 0 0; font: 500 13px var(--font-tech); letter-spacing: .14em; text-transform: uppercase; color: var(--red-soft); }
+.shots.caps { grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
+.shots.caps .shot img { height: auto; aspect-ratio: 16 / 9; object-fit: cover; }

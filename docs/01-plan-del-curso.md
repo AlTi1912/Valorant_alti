@@ -495,3 +495,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Estructura: banner con el arte del agente, su trabajo (frase del profe + link al rol), habilidades con ícono y tecla (texto del kit oficial, explicado por mí), compra (tarjeta de pistola + eco/force/full del rol), en ataque, en defensa, por mapa (un recuadro por mapa para los tableros de Valoplant del profe), errores.
 - Del profe: la frase de cada agente del 3.1 y los consejos ya aprobados de la página del controlador. Agregado por mí: el texto de las habilidades, algunos consejos de ataque/defensa y los errores.
 - Enlazadas desde el panel de cada agente en la página del controlador.
+
+## Capturas de humos del profe (rar "valorant")
+
+- 76 capturas propias del profe en el juego, publicadas tal cual (pedido del profe) en la guía de humos, debajo del tablero de cada mapa: "Las capturas de Alti", separadas en Ataque y Defensa, con lightbox. Bind 20, Abyss 18, Lotus 12, Haven 10, Corrode 8, Summit 8 (sin nombre: van como "Por clasificar" hasta que el profe diga qué es cada una). Sunset no tiene.
+- Los "CPH" son la vista del mapa con el humo marcado: van como "dónde marcarlo en el mapa".
