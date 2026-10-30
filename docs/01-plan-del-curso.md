@@ -440,3 +440,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Humos: Bind (A y B en ataque y defensa, "más espacio" atrás en A), Summit (A dos caminos, wallbang al interruptor desde A Main, B, mid, mid en defensa, flood en A), Corrode (mid en defensa con minimapa; ataques sin minimapa, pendientes), Lotus (sin minimapa, pendiente), Split (fuera de la pool, no se usa). Posiciones pasadas a los minimapas oficiales con las letras de los sites como referencia: revisar con el profe.
 - Vyse en Lotus (setups por site): el minimapa de la guía no calza con el oficial, así que va como consejo en texto en la página del centinela.
 - Sin crédito a ValoHandbook en la web (pedido del profe).
+
+## Página del iniciador (`roles/iniciador.html`)
+
+- Del profe (3.1 y 2.5): "saca la info o gana el primer duelo"; guarda lo que no se recarga (dron, merodeadores) para el mid-round o la ejecución; spotters (Sova, Skye, Fade, Tejo) y de ataque (KAY/O, Breach), Gekko y Tejo híbridos, con sus líneas; entra tercero (si se queda tirando el dron, pasa antes el humo); Sova: dardo ahora, dron después.
+- Agregado por mí, desde las notas de videos y las fuentes pro (sin atribuir): sin iniciador la info es ir con la cara; no juegas solo; muchas veces callea el iniciador; utilidad antes que arma; en eco nada caro (dron 400); ataque por partes (lo que se recarga al inicio, no gastar en info que ya tienen, flash con aviso cuando el duelista entra, castigar después de la info, suele plantar); dos tipos de flash (habilitar / info, esperar 2-3 s); mirar lo que no ve tu spot; defensa (info temprana, no paras un rush solo, la flash puede más que el humo contra la ejecución, retake de Sova en "doble tiempo"); tips por agente; con tu equipo; quiz, ejercicios, errores, checklist.
