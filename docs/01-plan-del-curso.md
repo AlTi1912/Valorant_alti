@@ -484,3 +484,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Compras después de la pistola (eco, force, full) en cada página de rol, desde lo del 1.7 y 3.5 (agregado por mí).
 - Tableros de Bind del profe: borrados también del historial del repositorio (pedido del profe).
 - Próximo: páginas específicas por agente (decidido por el profe).
+
+## La jugada, no el resultado (del profe)
+
+- "Hacer una buena jugada siempre va a ser bien recompensado, a pesar de que no se gane la ronda. Si una jugada fue buena pero la perdiste, fue una buena jugada igual. Y viceversa: si una jugada fue mala (pasarse un humo, peekear con ventaja numérica, etc.) no deja de ser mala porque ganaste la ronda. Que las cosas te salgan bien aunque las hagas mal no es porque eres bueno: quiere decir que los otros son peores."
+- Va como frase destacada en el inicio (Las juntadas), en el 2.8 (Las decisiones) y en el 1.8 (Partidas malas).
