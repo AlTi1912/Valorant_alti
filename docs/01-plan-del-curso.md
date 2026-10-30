@@ -466,3 +466,7 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Lotus: las capturas de la guía son en primera persona y sin minimapa, así que los humos se ubicaron con las posiciones oficiales de los callouts (valorant-api) y guías públicas (ONE Esports, bo3.gg, Sportskeeda). A: Stairs + Top; B: B Upper + C Link; C: Hall + Waterfall; defensa: A Main + A Link, B Main, C Main.
 - Sunset: no había nada del profe ni de la guía. Con callouts oficiales y guías públicas (ONE Esports, Sportskeeda, Dot Esports): A: fondo de A Link + boca de Elbow; B: Boba + Market; mid: Mid Top; defensa: A Main + Elbow, B Main (+ Market si perdieron mid).
 - Todo marcado en la web como "a revisar con Alti".
+
+## Humos de ataque de Corrode
+
+- De las capturas de la guía (vista del jugador, sin minimapa), ubicados con los callouts oficiales: A en ataque (Crane + A Link, entrando por A Main y Yard), B en ataque (B Link + Arch; la ventana de Tower como opción), mid (Window), B en defensa (boca de B Main). Marcados "a revisar con Alti".
