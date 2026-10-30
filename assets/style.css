@@ -1105,3 +1105,7 @@ div.acc-item { cursor: default; }
 .hero-glass { max-width: 600px; padding: 22px 26px; background: rgba(10, 17, 24, .58); border: 1px solid rgba(255, 255, 255, .12); border-radius: var(--radius); -webkit-backdrop-filter: blur(12px) saturate(1.2); backdrop-filter: blur(12px) saturate(1.2); }
 .hero-glass .lead { margin-bottom: 0; }
 @media (max-width: 720px) { .hero-glass { padding: 0; background: none; border: 0; -webkit-backdrop-filter: none; backdrop-filter: none; } }
+.bi-or { display: inline-flex; align-items: flex-start; gap: 2px; }
+.bi-or em { font: 500 11px/34px var(--font-tech); font-style: normal; letter-spacing: .12em; text-transform: uppercase; color: var(--on-dark-muted); }
+.bcard-row { row-gap: 8px; }
+.bcard.bcard-3 { min-height: 540px; } .bcard.bcard-3 .bcard-agent { height: 46%; }
