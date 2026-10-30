@@ -455,3 +455,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - Pedido del profe: que el que quiera ver más de su rol haga clic y lo vea en su página.
 - La sección "Los roles" pasó de pestañas con agentes a 4 tarjetas (duelista, controlador, iniciador, centinela) con la línea del profe de cada rol, sus tipos y el link a la página; Flex queda como panel. Se mantienen la nota "Quién no se puede morir" y el link al orden del 2.5. El resto del tema no cambió.
+
+## Banners y Hush
+
+- Banners del profe en centinela, iniciador y duelista (mismo formato que el del controlador: arte completo y texto sobre vidrio).
+- Hush verificado: duelista, salió el 27 de octubre de 2026 con el parche 13.09 (en valorant-api desde el 28). Sección "La nueva: Hush" en el duelista con sus cinco habilidades (texto del kit oficial), cómo jugarla y cómo jugarle en contra (derivado del kit, porque todavía no hay experiencia de ranked ni de pros). Riot no publicó costos ni cargas; tampoco hay guía de compra en pistola para ella todavía. Fuentes: valorant-api (13.09), valorant-spind.de, esportnow.gg.

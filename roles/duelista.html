@@ -24,13 +24,13 @@
     </div>
   </header>
 
-  <section class="hero hero-mini" style="--hero-img: url('/Valorant_alti/assets/img/maps/summit.webp')">
-    <div class="wrap">
+  <section class="hero hero-mini hero-banner" style="--hero-img: url('/Valorant_alti/assets/img/roles/duelistas.webp'); --hero-img-sm: url('/Valorant_alti/assets/img/roles/duelistas-sm.webp')">
+    <div class="wrap"><div class="hero-glass">
       <div class="crumbs"><a href="../#roles">Roles</a> / Duelista</div>
-      <div class="chips"><span class="chip red">Rol</span><span class="chip">Duelista</span><span class="chip">Jett · Raze · Neon · Reyna · Phoenix</span></div>
+      <div class="chips"><span class="chip red">Rol</span><span class="chip">Duelista</span><span class="chip">Jett · Raze · Neon · Reyna · Hush</span></div>
       <h1>Duelista</h1>
       <p class="lead">Entras primero al site y ganas el espacio. Agresivo, pero con cabeza: sabiendo por qué sales y qué duelo vas a ganar.</p>
-    </div>
+    </div></div>
   </section>
 
   <div class="lesson-layout">
@@ -44,6 +44,7 @@
           <li><a href="#decisiones">Las decisiones</a></li>
           <li><a href="#defensa">En defensa</a></li>
           <li><a href="#agentes">Los duelistas</a></li>
+          <li><a href="#hush">La nueva: Hush</a></li>
           <li><a href="#quiz">¿Qué haces?</a></li>
           <li><a href="#practica">Practicar</a></li>
           <li><a href="#errores">Errores</a></li>
@@ -140,18 +141,31 @@
           <div class="acc-item" data-target="ce-raze" style="--c:#7a4a2a"><img src="../assets/img/agents/raze.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-raze"><span class="sr-only">Raze</span></button><span class="acc-label">Raze</span><span class="acc-text">Entry puro: genera espacio con sus explosivos.</span></div>
           <div class="acc-item" data-target="ce-neon" style="--c:#2a4a7a"><img src="../assets/img/agents/neon.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-neon"><span class="sr-only">Neon</span></button><span class="acc-label">Neon</span><span class="acc-text">Entry puro: entra rápido y mueve la mira.</span></div>
           <div class="acc-item" data-target="ce-waylay" style="--c:#6a5a2a"><img src="../assets/img/agents/waylay.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-waylay"><span class="sr-only">Waylay</span></button><span class="acc-label">Waylay</span><span class="acc-text">Entry puro: entra y sale rápido.</span></div>
-          <div class="acc-item" data-target="ce-hush" style="--c:#4a4a6a"><img src="../assets/img/agents/hush.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-hush"><span class="sr-only">Hush</span></button><span class="acc-label">Hush</span><span class="acc-text">Entry puro.</span></div>
+          <div class="acc-item" data-target="ce-hush" style="--c:#5a3a6a"><img src="../assets/img/agents/hush.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-hush"><span class="sr-only">Hush</span></button><span class="acc-label">Hush</span><span class="acc-text">Entry puro.</span></div>
           <div class="acc-item" data-target="ce-reyna" style="--c:#5a2a5a"><img src="../assets/img/agents/reyna.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-reyna"><span class="sr-only">Reyna</span></button><span class="acc-label">Reyna</span><span class="acc-text">Secundario: entra detrás del primero y cobra lo que él abrió.</span></div>
           <div class="acc-item" data-target="ce-phoenix" style="--c:#7a4a2a"><img src="../assets/img/agents/phoenix.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-phoenix"><span class="sr-only">Phoenix</span></button><span class="acc-label">Phoenix</span><span class="acc-text">Secundario: flash, mira y trade.</span></div>
           <div class="acc-item" data-target="ce-iso" style="--c:#4a3a7a"><img src="../assets/img/agents/iso.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-iso"><span class="sr-only">Iso</span></button><span class="acc-label">Iso</span><span class="acc-text">Secundario: gana el duelo con su escudo.</span></div>
           <div class="acc-item" data-target="ce-yoru" style="--c:#2a3a7a"><img src="../assets/img/agents/yoru.webp" alt="" width="640" height="581" loading="lazy"><button class="acc-hit" type="button" aria-expanded="false" aria-controls="ce-yoru"><span class="sr-only">Yoru</span></button><span class="acc-label">Yoru</span><span class="acc-text">Secundario: confunde con el teletransporte y los clones.</span></div>
         </div>
-        <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="ce-jett"><h4>Jett</h4><p>Entry puro: entra primero, te mueve la mira del rival y abre el site para que entren los demás.</p><ul class="look"><li>Sin dash, no re-peekees: si fallas, estás muerto.</li><li>Si matas a dos al principio, no gastes el dash "gratis": guárdalo para el retake o el post-plant.</li><li>No te quedes fija en el mismo lugar todas las rondas: una Jett tiene que pesar en todo el mapa.</li></ul></div><div class="ag-panel" id="ce-raze" hidden><h4>Raze</h4><p>Entry puro: genera espacio con sus explosivos.</p><ul class="look"><li>Cualquier habilidad suya mata: mézclalas en un momento en que no te puedan matar mientras las usas.</li><li>Los saltos con el Blast Pack y los ángulos del Boom Bot, de memoria: practícalos en custom.</li><li>La utilidad de daño es para sacar a alguien de su lugar o negarlo, no para buscar la kill. Si el Boom Bot ya limpió una esquina, no tires las Paint Shells ahí.</li></ul></div><div class="ag-panel" id="ce-neon" hidden><h4>Neon</h4><p>Entry puro: entra rápido y mueve la mira.</p><ul class="look"><li>Su velocidad obliga al que te apunta a mover la mira: eso es lo que deja entrar a tu compa.</li></ul></div><div class="ag-panel" id="ce-waylay" hidden><h4>Waylay</h4><p>Entry puro: entra y sale rápido.</p></div><div class="ag-panel" id="ce-hush" hidden><h4>Hush</h4><p>Entry puro.</p></div><div class="ag-panel" id="ce-reyna" hidden><h4>Reyna</h4><p>Secundario: entra detrás del primero y cobra lo que él abrió.</p><ul class="look"><li>Tu trabajo es ayudar a la Jett, no jugar como si fueras ella: espera su dash y tira el Leer para que el rival tenga que mirarte a ti.</li><li>Su muerte cuesta poco a la utilidad del equipo: por eso puede ser la que lurkea o castiga.</li></ul></div><div class="ag-panel" id="ce-phoenix" hidden><h4>Phoenix</h4><p>Secundario: flash, mira y trade.</p><ul class="look"><li>Es de los más fáciles para empezar: se cura solo.</li><li>Flash, intenta la kill y vuelve. No te quedes adelante después de la flash.</li></ul></div><div class="ag-panel" id="ce-iso" hidden><h4>Iso</h4><p>Secundario: gana el duelo con su escudo.</p></div><div class="ag-panel" id="ce-yoru" hidden><h4>Yoru</h4><p>Secundario: confunde con el teletransporte y los clones.</p></div></div>
+        <div class="ag-panels" aria-live="polite"><div class="ag-panel" id="ce-jett"><h4>Jett</h4><p>Entry puro: entra primero, te mueve la mira del rival y abre el site para que entren los demás.</p><ul class="look"><li>Sin dash, no re-peekees: si fallas, estás muerto.</li><li>Si matas a dos al principio, no gastes el dash "gratis": guárdalo para el retake o el post-plant.</li><li>No te quedes fija en el mismo lugar todas las rondas: una Jett tiene que pesar en todo el mapa.</li></ul></div><div class="ag-panel" id="ce-raze" hidden><h4>Raze</h4><p>Entry puro: genera espacio con sus explosivos.</p><ul class="look"><li>Cualquier habilidad suya mata: mézclalas en un momento en que no te puedan matar mientras las usas.</li><li>Los saltos con el Blast Pack y los ángulos del Boom Bot, de memoria: practícalos en custom.</li><li>La utilidad de daño es para sacar a alguien de su lugar o negarlo, no para buscar la kill. Si el Boom Bot ya limpió una esquina, no tires las Paint Shells ahí.</li></ul></div><div class="ag-panel" id="ce-neon" hidden><h4>Neon</h4><p>Entry puro: entra rápido y mueve la mira.</p><ul class="look"><li>Su velocidad obliga al que te apunta a mover la mira: eso es lo que deja entrar a tu compa.</li></ul></div><div class="ag-panel" id="ce-waylay" hidden><h4>Waylay</h4><p>Entry puro: entra y sale rápido.</p></div><div class="ag-panel" id="ce-hush" hidden><h4>Hush</h4><p>Entry puro. La nueva: llegó en el parche 13.09.</p><ul class="look"><li>Displacement junta a los rivales y los aturde si chocan contra una pared o entre ellos: tírala donde se esconden y entra apenas explota.</li><li>Lo tiene todo explicado más abajo, en "La nueva: Hush".</li></ul></div><div class="ag-panel" id="ce-reyna" hidden><h4>Reyna</h4><p>Secundario: entra detrás del primero y cobra lo que él abrió.</p><ul class="look"><li>Tu trabajo es ayudar a la Jett, no jugar como si fueras ella: espera su dash y tira el Leer para que el rival tenga que mirarte a ti.</li><li>Su muerte cuesta poco a la utilidad del equipo: por eso puede ser la que lurkea o castiga.</li></ul></div><div class="ag-panel" id="ce-phoenix" hidden><h4>Phoenix</h4><p>Secundario: flash, mira y trade.</p><ul class="look"><li>Es de los más fáciles para empezar: se cura solo.</li><li>Flash, intenta la kill y vuelve. No te quedes adelante después de la flash.</li></ul></div><div class="ag-panel" id="ce-iso" hidden><h4>Iso</h4><p>Secundario: gana el duelo con su escudo.</p></div><div class="ag-panel" id="ce-yoru" hidden><h4>Yoru</h4><p>Secundario: confunde con el teletransporte y los clones.</p></div></div>
         <div class="note"><span>⚠</span><div><b>Agentes "de ego".</b> Reyna, Iso o Chamber aportan poco al equipo. Pero el que los sabe jugar es determinante en ranked. Si los juegas, que sea porque los sabes jugar, y sabiendo qué no le estás dando al equipo.</div></div>
       </section>
 
+      <section class="block" id="hush">
+        <h2><span class="idx">07</span>La nueva: Hush</h2>
+        <p class="muted">Duelista, llegó el 27 de octubre de 2026 con el parche 13.09. Juega con telequinesis: sus granadas se dirigen con la mira después de tirarlas. Riot todavía no publicó costos ni cargas, así que eso lo vemos jugando.</p>
+        <div class="hab-grid">
+          <div class="hab reveal"><img src="../assets/img/abilities/flow.png" alt="" width="48" height="48"><div><span class="hab-key">C</span><h4>Flow</h4><p>Deja un ancla al instante y, después de un momento, sale disparada hacia ella. Si está en el aire, flota un instante. Es su entrada: prepara el ángulo y aparece por donde no la esperan.</p></div></div><div class="hab reveal"><img src="../assets/img/abilities/flashbulb.png" alt="" width="48" height="48"><div><span class="hab-key">Q</span><h4>Flashbulb</h4><p>Una flash que tiras y después diriges hacia donde apunta tu mira. Explota al tocar algo o después de un tiempo. Puede doblar una esquina.</p></div></div><div class="hab reveal"><img src="../assets/img/abilities/displacement.png" alt="" width="48" height="48"><div><span class="hab-key">E</span><h4>Displacement</h4><p>Su habilidad firma. Se dirige igual que la flash, junta a todos hacia el centro y aturde al que choca contra una pared u otro jugador. Se recarga cada dos kills.</p></div></div><div class="hab reveal"><img src="../assets/img/abilities/suspension.png" alt="" width="48" height="48"><div><span class="hab-key">X</span><h4>Suspension</h4><p>La ulti: una onda que guías con la mira como un dron. Al detonarla, hace flotar a todos en la zona y no se pueden defender.</p></div></div><div class="hab reveal"><img src="../assets/img/abilities/telekinesis.png" alt="" width="48" height="48"><div><span class="hab-key">Pasiva</span><h4>Telekinesis</h4><p>Agarra armas y la spike desde más lejos, y activa interruptores a distancia (como los de las paredes de Summit).</p></div></div>
+        </div>
+        <div class="grid c2" style="margin-top:16px">
+          <div class="panel reveal"><div class="eyebrow">Si la juegas</div><h4>Juntar y entrar</h4><ul class="look"><li>Displacement en la esquina o la caja donde se esconden, y entras apenas explota.</li><li>La flash, por la esquina: dirígela para que no la vean venir.</li><li>Flow para aparecer por un ángulo que no esperan, no para entrar de frente.</li><li>La ulti, al grupo rival, sin tus compas adentro: que ellos disparen a los que flotan.</li></ul></div>
+          <div class="panel reveal"><div class="eyebrow">Si la tienes enfrente</div><h4>Sepárense</h4><ul class="look"><li>No se peguen entre ustedes ni a las cajas cuando esperan la entrada: Displacement aturde al que choca.</li><li>La flash puede doblar la esquina: date vuelta apenas la ves y vuelve a tomar el ángulo.</li><li>En eco, ojo: puede agarrar armas desde lejos.</li></ul></div>
+        </div>
+        <div class="note teal"><span>📌</span><div><b>Agente nuevo.</b> Todo esto sale de las notas del parche 13.09 y de su kit. Todavía no hay experiencia de ranked ni de pros: lo vamos ajustando.</div></div>
+      </section>
+
       <section class="block" id="quiz">
-        <h2><span class="idx">07</span>¿Qué haces?</h2>
+        <h2><span class="idx">08</span>¿Qué haces?</h2>
         <p class="muted">Situaciones de duelista. Elige y mira por qué. <span id="quiz-score"></span></p>
         <div class="quiz" data-quiz>
           <div class="q" data-answer="b">
@@ -183,7 +197,7 @@
       </section>
 
       <section class="block" id="practica">
-        <h2><span class="idx">08</span>Cómo practicarlo</h2>
+        <h2><span class="idx">09</span>Cómo practicarlo</h2>
         <div class="routine">
           <div class="panel drill reveal">
             <div class="drill-icon"><span class="big">⚡</span></div>
@@ -213,7 +227,7 @@
       </section>
 
       <section class="block" id="errores">
-        <h2><span class="idx">09</span>Errores que veo siempre</h2>
+        <h2><span class="idx">10</span>Errores que veo siempre</h2>
         <div class="errors">
           <div class="err reveal">El duelista que no entra y espera a que entren los demás.</div>
           <div class="err reveal">El duelista que muere primero ronda tras ronda.</div>
@@ -227,7 +241,7 @@
       </section>
 
       <section class="block" id="checklist">
-        <h2><span class="idx">10</span>¿Ya lo tienes?</h2>
+        <h2><span class="idx">11</span>¿Ya lo tienes?</h2>
         <p class="muted">Si puedes marcar todo, ya juegas de duelista. Se guarda en tu navegador.</p>
         <ul class="checklist" data-checklist="rol-duelista">
           <li><label><input type="checkbox"><span>Sé si soy entry o secundario, y juego como tal.</span></label></li>
