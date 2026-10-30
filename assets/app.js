@@ -1057,3 +1057,11 @@ document.querySelectorAll("[data-smokemap]").forEach(function (box) {
     cards.forEach(function (c) { io.observe(c); });
   }
 })();
+
+// Guía de humos: abrir el mapa pedido (#m-lotus)
+(function () {
+  var m = location.hash.match(/^#m-(\w+)$/);
+  if (!m) return;
+  var tab = document.getElementById("tab-m" + m[1]);
+  if (tab) { tab.click(); setTimeout(function () { tab.scrollIntoView({ block: "start" }); }, 50); }
+})();

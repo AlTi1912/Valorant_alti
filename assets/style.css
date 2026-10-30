@@ -1213,3 +1213,9 @@ div.acc-item { cursor: default; }
 .caps-h { margin: 16px 0 0; font: 500 13px var(--font-tech); letter-spacing: .14em; text-transform: uppercase; color: var(--red-soft); }
 .shots.caps { grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
 .shots.caps .shot img { height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.shots.tabs-vp .shot img { height: auto; aspect-ratio: 4 / 3; object-fit: contain; background: #0b0f14; }
+.ag-boards .ag-map { position: relative; display: flex; align-items: flex-end; min-height: 120px; padding: 12px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-sm); color: #fff; font-weight: 600; text-decoration: none; }
+.ag-map img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: brightness(.55); transition: filter .3s, transform .4s; }
+.ag-map span { position: relative; text-shadow: 0 1px 6px rgba(0, 0, 0, .9); }
+.ag-map:hover img { filter: brightness(.8); transform: scale(1.04); }
+.ag-map:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }

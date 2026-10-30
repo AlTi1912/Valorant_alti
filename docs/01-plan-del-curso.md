@@ -500,3 +500,10 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - 76 capturas propias del profe en el juego, publicadas tal cual (pedido del profe) en la guía de humos, debajo del tablero de cada mapa: "Las capturas de Alti", separadas en Ataque y Defensa, con lightbox. Bind 20, Abyss 18, Lotus 12, Haven 10, Corrode 8, Summit 8 (sin nombre: van como "Por clasificar" hasta que el profe diga qué es cada una). Sunset no tiene.
 - Los "CPH" son la vista del mapa con el humo marcado: van como "dónde marcarlo en el mapa".
+
+## Tableros de Valoplant del profe (zip "valoplant")
+
+- 57 tableros, publicados tal cual (pedido del profe), recortados al mapa: "Los tableros de Alti" en cada pestaña de la guía de humos, por Ataque y Defensa, antes de las capturas. Reemplazan los tableros de humos que había ubicado yo (Lotus, Sunset, Corrode, etc.), que ya no se muestran; se mantiene el plan de Bind en ataque del profe.
+- Bind: 8 tableros sin nombre (WhatsApp) quedan "Por clasificar" hasta que el profe diga qué es cada uno.
+- Capturas de Summit clasificadas por el profe: 1 A ataque, 2 A defensa, 3 Avova A, 4 mid defensa, 5 mid ataque, 6 one-way mid ataque, 7 B ataque, 8 B defensa.
+- Páginas de Omen y Clove: "Por mapa" ahora son tarjetas que abren la pestaña de ese mapa en la guía de humos (humos.html#m-<mapa>).
