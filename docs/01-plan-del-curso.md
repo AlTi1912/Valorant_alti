@@ -450,3 +450,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - Del profe (3.1, 2.5): "entra primero al site y gana el espacio"; entry puro (Neon, Raze, Jett, Waylay, Hush) y secundario (Phoenix, Yoru, Reyna, Iso), si juegan dos, uno de cada uno; "con cabeza, no full W" (sin los insultos); kills que no ganan rondas no sirven; las decisiones (salir del humo, pushear, sacar una habilidad, si ves a dos); habilidades rápido; agentes "de ego"; doble duelista juega rápido; errores del 3.1.
 - Agregado por mí, desde las notas de videos (sin atribuir): mover la mira (un Brimstone no puede ser entry); el duelista propone ("tírame humo aquí, voy a dashear"); compra (movilidad primero, en eco no regalarse); ataque por partes (decir el plan en la compra, ángulo por ángulo sin darle la espalda a CT, reposicionarse tras la kill, sin dash no re-peekear, no gastar la movilidad cuando van ganando); defensa; tips por agente (Jett, Raze, Neon, Reyna como support de la Jett, Phoenix); quiz, ejercicios, errores, checklist.
+
+## 3.1 después de las páginas de rol
+
+- Pedido del profe: que el que quiera ver más de su rol haga clic y lo vea en su página.
+- La sección "Los roles" pasó de pestañas con agentes a 4 tarjetas (duelista, controlador, iniciador, centinela) con la línea del profe de cada rol, sus tipos y el link a la página; Flex queda como panel. Se mantienen la nota "Quién no se puede morir" y el link al orden del 2.5. El resto del tema no cambió.

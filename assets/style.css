@@ -1119,3 +1119,23 @@ div.acc-item { cursor: default; }
 .sm-map .bd-spawn { position: absolute; transform: translate(-50%, -50%); font: 500 10px/1.1 var(--font-tech); letter-spacing: .1em; text-transform: uppercase; text-align: center; color: var(--teal); background: rgba(10, 17, 24, .8); padding: 3px 6px; border-radius: 6px; pointer-events: none; white-space: nowrap; }
 .sm-extra { font-size: 14px; margin: 12px 0 0 !important; }
 .sm-map-panel .sm-map { border: 1px solid var(--line); }
+
+/* Tarjetas de rol (3.1) */
+.role-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); margin-top: 16px; }
+.role-card { position: relative; isolation: isolate; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; min-height: 340px; padding: 16px; color: var(--on-dark); text-decoration: none; background: radial-gradient(120% 80% at 50% 0%, var(--c) 0%, var(--navy-950) 72%); border: 1px solid color-mix(in srgb, var(--c) 55%, var(--line)); border-radius: var(--radius); transition: border-color .3s, box-shadow .3s, transform .3s; }
+.role-card img { position: absolute; left: 50%; top: 0; z-index: -1; width: 120%; max-width: none; height: 70%; object-fit: contain; object-position: 50% 0; transform: translateX(-50%); transition: transform .5s cubic-bezier(.3, .7, .2, 1); }
+.role-card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(transparent 30%, rgba(6, 9, 20, .9) 62%); }
+.rc-body { display: grid; gap: 6px; }
+.rc-body .eyebrow { color: var(--red-soft); }
+.rc-body b { font-size: 18px; font-weight: 620; line-height: 1.25; }
+.rc-text { font-size: 14px; color: var(--on-dark-muted); }
+.rc-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.rc-tags i { font: 500 11px var(--font-tech); font-style: normal; letter-spacing: .06em; text-transform: uppercase; padding: 2px 8px; border: 1px solid rgba(255, 255, 255, .2); border-radius: 999px; color: var(--on-dark-muted); }
+.rc-go { margin-top: 4px; font-size: 14px; font-weight: 600; color: var(--red-soft); }
+.rc-go::after { content: " →"; }
+.role-card:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (hover: hover) and (pointer: fine) {
+  .role-card:hover { border-color: var(--c); box-shadow: 0 0 0 1px var(--c), 0 0 32px color-mix(in srgb, var(--c) 40%, transparent); transform: translateY(-3px); }
+  .role-card:hover img { transform: translateX(-50%) scale(1.05); }
+}
+@media (prefers-reduced-motion: reduce) { .role-card, .role-card img { transition: none; } }
