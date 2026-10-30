@@ -25,7 +25,8 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Inicio: carrusel de mapas (reemplaza la grilla) y sección "Cómo jugar cada rol" (acordeón con los 4 roles: qué hace y cuándo).
 - **Página del controlador hecha** (`roles/controlador.html`): con compra de pistola por controlador, "humo de Oro vs. de Inmortal" y acordeón de controladores con panel abajo (de las capturas de ValoHandbook que mandó el profe). Falta que el profe revise y, si quiere, compras de eco/force/full. Hecha también la del centinela (`roles/centinela.html`); falta la compra en pistola (capturas de la guía de centinelas de ValoHandbook) y un banner. Siguen iniciador y duelista.
 - **Páginas por rol** (duelista, iniciador, controlador, centinela): qué hace, cómo y cuándo en cada fase de la ronda, en ataque y en defensa. Después decidir qué queda en el 3.1.
-- Guía de humos: Haven y Abyss con minimapa por caso (de ValoHandbook, a revisar por el profe); Bind en ataque con los 3 tableros del profe en Valoplant. Faltan Summit, Lotus, Sunset y Corrode, y los humos de defensa.
+- Guía de humos: pestañas por mapa con tablero numerado. Bind (plan del profe + humos base A/B en ataque y defensa), Summit (A, B, mid y mid en defensa), Haven, Abyss y Corrode (mid en defensa). Falta revisar con el profe las ubicaciones, Lotus (hay capturas sin minimapa), Sunset y los ataques de Corrode. Split no está en la pool.
+- Compra en pistola de los 4 roles (`pistola.html`) y tarjetas en controlador y centinela.
 - Acordeón para la guía de humos: cuando lleguen las capturas por mapa.
 - Pendiente: la pool de mapas dice "Act 6 / 13.08"; revisar si cambió con el parche 13.09.
 

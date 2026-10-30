@@ -433,3 +433,10 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - Del profe: "cuida al lurker, corta rotaciones y gana timings; si van los 5 en rush, no debe morir primero"; los dos tipos (cierran el mapa: Killjoy, Cypher; paran rushes: Chamber, Sage, Deadlock, Veto, Vyse) con sus líneas del 3.1; Bind en ataque (Cypher o Chamber en la punta, larga o baños, con cámara y seguro, sin morir, dos cables para que no lurkeen); si cuatro compran, compras.
 - Agregado por mí, desde las notas de videos y las fuentes pro (sin atribuir): un iniciador no para un rush solo y un centinela sí; parte pasiva; no defiendes solo ("si vienen a C, humea aquí y métete conmigo"); rol para el paciente; utilidad primero y eco es eco (nada de Marshal con Cypher); defensa por partes (setup en la compra, al contacto, si entran, retake escalonado castigando, cambiar el setup); trampa ni muy adelante ni muy atrás; no rotar por un ruido; ataque (punta y flanco, utilidad atrás en la ejecución, lurk por mid después del plant, recoger utilidad); tips por agente (Killjoy, Cypher, Chamber, Sage, Deadlock); con tu equipo; quiz, ejercicios, errores, checklist.
+
+## Segundo paquete de guías (rar del profe, 81 capturas, 3 llegaron dañadas)
+
+- Compras en pistola de centinelas, iniciadores y duelistas (21 agentes) → `pistola.html` (pestañas por rol) y tarjetas en la página del centinela. Cuando la opción no lleva pistola, se muestra la Classic.
+- Humos: Bind (A y B en ataque y defensa, "más espacio" atrás en A), Summit (A dos caminos, wallbang al interruptor desde A Main, B, mid, mid en defensa, flood en A), Corrode (mid en defensa con minimapa; ataques sin minimapa, pendientes), Lotus (sin minimapa, pendiente), Split (fuera de la pool, no se usa). Posiciones pasadas a los minimapas oficiales con las letras de los sites como referencia: revisar con el profe.
+- Vyse en Lotus (setups por site): el minimapa de la guía no calza con el oficial, así que va como consejo en texto en la página del centinela.
+- Sin crédito a ValoHandbook en la web (pedido del profe).
