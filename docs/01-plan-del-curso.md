@@ -460,3 +460,9 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - Banners del profe en centinela, iniciador y duelista (mismo formato que el del controlador: arte completo y texto sobre vidrio).
 - Hush verificado: duelista, salió el 27 de octubre de 2026 con el parche 13.09 (en valorant-api desde el 28). Sección "La nueva: Hush" en el duelista con sus cinco habilidades (texto del kit oficial), cómo jugarla y cómo jugarle en contra (derivado del kit, porque todavía no hay experiencia de ranked ni de pros). Riot no publicó costos ni cargas; tampoco hay guía de compra en pistola para ella todavía. Fuentes: valorant-api (13.09), valorant-spind.de, esportnow.gg.
+
+## Humos de Lotus y Sunset
+
+- Lotus: las capturas de la guía son en primera persona y sin minimapa, así que los humos se ubicaron con las posiciones oficiales de los callouts (valorant-api) y guías públicas (ONE Esports, bo3.gg, Sportskeeda). A: Stairs + Top; B: B Upper + C Link; C: Hall + Waterfall; defensa: A Main + A Link, B Main, C Main.
+- Sunset: no había nada del profe ni de la guía. Con callouts oficiales y guías públicas (ONE Esports, Sportskeeda, Dot Esports): A: fondo de A Link + boca de Elbow; B: Boba + Market; mid: Mid Top; defensa: A Main + Elbow, B Main (+ Market si perdieron mid).
+- Todo marcado en la web como "a revisar con Alti".
