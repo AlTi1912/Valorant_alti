@@ -1167,3 +1167,24 @@ div.acc-item { cursor: default; }
     var(--navy-950); }
 }
 @media (max-width: 720px) { .hero-banner .hero-glass { background: none; border: 0; box-shadow: none; } }
+
+/* Banner: texto sin caja, legible sobre el arte */
+.hero-banner .hero-glass { max-width: 620px; padding: 0; background: none; border: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
+.hero-banner { background:
+  linear-gradient(90deg, rgba(10, 17, 24, .92) 0%, rgba(10, 17, 24, .78) 30%, rgba(10, 17, 24, .35) 55%, rgba(10, 17, 24, .1) 75%, rgba(10, 17, 24, .45) 100%),
+  radial-gradient(ellipse 85% 95% at 70% 35%, transparent 0%, rgba(10, 17, 24, .3) 50%, rgba(10, 17, 24, .85) 100%),
+  linear-gradient(0deg, rgba(10, 17, 24, 1) 0%, rgba(10, 17, 24, .65) 20%, transparent 45%),
+  var(--hero-img, none) center 20% / cover no-repeat,
+  var(--navy-950); }
+.hero-banner h1 { font-size: clamp(44px, 6.5vw, 72px); letter-spacing: -.02em; text-shadow: 0 2px 30px rgba(0, 0, 0, .85), 0 1px 3px rgba(0, 0, 0, .6); }
+.hero-banner .lead { max-width: 52ch; color: rgba(255, 255, 255, .9); text-shadow: 0 1px 12px rgba(0, 0, 0, .9), 0 1px 2px rgba(0, 0, 0, .8); }
+.hero-banner .crumbs, .hero-banner .crumbs a { text-shadow: 0 1px 6px rgba(0, 0, 0, .9); }
+.hero-banner .chip:not(.red) { background: rgba(10, 17, 24, .55); border-color: rgba(255, 255, 255, .22); }
+.hero-banner h1::after { content: ""; display: block; width: 56px; height: 3px; margin-top: 14px; background: var(--red); border-radius: 2px; }
+@media (max-width: 720px) {
+  .hero-banner { background:
+    radial-gradient(ellipse 90% 60% at 50% 0%, transparent 0%, rgba(10, 17, 24, .3) 50%, rgba(10, 17, 24, .85) 100%),
+    linear-gradient(0deg, var(--navy-950) 0%, var(--navy-950) calc(100% - 43vw), rgba(10, 17, 24, .3) calc(100% - 43vw + 60px), rgba(10, 17, 24, .2) 100%),
+    var(--hero-img-sm, var(--hero-img, none)) top center / 100% auto no-repeat,
+    var(--navy-950); }
+}
