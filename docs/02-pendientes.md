@@ -32,7 +32,7 @@ Lista viva. Se revisa al inicio de cada sesión.
 
 ## Después
 
-- **Páginas por agente** (decidido por el profe): una página específica por agente. Próximo gran bloque.
+- **Páginas por agente** (decidido por el profe): hechas Omen y Clove (`agentes/omen.html`, `agentes/clove.html`), con recuadros para los tableros de Valoplant del profe por mapa. Siguen los demás.
 - Compras de eco/force/full por rol: hechas en cada página de rol (agregado por mí, a revisar).
 
 - Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3 completo (3.1 a 3.8 y `nivel-3.html`, prueba del retake 5v3 corregida por el profe (con desventaja: los cinco con poca utilidad o los tres con mejor equipo o más habilidades); falta confirmar 7 de 10, anti-eco 5 rondas sin regalar armas; 3.3 a 3.6 revisados por el profe; falta que corrija el 3.2, el 3.7 y el 3.8); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.

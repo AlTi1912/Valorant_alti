@@ -1190,3 +1190,22 @@ div.acc-item { cursor: default; }
 }
 .buy-rounds .step-card .n { font-size: 22px; letter-spacing: .06em; text-transform: uppercase; }
 .decision-quote p { font-size: clamp(22px, 2.8vw, 30px); } .decision-quote small { display: block; max-width: 70ch; line-height: 1.55; }
+
+/* Páginas de agente */
+.hero-agent { position: relative; background:
+  linear-gradient(90deg, rgba(10, 17, 24, .95) 0%, rgba(10, 17, 24, .75) 35%, rgba(10, 17, 24, .1) 70%),
+  linear-gradient(0deg, rgba(10, 17, 24, 1) 0%, transparent 40%),
+  var(--hero-img, none) right 10% center / auto 120% no-repeat,
+  radial-gradient(ellipse 70% 90% at 75% 40%, var(--a2) 0%, var(--a1) 40%, var(--navy-950) 80%); }
+.hero-agent-img { position: absolute; right: 4%; bottom: 0; height: 108%; width: auto; max-width: none; pointer-events: none; filter: drop-shadow(0 20px 40px rgba(0, 0, 0, .5)); -webkit-mask: linear-gradient(#000 70%, transparent); mask: linear-gradient(#000 70%, transparent); }
+.hero-agent .wrap { position: relative; z-index: 1; }
+@media (max-width: 720px) {
+  .hero-agent { padding-top: 0; background: radial-gradient(ellipse 90% 60% at 50% 20%, var(--a2) 0%, var(--a1) 45%, var(--navy-950) 85%); }
+  .hero-agent-img { position: relative; display: block; right: auto; height: auto; width: 100%; max-height: 340px; object-fit: contain; object-position: 50% 100%; }
+}
+.bcard-single { max-width: 320px; }
+.tips { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 10px; }
+.tips li { position: relative; padding: 14px 16px 14px 44px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.tips li::before { content: ""; position: absolute; left: 18px; top: 22px; width: 10px; height: 10px; border-radius: 2px; background: var(--red); transform: rotate(45deg); }
+.ag-boards { display: grid; gap: 12px; margin-top: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+.ag-board { min-height: 140px; margin: 0; }

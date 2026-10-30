@@ -759,7 +759,7 @@ document.querySelectorAll("[data-level-progress] [data-tema]").forEach(function 
     var tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode: function (n) {
         var p = n.parentElement;
-        if (!p || p.closest("a, button, label, select, option, textarea, h1, h2, h3, h4, .eyebrow, .chip, .idx, [data-quiz], .checklist, .toc, .pager, .gl-tip, .dc, script, style, summary, th, .crumbs")) return NodeFilter.FILTER_REJECT;
+        if (!p || p.closest(".n, .bcard, a, button, label, select, option, textarea, h1, h2, h3, h4, .eyebrow, .chip, .idx, [data-quiz], .checklist, .toc, .pager, .gl-tip, .dc, script, style, summary, th, .crumbs")) return NodeFilter.FILTER_REJECT;
         return n.nodeValue.trim().length > 2 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
       }
     });

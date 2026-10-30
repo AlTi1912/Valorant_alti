@@ -489,3 +489,9 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - "Hacer una buena jugada siempre va a ser bien recompensado, a pesar de que no se gane la ronda. Si una jugada fue buena pero la perdiste, fue una buena jugada igual. Y viceversa: si una jugada fue mala (pasarse un humo, peekear con ventaja numérica, etc.) no deja de ser mala porque ganaste la ronda. Que las cosas te salgan bien aunque las hagas mal no es porque eres bueno: quiere decir que los otros son peores."
 - Va como frase destacada en el inicio (Las juntadas), en el 2.8 (Las decisiones) y en el 1.8 (Partidas malas).
+
+## Páginas de agente: Omen y Clove
+
+- Estructura: banner con el arte del agente, su trabajo (frase del profe + link al rol), habilidades con ícono y tecla (texto del kit oficial, explicado por mí), compra (tarjeta de pistola + eco/force/full del rol), en ataque, en defensa, por mapa (un recuadro por mapa para los tableros de Valoplant del profe), errores.
+- Del profe: la frase de cada agente del 3.1 y los consejos ya aprobados de la página del controlador. Agregado por mí: el texto de las habilidades, algunos consejos de ataque/defensa y los errores.
+- Enlazadas desde el panel de cada agente en la página del controlador.
