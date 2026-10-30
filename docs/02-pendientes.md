@@ -28,15 +28,15 @@ Lista viva. Se revisa al inicio de cada sesión.
 - Guía de humos: pestañas por mapa con tablero numerado. Bind (plan del profe + humos base A/B en ataque y defensa), Summit (A, B, mid y mid en defensa), Haven, Abyss y Corrode (mid en defensa). Lotus y Sunset agregados (ataque y defensa por site; Sunset también mid), ubicados por mí con los callouts oficiales y guías públicas: a revisar por el profe. Corrode completo (A, B, mid, B en defensa, mid en defensa). Falta que el profe revise todas las ubicaciones. Split no está en la pool.
 - Compra en pistola de los 4 roles (`pistola.html`) y tarjetas en controlador y centinela.
 - Acordeón para la guía de humos: cuando lleguen las capturas por mapa.
-- Pendiente: la pool de mapas dice "Act 6 / 13.08"; revisar si cambió con el parche 13.09.
+- Pool: texto actualizado a 13.09 (no se encontraron cambios de mapas en ese parche; no se pudieron leer las notas oficiales).
 
 ## Después
 
 - Nivel 2 (8 temas). Nivel 2 completo (2.1 a 2.8) y `nivel-2.html` (Pasar al nivel 3). Confirmado: retake 2v2 6 de 10, 2 contra el profe 5 de 10, "¿Retake o salvar?". Nivel 3 completo (3.1 a 3.8 y `nivel-3.html`, falta que el profe confirme las pruebas: retake 5v3 7 de 10, anti-eco 5 rondas sin regalar armas; 3.3 a 3.6 revisados por el profe; falta que corrija el 3.2, el 3.7 y el 3.8); el temario 3.2–3.8 se mantiene (criterio en el plan). Retomar cuando el profe quiera.
 - Captura de la configuración de audio del profe (2.2).
 - ~~Guía de fakes para el nivel 3~~ Armada en el 3.2 (#rotacion, "Fakes") con el material que había; falta que el profe la revise.
-- Profundizar probabilidades y condiciones de victoria (2.1).
-- Tracker más en detalle (pedido del profe).
+- ~~Profundizar probabilidades y condiciones de victoria (2.1)~~ Hecho: condiciones de victoria por lado, primera kill, ventaja y tiempo (agregado por mí, a revisar).
+- ~~Tracker más en detalle~~ Hecho: qué mirar según el rol y las pestañas por mapa, agente, arma y ronda a ronda (agregado por mí, a revisar).
 - Guía de humos (`humos.html`): estructura hecha. Falta del profe: cuándo poner humo en la spike (recuadro reservado), capturas por mapa y revisar lo agregado.
 - 3.2: falta que el profe revise la parte de fakes (ya no es recuadro reservado) y todo el tema.
 - Flood: va en el 2.6 (notas en el plan).

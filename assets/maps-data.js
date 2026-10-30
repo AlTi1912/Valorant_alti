@@ -1,7 +1,7 @@
-// Contenido de cada mapa de la pool (V26 Act 6, parche 13.08).
+// Contenido de cada mapa de la pool (V26 Act 6, revisado en el parche 13.09).
 // Cada zona se ubica en el minimapa buscando su callout en la API (callouts: nombres que se prueban en orden).
 // type: key = clave, atk = ataque, def = defensa, mech = mecánica del mapa
-window.MAP_POOL_NOTE = "Pool del Act 6 (parche 13.08, octubre 2026)";
+window.MAP_POOL_NOTE = "Pool del Act 6 (parche 13.09, octubre 2026)";
 
 window.MAPS = [
   {

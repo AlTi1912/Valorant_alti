@@ -470,3 +470,9 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 ## Humos de ataque de Corrode
 
 - De las capturas de la guía (vista del jugador, sin minimapa), ubicados con los callouts oficiales: A en ataque (Crane + A Link, entrando por A Main y Yard), B en ataque (B Link + Arch; la ventana de Tower como opción), mid (Window), B en defensa (boca de B Main). Marcados "a revisar con Alti".
+
+## Parche 13.09, tracker y 2.1
+
+- Pool: el texto pasa a "Act 6, parche 13.09". No se encontraron cambios de mapas en 13.09 (solo Hush, Clove y otros ajustes); las notas oficiales no se pudieron leer. Lo de Corrode "cambiado en 13.08" se deja porque es historia del mapa.
+- Tracker (agregado por mí): "Según tu rol" (qué número mirar en cada rol) y "Más allá del resumen" (por mapa, por agente, por arma, ronda a ronda; compararte contigo mismo).
+- 2.1 (agregado por mí): condiciones de victoria por lado, la primera kill (en pro, cerca de 7 de cada 10 rondas), con ventaja no regalarla, el tiempo también pelea, y "¿este duelo me acerca a una condición de victoria?". Reemplaza el aviso "esto da para más".
