@@ -512,3 +512,10 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 1. A ataque spliteados: 2 baños y 3 corta; prioridad ganar bench y lamps. 2. A ataque por corta; prioridad ganar lamps. 3. A: ganar todo el site; prioridad ganar espacio. 4. A defensa agresiva: útil, pero si te flashean y te limpian pueden pasarlo; lo ideal es que 2 o más lo holdeen. 5. A defensa pasiva, one-way: más útil, se ven las patitas, deben saltar de la caja y se holdea de varios ángulos. 6. A defensa de baños y Avova: no tienen por qué ir juntos; sirven para no perder triple caja y baños; el Avova limpia la zona hacia baños; el humo de baños debería ir siempre con el one-way de corta. 7. B defensa clásica: hookah sin mucha panza para que si saltan se les vea; larga es default pero difícil de holdear si flashean o dashean. 8. Avova o retake en B.
 - Con eso se reubicaron los humos del plan de ataque de Bind (nadie por baños = por corta; centinela por baños = split; fake en B = ganar todo el site) y se agregó la prioridad de cada plan.
+
+## Páginas de Sova y Fade (del profe)
+
+- Sova: el profe tiene más de 500 horas; muy bueno para cargar en ranked. Texto del profe casi literal en "Su trabajo" y en las secciones "Reveal útil antes que lineup", "El timing de la utilidad", "Los pasos también son info" (con el ejemplo de Abyss: reveal al techo y matarlos desde Heaven) y "El Sova callea mucho". Lo usa en mapas donde ganar espacio es más lento (el dron te deja quieto). No tirar el reveal estando solo si vas a jugar al retake.
+- Fade: la que más le gusta, la usa más para ataque, más agresiva por los perros; el perro tirado adelante sin dirigirlo y abrirse en el timing cuando le disparan.
+- Agregado por mí: texto de las habilidades (del kit oficial), algunos consejos de ataque/defensa y errores derivados de lo que dijo.
+- Enlazadas desde el panel de cada agente en la página del iniciador.
