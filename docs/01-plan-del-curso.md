@@ -519,3 +519,4 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Fade: la que más le gusta, la usa más para ataque, más agresiva por los perros; el perro tirado adelante sin dirigirlo y abrirse en el timing cuando le disparan.
 - Agregado por mí: texto de las habilidades (del kit oficial), algunos consejos de ataque/defensa y errores derivados de lo que dijo.
 - Enlazadas desde el panel de cada agente en la página del iniciador.
+- Del profe (Fade e iniciadores): jugar la Fade agresiva; no guardarse la utilidad: los perros de Fade no son caros y el dron de Sova cuesta 400, gastarlos siempre que sea necesario (ángulo posible, desventaja) para saber si hay un rival y armar un plan; no morir con la utilidad, porque lo más importante del iniciador es saber dónde está el rival. Va en Fade (primera sección), Sova y la página del iniciador (cita destacada, error y checklist). Convive con "no tirarla apenas empieza la ronda".
