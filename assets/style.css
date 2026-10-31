@@ -1221,3 +1221,18 @@ div.acc-item { cursor: default; }
 .ag-map:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .shots.tabs-vp figcaption b { display: block; color: var(--text); font-weight: 600; }
 .shots.tabs-vp figcaption span { display: block; margin-top: 4px; line-height: 1.45; }
+
+/* Mejores mapas y puntaje por habilidad */
+.bm { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.bm-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.bm-maps { display: flex; flex-wrap: wrap; gap: 6px; }
+.bm-maps i { font-style: normal; font-size: 13px; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); }
+.bm-maps i.out { color: var(--muted); border-style: dashed; background: none; }
+.bm-ov { margin-left: auto; font: 500 14px var(--font-tech); letter-spacing: .06em; color: var(--red-soft); }
+.bm-list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
+.bm-list li { display: grid; grid-template-columns: minmax(0, 9em) 1fr auto; grid-template-areas: "ab bar n" "t t t"; gap: 2px 10px; align-items: center; }
+.bm-ab { grid-area: ab; font-weight: 600; font-size: 14px; }
+.bm-bar { grid-area: bar; height: 6px; background: var(--bg-2); border-radius: 999px; overflow: hidden; }
+.bm-bar b { display: block; height: 100%; background: var(--teal); border-radius: inherit; }
+.bm-n { grid-area: n; font: 500 13px var(--font-tech); color: var(--muted); }
+.bm-t { grid-area: t; font-size: 14px; color: var(--muted); }

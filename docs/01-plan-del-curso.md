@@ -520,3 +520,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Agregado por mí: texto de las habilidades (del kit oficial), algunos consejos de ataque/defensa y errores derivados de lo que dijo.
 - Enlazadas desde el panel de cada agente en la página del iniciador.
 - Del profe (Fade e iniciadores): jugar la Fade agresiva; no guardarse la utilidad: los perros de Fade no son caros y el dron de Sova cuesta 400, gastarlos siempre que sea necesario (ángulo posible, desventaja) para saber si hay un rival y armar un plan; no morir con la utilidad, porque lo más importante del iniciador es saber dónde está el rival. Va en Fade (primera sección), Sova y la página del iniciador (cita destacada, error y checklist). Convive con "no tirarla apenas empieza la ronda".
+
+## Mejores mapas y puntaje por habilidad (capturas del profe)
+
+- 15 capturas de una guía (controladores y centinelas): mejores 2 mapas, puntaje de cada habilidad y general. Pasadas a texto en español, sin las imágenes y sin crédito, en el panel de cada agente de las páginas de controlador y centinela, y en las páginas de Omen y Clove ("Mejores mapas"). Los mapas fuera de la pool (Ascent, Breeze, Pearl, Icebox, Split) van marcados.
+- La guía elige a Miks como mejor controlador y a Cypher como mejor centinela. Falta: las anotaciones del profe sobre cada uno, e iniciadores y duelistas (no vinieron).
