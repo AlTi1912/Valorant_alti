@@ -530,3 +530,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - Miks (`agentes/miks.html`): bueno para rangos bajos porque cura y stunea (en bajo no apuntan a la cabeza); en rangos altos casi no se ve (matan de un tiro, se usa más el stun y el impulso de la Q). Haven: entradas angostas, stun delante del humo donde no lo rompan ni vean el centro; deducir a dónde van (stun en larga porque ahí van duelistas y flasher; corta, los de menos habilidades); leer patrones (si nunca fueron a C, quedarse cerca de garaje). Rotar, ver el mapa, leer al rival.
 - Omen: para el profe, el mejor controlador (no Miks, como dice la guía): humos que duran un poco más y de buen tamaño (no como los de Astra), y la flash; en comps con mucha utilidad (Jett, Sova, Omen; o doble duelista con Phoenix) gana mucho espacio. Sección nueva en la página de Omen y nota en "Mejores mapas".
+
+## Cypher (del profe)
+
+- `agentes/cypher.html`: el mejor centinela, saca mucha info. Jugarlo solo en el site con alguien de apoyo rotando; hacer el máximo tiempo o dejar el site al retake; matar a través de los humos con los cables; one-ways; cámara agresiva para sacar info (Haven: C larga o A larga). En ataque: lurkear, ganar timings, cortar rotaciones; no hacer siempre lo mismo en el mismo timing.
+- Agregado por mí: texto de las habilidades, algunos consejos de ataque/defensa y errores.
