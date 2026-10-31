@@ -1236,3 +1236,4 @@ div.acc-item { cursor: default; }
 .bm-bar b { display: block; height: 100%; background: var(--teal); border-radius: inherit; }
 .bm-n { grid-area: n; font: 500 13px var(--font-tech); color: var(--muted); }
 .bm-t { grid-area: t; font-size: 14px; color: var(--muted); }
+.bm-note { margin: 0 0 10px; font-size: 14px; color: var(--text); border-left: 3px solid var(--red); padding-left: 10px; }

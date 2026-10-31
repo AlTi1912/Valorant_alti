@@ -525,3 +525,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 
 - 15 capturas de una guía (controladores y centinelas): mejores 2 mapas, puntaje de cada habilidad y general. Pasadas a texto en español, sin las imágenes y sin crédito, en el panel de cada agente de las páginas de controlador y centinela, y en las páginas de Omen y Clove ("Mejores mapas"). Los mapas fuera de la pool (Ascent, Breeze, Pearl, Icebox, Split) van marcados.
 - La guía elige a Miks como mejor controlador y a Cypher como mejor centinela. Falta: las anotaciones del profe sobre cada uno, e iniciadores y duelistas (no vinieron).
+
+## Miks y "el mejor controlador" (del profe)
+
+- Miks (`agentes/miks.html`): bueno para rangos bajos porque cura y stunea (en bajo no apuntan a la cabeza); en rangos altos casi no se ve (matan de un tiro, se usa más el stun y el impulso de la Q). Haven: entradas angostas, stun delante del humo donde no lo rompan ni vean el centro; deducir a dónde van (stun en larga porque ahí van duelistas y flasher; corta, los de menos habilidades); leer patrones (si nunca fueron a C, quedarse cerca de garaje). Rotar, ver el mapa, leer al rival.
+- Omen: para el profe, el mejor controlador (no Miks, como dice la guía): humos que duran un poco más y de buen tamaño (no como los de Astra), y la flash; en comps con mucha utilidad (Jett, Sova, Omen; o doble duelista con Phoenix) gana mucho espacio. Sección nueva en la página de Omen y nota en "Mejores mapas".
