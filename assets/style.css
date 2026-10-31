@@ -1219,3 +1219,5 @@ div.acc-item { cursor: default; }
 .ag-map span { position: relative; text-shadow: 0 1px 6px rgba(0, 0, 0, .9); }
 .ag-map:hover img { filter: brightness(.8); transform: scale(1.04); }
 .ag-map:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.shots.tabs-vp figcaption b { display: block; color: var(--text); font-weight: 600; }
+.shots.tabs-vp figcaption span { display: block; margin-top: 4px; line-height: 1.45; }

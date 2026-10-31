@@ -507,3 +507,8 @@ Hush no está todavía en valorant-api: se muestra con la inicial.
 - Bind: 8 tableros sin nombre (WhatsApp) quedan "Por clasificar" hasta que el profe diga qué es cada uno.
 - Capturas de Summit clasificadas por el profe: 1 A ataque, 2 A defensa, 3 Avova A, 4 mid defensa, 5 mid ataque, 6 one-way mid ataque, 7 B ataque, 8 B defensa.
 - Páginas de Omen y Clove: "Por mapa" ahora son tarjetas que abren la pestaña de ese mapa en la guía de humos (humos.html#m-<mapa>).
+
+## Tableros de Bind clasificados (del profe)
+
+1. A ataque spliteados: 2 baños y 3 corta; prioridad ganar bench y lamps. 2. A ataque por corta; prioridad ganar lamps. 3. A: ganar todo el site; prioridad ganar espacio. 4. A defensa agresiva: útil, pero si te flashean y te limpian pueden pasarlo; lo ideal es que 2 o más lo holdeen. 5. A defensa pasiva, one-way: más útil, se ven las patitas, deben saltar de la caja y se holdea de varios ángulos. 6. A defensa de baños y Avova: no tienen por qué ir juntos; sirven para no perder triple caja y baños; el Avova limpia la zona hacia baños; el humo de baños debería ir siempre con el one-way de corta. 7. B defensa clásica: hookah sin mucha panza para que si saltan se les vea; larga es default pero difícil de holdear si flashean o dashean. 8. Avova o retake en B.
+- Con eso se reubicaron los humos del plan de ataque de Bind (nadie por baños = por corta; centinela por baños = split; fake en B = ganar todo el site) y se agregó la prioridad de cada plan.
